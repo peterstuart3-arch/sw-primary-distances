@@ -39,6 +39,6 @@ Allocation figures change after national offer day each April, and Ofsted publis
 
 ## Services used
 
-- Map tiles: Esri World Street Map (or MapTiler, if a key is set in `MAPTILER_KEY` in the template)
+- Map tiles: Esri static basemap tiles, using the ArcGIS Location Platform API key in `ESRI_KEY` in the template (restricted in the Esri dashboard to this site's address; 2 million tiles a month free). On any other address, or if the key is rejected (e.g. expired), Esri's keyless World Street Map is used instead.
 - Postcode lookup: postcodes.io
 - Walking routes: FOSSGIS OSRM foot routing (OpenStreetMap data)

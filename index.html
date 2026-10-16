@@ -174,18 +174,32 @@ function haversine(a, b) {
 // ---------- map ----------
 const map = L.map('map', {zoomControl: false, zoomAnimation: !reduceMotion, fadeAnimation: !reduceMotion}).setView([51.43, -0.17], 11);
 L.control.zoom({position: 'topright'}).addTo(map);
-// Basemap. With no key, Esri's keyless street map is used.
-// To publish, get a free key at maptiler.com, paste it below, and the map switches to MapTiler.
-const MAPTILER_KEY = '';
+// Basemap: Esri's static basemap tiles, using an ArcGIS Location Platform API key (2M tiles a month free).
+// The key is public in the page, so it's restricted to this site's address in the Esri dashboard.
+// Anywhere else (a local copy), or if the key is rejected (e.g. expired), Esri's keyless street map is used instead.
+const ESRI_KEY = 'AAPTaakGKcTPnLj78s6zqgJohhw..slQ0oo3hAdZZPCxsMElf0EynSkPUTpV5IVMttE--95EEjfrsE9Yp9ekZx3-c_2Os_bcMzpCc3AheMByfYE6xx1CeizTlFgO_XSkETAeWdMht-Y_9kY7VSBJO8E3kzXYYl6laUk_AYxJu-WLzhw4VKvvYS1Hz4DVcrVkc6ioJWOJ2S7umLqkJXUWNxRr8C8waizYonMoL4oUcidrF-HXrchBj8-N1Sr3DAvCjCWWd7HjBaeYDokEczDWRrE8.AT1_w3lEzAQ3';
+const ESRI_SITE = 'peterstuart3-arch.github.io';
 const credits = ' · walking routes: FOSSGIS OSRM · postcodes: postcodes.io';
-if (MAPTILER_KEY) {
-  L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${MAPTILER_KEY}`, {
-    maxZoom: 19, attribution: '&copy; MapTiler &copy; OpenStreetMap contributors' + credits
-  }).addTo(map);
-} else {
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+function keylessTiles() {
+  return L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 19, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors' + credits
+  });
+}
+if (ESRI_KEY && location.hostname === ESRI_SITE) {
+  // tiles are 512 px, so ask for one zoom level lower to keep labels at their normal size
+  const keyed = L.tileLayer(`https://static-map-tiles-api.arcgis.com/arcgis/rest/services/static-basemap-tiles-service/v1/arcgis/streets/static/tile/{z}/{y}/{x}?token=${ESRI_KEY}`, {
+    tileSize: 512, zoomOffset: -1, maxZoom: 19,
+    attribution: 'Powered by <a href="https://www.esri.com">Esri</a> | Sources: Esri, TomTom, Garmin, FAO, NOAA, USGS, &copy; OpenStreetMap contributors, and the GIS User Community' + credits
   }).addTo(map);
+  let loaded = false;
+  keyed.on('tileload', () => { loaded = true; });
+  keyed.once('tileerror', () => {
+    if (loaded) return;   // a stray failed tile, not a rejected key
+    map.removeLayer(keyed);
+    keylessTiles().addTo(map);
+  });
+} else {
+  keylessTiles().addTo(map);
 }
 const schoolLayer = L.layerGroup().addTo(map);
 const ringLayer = L.layerGroup().addTo(map);
