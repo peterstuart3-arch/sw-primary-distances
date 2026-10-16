@@ -42,3 +42,17 @@ Allocation figures change after national offer day each April, and Ofsted publis
 - Map tiles: Esri static basemap tiles, using the ArcGIS Location Platform API key in `ESRI_KEY` in the template (restricted in the Esri dashboard to this site's address; 2 million tiles a month free). On any other address, or if the key is rejected (e.g. expired), Esri's keyless World Street Map is used instead.
 - Postcode lookup: postcodes.io
 - Walking routes: FOSSGIS OSRM foot routing (OpenStreetMap data)
+
+## Licence
+
+The code (the page template, build scripts and page) is under the [MIT licence](LICENSE).
+
+The data is not covered by the MIT licence, and keeps its sources' terms:
+
+- Distances offered: compiled from each council's published admissions figures (source linked per school in `schools.csv`). Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+- Ofsted outcomes: Ofsted, under the Open Government Licence v3.0.
+- School coordinates (`ll` in `build/schools.json`), from postcodes.io: Contains OS data © Crown copyright and database right. Contains Royal Mail data © Royal Mail copyright and database right. Source: Office for National Statistics licensed under the Open Government Licence v3.0.
+
+### Forking
+
+The Esri API key in the template only works on this site's address. A fork falls back to Esri's keyless map automatically; to use keyed tiles, create your own key at location.arcgis.com, restrict it to your own address, and set `ESRI_KEY` and `ESRI_SITE` in `build/template.html`.
