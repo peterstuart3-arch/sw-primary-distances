@@ -1,0 +1,1417 @@
+{
+ "borough": "Merton",
+ "default_method": "straight_line",
+ "method_notes": "Merton community schools: distance measured in a straight line by Merton Admissions' computerised Geographical Information System, from a start point plotted within the applicant's home property to the main school reception entrance; ties broken by random allocation. Dundonald, Wimbledon Chase and Wimbledon Park give priority to children inside an Admissions Priority Area before distance. Academies, free school and VA faith schools are their own admission authorities with their own criteria (Source: Merton community school admission arrangements 2026-27, s.4.5.5; Reception 2025 booklet).",
+ "method_source": "https://merton.gov.uk/system/files/community_school_admission_arrangements_2026-27.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Merton - School admissions and appeals data for recent years (updated 1 September 2026), Reception September 2026 table",
+   "url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Same document, Reception September 2025 table",
+   "url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Same document, Reception September 2024 table",
+   "url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Merton Reception 2025 booklet (addresses, school types, distance method)",
+   "url": "https://merton.gov.uk/system/files/reception_2025_-_booklet.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "Merton community school admission arrangements 2026-27",
+   "url": "https://merton.gov.uk/system/files/community_school_admission_arrangements_2026-27.pdf"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Abbotsbury Primary School",
+   "postcode": "SM4 5JS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "All Saints' CofE Primary School",
+   "postcode": "SW19 1AR",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Aragon Primary School",
+   "postcode": "SM4 4QU",
+   "type": "academy",
+   "method": "unknown",
+   "method_note": "Academy, own admission authority; own criteria. Distance method not verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Beecholme Primary School",
+   "postcode": "CR4 2HZ",
+   "type": "academy",
+   "method": "unknown",
+   "method_note": "Academy, own admission authority; own criteria. Distance method not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Benedict Academy",
+   "postcode": "CR4 3BE",
+   "type": "academy",
+   "method": "unknown",
+   "method_note": "Academy, own admission authority; own criteria. Distance method not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Bishop Gilpin CofE Primary School",
+   "postcode": "SW19 7EP",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Bond Primary School",
+   "postcode": "CR4 3HG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": 1356.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1356.7 m; 1 September 2024: 1356.7 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Cranmer Primary School",
+   "postcode": "CR4 4XU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Dundonald Primary School",
+   "postcode": "SW19 3QH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Admissions Priority Area (APA): children living inside the APA are prioritised over those outside; distances are straight-line within each group.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 381.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 687.9 m; 1 September 2026: 2501.59 m. Sibling column annotated 'all sibs offered'; each round: 'All APA offered' then last offer outside the Admissions Priority Area (APA). Source row has 4 text fragments for 3 columns; this is the most consistent reading."
+    },
+    {
+     "year": 2025,
+     "value": 606.6,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 856.22 m; 1 September 2025: 815.13 m. Offer-day and second-round distances within APA; 1 Sep figure 'not in APA'."
+    },
+    {
+     "year": 2024,
+     "value": 485.07,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 606.4 m; 1 September 2024: 518.1 m. Offer-day and second-round distances within APA; 1 Sep figure outside APA."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Garfield Primary School",
+   "postcode": "SW19 8SB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": 2179.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: no value shown; 1 September 2025: All offered. Row shows '2179.53 All offered' (two values for three columns)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Gorringe Park Primary School",
+   "postcode": "CR4 2YA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": 886.91,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1010.29 m; 1 September 2024: All offered."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Harris Primary Academy Merton",
+   "postcode": "CR4 1JW",
+   "type": "academy",
+   "method": "unknown",
+   "method_note": "Academy, own admission authority; own criteria. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Haslemere Primary School",
+   "postcode": "CR4 3PQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": 546.32,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 546.32 m; 1 September 2025: 546.32 m."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Hatfeild Primary School",
+   "postcode": "SM4 4SJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Hillcross Primary School",
+   "postcode": "SM4 4EE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2100.69,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: All offered; 1 September 2026: All offered."
+    },
+    {
+     "year": 2025,
+     "value": 1471.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1471.33 m; 1 September 2025: 1589.43 m."
+    },
+    {
+     "year": 2024,
+     "value": 1590.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1605.15 m; 1 September 2024: All offered."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Hollymount Primary School",
+   "postcode": "SW20 0SQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 668.51,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 668.51 m; 1 September 2026: 712.93 m."
+    },
+    {
+     "year": 2025,
+     "value": 680.22,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 702.38 m; 1 September 2025: 708.95 m."
+    },
+    {
+     "year": 2024,
+     "value": 725.1,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 790.15 m; 1 September 2024: 931.92 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Holy Trinity CofE Primary School",
+   "postcode": "SW19 8PW",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Joseph Hood Primary School",
+   "postcode": "SW20 9NS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Liberty Primary School",
+   "postcode": "CR4 3EB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Links Primary School",
+   "postcode": "SW17 9EH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": 639.62,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 639.62 m; 1 September 2025: All offered."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Lonesome Primary School",
+   "postcode": "CR4 1SD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": 404.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 404.0 m; 1 September 2024: 404.0 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Malmesbury Primary School",
+   "postcode": "SM4 6HG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 697.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 729.87 m; 1 September 2026: 729.87 m."
+    },
+    {
+     "year": 2025,
+     "value": 900.44,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 900.44 m; 1 September 2025: 900.44 m."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Merton Abbey Primary School",
+   "postcode": "SW19 2JY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Merton Park Primary School",
+   "postcode": "SW19 3HQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 473.13,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 503.59 m; 1 September 2026: 565.67 m."
+    },
+    {
+     "year": 2025,
+     "value": 1014.49,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1014.49 m; 1 September 2025: 1405.61 m."
+    },
+    {
+     "year": 2024,
+     "value": 786.55,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 925.63 m; 1 September 2024: 1870.19 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Morden Primary School",
+   "postcode": "SM4 5PX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1772.09,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1772.09 m; 1 September 2026: All offered."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Park Academy",
+   "postcode": "SW19 3NN",
+   "type": "free",
+   "method": "unknown",
+   "method_note": "Free school, own admission authority; own criteria. Distance method not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Pelham Primary School",
+   "postcode": "SW19 1NU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1104.3,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1582.21 m; 1 September 2026: All offered."
+    },
+    {
+     "year": 2025,
+     "value": 1210.97,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1578.4 m; 1 September 2025: All offered."
+    },
+    {
+     "year": 2024,
+     "value": 1270.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1052.04 m; 1 September 2024: 1906.01 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Poplar Primary School",
+   "postcode": "SW19 3JZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1007.92,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1007.92 m; 1 September 2026: 1250.02 m."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Sacred Heart Catholic Primary School",
+   "postcode": "KT3 4ND",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Singlegate Primary School",
+   "postcode": "SW19 2NT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2296.25,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 2296.25 m; 1 September 2026: 2296.25 m."
+    },
+    {
+     "year": 2025,
+     "value": 1435.78,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 1435.78 m; 1 September 2025: 1797.07 m."
+    },
+    {
+     "year": 2024,
+     "value": 933.49,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 933.49 m; 1 September 2024: 933.49 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "SS Peter & Paul Catholic Primary School",
+   "postcode": "CR4 4LA",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "St John Fisher RC Primary School",
+   "postcode": "SW20 9NA",
+   "type": "academy",
+   "method": "unknown",
+   "method_note": "Converted to academy (Sancta Familia Catholic Academy Trust, new URN 151349, 2025) from VA Catholic school; own admission authority with faith criteria and supplementary form. Distance method not verified. Council booklet prints postcode SW19 3QH (same as Dundonald), GIAS-derived sources give SW20 9NA.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "St Mark's Primary School",
+   "postcode": "CR4 2LF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 714.37,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 714.37 m; 1 September 2026: 1428.84 m."
+    },
+    {
+     "year": 2025,
+     "value": 2974.99,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 2974.99 m; 1 September 2025: 2974.99 m."
+    },
+    {
+     "year": 2024,
+     "value": 819.52,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 819.52 m; 1 September 2024: 819.52 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "St Mary's Catholic Primary School",
+   "postcode": "SW19 1QL",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "St Matthew's CofE Primary School",
+   "postcode": "SW20 0SX",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "St Teresa's Catholic Primary School",
+   "postcode": "SM4 6RL",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "St Thomas of Canterbury RC Primary School",
+   "postcode": "CR4 1YG",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "The Priory CofE Primary School",
+   "postcode": "SW19 8LX",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Own admission authority (voluntary aided faith school); uses its own oversubscription criteria incl. faith/foundation places and supplementary form. Distance method not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority; council table says 'Please contact school for further information'."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "The Sherwood School",
+   "postcode": "CR4 1JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "West Wimbledon Primary School",
+   "postcode": "SW20 0BZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3907.75,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 3907.75 m; 1 September 2026: All offered."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": 10697.01,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: no value shown; 1 September 2024: All offered. Row shows '10,697.01 All offered' (two values for three columns)."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "William Morris Primary School",
+   "postcode": "CR4 1PJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All on time offered' (all on-time applicants offered at 16 April offer day)."
+    },
+    {
+     "year": 2024,
+     "value": 594.05,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 594.05 m; 1 September 2024: 594.05 m."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Wimbledon Chase Primary School",
+   "postcode": "SW19 3QB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Admissions Priority Area (APA): children living inside the APA are prioritised over those outside; distances are straight-line within each group.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 846.84,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 846.84 m; 1 September 2026: 1123.79 m. Sibling column annotated 'all sibs offered'; offer day and second round 'All APA offered 846.84'; 1 Sep 'All APA offered 1123.79 outside APA'. Source row has 4 fragments for 3 columns; most consistent reading."
+    },
+    {
+     "year": 2025,
+     "value": 599.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 603.81 m; 1 September 2025: 1489.17 m. Offer-day and second-round distances 'in APA'; 1 Sep figure 'sib not in APA'."
+    },
+    {
+     "year": 2024,
+     "value": 438.02,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 496.33 m; 1 September 2024: 1355.24 m. Offer day: all APA applicants offered (438.02); second round and 1 Sep outside APA."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  },
+  {
+   "name": "Wimbledon Park Primary School",
+   "postcode": "SW19 8EJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Admissions Priority Area (APA): children living inside the APA are prioritised over those outside; distances are straight-line within each group.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 364.15,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 410.65 m; 1 September 2026: 424.1 m. All figures within Admissions Priority Area (APA)."
+    },
+    {
+     "year": 2025,
+     "value": 357.14,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 365.67 m; 1 September 2025: 383.24 m. All figures within APA."
+    },
+    {
+     "year": 2024,
+     "value": 332.04,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Value is national offer day (16 April) furthest distance. Second round: 369.67 m; 1 September 2024: 454.93 m. Offer day: all APA applicants offered (332.04); second round and 1 Sep outside APA."
+    }
+   ],
+   "source_url": "https://www.merton.gov.uk/sites/default/files/2026-09/Admissions%20and%20appeals%20data%20for%20recent%20years%20-%20table%20Sept%2026.pdf"
+  }
+ ],
+ "gaps": "Merton only publishes cut-offs for its 27 community schools; the 16 own-admission-authority schools (11 VA/ex-VA faith, 4 academies, 1 free school) show 'Please contact school for further information' in all years, so no distances recorded for them and their measuring method was not verified. Each year has three distance columns (16 April offer day, second round, 1 September); 'value' is the 16 April offer-day figure, with second-round and 1 Sept figures in criterion_note. Text was extracted via an AI-summarised PDF fetch: Dundonald and Wimbledon Chase 2026 rows had ambiguous column alignment (noted), and Garfield 2025 / West Wimbledon 2024 rows had only two values for three columns. PAN recorded is the 2026 'No. Places' (some differ in earlier years, e.g. Haslemere/Hatfeild/Malmesbury/The Sherwood 60 in 2024, Poplar 90 in 2024-25). School type from the 2025 booklet; possible later academy conversions other than St John Fisher not checked. Postcodes from the 2025 booklet (St John Fisher from a GIAS-derived site); GIAS not checked directly."
+}

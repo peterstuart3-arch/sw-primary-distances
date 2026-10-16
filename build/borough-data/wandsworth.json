@@ -1,0 +1,1926 @@
+{
+ "borough": "Wandsworth",
+ "default_method": "straight_line",
+ "method_notes": "Straight-line distance from the location of the home property to the central point of the school site, as determined by Wandsworth Council's Geographical Information System; measurements by other systems/to other points not accepted; ties broken at random (Wandsworth community school admissions policies, Note 4/5). The 'Choose a Wandsworth Primary School' brochure (Sept 2027 entry) says distance is measured in a straight line between home and the centre of the school site, with all measurements calculated by the council GIS. Exceptions: Belleville Primary distances measured to its main Webb's Road site; priority areas used by Beatrix Potter, Furzedown, Penwortham, Sellincourt, Franciscan and St Michael's CE; faith schools apply faith/parish criteria before distance. All figures are 'furthest distance offered' on national offer day (16 April), in metres.",
+ "method_source": "https://www.wandsworth.gov.uk/media/12048/community_schools_without_priority_areas_admissions_policy_2023_24.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "How places were offered at each Wandsworth school - 16 April 2026 (primary)",
+   "url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "How places were allocated for primary schools 2025",
+   "url": "https://wandsworth.gov.uk/media/xonfunuu/how_places_were_allocated_for_primary_schools_2025.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How places were allocated for primary schools 2024",
+   "url": "https://wandsworth.gov.uk/media/mrenk3gj/how_places_were_allocated_for_primary_schools_2024.pdf"
+  },
+  {
+   "year": null,
+   "title": "Choose a Wandsworth Primary School (Sept 2027 entry) - school list, postcodes, types, distance method",
+   "url": "https://www.wandsworth.gov.uk/media/9335/choose_a_wandsworth_primary_school.pdf"
+  },
+  {
+   "year": null,
+   "title": "Community schools with priority areas admissions policy 2022/23",
+   "url": "https://www.wandsworth.gov.uk/media/9289/com_schools_with_pa_adm_pol_2022_23.pdf"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Albemarle Primary School",
+   "postcode": "SW19 6JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Foundation school (council-coordinated)",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Alderbrook Primary School",
+   "postcode": "SW12 8PP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "All Saints' CE Primary School",
+   "postcode": "SW15 1HL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church of England VA; own faith/oversubscription criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": 1266,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Allfarthing Primary School",
+   "postcode": "SW18 2LR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 429,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 404,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 479,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Anglo-Portuguese School of London",
+   "postcode": "SW18 4QG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy/free school; own admissions policy",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": 2630,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Ark John Archer Primary Academy",
+   "postcode": "SW11 2AA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy/free school; own admissions policy",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Beatrix Potter Primary School",
+   "postcode": "SW18 3ER",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community school with Priority Areas 1 and 2; distance only ranks children outside the priority areas",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 580,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered to other children living outside the priority areas"
+    },
+    {
+     "year": 2025,
+     "value": 789,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered to other children living outside the priority areas"
+    },
+    {
+     "year": 2024,
+     "value": 927,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered to other children living outside the priority areas"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Belleville Primary School",
+   "postcode": "SW11 6PR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Two sites (SW11 6PR / SW11 5NZ); all distances measured to the main Webb's Road site",
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1210,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion; measured to main Webb's Road site"
+    },
+    {
+     "year": 2025,
+     "value": 893,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion; measured to main Webb's Road site"
+    },
+    {
+     "year": 2024,
+     "value": 1134,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion; measured to main Webb's Road site"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Belleville Wix Academy",
+   "postcode": "SW4 0AJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "PAN 44 split into Bilingual class (14) and English class (30); values recorded are the English class; Bilingual-class distance given in criterion_note",
+   "pan": 44,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 478,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion (English class). Bilingual class: 140m"
+    },
+    {
+     "year": 2025,
+     "value": 664,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion (English class). Bilingual class: 271m"
+    },
+    {
+     "year": 2024,
+     "value": 770,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion (English class). Bilingual class: 208m"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Brandlehow Primary School",
+   "postcode": "SW15 2ED",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 645,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 728,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 818,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Chesterton Primary School",
+   "postcode": "SW11 5DT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own admissions policy",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5447,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 1531,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1596,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Earlsfield Primary School",
+   "postcode": "SW18 3QQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 358,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 411,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 414,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Falconbrook Primary School",
+   "postcode": "SW11 2LX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Fircroft Primary School",
+   "postcode": "SW17 7PP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; PAN 30 in 2025/2026, 60 in 2024",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 517,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 609,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1277,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Floreat Wandsworth Primary School",
+   "postcode": "SW18 4EQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy/free school; own admissions policy",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 421,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 539,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1346,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Franciscan Primary School",
+   "postcode": "SW17 8HQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy with a priority area; 2026 distance is for children living outside the priority area",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1083,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered to other children living outside the priority areas"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": 2355,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Furzedown Primary School",
+   "postcode": "SW17 9TJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community school with a priority area (defined boundary roads)",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Gatton Primary School (Muslim)",
+   "postcode": "SW17 0DS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Muslim VA; up to 80 faith places (Balham Mosque/Tooting Islamic Centre) and up to 10 open places; distance applies to open places",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 497,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion (open places)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance column published; places shown by faith/sibling category only"
+    },
+    {
+     "year": 2024,
+     "value": 427,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered on 17 April (criterion not labelled)"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Granard Primary School",
+   "postcode": "SW15 6XA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": 1477,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Griffin Primary School",
+   "postcode": "SW8 4JB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own admissions policy",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Heathmere Primary School",
+   "postcode": "SW15 4LJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Hillbrook Primary School",
+   "postcode": "SW17 8SG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Foundation school (council-coordinated)",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Holy Ghost Catholic Primary School",
+   "postcode": "SW12 8QJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith criteria (practising Catholic, parish) before distance",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 838,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other baptised Catholic children of practising Catholic families'"
+    },
+    {
+     "year": 2025,
+     "value": 1660,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other baptised Catholic children of practising Catholic families'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; places shown by faith category only"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Honeywell Infant School",
+   "postcode": "SW11 6EF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Foundation infant school (council-coordinated)",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1071,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 780,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1411,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Hotham Primary School",
+   "postcode": "SW15 1PN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 892,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 1080,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "John Burns Primary School",
+   "postcode": "SW11 5QR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Mosaic Jewish Primary School",
+   "postcode": "SW15 4EU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Free school with Jewish ethos; own admissions policy",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Our Lady of Victories Catholic Primary School",
+   "postcode": "SW15 1AW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith/parish criteria",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; offers listed by faith/parish category only"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; offers listed by faith category only"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Our Lady Queen of Heaven Catholic Primary School",
+   "postcode": "SW19 6AD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith/parish criteria",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 270,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered under 'With siblings at the school' criterion (after faith categories)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; offers listed by faith category only"
+    },
+    {
+     "year": 2024,
+     "value": 434,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "furthest distance offered on 16 April (criterion not labelled; after faith and 'other children' categories)"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Penwortham Primary School",
+   "postcode": "SW16 6RJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community school with a priority area (defined boundary roads)",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 845,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 495,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 491,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion; source prints '491mm' under a metres column"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Ravenstone Primary School",
+   "postcode": "SW12 9SS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own admissions policy",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 873,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 1019,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Riversdale Primary School",
+   "postcode": "SW18 5JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Roehampton CE Forest School",
+   "postcode": "SW15 4AA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church of England VA (listed as Roehampton Church Forest School in allocation docs)",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Ronald Ross Primary School",
+   "postcode": "SW19 6RY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 301,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 358,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 822,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Rutherford House Primary School",
+   "postcode": "SW17 7BQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy/free school; own admissions policy",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 777,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 594,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 549,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Sacred Heart Catholic Primary School (Battersea)",
+   "postcode": "SW11 2TD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Sacred Heart Catholic Primary School (Roehampton)",
+   "postcode": "SW15 5NX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Anselm's Catholic Primary School",
+   "postcode": "SW17 8RW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith/parish criteria",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 987,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Baptised Catholic children with a parent who is a practising Catholic'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; offers listed by faith category only"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; places shown by faith category only"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Boniface Catholic Primary School",
+   "postcode": "SW17 8PP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "No distance published; places shown by faith category only"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Faith's CE Primary School",
+   "postcode": "SW18 1AE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CE VA; foundation (faith) places all offered, distance applies to open places",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 414,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children' (open places); foundation places all offered"
+    },
+    {
+     "year": 2025,
+     "value": 208,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children'; foundation places all offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St George's CE Primary School",
+   "postcode": "SW8 4JS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CE VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary School",
+   "postcode": "SW15 2QD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Mary's Catholic Primary School (Battersea)",
+   "postcode": "SW8 4EN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Mary's CE Primary School (Putney)",
+   "postcode": "SW15 1BA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CE VA; up to 20 foundation and 10 open places; foundation places all offered",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 311,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children' (open places)"
+    },
+    {
+     "year": 2025,
+     "value": 311,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children'"
+    },
+    {
+     "year": 2024,
+     "value": 912,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children'"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "St Michael's CE Primary School",
+   "postcode": "SW18 5SQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CE VA with a priority area; up to 40 foundation and 20 open places",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 412,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children living within priority area'"
+    },
+    {
+     "year": 2025,
+     "value": 476,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children living within priority area'"
+    },
+    {
+     "year": 2024,
+     "value": 483,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under 'Other children living within priority area'"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Sellincourt Primary School",
+   "postcode": "SW17 9SA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community school with a priority area (defined boundary roads)",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Shaftesbury Park Primary School",
+   "postcode": "SW11 5UW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Sheringdale Primary School",
+   "postcode": "SW18 5TR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 354,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 306,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 396,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Smallwood Primary School",
+   "postcode": "SW17 0TW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 684,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2025,
+     "value": 466,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 355,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Southmead Primary School",
+   "postcode": "SW19 6QT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Swaffield Primary School",
+   "postcode": "SW18 2SA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": 1354,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    },
+    {
+     "year": 2024,
+     "value": 969,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "The Alton School",
+   "postcode": "SW15 4PD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own admissions policy",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Tooting Primary School",
+   "postcode": "SW17 8HE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own admissions policy",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": 1710,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under Proximity Criterion"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Trinity St Mary's CE Primary School",
+   "postcode": "SW12 8DR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CE VA; faith criteria",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "West Hill Primary School",
+   "postcode": "SW18 5ST",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Westbridge Academy",
+   "postcode": "SW11 3NE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own admissions policy",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://www.wandsworth.gov.uk/media/4q2f3jqt/how_places_were_allocated_for_primary_schools_2026.pdf"
+  },
+  {
+   "name": "Goldfinch Primary School (closed Aug 2025)",
+   "postcode": "SW16 6DS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Closed August 2025 (putney.news); postcode from theschoolsguide.com",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://wandsworth.gov.uk/media/xonfunuu/how_places_were_allocated_for_primary_schools_2025.pdf"
+  },
+  {
+   "name": "St Anne's CE Primary School (closed Aug 2025)",
+   "postcode": "SW18 2RU",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Closed August 2025 (putney.news); postcode from Wandsworth school page",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://wandsworth.gov.uk/media/xonfunuu/how_places_were_allocated_for_primary_schools_2025.pdf"
+  },
+  {
+   "name": "Oasis Academy Putney (closed summer 2026)",
+   "postcode": "SW15 1LY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Closed summer 2026; postcode from Wandsworth school page",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://wandsworth.gov.uk/media/xonfunuu/how_places_were_allocated_for_primary_schools_2025.pdf"
+  },
+  {
+   "name": "Christ Church CE Primary School (closed Aug 2024)",
+   "postcode": "SW11 2TH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Closed August 2024; listed as 'Christchurch CE' in 2024 allocation doc",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants offered a place or a higher preference under coordinated admission arrangements"
+    }
+   ],
+   "source_url": "https://wandsworth.gov.uk/media/mrenk3gj/how_places_were_allocated_for_primary_schools_2024.pdf"
+  }
+ ],
+ "gaps": "PAN is null for schools where every applicant was offered (the docs give no figures for those rows). Postcodes for open schools come from the council brochure; GIAS was not checked. Honeywell Junior School omitted (not a Reception entry point). Broadwater Primary closed Aug 2024 and does not appear in any of the three docs. Some PDF tables were garbled when extracted: Belleville Wix class/column mapping, St Faith's and St Mary's Putney column mapping, and Gatton 2024 criterion are lower-confidence; Penwortham 2024 printed as '491mm'. Faith schools in some years publish only category counts with no distance (status not_published). Academy/free school/VA policies were not individually checked for measurement method; the council brochure says all distances are calculated by the council GIS, so straight_line is assumed for all. The 2026 'apply for a primary school place 2026' PDF could not be fetched."
+}

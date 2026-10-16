@@ -1,0 +1,1611 @@
+{
+ "borough": "Richmond",
+ "default_method": "walking",
+ "method_notes": "Council (Achieving for Children) measures home-to-school distance in metres as the shortest route by road and/or maintained footpath using the School Admissions GIS and Ordnance Survey data. Start: OS address/seed point within the property (route joins nearest road centre; all flats in a block share one point). End: nearest named (pedestrian) school gate or nodal point designated in the school's admission arrangements. Excludes routes through car parks, parks, cemeteries, private paths etc.; council says these are not promoted as actual walking routes. Exceptions per council guide (2026 and 2027 entry): Deer Park, St Elizabeth's Catholic Primary, Thomson House and Twickenham Primary Academy measure in a straight line from the seed point to school-designated gate(s). Faith schools (VA/Catholic academies) allocate many places by faith/parish criteria first. Sources: Richmond primary guide 2027 entry (Sep 2026) and 2026 entry; Admission arrangements for Richmond community schools 2027/28.",
+ "method_source": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2023
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Admission to Richmond's primary schools, September 2027 entry (AfC, Sep 2026) - Section 5 last place allocated, National Offer Day 2026",
+   "url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Admission to Richmond's primary schools guide 2026 (Sept 2026 entry) - Section 5 last place allocated, National Offer Day 2025 (copy hosted by Marshgate Primary)",
+   "url": "https://www.marshgate.richmond.sch.uk/attachments/documents.asp?id=438"
+  },
+  {
+   "year": 2024,
+   "title": "Richmond Prim + Jun How Places were offered 2022-2024 (published table) - found but WebFetch failed repeatedly; only school-published 2024 figures used",
+   "url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/16664/Richmond_Prim_+_Jun_How_Places_were_offered_2022_-2024__-_published_table.pdf"
+  },
+  {
+   "year": 2023,
+   "title": "Richmond primary admissions guide Sept 2024 entry - last place allocated, National Offer Day 2023",
+   "url": "https://www.richmond.gov.uk/media/22oai1mo/primary_admission.pdf"
+  },
+  {
+   "year": 2023,
+   "title": "How primary places were offered (community schools) 2021-2023",
+   "url": "https://www.richmond.gov.uk/media/wqskgp2n/how_primary_places_were_offered.pdf"
+  },
+  {
+   "year": null,
+   "title": "Richmond's infant, junior, primary and secondary schools brochure 2026 (postcodes, types, PANs)",
+   "url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/18825/Richmond_s_infant__junior__primary_and_secondary_schools_brochure_2026__Dec_2025_.docx.pdf"
+  },
+  {
+   "year": null,
+   "title": "Admission arrangements for Richmond community schools 2027/28 (measurement method)",
+   "url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19073/Admission_arrangements_for_Richmond_community_schools_-_2027_28.pdf"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Archdeacon Cambridge's CofE Primary",
+   "postcode": "TW2 5TU",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Barnes Primary",
+   "postcode": "SW13 0QQ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.557,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 0.557km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": 0.397,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 0.397km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 0.293,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 0.293km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Bishop Perrin CofE Primary",
+   "postcode": "TW2 6LF",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "VA; foundation (faith) places then open places by shortest road/footpath route to main gate on Hospital Bridge Road. School 'How places have been offered' doc: last distance for open places 2024 1686.67 m, 2025 1550.17 m, 2026 3904.91 m (council guide says 'contact school').",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3904.91,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open places (home-to-school distance); from school's own 'How places have been offered' doc. Council guide: contact school"
+    },
+    {
+     "year": 2025,
+     "value": 1550.17,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open places; school doc"
+    },
+    {
+     "year": 2024,
+     "value": 1686.67,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open places; school doc"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://www.bishopperrin.richmond.sch.uk/ckfinder/userfiles/files/How%20places%20have%20been%20offered%20on%20National%20Offer%20Day%2010_09_2026.pdf"
+  },
+  {
+   "name": "Buckingham Primary",
+   "postcode": "TW12 3LT",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Carlisle Infant",
+   "postcode": "TW12 3AJ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Chase Bridge Primary",
+   "postcode": "TW2 7DE",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.671,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.671km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 2.469,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.469km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Collis Primary",
+   "postcode": "TW11 9BS",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.408,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.408km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": 1.357,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.357km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 1.67,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.67km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Darell Primary",
+   "postcode": "TW9 4LH",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Deer Park School",
+   "postcode": "TW1 2EF",
+   "type": "free",
+   "method": "straight_line",
+   "method_note": "Own admission authority; council guide says distance measured as a straight line (school site says to front door of permanent site, 389 Richmond Road). School website figures: 2024 634 m, 2025 789 m, 2026 523 m (differ from council guide km figures; council figures used for 2025/2026).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.447,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 0.447km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": 0.792,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 0.792km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": 634,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From school admissions page (distance criterion); not in council docs read"
+    },
+    {
+     "year": 2023,
+     "value": 1.292,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.292km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "East Sheen Primary",
+   "postcode": "SW14 8ED",
+   "type": "community",
+   "method": "walking",
+   "method_note": "2026 value 9.896 km as printed in council guide (unusually large vs prior years; may reflect waiting-list/other effect or a typo in source).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 9.896,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 9.896km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": 1.675,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.675km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 1.182,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.182km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Hampton Infant",
+   "postcode": "TW12 2JH",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": 4.058,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 4.058km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Hampton Wick Infant and Nursery",
+   "postcode": "TW11 9RP",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Heathfield Nursery and Infant",
+   "postcode": "TW2 6EN",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Holy Trinity CofE Primary",
+   "postcode": "TW10 5AA",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Kew Riverside Primary",
+   "postcode": "TW9 4ES",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Lowther Primary",
+   "postcode": "SW13 9AE",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": 1.252,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.252km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Marshgate Primary",
+   "postcode": "TW10 6HY",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.6,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.6km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 3.669,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 3.669km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Meadlands Primary",
+   "postcode": "TW10 7TS",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Nelson Primary",
+   "postcode": "TW2 7BU",
+   "type": "academy",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": 2.167,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.167km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 3.422,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 3.422km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Orleans Primary",
+   "postcode": "TW1 3EN",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.817,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.817km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 2.218,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.218km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Sacred Heart Primary",
+   "postcode": "TW11 9DD",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Sheen Mount Primary",
+   "postcode": "SW14 7RT",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": 1.354,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.354km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 1.47,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.47km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Edmund's Catholic Primary",
+   "postcode": "TW2 7BB",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Elizabeth's Catholic Primary",
+   "postcode": "TW10 6HN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; council guide says straight-line measurement to school-designated gate(s). Faith criteria apply; council table says 'contact the school'.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St James's Catholic Primary",
+   "postcode": "TW2 5NP",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "VA Catholic; parish boundaries used in SIF; council table says 'contact the school'.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Mary's CofE Primary (Twickenham)",
+   "postcode": "TW1 3HE",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Mary's Hampton CofE Primary",
+   "postcode": "TW12 2HP",
+   "type": "free",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Mary Magdalen's Catholic Primary",
+   "postcode": "SW14 8HE",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Mary's and St Peter's CofE Primary",
+   "postcode": "TW11 8RX",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Osmund's Catholic Primary",
+   "postcode": "SW13 9HQ",
+   "type": "academy",
+   "method": "walking",
+   "method_note": "Academy, Catholic; faith criteria; distance by road/footpath to pedestrian gate (council GIS); council table says 'contact the school'.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Richard Reynolds Catholic Primary",
+   "postcode": "TW1 4LT",
+   "type": "academy",
+   "method": "walking",
+   "method_note": "Academy, Catholic; faith criteria; council table says 'contact the school'.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Richard's CofE Primary",
+   "postcode": "TW10 7NL",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "2026 places listed as 15.",
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "St Stephen's CofE Primary",
+   "postcode": "TW1 1LF",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Stanley Primary",
+   "postcode": "TW11 8UH",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.779,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.779km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "The King's CofE Primary",
+   "postcode": "TW9 3HJ",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "VA; priority to Kew Anglican parishes (St Anne's, St Philip & All Saints, St Luke's) for faith/PP criteria; distance by shortest road/footpath route to nearest pedestrian gate. School doc for NOD 2026: 56 offered of 60, last offered under proximity at 3099.32 m (council guide: all preferences met).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3099.32,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Last offered under 'proximity to school' per school's NOD 2026 doc; only 56 of 60 places filled (council guide: all preferences met)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": null
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council guide: 'Please contact the school for information'"
+    }
+   ],
+   "source_url": "https://www.kings.richmond.sch.uk/attachments/download.asp?file=1951&type=pdf"
+  },
+  {
+   "name": "The Russell Primary",
+   "postcode": "TW10 7AH",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "The Vineyard Primary",
+   "postcode": "TW10 6NE",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.672,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.672km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": 1.944,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.944km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Thomson House School",
+   "postcode": "SW14 8HY",
+   "type": "free",
+   "method": "straight_line",
+   "method_note": "Free school; council guide says straight-line measurement to school-designated gate(s).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2025,
+     "value": 1.003,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 1.003km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 0.494,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 0.494km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Trafalgar Infant",
+   "postcode": "TW2 6PY",
+   "type": "community",
+   "method": "walking",
+   "method_note": "Reception is on the Meadway site (TW2 6PY); Years 1-2 on Gothic Road TW2 5EH.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.745,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.745km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  },
+  {
+   "name": "Twickenham Primary Academy",
+   "postcode": "TW2 6QF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; council guide says straight-line measurement to school-designated gate(s). School site lists NOD last distance 2021 1.634 km, 2022 all offered, 2023 2,000.99 m (council guide 2023 says 2.889 km).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.027,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.027km' (last place allocated on National Offer Day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council guide: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 figures not retrievable (source PDF unreadable)"
+    },
+    {
+     "year": 2023,
+     "value": 2.889,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council guide: 'Proximity to school to a distance of 2.889km' (last place allocated on National Offer Day)"
+    }
+   ],
+   "source_url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19860/Richmond_Primary_brochure__Sep26_.pdf"
+  }
+ ],
+ "gaps": "2024 (NOD 2024) council figures not obtained: the 2025-entry guide was not found online and the council's 'How places were offered 2022-2024' PDF (rackcdn) repeatedly failed to fetch; 2024 values only for Deer Park (school site) and Bishop Perrin (school doc). 2023 council figures included instead as an extra year. Faith/academy schools shown as 'contact the school' in council tables (St Elizabeth's, St James's, St Osmund's, St Richard Reynolds, Archdeacon Cambridge's 2026/2025, etc.) have no distance; only Bishop Perrin and The King's published their own figures. Note council 2023 Sheen Mount figure differs between guide (1.47 km) and community table (1.147 km); guide value used. East Sheen 2026 value 9.896 km recorded as printed. Junior schools (Hampton Hill Jr, Hampton Jr, Heathfield Jr, Trafalgar Jr, St John the Baptist CofE Jr) excluded as they admit at Year 3, not Reception. PAN = places listed in the NOD 2026 table. Postcodes from council schools brochure (not GIAS-verified). The AfC info site (kr.afcinfo.org.uk) and richmond.gov.uk admissions pages could not be fetched."
+}

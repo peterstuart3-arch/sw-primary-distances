@@ -1,0 +1,2102 @@
+{
+ "borough": "Lambeth",
+ "default_method": "straight_line",
+ "method_notes": "Lambeth community schools (LA as admission authority): distance is a straight line measured by a computerised mapping system from a point at the home address identified via the Local Land and Property Gazetteer (LLPG) to a central point in the school's grounds as profiled in the software. Closest-first tie-breaker; equal distances resolved by random allocation (Synergy). Exceptions: Henry Cavendish (two sites) uses nodal points (Balham: Hydethorpe Road; Streatham: Dingley Lane); Sudbourne has a different proximity point (measured from the Mandrell Road site per brochure); Kingswood measured to the upper site. Own-admission-authority schools vary: Christ Church Streatham (pedestrian gate), St Leonard's (pupil gate), St Luke's (Linton Grove entrance), Corpus Christi (main reception entrance), Dunraven (North Site entrance), Rosendale (central point as council). Walking routes are used by Iqra (walking distance), Orchard (safest walking route) and Julian's (shortest walking route). All 'last distance' columns in the community allocation tables are headed 'Last distance - straight line (metres)'. Sources: Determined 2026-27 Lambeth school admissions arrangements (criterion 5, p.7-8) and the 2026-27 primary admissions brochure.",
+ "method_source": "https://www.lambeth.gov.uk/sites/default/files/2026-03/Determined-2026-27-lambeth-school-admissions.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "How offers were made - community schools (NOD 16 April 2026)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "How offers were made - academies (2026)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "How offers were made - voluntary aided schools (2026)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "How offers were made - foundation schools (2026)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-foundation-schools.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "How offers were made - community schools (NOD 16 April 2025)",
+   "url": "https://www.lambeth.gov.uk/schools-and-education/school-admissions-and-appeals/primary-school-admissions/how-offers-were-made-lambeth-primary-schools-national-offer-day-16-april-2025/lambeth-community-schools"
+  },
+  {
+   "year": 2025,
+   "title": "How offers were made - academies (2025)",
+   "url": "https://www.lambeth.gov.uk/schools-and-education/school-admissions-and-appeals/primary-school-admissions/how-offers-were-made-lambeth-primary-schools-national-offer-day-16-april-2025/lambeth-academies"
+  },
+  {
+   "year": 2025,
+   "title": "How offers were made - voluntary aided schools (2025)",
+   "url": "https://www.lambeth.gov.uk/schools-and-education/school-admissions-and-appeals/primary-school-admissions/how-offers-were-made-lambeth-primary-schools-national-offer-day-16-april-2025/lambeth-voluntary-aided-schools"
+  },
+  {
+   "year": 2025,
+   "title": "How offers were made - foundation schools (2025)",
+   "url": "https://www.lambeth.gov.uk/schools-and-education/school-admissions-and-appeals/primary-school-admissions/how-offers-were-made-lambeth-primary-schools-national-offer-day-16-april-2025/lambeth-foundation-schools"
+  },
+  {
+   "year": 2024,
+   "title": "How offers were made - community schools and Oasis Academy Johanna 2024-25 (Nov 2024 reissue)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2024-11/How%20offers%20were%20made%20Lambeth%20community%20schools%20and%20Oasis%20Academy%20Johanna%202024-25.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How offers were made - academies (2024)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2024-04/how%20offers%20were%20made%20academies.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How offers were made - voluntary aided schools (2024)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2024-04/how%20offers%20were%20made%20voluntary%20aid%20schools.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How offers were made - foundation schools (2024)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2024-04/how%20offers%20were%20made%20foundation%20schools.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "Primary school admission brochure 2026-27 (postcodes, school types, measuring points)",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2025-09/SR00117695_Primary%20school%20admission%20brochure%20large%202026-27%20ACC.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "Determined 2026-27 Lambeth school admissions arrangements",
+   "url": "https://www.lambeth.gov.uk/sites/default/files/2026-03/Determined-2026-27-lambeth-school-admissions.pdf"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Allen Edwards Primary School",
+   "postcode": "SW4 6RP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": 4050.67,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Ashmole Primary School",
+   "postcode": "SW8 1NT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 654.28,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 665.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 1497.16,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Bonneville Primary School",
+   "postcode": "SW4 9LB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 777.41,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 1378.25,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Clapham Manor Primary School",
+   "postcode": "SW4 0BZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Crown Lane Primary School",
+   "postcode": "SW16 3HX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Elm Wood Primary School",
+   "postcode": "SE27 9RR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Fenstanton Primary School",
+   "postcode": "SW2 3PW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN 30 in 2026; 45 in 2025 and 2024",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Glenbrook Primary School",
+   "postcode": "SW4 8LD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN 29 in 2026, 30 in 2025, 15 in 2024",
+   "pan": 29,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": 688.51,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "2024 row (PAN 15) printed with fewer values: '1 0 10 4 688.51'; last distance figure as published"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Granton Primary School",
+   "postcode": "SW16 5AN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2196.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 1188.16,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 1898.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Heathbrook Primary School",
+   "postcode": "SW8 3EH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": 2169,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Henry Cavendish Primary School (Balham site)",
+   "postcode": "SW12 0JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two-site school using nodal points: Balham site node Hydethorpe Road (straight line to nodal point); applications are site-specific",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 405.63,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion; measured to Balham site nodal point (Hydethorpe Road)"
+    },
+    {
+     "year": 2025,
+     "value": 641.1,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "distance criterion; measured to nodal point"
+    },
+    {
+     "year": 2024,
+     "value": 579.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "distance criterion; measured to nodal point"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Henry Cavendish Primary School (Streatham site)",
+   "postcode": "SW16 1AU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two-site school using nodal points: Streatham site node Dingley Lane (straight line to nodal point); applications are site-specific",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 765.65,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion; measured to Streatham site nodal point (Dingley Lane)"
+    },
+    {
+     "year": 2025,
+     "value": 712.44,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "distance criterion; measured to nodal point"
+    },
+    {
+     "year": 2024,
+     "value": 1212.76,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "distance criterion; measured to nodal point"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Henry Fawcett Primary School",
+   "postcode": "SE11 5BZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Herbert Morrison Primary School",
+   "postcode": "SW8 2HP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1150.45,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Hill Mead Primary School",
+   "postcode": "SW9 8UE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Hitherfield Primary School",
+   "postcode": "SW16 2JQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 955.73,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 723.28,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 923.92,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Jessop Primary School",
+   "postcode": "SE24 0BJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 392.87,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 687.79,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 473.68,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Jubilee Primary School",
+   "postcode": "SW2 2JE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1067.39,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 1575.76,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 2419.63,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Kingswood Primary School",
+   "postcode": "SE27 9RD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; primary brochure footnote says measurements are made to the upper site",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Lark Hall Primary School",
+   "postcode": "SW4 6PH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Listed as 'Larkhall Primary Campus' in the 2026-27 brochure",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": 1814.91,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Loughborough Primary School",
+   "postcode": "SW9 7UA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Paxton Primary School",
+   "postcode": "SE19 1PA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN 60 in 2026; 90 in 2025 and 2024",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Richard Atkins Primary School",
+   "postcode": "SW2 4JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Stockwell Primary School",
+   "postcode": "SW9 9TG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN 30 in 2026; 60 in 2025 and 2024",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 818.45,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 961.81,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Sudbourne Primary School",
+   "postcode": "SW2 5EF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Determined policy says Sudbourne has a different proximity criterion; brochure says distances are measured from the Mandrell Road site",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 412.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 568.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 708.27,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Sunnyhill Primary School",
+   "postcode": "SW16 2UW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Telferscot Primary School",
+   "postcode": "SW12 0HW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 472.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 1061.01,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 819.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From the November 2024 reissued community-schools PDF; the original April 2024 PDF printed 173.63"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Walnut Tree Walk Primary School",
+   "postcode": "SE11 6DS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 50,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 877.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2025,
+     "value": 739.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 953.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Woodmansterne School (primary)",
+   "postcode": "SW16 5XE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "All-through school; reception entry",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 979.49,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line); identical to the 2025 figure as published"
+    },
+    {
+     "year": 2025,
+     "value": 979.49,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 1155.16,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-community-schools.pdf"
+  },
+  {
+   "name": "Kings Avenue Primary School",
+   "postcode": null,
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Only appears in the 2024 data; not in the 2026-27 brochure",
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in 2026 or 2025 data; appears closed or merged"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2024-11/How%20offers%20were%20made%20Lambeth%20community%20schools%20and%20Oasis%20Academy%20Johanna%202024-25.pdf"
+  },
+  {
+   "name": "Christ Church (Streatham) CofE Primary School",
+   "postcode": "SW2 3NF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own policy: straight line ('as the crow flies') from the school pedestrian gate to the house or nearest point of a block of flats",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Corpus Christi Catholic School",
+   "postcode": "SW2 5BL",
+   "type": "academy (Catholic)",
+   "method": "straight_line",
+   "method_note": "Catholic academy: faith-based criteria; distance to the main reception office entrance used as tie-breaker. Criterion numbers vary by year",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2940.41,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under criterion 2 (baptised Catholic with certificate of Catholic practice); distance is a tie-breaker"
+    },
+    {
+     "year": 2025,
+     "value": 616.1,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under criterion 7 (other faiths/denominations)"
+    },
+    {
+     "year": 2024,
+     "value": 3156.41,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under criterion 4 (faith criterion)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Dunraven School",
+   "postcode": "SW16 2QB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy; straight line from home address to the North Site entrance",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2492.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 5 (distance); identical to the 2025 figure as published"
+    },
+    {
+     "year": 2025,
+     "value": 2492.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 5 (distance)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Oasis Academy South Bank Primary",
+   "postcode": "SE1 7RH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Listed as 'Oasis Academy Johanna' in the 2025 and 2024 community-schools tables (same SE1 7RH site)",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Rosendale Primary School",
+   "postcode": "SE21 8LR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line to a central point in the school grounds (as council)",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2041.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 5 (distance)"
+    },
+    {
+     "year": 2025,
+     "value": 1048.89,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 5 (distance)"
+    },
+    {
+     "year": 2024,
+     "value": 1105.41,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 5 (distance)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "St Leonard's CofE Primary School",
+   "postcode": "SW16 6NP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own policy: straight line from front door of residence to the pupil gate",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "St Luke's CofE Primary School",
+   "postcode": "SE27 0DZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own policy: straight line to school entrance on Linton Grove",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Streatham Wells Primary School",
+   "postcode": "SW2 3NJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 389.97,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 6 (distance); criterion 5 is nursery roll"
+    },
+    {
+     "year": 2025,
+     "value": 389.15,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "criterion 5 (distance)"
+    },
+    {
+     "year": 2024,
+     "value": 938.47,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "distance criterion; listed in 2024 community-schools PDF"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Van Gogh Primary",
+   "postcode": "SW9 6HF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "PAN 60 in 2024 data",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-academies.pdf"
+  },
+  {
+   "name": "Archbishop Sumner CofE Primary School",
+   "postcode": "SE11 4PH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church/open banding",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": 716,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open band, nearness criterion (straight line); Church band last distance 280.04 m"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Christ Church SW9 CofE Primary School",
+   "postcode": "SW9 6HN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Holy Trinity CofE Primary School",
+   "postcode": "SW2 2RL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Immanuel and St Andrew CofE Primary School",
+   "postcode": "SW16 5SL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Foundation (25) / Open (30+) banding; faith places use church-attendance criteria",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 390.48,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open band, 'children living closest' (straight line); Foundation band n/a"
+    },
+    {
+     "year": 2025,
+     "value": 691.31,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open band (straight line); Foundation band n/a"
+    },
+    {
+     "year": 2024,
+     "value": 735.37,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open band (straight line); Foundation band n/a"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Iqra Primary School",
+   "postcode": "SW4 9PA",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "Islamic VA school; council table says walking distance",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3902.77,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Published as 'miles (walking distance)'; implausible as miles, probably metres"
+    },
+    {
+     "year": 2025,
+     "value": 1303.1,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Published as 'miles (walking distance)'; probably metres"
+    },
+    {
+     "year": 2024,
+     "value": 3286.85,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Published as 'miles (walking)'; probably metres"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Macaulay CofE Primary School",
+   "postcode": "SW4 0NU",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Orchard Primary School",
+   "postcode": "SW2 3ES",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "Islamic VA school; measures safest walking route; faith criterion fills places",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 6252.14,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "safest walking route; last offered under 'children of Muslim families'"
+    },
+    {
+     "year": 2025,
+     "value": 4331.72,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "safest walking route; Muslim families criterion"
+    },
+    {
+     "year": 2024,
+     "value": 4015.86,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "safest walking route; Muslim families criterion"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Andrew's Catholic Primary School",
+   "postcode": "SW16 2ET",
+   "type": "VA faith",
+   "method": "unknown",
+   "method_note": "Catholic VA: faith criteria; unit and method of the distance not stated",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3765.62,
+     "unit": null,
+     "status": "distance",
+     "criterion_note": "No unit/method published; last offered under baptised Catholic with practising parent(s)"
+    },
+    {
+     "year": 2025,
+     "value": 3385.88,
+     "unit": null,
+     "status": "distance",
+     "criterion_note": "No unit/method published; baptised Catholic criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Published as n/a; places filled under faith/sibling criteria"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Andrew's CofE Primary School",
+   "postcode": "SW9 9DE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Anne's Catholic Primary School",
+   "postcode": "SE11 5JA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Bede's Catholic Primary School",
+   "postcode": "SW12 0LF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Helen's Catholic Primary School",
+   "postcode": "SW9 0TQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "PAN 60 in 2024 data",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St John's (Angell Town) CofE Primary School",
+   "postcode": "SW9 8ND",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St John the Divine CofE Primary School",
+   "postcode": "SE5 0SX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Jude's CofE Primary School",
+   "postcode": "SE24 0LX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Foundation (8) / Open (22) banding",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": 5701.73,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open band, nearness (straight line); Foundation band n/a"
+    },
+    {
+     "year": 2024,
+     "value": 768.04,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Open band, nearness (straight line); Foundation band n/a"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Mark's CofE Primary School",
+   "postcode": "SE11 5SL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Mary's RC Primary School",
+   "postcode": "SW4 9QJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; parish-based faith criteria. PAN 45 in 2025/2024",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1069.57,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "straight line; last offered under 'any other children' after parish Catholic/Orthodox/other-faith criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Saviour's CofE Primary School",
+   "postcode": "SE24 0AY",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "St Stephen's CofE Primary School",
+   "postcode": "SW8 1EJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec-26-how-offers-were-made-voluntary-aid.pdf"
+  },
+  {
+   "name": "Julian's Primary School (Streatham site)",
+   "postcode": "SW16 2RB",
+   "type": "foundation",
+   "method": "walking",
+   "method_note": "Two-site school; 2024 table states shortest walking route; brochure says address measured to both sites and school decides site",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": 1938.23,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion; shortest walking route"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-foundation-schools.pdf"
+  },
+  {
+   "name": "Julian's Primary School (West Norwood site)",
+   "postcode": "SE27 0JF",
+   "type": "foundation",
+   "method": "walking",
+   "method_note": "Two-site school; see Streatham site",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-foundation-schools.pdf"
+  },
+  {
+   "name": "Reay Primary School",
+   "postcode": "SW9 0EN",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 696.8,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line); identical to the 2025 figure as published"
+    },
+    {
+     "year": 2025,
+     "value": 696.8,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 1030.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-foundation-schools.pdf"
+  },
+  {
+   "name": "Vauxhall Primary School",
+   "postcode": "SE11 5LG",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-foundation-schools.pdf"
+  },
+  {
+   "name": "Wyvil Primary School",
+   "postcode": "SW8 2TJ",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "All applicants received a place at the school or a higher preferred offer"
+    },
+    {
+     "year": 2025,
+     "value": 1135.04,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    },
+    {
+     "year": 2024,
+     "value": 507.01,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "last offered under distance criterion (straight line)"
+    }
+   ],
+   "source_url": "https://www.lambeth.gov.uk/sites/default/files/2026-04/nod-rec26-how-offers-were-made-foundation-schools.pdf"
+  }
+ ],
+ "gaps": "Postcodes are from the 2026-27 Lambeth primary brochure (GIAS was not reachable); Kings Avenue (2024 only) has no postcode. Per-school source_url points to the 2026 document; 2025/2024 figures come from the matching year's document for the same school type (Streatham Wells and Oasis Johanna/South Bank 2024 are in the 2024 community PDF). The 2026 community PDF has garbled column text for several rows (Jessop, Jubilee, Stockwell, Sudbourne, Telferscot, Walnut Tree Walk, Woodmansterne), but each last-distance figure was legible. Some published figures are suspect: Iqra's distances are labelled 'miles' (almost certainly metres); St Andrew's Catholic has no unit; Dunraven (2492.08), Reay (696.8) and Woodmansterne (979.49) are identical in 2026 and 2025; Telferscot 2024 is 819.64 in the Nov 2024 reissue vs 173.63 in the April 2024 original. 'all_offered' means the council printed 'All applicants received a place at the school or a higher preferred offer' (no distance published). Faith-school policies were not individually researched beyond the council publications; secondary-only and special schools are excluded."
+}

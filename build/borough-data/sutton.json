@@ -1,0 +1,1119 @@
+{
+ "borough": "Sutton",
+ "default_method": "straight_line",
+ "method_notes": "LB Sutton community school admission arrangements 2026/27 s4.3.4: distances measured in a straight line from the child's home address to the main entrance of the school building, using the computerised Geographical Information System maintained by the Sutton Admissions team. Ties broken by drawing lots. Hackbridge Primary measured to mid-point between its two sites' main entrances. Starting School booklet 2026 notes other admission authorities may measure to 'the entrance of the school' or 'the front door'.",
+ "method_source": "https://www.sutton.gov.uk/documents/d/guest/lb-sutton-community-school-admission-arrangements-2026-27v1",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "National offer day for primary schools - Place allocation information (applications by 15 January 2026)",
+   "url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "year": 2025,
+   "title": "Starting School guidance booklet 2026 - 'How places were allocated last year' (applications by 15 January 2025); same figures also on the council allocation page pre-2026 update",
+   "url": "https://www.sutton.gov.uk/documents/d/guest/starting-school-guidance-booklet-2026v2"
+  },
+  {
+   "year": 2024,
+   "title": "Starting School guidance booklet 2025 - 'How places were allocated last year' (September 2024 entry)",
+   "url": "https://www.sutton.gov.uk/documents/d/guest/starting-school-guidance-booklet-2025v1-1"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Abbey Primary",
+   "postcode": "SM4 6NY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "All Saints Benhilton CofE Primary",
+   "postcode": "SM1 3DA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school: own admissions policy, places allocated mainly by religious commitment/practice; booklet notes some schools measure to 'entrance of the school'/'front door' rather than main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "All Saints Carshalton CofE Primary",
+   "postcode": "SM5 3DW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school: own admissions policy, places allocated mainly by religious commitment/practice; booklet notes some schools measure to 'entrance of the school'/'front door' rather than main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Avenue Primary",
+   "postcode": "SM2 6JE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2697.92,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2810.82,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4857.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Bandon Hill Primary",
+   "postcode": "SM6 9QU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": 1238.05,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Barrow Hedges Primary",
+   "postcode": "SM5 4LA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1171.54,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1391.84,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1021.38,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Beddington Infants",
+   "postcode": "SM6 7LF",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Beddington Park Primary",
+   "postcode": "CR0 4UL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Brookfield Primary",
+   "postcode": "SM3 9LY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Cheam Common Infants",
+   "postcode": "KT4 8SS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1006.55,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 1539.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Cheam Fields Primary",
+   "postcode": "SM3 8PQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1214.74,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1668.55,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 793.77,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Cheam Park Farm Primary",
+   "postcode": "SM3 9UU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3317.13,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 1514.95,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Culvers House Primary",
+   "postcode": "CR4 4JH",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1800.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 4129.76,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Devonshire Primary",
+   "postcode": "SM2 5JL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": 662.19,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council web page shows 662.19 m; 2026 booklet table shows 662.18 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Dorchester Primary",
+   "postcode": "KT4 8PG",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Foresters Primary",
+   "postcode": "SM6 9DP",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 8499.68,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Green Wrythe Primary",
+   "postcode": "SM5 1JP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1392.39,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1380.38,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 946.23,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Hackbridge Primary",
+   "postcode": "SM6 7AX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school: distance measured to the mid-point between the Hackbridge Corner site and the London Road site main entrances.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "High View Primary",
+   "postcode": "SM6 8JT",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1051.95,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 4135.74,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 939.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Manor Park Primary",
+   "postcode": "SM1 4AW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 464.02,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 595.69,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 538.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Muschamp Primary",
+   "postcode": "SM5 2SE",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line). PAN was 82 in 2024 and 2025 allocation tables; 60 in 2026 table.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Nonsuch Primary",
+   "postcode": "KT17 2HQ",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Robin Hood Infants",
+   "postcode": "SM1 2SF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 3139.81,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Rushy Meadow Primary",
+   "postcode": "SM5 2SG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Stanley Park Infants",
+   "postcode": "SM5 3JL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2223.48,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1490.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "St Cecilia's Catholic Primary",
+   "postcode": "SM3 9DL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school: own admissions policy, places allocated mainly by religious commitment/practice; booklet notes some schools measure to 'entrance of the school'/'front door' rather than main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "St Dunstan's Cheam CofE Primary",
+   "postcode": "SM3 8DF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school: own admissions policy, places allocated mainly by religious commitment/practice; booklet notes some schools measure to 'entrance of the school'/'front door' rather than main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "St Elphege's Catholic Infants",
+   "postcode": "SM6 9HY",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school: own admissions policy, places allocated mainly by religious commitment/practice; booklet notes some schools measure to 'entrance of the school'/'front door' rather than main entrance.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "St Mary's Catholic Nursery and Infants",
+   "postcode": "SM5 2PT",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school: own admissions policy, places allocated mainly by religious commitment/practice; booklet notes some schools measure to 'entrance of the school'/'front door' rather than main entrance.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Tweeddale Primary",
+   "postcode": "SM5 1SW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Victor Seymour Infants",
+   "postcode": "SM5 2JE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1091.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1812.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1444.59,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Wallington Primary Academy",
+   "postcode": "SM6 9JN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Westbourne Primary",
+   "postcode": "SM1 2NT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2416.15,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1781.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1353.43,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Wood Field Primary",
+   "postcode": "SM5 3HW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line). PAN was 120 in 2024 and 2025 allocation tables; 60 in 2026 table.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  }
+ ],
+ "gaps": "Postcodes taken from the school list in the Starting School booklet 2026 (not cross-checked against GIAS). 2026 figures read from a council-site mirror (prod-sutton.digitalplace.dp.placecube.com) of the sutton.gov.uk allocation page. Tables give only the furthest distance, not which criterion it was reached under. 'N/A' for VA faith schools interpreted as no distance-based cut-off (places by faith criteria). Individual VA/academy distance-point variations not researched per school. 2024 table year inferred from 2025 booklet 'last year' label. Junior schools excluded."
+}

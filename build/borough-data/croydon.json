@@ -1,0 +1,2532 @@
+{
+ "borough": "Croydon",
+ "default_method": "straight_line",
+ "method_notes": "Straight line in miles (to 3 d.p.), measured by the council's computerised/GIS system from the child's home address point (NLPG geographic reference point; shared buildings e.g. flats use the building reference point) to the designated main school entrance nominated by the school. Community criteria: EHCP, LAC/PLAC, linked infant school, siblings, exceptional medical, distance; ties by random allocation. Allocation table is titled 'Furthest Straight Line Distance' for all schools, including academies/faith/free schools (measured on the same council system). Sources: Croydon Primary Admissions prospectus 2027-28 pp.24,29 and croydon.gov.uk distance page.",
+ "method_source": "https://www.croydon.gov.uk/schools-and-education/schools/school-admissions/school-admissions-process/distance-between-your-home-and-schools",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Croydon Primary School Admissions prospectus 2027-28: 'Overview of allocation of places at primary schools - 2026 entry' (pp.23-25; furthest straight-line distance for 2024, 2025, 2026 intakes)",
+   "url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Same table (2025 column); cross-checked against primary admissions prospectus 2026-27",
+   "url": "https://www.croydon.gov.uk/sites/default/files/2025-08/primary-admissions-prospectus-2026-2027.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Same table (2024 column); cross-checked against primary admissions prospectus 2025-26",
+   "url": "https://www.croydon.gov.uk/sites/default/files/2024-08/primary-admissions-prospectus-2025-2026.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "Allocation breakdown 2026 (xlsx; not machine-readable via fetch)",
+   "url": "https://www.croydon.gov.uk/sites/default/files/2026-04/allocation-breakdown-2026.xlsx"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Aerodrome Primary Academy",
+   "postcode": "CR0 4EJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.727,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.848,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.769,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "All Saints CofE Primary School",
+   "postcode": "SE19 3LG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 6.464,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.258,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.757,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Applegarth Academy (The STEP Academy Trust)",
+   "postcode": "CR0 9DL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.672,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 4.521,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4.644,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "ARK Oval Primary Academy",
+   "postcode": "CR0 6BA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.833,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.011,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.712,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Atwood Primary Academy",
+   "postcode": "CR2 9EE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.445,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.3,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.008,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Beaumont Primary",
+   "postcode": "CR8 4DN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.42,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.359,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.226,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Beulah Infant & Nursery",
+   "postcode": "CR7 8NJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.189,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.873,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.723,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Broadmead Primary Academy",
+   "postcode": "CR0 2EA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 18.189,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.667,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4.978,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Castle Hill Academy",
+   "postcode": "CR0 0RJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.506,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 4.603,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4.617,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Chestnut Park Primary",
+   "postcode": "CR0 2UR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.385,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.135,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.421,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Chipstead Valley Primary",
+   "postcode": "CR5 3BW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.481,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.937,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.69,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Christ Church CofE Primary (Purley)",
+   "postcode": "CR8 2QE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Coulsdon CofE Primary",
+   "postcode": "CR5 1ED",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Courtwood Primary",
+   "postcode": "CR0 9HX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.301,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.579,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.854,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Cypress Primary (Pegasus Academy Trust)",
+   "postcode": "SE25 4AU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.358,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.428,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.401,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "David Livingstone Academy (The STEP Academy Trust)",
+   "postcode": "CR7 8HX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.462,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.988,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.011,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Downsview Primary",
+   "postcode": "SE19 3XE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.832,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.913,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.696,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Ecclesbourne Primary (Pegasus Academy Trust)",
+   "postcode": "CR7 7FA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.844,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.503,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.57,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Elmwood Infants",
+   "postcode": "CR0 2PL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5.533,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.919,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4.425,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Fairchildes Primary",
+   "postcode": "CR0 0AH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5.872,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 3.631,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.382,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Forest Academy",
+   "postcode": "CR0 8HQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.387,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.164,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.117,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Forestdale Primary",
+   "postcode": "CR0 9JE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.677,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.723,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.483,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Gonville Academy (The STEP Academy Trust)",
+   "postcode": "CR7 6DL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.54,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 3.49,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 5.476,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Good Shepherd Catholic Primary",
+   "postcode": "CR0 0RG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Greenvale Primary",
+   "postcode": "CR2 8PR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.525,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.39,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.408,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Gresham Primary",
+   "postcode": "CR2 9EA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.622,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.768,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.973,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Harris Primary Academy Benson",
+   "postcode": "CR0 8RQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.885,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.732,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.5,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Harris Primary Academy Croydon (formerly Kingsley Primary Academy)",
+   "postcode": "CR0 3JT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.864,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.557,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.626,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Harris Primary Academy Haling Park",
+   "postcode": "CR2 6HS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.019,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.458,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.875,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Harris Primary Academy Kenley",
+   "postcode": "CR8 5NF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.442,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.898,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 20.066,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Harris Primary Academy Purley Way",
+   "postcode": "CR0 4FE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.932,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Table shows 'abroad': last place offered to an overseas applicant"
+    },
+    {
+     "year": 2024,
+     "value": 1.623,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Heathfield Academy (The STEP Academy Trust)",
+   "postcode": "CR0 1EQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.491,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.344,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.333,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Heavers Farm Primary",
+   "postcode": "SE25 6LT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.374,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.64,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.07,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Howard Primary",
+   "postcode": "CR0 1DT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.161,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 6.521,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 15.434,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "John Wood School & Nursery",
+   "postcode": "CR0 6JA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5.365,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.684,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.494,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Kenley Primary",
+   "postcode": "CR3 0EX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5.581,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.684,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.347,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Kensington Avenue Primary",
+   "postcode": "CR7 8BT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.745,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 4.436,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.787,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Keston Primary",
+   "postcode": "CR5 1HP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.947,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.631,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.373,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Krishna Avanti Primary",
+   "postcode": "CR0 4HA",
+   "type": "free",
+   "method": "straight_line",
+   "method_note": "Hindu-faith free school; own admissions policy (faith criteria may apply)",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.751,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.809,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 3.046,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Margaret Roper Catholic Primary",
+   "postcode": "CR8 2XP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Roman Catholic; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Monks Orchard Primary",
+   "postcode": "CR0 7UF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.553,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.598,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 3.274,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "New Valley Primary",
+   "postcode": "CR8 4AZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5.812,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 5.368,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 7.798,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Norbury Manor Primary",
+   "postcode": "SW16 5QR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.553,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.47,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.777,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Oasis Academy Byron",
+   "postcode": "CR5 2XE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.908,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.418,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.529,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Oasis Academy Ryelands",
+   "postcode": "SE25 4XG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.429,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.376,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.484,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Oasis Academy Shirley Park Primary",
+   "postcode": "CR0 7AR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.465,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 4.249,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 3.116,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Orchard Way Primary",
+   "postcode": "CR0 7NJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.211,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.224,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.807,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Park Hill Infants",
+   "postcode": "CR0 5NS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.487,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.363,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.431,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Paxton Academy Sports & Science",
+   "postcode": "CR7 6AW",
+   "type": "free",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.788,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.404,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.311,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Purley Oaks Primary",
+   "postcode": "CR2 0PR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 7.111,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 4.52,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4.191,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Quest Primary",
+   "postcode": "CR2 8HD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.413,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 3.125,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 3.859,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Regina Coeli Catholic Primary",
+   "postcode": "CR2 6DF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Roman Catholic; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Ridgeway Primary",
+   "postcode": "CR2 0EQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 15.547,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.947,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.069,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Robert Fitzroy Primary Academy",
+   "postcode": "CR0 6JN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.375,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 5.626,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.514,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Rockmount Primary",
+   "postcode": "SE19 3ST",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.31,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.379,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.4,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Rowdown Primary (Fairchildes Academy)",
+   "postcode": "CR0 0EG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.125,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 3.986,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.625,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Selsdon Primary and Nursery School",
+   "postcode": "CR2 8LQ",
+   "type": "unknown",
+   "method": "straight_line",
+   "method_note": "Foundation school",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.224,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.468,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.575,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Smitham Primary",
+   "postcode": "CR5 3DE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.407,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.703,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.57,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "South Norwood Primary",
+   "postcode": "SE25 5QP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 11.589,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.09,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.881,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Aidan's Catholic Primary",
+   "postcode": "CR5 3DE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Chad's Catholic Primary",
+   "postcode": "SE25 6LR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Cyprian's Greek Orthodox Primary Academy",
+   "postcode": "CR7 8DZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Greek Orthodox academy; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St James the Great Catholic Primary and Nursery",
+   "postcode": "CR7 8HJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St John's CofE Primary",
+   "postcode": "CR0 5EL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Infant and Nursery",
+   "postcode": "SE19 3NX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Roman Catholic; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Mark's CofE Primary Academy",
+   "postcode": "SE25 4JD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "CofE academy; supplementary form; faith criteria apply",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Mary's Catholic Infant",
+   "postcode": "CR0 2AQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Peter's Primary",
+   "postcode": "CR2 7AR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.603,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.126,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.29,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "St Thomas Becket Catholic Primary",
+   "postcode": "SE25 5BN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; supplementary form; faith criteria apply",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (undefined in booklet); faith school allocating via its own faith-based criteria"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "The Crescent Primary",
+   "postcode": "CR0 2HN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.006,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.57,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 3.195,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "The Hayes Primary",
+   "postcode": "CR8 5JN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.079,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.464,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.001,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "The Minster Nursery & Infant School",
+   "postcode": "CR0 4BH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Church academy; supplementary form required (faith criteria may apply)",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.656,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 5.744,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.494,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Tudor Academy",
+   "postcode": "CR0 0PH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.083,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.77,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 5.224,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "West Thornton Primary Academy",
+   "postcode": "CR0 3BS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Two sites (Rosecourt Road CR0 3BS, Canterbury Road CR0 3HH); single figure published",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.143,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 3.689,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.313,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Whitehorse Manor Infants & Nursery (Pegasus Academy Trust)",
+   "postcode": "CR7 8SB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Two sites: main site and Brigstock site, separate furthest distances published; value = main site",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 12.932,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Main site; Brigstock site furthest offer 0.637 miles"
+    },
+    {
+     "year": 2025,
+     "value": 1.363,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Main site; Brigstock site furthest offer 0.962 miles"
+    },
+    {
+     "year": 2024,
+     "value": 0.791,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Main site; Brigstock site furthest offer 0.483 miles"
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Winterbourne Nursery and Infants",
+   "postcode": "CR7 7QT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 6.172,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 9.885,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 4.241,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Woodcote Primary",
+   "postcode": "CR5 2ED",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 10.194,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.992,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 2.332,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  },
+  {
+   "name": "Woodside Academy",
+   "postcode": "CR0 6NF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.954,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 2.331,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.829,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
+  }
+ ],
+ "gaps": "PDF table text was column-scrambled in extraction; values were assigned to schools by row order within each year column, with alignment validated by consistent N/A positions (faith schools) across all three year columns and by year identification via cross-checking numbers present in the 2025-26 and 2026-27 prospectuses. A visual spot-check of pp.23-25 is advisable. 'N/A' (14 faith schools: VA and Catholic/CofE/Greek Orthodox academies) is not defined in the booklet; recorded as not_published. Large distances (e.g. Broadmead 18.189, Harris Kenley 20.066, Ridgeway 15.547, Howard 15.434) likely reflect undersubscription but the table does not mark 'all offered', so recorded as distances. Harris Purley Way 2025 shows 'abroad' (overseas last offer). PANs are the 2026 admission numbers parsed from concatenated text (e.g. '309060120...'); treat as indicative. Allocation-breakdown xlsx (criterion-level detail) could not be read. Junior schools excluded (no reception intake). Individual academy/faith policies not checked for nodal/feeder areas; the council booklet mentions none. Postcodes from the prospectus school directory; GIAS not reachable."
+}

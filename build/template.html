@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>SW London Primary Distances</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Layout: control panel on the left (results list), live map filling the rest; stacks to map-over-list on phones. */
+:root{
+  --paper:#f5f7f6; --panel:#ffffff; --ink:#18252c; --muted:#5b6b72; --line:#dbe3e1;
+  --accent:#0d6b5b; --accent-ink:#ffffff; --accent-soft:#e2f1ed;
+  --good:#2b7a3f; --good-soft:#e3f2e6; --warn:#a8650c; --warn-soft:#fbefd9;
+  --bad:#b03636; --bad-soft:#f8e3e3; --none:#6c7a86; --none-soft:#eceff2;
+  --display:"Familjen Grotesk","Helvetica Neue",Arial,sans-serif;
+  --body:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --paper:#0f1719; --panel:#162124; --ink:#e4ecea; --muted:#9aaba9; --line:#2a3a3d;
+  --accent:#3fb59d; --accent-ink:#06201b; --accent-soft:#173a33;
+  --good:#5cc477; --good-soft:#18331f; --warn:#e4a64b; --warn-soft:#3a2a12;
+  --bad:#ec7a7a; --bad-soft:#3b1b1b; --none:#9aa7b1; --none-soft:#232e33; color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;overflow:hidden;overscroll-behavior:none;touch-action:pan-x pan-y}
+#map{touch-action:none}
+body{background:var(--paper);color:var(--ink);font:15px/1.5 var(--body);display:grid;grid-template-columns:minmax(340px,420px) minmax(0,1fr);}
+#panel{background:var(--panel);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;min-width:0;overflow:hidden}
+header{padding:18px max(18px,env(safe-area-inset-left,0px)) 14px;border-bottom:1px solid var(--line);display:grid;gap:10px}
+h1{font:700 1.45rem/1.15 var(--display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+.sub{color:var(--muted);font-size:.86rem;margin:0}
+form{display:flex;gap:8px}
+input[type=text]{flex:1;min-width:0;font:inherit;font-size:1rem;padding:9px 11px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink);text-transform:uppercase}
+input[type=text]::placeholder{text-transform:none}
+button{font:700 .9rem var(--body);border-radius:6px;padding:9px 12px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--accent-ink)}
+button.ghost{background:transparent;color:var(--accent)}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
+select{font:inherit;padding:4px 6px;border-radius:5px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+#status{font-size:.85rem;color:var(--muted);min-height:1.3em;margin:0}
+#status.err{color:var(--bad)}
+#summary{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:.78rem;font-weight:700;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.c-in{background:var(--good-soft);color:var(--good)} .c-edge{background:var(--warn-soft);color:var(--warn)}
+.c-out{background:var(--bad-soft);color:var(--bad)} .c-all{background:var(--accent-soft);color:var(--accent)} .c-na{background:var(--none-soft);color:var(--none)}
+#list{overflow-y:auto;flex:1;min-height:0;padding:6px 0}
+.empty{padding:18px;color:var(--muted)}
+.empty strong{color:var(--ink)}
+.school{padding:12px max(18px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line);display:grid;gap:4px;cursor:pointer;border-left:4px solid transparent}
+.school:hover,.school.sel{background:var(--paper)}
+.school[data-v=in]{border-left-color:var(--good)} .school[data-v=edge]{border-left-color:var(--warn)}
+.school[data-v=out]{border-left-color:var(--bad)} .school[data-v=all]{border-left-color:var(--accent)} .school[data-v=na]{border-left-color:var(--none)}
+.s-top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.s-name{font-weight:700;line-height:1.3;min-width:0}
+.s-meta{font-size:.8rem;color:var(--muted)}
+.nums{display:flex;gap:14px;font-size:.84rem;font-variant-numeric:tabular-nums;flex-wrap:wrap}
+.nums b{font-weight:700}
+.years{display:flex;gap:6px;flex-wrap:wrap;font-size:.76rem;font-variant-numeric:tabular-nums;color:var(--muted)}
+.years span{border:1px solid var(--line);border-radius:4px;padding:0 5px}
+.years .y-in,.years .y-all{color:var(--good);border-color:var(--good)}
+.years .y-edge{color:var(--warn);border-color:var(--warn)}
+.years .y-out{color:var(--bad);border-color:var(--bad)}
+.detail{font-size:.8rem;color:var(--muted);display:none}
+.ofs{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.ofs .chip{font-weight:700;border:1px solid transparent}
+.o-top{background:var(--accent-soft);color:var(--accent);border-color:var(--accent)!important}
+.o-ok{background:var(--good-soft);color:var(--good)} .o-warn{background:var(--warn-soft);color:var(--warn)}
+.o-bad{background:var(--bad-soft);color:var(--bad)} .o-na{background:var(--none-soft);color:var(--none)}
+.ofd{margin-bottom:6px;color:var(--ink)}
+.school.sel .detail{display:block}
+.detail a{color:var(--accent)}
+footer{padding:10px max(18px,env(safe-area-inset-right,0px)) 10px max(18px,env(safe-area-inset-left,0px));border-top:1px solid var(--line);font-size:.74rem;color:var(--muted);line-height:1.45;flex:0 1 auto;min-height:0;max-height:55%;overflow-y:auto;overflow-wrap:anywhere}
+footer p{margin:.6em 0;max-width:62ch}
+#list,.school,header{min-width:0;overflow-wrap:anywhere}
+footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
+#map{min-height:0;height:100%}
+.leaflet-container{font:13px/1.4 var(--body)}
+.mapsearch{display:flex;gap:6px;flex-wrap:wrap;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px;box-shadow:0 2px 10px rgba(0,0,0,.18);max-width:calc(100vw - 90px)}
+.mapsearch input{width:9.5em;font:inherit;font-size:.95rem;padding:6px 8px;border:1px solid var(--line);border-radius:5px;background:var(--paper);color:var(--ink);text-transform:uppercase}
+.mapsearch input::placeholder{text-transform:none}
+.mapsearch button{padding:6px 9px;font-size:.82rem}
+.legend{background:var(--panel);color:var(--ink);padding:8px 10px;border-radius:6px;border:1px solid var(--line);font-size:.75rem;line-height:1.7}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-2px}
+.legend .dash{border:2px dashed var(--muted);background:transparent!important}
+@media (max-width:760px){
+  body{grid-template-columns:minmax(0,1fr);grid-template-rows:42vh minmax(0,1fr)}
+  #map{grid-row:1;height:auto}
+  #panel{grid-row:2;border-right:0;border-top:1px solid var(--line)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<section id="panel">
+  <header>
+    <h1>SW London primary school distances</h1>
+    <p class="sub">Reception places in Wandsworth, Merton, Lambeth, Richmond, Kingston, Sutton and Croydon, compared with the furthest distance each school offered on national offer day.</p>
+    <form id="pcForm">
+      <label for="pc" class="sr" hidden>Postcode</label>
+      <input id="pc" type="text" placeholder="Your postcode, e.g. SW18 4JQ" autocomplete="postal-code">
+      <button type="submit">Check</button>
+      <button type="button" id="locBtn" class="ghost" title="Use my current location">Locate me</button>
+    </form>
+    <div class="row">
+      <label for="radius">Show schools within</label>
+      <select id="radius"><option value="1500">1.5 km</option><option value="2500" selected>2.5 km</option><option value="4000">4 km</option></select>
+      <label for="yr">Compare with</label>
+      <select id="yr"><option value="trend" selected>all years</option><option value="latest">latest year only</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option></select>
+    </div>
+    <p id="status">You can also click anywhere on the map to drop a pin.</p>
+    <div id="summary"></div>
+  </header>
+  <div id="list"><div class="empty"><strong>Enter a postcode or tap “Locate me”.</strong><br>Each nearby school is shown with your distance, the way that school measures it, and how far the last place went in recent years.</div></div>
+  <footer>
+    <details>
+      <summary>How to read this</summary>
+      <p>“Last distance offered” is how far from the school the furthest child admitted on distance lived. It changes every year and is not a fixed catchment. Siblings, looked-after children, faith places and priority areas are offered before distance, so the figure only tells you about the distance criterion.</p>
+      <p>By default each school is judged across every year published. <b>Safe</b> means you’d have been inside the last distance (or everyone got in) in every year. <b>Mixed</b> means inside in some years but not others. <b>Just inside</b> means inside every year but by under 100 m in at least one, which is within the tool’s margin of error. <b>Unlikely</b> means outside in every year. One good year on its own is a weak signal, so the card flags schools with only one year of data. Pick a single year from the menu to see that year alone.</p>
+      <p>Straight-line distances are measured here from your postcode centre to the school’s postcode centre. Councils measure from your exact address point to a gate, entrance or site centre, so expect differences of up to about 100 m. So a school where you’re within 100 m of the cut-off is marked “Just inside” or “Just outside”: too close to call either way.</p>
+      <p>Walking distances use OpenStreetMap footpaths, which won’t match a council’s own road and footpath network exactly. On the map, walking-route schools show a dashed circle: the true walking area always sits inside it.</p>
+      <p>Ofsted no longer gives one overall grade. Schools inspected before September 2024 keep their old grade (Outstanding to Inadequate). Those inspected from September 2024 to November 2025 have area grades only. Since November 2025 schools get a report card rating six areas from Exceptional to Urgent improvement. Short “ungraded” inspections only confirm whether a school is still at its previous grade. Ofsted data is as at 31 August 2026.</p>
+      <p>Data: council allocation tables, offer-day figures, gathered October 2026. Always check the school’s current admissions policy and the council’s own figures before applying.</p>
+    </details>
+  </footer>
+</section>
+<div id="map" role="region" aria-label="Map of schools"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const EDGE_M = 100;          // borderline band, metres
+const UNDERSUB_M = 3000;     // cut-off this large means effectively anyone local got in
+const ROUTER = 'https://routing.openstreetmap.de/routed-foot/table/v1/foot/';
+
+const $ = s => document.querySelector(s);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const fmt = m => m == null ? '–' : (m < 1000 ? Math.round(m) + ' m' : (m / 1000).toFixed(2) + ' km');
+const miles = m => (m / 1609.344).toFixed(2) + ' mi';
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function haversine(a, b) {
+  const R = 6371008.8, r = x => x * Math.PI / 180;
+  const dLat = r(b[0] - a[0]), dLng = r(b[1] - a[1]);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(r(a[0])) * Math.cos(r(b[0])) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+// ---------- map ----------
+const map = L.map('map', {zoomControl: false}).setView([51.43, -0.17], 11);
+L.control.zoom({position: 'topright'}).addTo(map);
+// Basemap. With no key, Esri's keyless street map is used.
+// To publish, get a free key at maptiler.com, paste it below, and the map switches to MapTiler.
+const MAPTILER_KEY = '';
+const credits = ' · walking routes: FOSSGIS OSRM · postcodes: postcodes.io';
+if (MAPTILER_KEY) {
+  L.tileLayer(`https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${MAPTILER_KEY}`, {
+    maxZoom: 19, attribution: '&copy; MapTiler &copy; OpenStreetMap contributors' + credits
+  }).addTo(map);
+} else {
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 19, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors' + credits
+  }).addTo(map);
+}
+const schoolLayer = L.layerGroup().addTo(map);
+const ringLayer = L.layerGroup().addTo(map);
+let homeMarker = null, searchCircle = null, home = null;
+
+const legend = L.control({position: 'bottomright'});
+legend.onAdd = () => {
+  const d = L.DomUtil.create('div', 'legend');
+  d.innerHTML = `<div><i style="background:${css('--good')}"></i>Inside last distance</div>
+  <div><i style="background:${css('--warn')}"></i>Mixed years, or within 100 m</div>
+  <div><i style="background:${css('--bad')}"></i>Outside it</div>
+  <div><i style="background:${css('--accent')}"></i>Everyone offered</div>
+  <div><i style="background:${css('--none')}"></i>No distance published</div>
+  <div><i class="dash"></i>Walking-route school (outer limit)</div>`;
+  return d;
+};
+legend.addTo(map);
+
+// ---------- school locations (postcodes.io bulk, cached) ----------
+const schools = DATA.schools.map((s, i) => ({...s, id: i, ll: null}));
+async function locateSchools() {
+  let cache = {};
+  try { cache = JSON.parse(localStorage.getItem('pcCache') || '{}'); } catch (e) {}
+  const need = [...new Set(schools.map(s => s.postcode).filter(p => p && !cache[p]))];
+  for (let i = 0; i < need.length; i += 100) {
+    const batch = need.slice(i, i + 100);
+    try {
+      const r = await fetch('https://api.postcodes.io/postcodes', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({postcodes: batch})});
+      const j = await r.json();
+      for (const x of j.result || []) if (x.result) cache[x.query] = [x.result.latitude, x.result.longitude];
+    } catch (e) { setStatus('Couldn’t reach the postcode service to place schools on the map. Check your connection and reload.', true); }
+  }
+  // terminated postcodes (schools sometimes keep old ones)
+  for (const p of need.filter(p => !cache[p])) {
+    try {
+      const j = await (await fetch('https://api.postcodes.io/terminated_postcodes/' + encodeURIComponent(p))).json();
+      if (j.result) cache[p] = [j.result.latitude, j.result.longitude];
+    } catch (e) {}
+  }
+  try { localStorage.setItem('pcCache', JSON.stringify(cache)); } catch (e) {}
+  schools.forEach(s => s.ll = cache[s.postcode] || null);
+  drawAllSchools();
+}
+
+// ---------- cut-off logic ----------
+const isTrend = () => $('#yr').value === 'trend';
+function cutoff(s) {
+  const want = $('#yr').value;
+  if (want === 'trend') return s.d.find(r => r.s === 'distance') || s.d.find(r => r.s !== 'not_published') || s.d[0] || null;
+  const rec = want === 'latest' ? s.d.find(r => r.s !== 'not_published') || s.d[0]
+                                : s.d.find(r => String(r.y) === want);
+  return rec || null;
+}
+// Verdict for one year's record.
+function yearVerdict(c, dist) {
+  if (!c) return {v: 'na', label: 'No figure for this year'};
+  if (c.s === 'all_offered') return {v: 'all', label: 'Everyone who applied got a place'};
+  if (c.s !== 'distance') return {v: 'na', label: 'No distance published'};
+  if (c.m >= UNDERSUB_M) return {v: 'all', label: 'Last place went ' + fmt(c.m) + ' away (not oversubscribed locally)'};
+  if (dist == null) return {v: 'na', label: 'Your distance unavailable'};
+  const diff = c.m - dist;
+  if (Math.abs(diff) <= EDGE_M) return {v: 'edge', diff, label: diff >= 0
+    ? `Inside by ${fmt(diff)}, which is within the tool’s ±100 m margin of error`
+    : `Outside by ${fmt(-diff)}, which is within the tool’s ±100 m margin of error`};
+  return diff > 0 ? {v: 'in', diff, label: fmt(diff) + ' inside the last distance'}
+                  : {v: 'out', diff, label: fmt(-diff) + ' beyond the last distance'};
+}
+// Verdict across every year we hold for the school.
+function trendVerdict(s, dist) {
+  const yrs = s.d.map(r => ({y: r.y, ...yearVerdict(r, dist)})).filter(r => r.v !== 'na');
+  const c = cutoff(s);
+  const pending = dist == null && s.d.some(r => r.s === 'distance' && r.m < UNDERSUB_M);
+  if (pending) return {v: 'na', label: 'Your distance unavailable', c, yrs};
+  const n = yrs.length;
+  if (!n) return {v: 'na', label: 'No distance published in any year', c, yrs};
+  const ok = yrs.filter(r => r.v === 'in' || r.v === 'all').length;
+  const out = yrs.filter(r => r.v === 'out').length;
+  const yearsTxt = n === 1 ? 'the only year published' : n === 2 ? 'both years published' : `all ${n} years`;
+  const one = '';
+  if (yrs.every(r => r.v === 'all')) return {v: 'all', label: `Everyone offered a place in ${yearsTxt}`, c, yrs};
+  const withDiff = yrs.filter(r => r.diff != null);
+  if (ok === n) {
+    const tight = withDiff.reduce((a, b) => (a && a.diff < b.diff ? a : b), null);
+    return {v: 'in', label: `Inside in ${yearsTxt}` + (tight ? `; closest was ${fmt(tight.diff)} inside (${tight.y})` : '') + one, c, yrs};
+  }
+  if (out === n) {
+    const near = withDiff.reduce((a, b) => (a && a.diff > b.diff ? a : b), null);
+    return {v: 'out', label: `Outside in ${yearsTxt}` + (near ? `; nearest miss ${fmt(-near.diff)} (${near.y})` : '') + one, c, yrs};
+  }
+  // Inside every year, but narrowly in some
+  const narrowIn = yrs.filter(r => r.v === 'edge' && r.diff >= 0);
+  if (ok + narrowIn.length === n)
+    return {v: 'edge', label: `Inside in ${yearsTxt}, but by under 100 m in ${narrowIn.map(r => r.y).join(' and ')}, so only just`, close: true, c, yrs};
+  const inside = ok + narrowIn.length;
+  const latest = yrs[0];
+  const word = latest.v === 'edge' ? (latest.diff >= 0 ? 'narrowly inside' : 'narrowly outside')
+             : {in: 'inside', all: 'open to all', out: 'outside'}[latest.v];
+  return {v: 'edge', label: `Inside in ${inside} of ${n} years; ${word} in ${latest.y}`, c, yrs};
+}
+function verdict(s, dist) {
+  if (isTrend()) return trendVerdict(s, dist);
+  const c = cutoff(s);
+  return {...yearVerdict(c, dist), c};
+}
+const colour = v => css({in: '--good', edge: '--warn', out: '--bad', all: '--accent', na: '--none'}[v]);
+
+function drawAllSchools() {
+  schoolLayer.clearLayers();
+  for (const s of schools) {
+    if (!s.ll) continue;
+    const vv = home ? (s.result?.v || 'na') : verdict(s, null).v;
+    const z = map.getZoom(), base = z <= 10 ? 2.5 : z <= 11 ? 3.5 : z <= 13 ? 5 : 6.5;
+    const m = L.circleMarker(s.ll, {radius: home && s.result ? base + 1 : base, weight: 1.5, color: '#fff', fillColor: colour(vv), fillOpacity: home ? .95 : .7});
+    m.bindTooltip(esc(s.name));
+    m.on('click', () => selectSchool(s.id, true));
+    schoolLayer.addLayer(m);
+  }
+}
+
+// ---------- walking distances (one table request) ----------
+async function walkingDistances(from, list) {
+  if (!list.length) return {};
+  const coords = [from, ...list.map(s => s.ll)].map(p => p[1].toFixed(6) + ',' + p[0].toFixed(6)).join(';');
+  const r = await fetch(ROUTER + coords + '?sources=0&annotations=distance');
+  if (!r.ok) throw new Error('router ' + r.status);
+  const j = await r.json();
+  const out = {};
+  list.forEach((s, i) => { const d = j.distances?.[0]?.[i + 1]; if (d != null) out[s.id] = d; });
+  return out;
+}
+
+// ---------- main flow ----------
+async function setHome(ll, label) {
+  home = ll;
+  if (homeMarker) homeMarker.remove();
+  homeMarker = L.marker(ll, {title: 'Your location'}).addTo(map).bindPopup(esc(label));
+  const R = +$('#radius').value;
+  if (searchCircle) searchCircle.remove();
+  searchCircle = L.circle(ll, {radius: R, color: css('--muted'), weight: 1, fill: false, dashArray: '2 6'}).addTo(map);
+  map.fitBounds(searchCircle.getBounds(), {padding: [20, 20]});
+
+  const near = schools.filter(s => s.ll).map(s => ({s, sl: haversine(ll, s.ll)})).filter(x => x.sl <= R);
+  near.forEach(x => { x.s.straight = x.sl; x.s.walk = null; x.s.walkErr = false; });
+  const walkers = near.filter(x => x.s.method === 'walking').map(x => x.s);
+  setStatus(`${near.length} schools within ${fmt(R)} of ${label}.` + (walkers.length ? ' Working out walking routes…' : ''));
+  render(near.map(x => x.s));
+  if (walkers.length) {
+    try {
+      const w = await walkingDistances(ll, walkers);
+      walkers.forEach(s => s.walk = w[s.id] ?? null);
+      setStatus(`${near.length} schools within ${fmt(R)} of ${label}.`);
+    } catch (e) {
+      walkers.forEach(s => s.walkErr = true);
+      setStatus('Walking-route service didn’t respond, so walking schools show straight-line distance (a lower bound).', true);
+    }
+    render(near.map(x => x.s));
+  }
+}
+
+function render(list) {
+  schools.forEach(s => s.result = null);
+  for (const s of list) {
+    s.used = s.method === 'walking' ? (s.walk ?? (s.walkErr ? s.straight : null)) : s.straight;
+    s.result = verdict(s, s.used);
+  }
+  const order = {in: 0, edge: 1, all: 2, out: 3, na: 4};
+  list.sort((a, b) => order[a.result.v] - order[b.result.v] || a.straight - b.straight);
+  const counts = list.reduce((o, s) => (o[s.result.v] = (o[s.result.v] || 0) + 1, o), {});
+  const names = isTrend() ? {in: 'safe every year', edge: 'mixed or just inside', all: 'open', out: 'outside every year', na: 'no data'}
+                          : {in: 'inside', edge: 'borderline', all: 'everyone offered', out: 'outside', na: 'no data'};
+  $('#summary').innerHTML = Object.keys(order).filter(k => counts[k]).map(k => `<span class="chip c-${k}">${counts[k]} ${names[k]}</span>`).join('');
+  $('#list').innerHTML = list.length ? list.map(card).join('') :
+    `<div class="empty"><strong>No schools in range.</strong><br>Try a larger radius.</div>`;
+  $('#list').querySelectorAll('.school').forEach(el => el.addEventListener('click', () => selectSchool(+el.dataset.id, false)));
+  drawRings(list);
+  drawAllSchools();
+}
+
+// ---------- Ofsted ----------
+const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const mon = iso => iso ? MONTHS[+iso.slice(5, 7) - 1] + ' ' + iso.slice(0, 4) : '';
+const yearsAgo = iso => iso ? (Date.now() - new Date(iso)) / 3.156e10 : 0;
+const RANK = {'Exceptional': 0, 'Outstanding': 0, 'Strong standard': 1, 'Good': 1, 'Expected standard': 1,
+              'Needs attention': 2, 'Requires improvement': 2, 'Urgent improvement': 3, 'Inadequate': 3};
+const toneOf = worst => ['top', 'ok', 'warn', 'bad'][worst] || 'na';
+function ofsted(o) {
+  if (!o) return {tone: 'na', head: 'No Ofsted match', sub: ''};
+  let head, sub = '', tone;
+  const areas = o.areas || [];
+  const worst = areas.length ? Math.max(...areas.map(a => RANK[a[1]] ?? 1)) : null;
+  const tally = () => Object.entries(areas.reduce((t, a) => (t[a[1]] = (t[a[1]] || 0) + 1, t), {}))
+    .sort((a, b) => (RANK[a[0]] ?? 1) - (RANK[b[0]] ?? 1)).map(([g, n]) => n + ' ' + g.replace(' standard', '')).join(', ');
+  if (o.kind === 'card') {
+    head = 'Report card'; sub = tally() + ' · ' + mon(o.date);
+    tone = areas.every(a => a[1] === 'Exceptional') ? 'top' : toneOf(worst);
+    if (o.safeguarding === 'Not met') { tone = 'bad'; sub += ' · safeguarding not met'; }
+  } else if (o.kind === 'grade') {
+    head = o.grade; sub = 'Ofsted · ' + mon(o.date); tone = toneOf(RANK[o.grade]);
+  } else if (o.kind === 'areas') {
+    const counts = areas.reduce((t, a) => (t[a[1]] = (t[a[1]] || 0) + 1, t), {});
+    const [top, n] = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+    head = (n === areas.length ? 'All ' : 'Mostly ') + top;
+    sub = tally() + ' · no overall grade · ' + mon(o.date); tone = toneOf(worst);
+  } else if (o.kind === 'ungraded') {
+    const m = /remains (Outstanding|Good)/.exec(o.ungraded.outcome);
+    head = m ? m[1] : o.ungraded.outcome; tone = m ? toneOf(RANK[m[1]]) : 'ok';
+    sub = 'confirmed at ungraded inspection · ' + mon(o.date);
+  } else return {tone: 'na', head: 'Not yet inspected', sub: ''};
+  if (o.ungraded && o.kind !== 'ungraded') sub += ` · checked again ${mon(o.ungraded.date)}: ${o.ungraded.outcome.toLowerCase()}`;
+  const latest = o.ungraded?.date && o.ungraded.date > (o.date || '') ? o.ungraded.date : o.date;
+  if (yearsAgo(latest) > 5) sub += ' · over 5 years ago';
+  if (o.concern) { tone = 'bad'; sub += ' · ' + o.concern.toLowerCase(); }
+  return {tone, head, sub};
+}
+function ofstedDetail(o) {
+  if (!o) return '';
+  const rows = (o.areas || []).map(a => `${esc(a[0])}: ${esc(a[1])}`);
+  if (o.safeguarding) rows.push('Safeguarding: ' + esc(o.safeguarding));
+  if (o.kind === 'ungraded') rows.push('The last full graded inspection was earlier; see the report for its grade.');
+  if (o.predecessor) rows.push('Includes inspections of the school before it changed type (e.g. became an academy).');
+  return `<div class="ofd"><b>Ofsted</b>${rows.length ? '<br>' + rows.join('<br>') : ''}<br><a href="${esc(o.link)}" target="_blank" rel="noopener">Full Ofsted reports</a></div>`;
+}
+
+function card(s) {
+  const r = s.result, c = r.c;
+  const how = s.method === 'walking' ? 'walking route' : s.method === 'straight_line' ? 'straight line' : 'method not stated';
+  const yours = s.method === 'walking'
+    ? (s.walk != null ? fmt(s.walk) + ' walk' : s.walkErr ? fmt(s.straight) + ' straight (route unavailable)' : 'calculating…')
+    : fmt(s.straight);
+  const years = s.d.map(x => {
+    const yv = yearVerdict(x, s.used).v;
+    const txt = x.s === 'distance' ? fmt(x.m) : x.s === 'all_offered' ? 'all offered' : 'n/a';
+    const mark = {in: '✓', all: '✓', edge: '≈', out: '✗', na: ''}[yv];
+    return `<span class="y-${yv}" title="${esc(yearVerdict(x, s.used).label)}">${x.y}: ${txt}${mark ? ' ' + mark : ''}</span>`;
+  }).join('');
+  const notes = [s.note, ...(s.d.filter(x => x.n).map(x => x.y + ': ' + x.n))].filter(Boolean).map(esc).join('<br>');
+  const of = ofsted(s.of);
+  const chipText = isTrend() ? {in: 'Safe', edge: 'Mixed', out: 'Unlikely', all: 'Open', na: 'No data'}
+                             : {in: 'Inside', edge: 'Just inside', out: 'Outside', all: 'Open', na: 'No data'};
+  return `<div class="school" data-id="${s.id}" data-v="${r.v}" tabindex="0">
+    <div class="s-top"><span class="s-name">${esc(s.name)}</span><span class="chip c-${r.v}">${r.close ? 'Just inside' : r.v === 'edge' && !isTrend() ? (r.diff >= 0 ? 'Just inside' : 'Just outside') : chipText[r.v]}</span></div>
+    <div class="s-meta">${esc(s.borough)} · ${esc(s.type || '')} · measured by ${how}${s.pan ? ' · ' + s.pan + ' places' : ''}</div>
+    <div class="nums"><span>You: <b>${yours}</b></span><span>Last distance${c ? ' (' + c.y + ')' : ''}: <b>${c && c.s === 'distance' ? fmt(c.m) : '–'}</b></span></div>
+    <div class="s-meta">${esc(r.label)}</div>
+    <div class="years">${years}</div>
+    <div class="ofs"><span class="chip o-${of.tone}">${esc(of.head)}</span><span class="s-meta">${esc(of.sub)}</span></div>
+    <div class="detail">${ofstedDetail(s.of)}${notes ? notes + '<br>' : ''}Postcode ${esc(s.postcode || 'unknown')}${s.src ? ` · <a href="${esc(s.src)}" target="_blank" rel="noopener">council source</a>` : ''}</div>
+  </div>`;
+}
+
+function drawRings(list) {
+  ringLayer.clearLayers();
+  for (const s of list) {
+    const c = s.result.c;
+    if (!s.ll || !c || c.s !== 'distance' || c.m >= UNDERSUB_M) continue;
+    L.circle(s.ll, {radius: c.m, color: colour(s.result.v), weight: s.method === 'walking' ? 2 : 1.5,
+      dashArray: s.method === 'walking' ? '6 6' : null, fillOpacity: s.method === 'walking' ? .03 : .07})
+      .bindTooltip(esc(s.name) + ': ' + fmt(c.m) + ' (' + c.y + ')').addTo(ringLayer);
+  }
+}
+
+function selectSchool(id, fromMap) {
+  document.querySelectorAll('.school.sel').forEach(e => e.classList.remove('sel'));
+  const el = document.querySelector(`.school[data-id="${id}"]`);
+  const s = schools[id];
+  if (el) { el.classList.add('sel'); if (fromMap) el.scrollIntoView({block: 'nearest', behavior: 'smooth'}); }
+  if (s.ll) {
+    const c = cutoff(s);
+    const o = ofsted(s.of);
+    const body = el ? '' : `<br>Ofsted: ${esc(o.head)}${o.sub ? ' (' + esc(o.sub) + ')' : ''}<br>${c && c.s === 'distance' ? 'Last distance ' + c.y + ': ' + fmt(c.m) : c && c.s === 'all_offered' ? 'Everyone offered (' + c.y + ')' : 'No distance published'}`;
+    L.popup().setLatLng(s.ll).setContent(`<b>${esc(s.name)}</b>${body}`).openOn(map);
+  }
+}
+
+function setStatus(t, err) { const e = $('#status'); e.textContent = t; e.className = err ? 'err' : ''; }
+
+// ---------- inputs ----------
+let homeLabel = '';
+async function lookupPostcode(pc) {
+  pc = pc.trim();
+  if (!pc) return;
+  $('#pc').value = pc.toUpperCase(); $('#mapPc').value = pc.toUpperCase();
+  setStatus('Looking up ' + pc.toUpperCase() + '…');
+  try {
+    const r = await fetch('https://api.postcodes.io/postcodes/' + encodeURIComponent(pc));
+    const j = await r.json();
+    if (!j.result) return setStatus('That postcode wasn’t recognised. Check it and try again.', true);
+    homeLabel = j.result.postcode;
+    setHome([j.result.latitude, j.result.longitude], j.result.postcode);
+  } catch (err) { setStatus('Couldn’t reach the postcode service. Check your connection.', true); }
+}
+function recentre() {
+  if (searchCircle) map.fitBounds(searchCircle.getBounds(), {padding: [20, 20]});
+  else map.setView([51.43, -0.17], 11);
+}
+$('#pcForm').addEventListener('submit', e => { e.preventDefault(); lookupPostcode($('#pc').value); });
+
+// Search and recentre controls that live on the map, so they stay reachable when zoomed or panned.
+const mapSearch = L.control({position: 'topleft'});
+mapSearch.onAdd = () => {
+  const d = L.DomUtil.create('form', 'mapsearch');
+  d.innerHTML = `<input id="mapPc" type="text" placeholder="Postcode" aria-label="Postcode" autocomplete="postal-code">
+    <button type="submit" title="Check this postcode">Go</button>
+    <button type="button" id="mapLoc" class="ghost" title="Use my current location">Locate</button>
+    <button type="button" id="mapHome" class="ghost" title="Back to my search area">Recentre</button>`;
+  L.DomEvent.disableClickPropagation(d);
+  L.DomEvent.disableScrollPropagation(d);
+  d.addEventListener('submit', e => { e.preventDefault(); lookupPostcode(d.querySelector('#mapPc').value); });
+  d.querySelector('#mapLoc').addEventListener('click', () => $('#locBtn').click());
+  d.querySelector('#mapHome').addEventListener('click', recentre);
+  return d;
+};
+mapSearch.addTo(map);
+
+$('#locBtn').addEventListener('click', () => {
+  if (!navigator.geolocation) return setStatus('Your browser doesn’t offer location. Enter a postcode instead.', true);
+  setStatus('Finding your location…');
+  navigator.geolocation.getCurrentPosition(
+    p => setHome([p.coords.latitude, p.coords.longitude], 'your location'),
+    () => setStatus('Location was blocked or unavailable. Enter a postcode instead.', true),
+    {enableHighAccuracy: true, timeout: 15000});
+});
+map.on('zoomend', drawAllSchools);
+map.on('click', e => setHome([e.latlng.lat, e.latlng.lng], 'the dropped pin'));
+$('#radius').addEventListener('change', () => home && setHome(home, homeMarker?.getPopup()?.getContent() || 'your location'));
+$('#yr').addEventListener('change', () => { if (home) render(schools.filter(s => s.result)); else drawAllSchools(); });
+
+// Keep the page itself at 100%: pinch and ctrl/cmd-scroll zoom only the map.
+const mapEl = document.getElementById('map');
+document.addEventListener('wheel', e => {
+  if (e.ctrlKey) e.preventDefault();           // trackpad pinch arrives as ctrl+wheel; over the map Leaflet zooms it
+}, {passive: false});
+for (const ev of ['gesturestart', 'gesturechange', 'gestureend']) // Safari pinch
+  document.addEventListener(ev, e => e.preventDefault(), {passive: false});
+document.addEventListener('touchmove', e => {                        // two-finger pinch outside the map on touch screens
+  if (e.touches.length > 1 && !mapEl.contains(e.target)) e.preventDefault();
+}, {passive: false});
+document.addEventListener('keydown', e => {                          // cmd/ctrl + / − / 0 zoom the map instead
+  if (!(e.ctrlKey || e.metaKey)) return;
+  if (['=', '+'].includes(e.key)) { e.preventDefault(); map.zoomIn(); }
+  else if (['-', '_'].includes(e.key)) { e.preventDefault(); map.zoomOut(); }
+  else if (e.key === '0') { e.preventDefault(); recentre(); }
+});
+
+locateSchools();
+</script>
+</body>
+</html>

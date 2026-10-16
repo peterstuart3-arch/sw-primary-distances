@@ -1,0 +1,1038 @@
+{
+ "borough": "Kingston",
+ "default_method": "straight_line",
+ "method_notes": "Kingston (admissions run by Achieving for Children) uses a straight-line measurement in metres from a grid reference point within the home property supplied by Ordnance Survey (the 'seed point') to the closest named school gate set out in the school's admission arrangements, calculated by the council's GIS; only GIS distances are used. Community school arrangements: main school gate, or nearest gate where more than one (nearest pedestrian gate used by the year group). Community oversubscription order: looked-after children, siblings, exceptional need, staff children, distance. No nodal points or catchment areas. Some faith/academy schools use different end points (central point of site, specific gates) or faith/parish/designated-area criteria.",
+ "method_source": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf",
+ "years_found": [
+  2025,
+  2024,
+  2023
+ ],
+ "sources": [
+  {
+   "year": 2025,
+   "title": "Achieving for Children / Kingston school admissions guide for September 2026 entry - Section 5 'last place allocated on National Offer Day 2025' (copy hosted on St Luke's CofE Primary website)",
+   "url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Kingston school admissions guide for September 2025 entry - 'last place allocated on National Offer Day 2024' (copy hosted on St Luke's site)",
+   "url": "https://stlukes.kingston.sch.uk/_site/data/files/pdf/admissions/3D9C9395E92B915B1427FC72DB34F085.pdf"
+  },
+  {
+   "year": 2023,
+   "title": "RBK notes to parents following primary allocation 2023 (distances in metres)",
+   "url": "https://www.kingston.gov.uk/downloads/file/2249/notes-to-parents-following-primary-allocation-2023"
+  },
+  {
+   "year": 2023,
+   "title": "Kingston Primary guide 2024 (September 2024 entry) - last place allocated on National Offer Day 2023",
+   "url": "https://www.kingston.gov.uk/sites/default/files/downloads/Kingston_Primary_guide_2024.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "Kingston's infant, junior, primary and secondary schools brochure 2026 (Jan 2026) - addresses/postcodes, types, PANs and school-specific measurement notes",
+   "url": "https://5f2fe3253cd1dfa0d089-bf8b2cdb6a1dc2999fecbc372702016c.ssl.cf3.rackcdn.com/uploads/ckeditor/attachments/19058/Kingston_s_infant__junior__primary_and_secondary_schools_brochure_2026__Jan_2026_.docx.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "King Athelstan admissions arrangements (RBK community schools wording on distance measurement)",
+   "url": "https://www.kingathelstan.kingston.sch.uk/assets/Uploads/downloads/Admissions-Arrangements-Policy-Oct-2025-Completed.pdf"
+  }
+ ],
+ "schools": [
+  {
+   "name": "Alexandra Primary School",
+   "postcode": "KT2 6SE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 0.512,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 0.363,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": 657.34,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Burlington Infant and Nursery School",
+   "postcode": "KT3 4LT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school paired with Burlington Junior (sibling at paired junior counts)",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 0.949,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 0.86,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Castle Hill Primary School",
+   "postcode": "KT9 1JE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Priority for children moving from school's specialist provision; distance measured to main entrance on Buckland Road",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 0.939,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 1.164,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": 591.5,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Christ Church CofE Primary School (Surbiton)",
+   "postcode": "KT5 8LJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church-membership criteria; distance measured to a single central point on the school site. Council does not publish its cut-off",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Christ Church New Malden CofE Primary School",
+   "postcode": "KT3 3TW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church-attendance criteria (15 places in faith category, supplementary form); distance measured to nearer of Lime Grove or Elm Road main entrances. 2026 brochure lists PAN 60",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Coombe Hill Infant School",
+   "postcode": "KT2 7DD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school paired with Coombe Hill Junior",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 1.854,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 1.441,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": 1279.83,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Corpus Christi Catholic Primary School",
+   "postcode": "KT3 3JU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy (formerly VA); Catholic denominational criteria with supplementary form. Council does not publish its cut-off",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Ellingham Primary School",
+   "postcode": "KT9 2JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Children living in the Malden Rushett area have priority over others nearer the school within the distance criterion. 2026 brochure lists PAN 60",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": 2060.11,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Fern Hill Primary School",
+   "postcode": "KT2 5PE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 2.21,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 14.875,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Grand Avenue Primary and Nursery School",
+   "postcode": "KT5 9HU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 1.709,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": 1971.94,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Green Lane Primary and Nursery School",
+   "postcode": "KT4 8AS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": 1.455,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "King Athelstan Primary School",
+   "postcode": "KT1 3AR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": 782.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "King's Oak Primary School",
+   "postcode": "KT3 3RZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "2026 brochure lists PAN 90",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Knollmead Primary School",
+   "postcode": "KT5 9QP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": 5.762,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": 1727.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Latchmere School",
+   "postcode": "KT2 5TT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": 1.003,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Lime Tree Primary School",
+   "postcode": "KT6 6DG",
+   "type": "unknown",
+   "method": "straight_line",
+   "method_note": "Foundation school; distance is final criterion and tie-breaker. 2026 brochure lists PAN 60",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 2.183,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 2.626,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Lovelace Primary School",
+   "postcode": "KT9 2RN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "2026 brochure lists PAN 90",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": 9368.55,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Malden Manor Primary and Nursery School",
+   "postcode": "KT3 5PF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "2026 brochure lists PAN 60",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 1.642,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Malden Parochial CofE Primary School",
+   "postcode": "KT4 7LW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Parish worship criteria; distance measured to the marked main gate. Council does not publish its cut-off",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Maple Infants' School",
+   "postcode": "KT6 4AL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 1.01,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": 1.38,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2023,
+     "value": 3019.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Our Lady Immaculate Catholic Primary School",
+   "postcode": "KT6 7DG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy (formerly VA); parish-based criteria, up to 20% of Reception places ring-fenced for St Catherine of Siena parish",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Robin Hood Primary and Nursery School",
+   "postcode": "SW15 3QL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Agatha's Catholic Primary School",
+   "postcode": "KT2 5TY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; denominational criteria; distance measured to nearest school gate. 2026 brochure lists PAN 60",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St John's CofE Primary School",
+   "postcode": "KT1 2SG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith criteria; criterion 5 uses a designated area map; final three places allocated by distance only. Council does not publish its cut-off",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary School",
+   "postcode": "KT1 2UP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Catholic (academy per 2026 brochure, VA earlier); denominational criteria; distance measured from school entrance. Council does not publish its cut-off. School site separately not checked",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Luke's CofE Primary School",
+   "postcode": "KT2 6EN",
+   "type": "unknown",
+   "method": "straight_line",
+   "method_note": "Foundation CofE school; distance measured to Elm Road or Acre Road pupil entrance gates. Council does not publish its cut-off",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Mary's CofE Primary School (Chessington)",
+   "postcode": "KT9 2DH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church-membership criteria with supplementary form; distance from Ordnance Survey point of home address",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Matthew's CofE Primary School",
+   "postcode": "KT6 6LW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith places capped at 20; distance measured to Langley Road gate; medical/social priority only within 1 km. Council does not publish its cut-off",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Paul's CofE Primary School (Chessington)",
+   "postcode": "KT9 1AJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "40% foundation (faith) places / 60% open places. Council does not publish its cut-off",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table says 'Contact the school' - no figure published"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "St Paul's CofE Primary School, Kingston Hill",
+   "postcode": "KT2 6AZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Distance measured to the Alexandra Road gate via St Paul's Walk. 2024 table and 2026 brochure list 60 places",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  },
+  {
+   "name": "Tolworth Infant and Nursery School",
+   "postcode": "KT6 7SA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school paired (federated) with Tolworth Junior",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2025,
+     "value": 0.832,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place offered under proximity (distance) criterion on National Offer Day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'All preferences met'"
+    },
+    {
+     "year": 2023,
+     "value": 663.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "From council 'notes to parents following primary allocation 2023' (on-time allocation, 17 April 2023)"
+    }
+   ],
+   "source_url": "https://www.stlukes.kingston.sch.uk/_site/data/files/3-admissions/reception/D9806FAB3AC5D9018F17BED64504282C.pdf"
+  }
+ ],
+ "gaps": "No National Offer Day 2026 (Sept 2026 entry) allocation data for Kingston could be found: the Sept 2027 entry guide (which would carry the 2026 table) was not located and the AfC/kingston.gov.uk admissions pages and the 'RBK Notes to parents following Primary 2025 allocation' PDF (rackcdn attachment 17727) failed to fetch, so 2025 is the latest year; 2023 is included as the third year. 2025 and 2024 figures are km to 3 decimals as printed in the guides (Maple 2025 '1.01 km', 2024 '1.38 km'); 2023 figures are metres from the council notes. Eight faith schools (Christ Church Surbiton, Corpus Christi, Malden Parochial, St John's, St Joseph's, St Luke's, St Matthew's, St Paul's Chessington) are listed by the council only as 'Contact the school' every year - no cut-off published; St John's own site shows a 'last child offered under proximity' series (2025: 0.624, units unstated, likely km) but it was not recorded since units/entry point were unconfirmed. PAN field = 'places available' in the 2025 allocation table; several differ from the 2026 brochure PANs (noted per school). Junior-only schools (Burlington Junior, Coombe Hill Junior, Tolworth Junior, St Andrew's and St Mark's CofE Junior) excluded as they have no Reception intake. Fern Hill 2024 cut-off 14.875 km is as printed. Postcodes from the council brochure (not cross-checked against GIAS). Per-school source_url points to the 2025-data guide; 2024/2023 values come from the other listed sources."
+}
