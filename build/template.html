@@ -2,7 +2,7 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>SW London Primary Distances</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
@@ -24,7 +24,7 @@
   --good:#5cc477; --good-soft:#18331f; --warn:#e4a64b; --warn-soft:#3a2a12;
   --bad:#ec7a7a; --bad-soft:#3b1b1b; --none:#9aa7b1; --none-soft:#232e33; color-scheme:dark}}
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;overflow:hidden;overscroll-behavior:none;touch-action:pan-x pan-y}
+html,body{height:100%;margin:0;overflow:hidden;overscroll-behavior:none}
 #map{touch-action:none}
 body{background:var(--paper);color:var(--ink);font:15px/1.5 var(--body);display:grid;grid-template-columns:minmax(340px,420px) minmax(0,1fr);grid-template-rows:minmax(0,1fr);grid-auto-rows:0;height:100vh;height:100dvh}
 #panel,#map{grid-row:1}
@@ -88,7 +88,9 @@ footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
 @media (max-width:760px){
   body{grid-template-columns:minmax(0,1fr);grid-template-rows:42vh minmax(0,1fr)}
   #map{grid-row:1;height:auto}
-  #panel{grid-row:2;border-right:0;border-top:1px solid var(--line)}
+  #panel{grid-row:2;border-right:0;border-top:1px solid var(--line);overflow-y:auto}
+  /* the whole panel scrolls as one, so the list and "How to read this" always get room */
+  header,#list,footer{flex:none;overflow:visible;max-height:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -100,7 +102,7 @@ footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
     <p class="sub">Reception places in Wandsworth, Merton, Lambeth, Richmond, Kingston, Sutton and Croydon, compared with the furthest distance each school offered on national offer day.</p>
     <form id="pcForm">
       <label for="pc" class="sr" hidden>Postcode</label>
-      <input id="pc" type="text" placeholder="Your postcode, e.g. SW18 4JQ" autocomplete="postal-code">
+      <input id="pc" type="text" placeholder="Your postcode, e.g. SW18 2PU" autocomplete="postal-code">
       <button type="submit">Check</button>
       <button type="button" id="locBtn" class="ghost" title="Use my current location">Locate me</button>
     </form>
@@ -118,7 +120,7 @@ footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
     <details>
       <summary>How to read this</summary>
       <p>“Last distance offered” is how far from the school the furthest child admitted on distance lived. It changes every year and is not a fixed catchment. Siblings, looked-after children, faith places and priority areas are offered before distance, so the figure only tells you about the distance criterion.</p>
-      <p>By default each school is judged across every year published. <b>Safe</b> means you’d have been inside the last distance (or everyone got in) in every year. <b>Mixed</b> means inside in some years but not others. <b>Just inside</b> means inside every year but by under 100 m in at least one, which is within the tool’s margin of error. <b>Unlikely</b> means outside in every year. One good year on its own is a weak signal, so the card flags schools with only one year of data. Pick a single year from the menu to see that year alone.</p>
+      <p>By default each school is judged across every year published. <b>Safe</b> means you’d have been inside the last distance (or everyone got in) in every year. <b>Mixed</b> means inside in some years but not others. <b>Just inside</b> means inside every year but by under 100 m in at least one, which is within the tool’s margin of error. <b>Unlikely</b> means outside in every year; if every miss was by under 100 m it’s marked “Just outside” instead. One good year on its own is a weak signal, so the card flags schools with only one year of data. Pick a single year from the menu to see that year alone.</p>
       <p>Straight-line distances are measured here from your postcode centre to the school’s postcode centre. Councils measure from your exact address point to a gate, entrance or site centre, so expect differences of up to about 100 m. So a school where you’re within 100 m of the cut-off is marked “Just inside” or “Just outside”: too close to call either way.</p>
       <p>Walking distances use OpenStreetMap footpaths, which won’t match a council’s own road and footpath network exactly. On the map, walking-route schools show a dashed circle: the true walking area always sits inside it.</p>
       <p>Ofsted no longer gives one overall grade. Schools inspected before September 2024 keep their old grade (Outstanding to Inadequate). Those inspected from September 2024 to November 2025 have area grades only. Since November 2025 schools get a report card rating six areas from Exceptional to Urgent improvement. Short “ungraded” inspections only confirm whether a school is still at its previous grade. Ofsted data is as at 31 August 2026.</p>
@@ -180,31 +182,8 @@ legend.onAdd = () => {
 };
 legend.addTo(map);
 
-// ---------- school locations (postcodes.io bulk, cached) ----------
-const schools = DATA.schools.map((s, i) => ({...s, id: i, ll: null}));
-async function locateSchools() {
-  let cache = {};
-  try { cache = JSON.parse(localStorage.getItem('pcCache') || '{}'); } catch (e) {}
-  const need = [...new Set(schools.map(s => s.postcode).filter(p => p && !cache[p]))];
-  for (let i = 0; i < need.length; i += 100) {
-    const batch = need.slice(i, i + 100);
-    try {
-      const r = await fetch('https://api.postcodes.io/postcodes', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({postcodes: batch})});
-      const j = await r.json();
-      for (const x of j.result || []) if (x.result) cache[x.query] = [x.result.latitude, x.result.longitude];
-    } catch (e) { setStatus('Couldn’t reach the postcode service to place schools on the map. Check your connection and reload.', true); }
-  }
-  // terminated postcodes (schools sometimes keep old ones)
-  for (const p of need.filter(p => !cache[p])) {
-    try {
-      const j = await (await fetch('https://api.postcodes.io/terminated_postcodes/' + encodeURIComponent(p))).json();
-      if (j.result) cache[p] = [j.result.latitude, j.result.longitude];
-    } catch (e) {}
-  }
-  try { localStorage.setItem('pcCache', JSON.stringify(cache)); } catch (e) {}
-  schools.forEach(s => s.ll = cache[s.postcode] || null);
-  drawAllSchools();
-}
+// ---------- school locations (built into the data by build/geocode.py) ----------
+const schools = DATA.schools.map((s, i) => ({...s, id: i, ll: s.ll || null}));
 
 // ---------- cut-off logic ----------
 const isTrend = () => $('#yr').value === 'trend';
@@ -254,8 +233,14 @@ function trendVerdict(s, dist) {
   // Inside every year, but narrowly in some
   const narrowIn = yrs.filter(r => r.v === 'edge' && r.diff >= 0);
   if (ok + narrowIn.length === n)
-    return {v: 'edge', label: `Inside in ${yearsTxt}, but by under 100 m in ${narrowIn.map(r => r.y).join(' and ')}, so only just`, close: true, c, yrs};
+    return {v: 'edge', label: `Inside in ${yearsTxt}, but by under 100 m in ${narrowIn.map(r => r.y).join(' and ')}, so only just`, chip: 'Just inside', c, yrs};
   const inside = ok + narrowIn.length;
+  // Never inside: outside every year, some only narrowly
+  if (!inside) {
+    const near = withDiff.reduce((a, b) => (a && a.diff > b.diff ? a : b), null);
+    if (out) return {v: 'out', label: `Outside in ${yearsTxt}; nearest miss ${fmt(-near.diff)} (${near.y})`, c, yrs};
+    return {v: 'edge', label: `Outside in ${yearsTxt}, but by under 100 m each time, so too close to call`, chip: 'Just outside', c, yrs};
+  }
   const latest = yrs[0];
   const word = latest.v === 'edge' ? (latest.diff >= 0 ? 'narrowly inside' : 'narrowly outside')
              : {in: 'inside', all: 'open to all', out: 'outside'}[latest.v];
@@ -274,7 +259,8 @@ function drawAllSchools() {
     if (!s.ll) continue;
     const vv = home ? (s.result?.v || 'na') : verdict(s, null).v;
     const z = map.getZoom(), base = z <= 10 ? 2.5 : z <= 11 ? 3.5 : z <= 13 ? 5 : 6.5;
-    const m = L.circleMarker(s.ll, {radius: home && s.result ? base + 1 : base, weight: 1.5, color: '#fff', fillColor: colour(vv), fillOpacity: home ? .95 : .7});
+    const m = L.circleMarker(s.ll, {radius: home && s.result ? base + 1 : base, weight: 1.5, color: '#fff', fillColor: colour(vv), fillOpacity: home ? .95 : .7,
+                                    bubblingMouseEvents: false});   // a click selects the school, not a new pin
     m.bindTooltip(esc(s.name));
     m.on('click', () => selectSchool(s.id, true));
     schoolLayer.addLayer(m);
@@ -294,13 +280,16 @@ async function walkingDistances(from, list) {
 }
 
 // ---------- main flow ----------
+// Each search gets a number; replies from an older search are dropped so they can't overwrite a newer one.
+let searchSeq = 0;
 async function setHome(ll, label) {
-  home = ll;
+  const seq = ++searchSeq;
+  home = ll; homeLabel = label;
   if (homeMarker) homeMarker.remove();
   homeMarker = L.marker(ll, {title: 'Your location'}).addTo(map).bindPopup(esc(label));
   const R = +$('#radius').value;
   if (searchCircle) searchCircle.remove();
-  searchCircle = L.circle(ll, {radius: R, color: css('--muted'), weight: 1, fill: false, dashArray: '2 6'}).addTo(map);
+  searchCircle = L.circle(ll, {radius: R, color: css('--muted'), weight: 1, fill: false, dashArray: '2 6', interactive: false}).addTo(map);
   map.fitBounds(searchCircle.getBounds(), {padding: [20, 20]});
 
   const near = schools.filter(s => s.ll).map(s => ({s, sl: haversine(ll, s.ll)})).filter(x => x.sl <= R);
@@ -311,9 +300,11 @@ async function setHome(ll, label) {
   if (walkers.length) {
     try {
       const w = await walkingDistances(ll, walkers);
+      if (seq !== searchSeq) return;
       walkers.forEach(s => s.walk = w[s.id] ?? null);
       setStatus(`${near.length} schools within ${fmt(R)} of ${label}.`);
     } catch (e) {
+      if (seq !== searchSeq) return;
       walkers.forEach(s => s.walkErr = true);
       setStatus('Walking-route service didn’t respond, so walking schools show straight-line distance (a lower bound).', true);
     }
@@ -330,7 +321,7 @@ function render(list) {
   const order = {in: 0, edge: 1, all: 2, out: 3, na: 4};
   list.sort((a, b) => order[a.result.v] - order[b.result.v] || a.straight - b.straight);
   const counts = list.reduce((o, s) => (o[s.result.v] = (o[s.result.v] || 0) + 1, o), {});
-  const names = isTrend() ? {in: 'safe every year', edge: 'mixed or just inside', all: 'open', out: 'outside every year', na: 'no data'}
+  const names = isTrend() ? {in: 'safe every year', edge: 'close or mixed', all: 'open', out: 'outside every year', na: 'no data'}
                           : {in: 'inside', edge: 'borderline', all: 'everyone offered', out: 'outside', na: 'no data'};
   $('#summary').innerHTML = Object.keys(order).filter(k => counts[k]).map(k => `<span class="chip c-${k}">${counts[k]} ${names[k]}</span>`).join('');
   $('#list').innerHTML = list.length ? list.map(card).join('') :
@@ -402,7 +393,7 @@ function card(s) {
   const chipText = isTrend() ? {in: 'Safe', edge: 'Mixed', out: 'Unlikely', all: 'Open', na: 'No data'}
                              : {in: 'Inside', edge: 'Just inside', out: 'Outside', all: 'Open', na: 'No data'};
   return `<div class="school" data-id="${s.id}" data-v="${r.v}" tabindex="0">
-    <div class="s-top"><span class="s-name">${esc(s.name)}</span><span class="chip c-${r.v}">${r.close ? 'Just inside' : r.v === 'edge' && !isTrend() ? (r.diff >= 0 ? 'Just inside' : 'Just outside') : chipText[r.v]}</span></div>
+    <div class="s-top"><span class="s-name">${esc(s.name)}</span><span class="chip c-${r.v}">${r.chip ? r.chip : r.v === 'edge' && !isTrend() ? (r.diff >= 0 ? 'Just inside' : 'Just outside') : chipText[r.v]}</span></div>
     <div class="s-meta">${esc(s.borough)} · ${esc(s.type || '')} · measured by ${how}${s.pan ? ' · ' + s.pan + ' places' : ''}</div>
     <div class="nums"><span>You: <b>${yours}</b></span><span>Last distance${c ? ' (' + c.y + ')' : ''}: <b>${c && c.s === 'distance' ? fmt(c.m) : '–'}</b></span></div>
     <div class="s-meta">${esc(r.label)}</div>
@@ -417,9 +408,9 @@ function drawRings(list) {
   for (const s of list) {
     const c = s.result.c;
     if (!s.ll || !c || c.s !== 'distance' || c.m >= UNDERSUB_M) continue;
-    L.circle(s.ll, {radius: c.m, color: colour(s.result.v), weight: s.method === 'walking' ? 2 : 1.5,
-      dashArray: s.method === 'walking' ? '6 6' : null, fillOpacity: s.method === 'walking' ? .03 : .07})
-      .bindTooltip(esc(s.name) + ': ' + fmt(c.m) + ' (' + c.y + ')').addTo(ringLayer);
+    // not clickable: a click inside a ring drops a pin on the map below
+    L.circle(s.ll, {radius: c.m, color: colour(s.result.v), weight: s.method === 'walking' ? 2 : 1.5, interactive: false,
+      dashArray: s.method === 'walking' ? '6 6' : null, fillOpacity: s.method === 'walking' ? .03 : .07}).addTo(ringLayer);
   }
 }
 
@@ -443,15 +434,20 @@ let homeLabel = '';
 async function lookupPostcode(pc) {
   pc = pc.trim();
   if (!pc) return;
+  const seq = ++searchSeq;
   $('#pc').value = pc.toUpperCase(); $('#mapPc').value = pc.toUpperCase();
   setStatus('Looking up ' + pc.toUpperCase() + '…');
   try {
-    const r = await fetch('https://api.postcodes.io/postcodes/' + encodeURIComponent(pc));
+    let r = await fetch('https://api.postcodes.io/postcodes/' + encodeURIComponent(pc));
+    // a postcode that's been withdrawn still has a location
+    if (r.status === 404) r = await fetch('https://api.postcodes.io/terminated_postcodes/' + encodeURIComponent(pc));
+    if (seq !== searchSeq) return;
+    if (r.status !== 404 && !r.ok) return setStatus('The postcode service is busy. Try again in a moment.', true);
     const j = await r.json();
     if (!j.result) return setStatus('That postcode wasn’t recognised. Check it and try again.', true);
-    homeLabel = j.result.postcode;
+    $('#pc').value = $('#mapPc').value = j.result.postcode;
     setHome([j.result.latitude, j.result.longitude], j.result.postcode);
-  } catch (err) { setStatus('Couldn’t reach the postcode service. Check your connection.', true); }
+  } catch (err) { if (seq === searchSeq) setStatus('Couldn’t reach the postcode service. Check your connection.', true); }
 }
 function recentre() {
   if (searchCircle) map.fitBounds(searchCircle.getBounds(), {padding: [20, 20]});
@@ -479,34 +475,25 @@ mapSearch.addTo(map);
 $('#locBtn').addEventListener('click', () => {
   if (!navigator.geolocation) return setStatus('Your browser doesn’t offer location. Enter a postcode instead.', true);
   setStatus('Finding your location…');
+  const seq = ++searchSeq;
   navigator.geolocation.getCurrentPosition(
-    p => setHome([p.coords.latitude, p.coords.longitude], 'your location'),
-    () => setStatus('Location was blocked or unavailable. Enter a postcode instead.', true),
+    p => { if (seq === searchSeq) setHome([p.coords.latitude, p.coords.longitude], 'your location'); },
+    () => { if (seq === searchSeq) setStatus('Location was blocked or unavailable. Enter a postcode instead.', true); },
     {enableHighAccuracy: true, timeout: 15000});
 });
 map.on('zoomend', drawAllSchools);
 map.on('click', e => setHome([e.latlng.lat, e.latlng.lng], 'the dropped pin'));
-$('#radius').addEventListener('change', () => home && setHome(home, homeMarker?.getPopup()?.getContent() || 'your location'));
+$('#radius').addEventListener('change', () => home && setHome(home, homeLabel));
 $('#yr').addEventListener('change', () => { if (home) render(schools.filter(s => s.result)); else drawAllSchools(); });
 
-// Keep the page itself at 100%: pinch and ctrl/cmd-scroll zoom only the map.
+// A pinch over the map zooms the map, not the page. Everywhere else the browser's own zoom works as normal.
 const mapEl = document.getElementById('map');
-document.addEventListener('wheel', e => {
-  if (e.ctrlKey) e.preventDefault();           // trackpad pinch arrives as ctrl+wheel; over the map Leaflet zooms it
-}, {passive: false});
-for (const ev of ['gesturestart', 'gesturechange', 'gestureend']) // Safari pinch
-  document.addEventListener(ev, e => e.preventDefault(), {passive: false});
-document.addEventListener('touchmove', e => {                        // two-finger pinch outside the map on touch screens
-  if (e.touches.length > 1 && !mapEl.contains(e.target)) e.preventDefault();
-}, {passive: false});
-document.addEventListener('keydown', e => {                          // cmd/ctrl + / − / 0 zoom the map instead
-  if (!(e.ctrlKey || e.metaKey)) return;
-  if (['=', '+'].includes(e.key)) { e.preventDefault(); map.zoomIn(); }
-  else if (['-', '_'].includes(e.key)) { e.preventDefault(); map.zoomOut(); }
-  else if (e.key === '0') { e.preventDefault(); recentre(); }
-});
+const overMap = e => mapEl.contains(e.target);
+document.addEventListener('wheel', e => { if (e.ctrlKey && overMap(e)) e.preventDefault(); }, {passive: false}); // trackpad pinch
+for (const ev of ['gesturestart', 'gesturechange', 'gestureend'])                                                  // Safari pinch
+  document.addEventListener(ev, e => { if (overMap(e)) e.preventDefault(); }, {passive: false});
 
-locateSchools();
+drawAllSchools();
 </script>
 </body>
 </html>

@@ -20,6 +20,7 @@ Live site: https://peterstuart3-arch.github.io/sw-primary-distances/
   - `borough-data/` – the raw per-borough figures gathered from council documents
   - `merge.py` – merges the borough files into `schools.pre-ofsted.json`
   - `ofsted_match.py` – matches each school to Ofsted's "latest inspections" management information CSV and writes `schools.json`
+  - `geocode.py` – adds each school's postcode coordinates to `schools.json`, so the page doesn't have to look them up
   - `build.py` – puts `schools.json` into `template.html` and writes `index.html` and `schools.csv`
 
 ## Yearly refresh
@@ -29,7 +30,8 @@ Allocation figures change after national offer day each April, and Ofsted publis
 1. Update the files in `build/borough-data/` with the new year's figures from each council.
 2. Run `python3 build/merge.py build/borough-data build/schools.pre-ofsted.json`.
 3. Download the latest Ofsted "state-funded schools – latest inspections" CSV from https://www.gov.uk/government/statistics/monthly-management-information-ofsteds-school-inspections-outcomes and run `python3 build/ofsted_match.py path/to/that.csv`.
-4. Run `python3 build/build.py`, then commit and push.
+4. Run `python3 build/geocode.py` to add school locations.
+5. Run `python3 build/build.py`, then commit and push.
 
 ## Caveats
 
