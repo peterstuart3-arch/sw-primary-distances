@@ -411,6 +411,38 @@
    "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
   },
   {
+   "name": "Cuddington Croft Primary",
+   "postcode": "SM2 7NA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; distance measurement point not checked.",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in Sutton's allocation tables; the school is its own admission authority and its figures weren't found published elsewhere"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in Sutton's allocation tables; the school is its own admission authority and its figures weren't found published elsewhere"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in Sutton's allocation tables; the school is its own admission authority and its figures weren't found published elsewhere"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
    "name": "Culvers House Primary",
    "postcode": "CR4 4JH",
    "type": "foundation",
@@ -795,38 +827,6 @@
    "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
   },
   {
-   "name": "Stanley Park Infants",
-   "postcode": "SM5 3JL",
-   "type": "academy",
-   "method": "straight_line",
-   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
-   "pan": 90,
-   "distances": [
-    {
-     "year": 2026,
-     "value": 2223.48,
-     "unit": "metres",
-     "status": "distance",
-     "criterion_note": null
-    },
-    {
-     "year": 2025,
-     "value": 1490.4,
-     "unit": "metres",
-     "status": "distance",
-     "criterion_note": null
-    },
-    {
-     "year": 2024,
-     "value": null,
-     "unit": null,
-     "status": "all_offered",
-     "criterion_note": "Source shows 'All' (all applicants offered)"
-    }
-   ],
-   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
-  },
-  {
    "name": "St Cecilia's Catholic Primary",
    "postcode": "SM3 9DL",
    "type": "VA faith",
@@ -950,6 +950,38 @@
      "unit": null,
      "status": "no_distance_offers",
      "criterion_note": "Source shows 'N/A' (VA school; places allocated mainly on religious commitment/practice, no distance cut-off published)"
+    }
+   ],
+   "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
+  },
+  {
+   "name": "Stanley Park Infants",
+   "postcode": "SM5 3JL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet notes some schools measure to the 'entrance of the school' or 'front door' rather than the main entrance of the building (straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2223.48,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1490.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All' (all applicants offered)"
     }
    ],
    "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
@@ -1115,5 +1147,5 @@
    "source_url": "https://www.sutton.gov.uk/-/primary-school-allocation-information"
   }
  ],
- "gaps": "Postcodes taken from the school list in the Starting School booklet 2026 (not cross-checked against GIAS). 2026 figures read from a council-site mirror (prod-sutton.digitalplace.dp.placecube.com) of the sutton.gov.uk allocation page. Tables give only the furthest distance, not which criterion it was reached under. 'N/A' for VA faith schools interpreted as no distance-based cut-off (places by faith criteria). Individual VA/academy distance-point variations not researched per school. 2024 table year inferred from 2025 booklet 'last year' label. Junior schools excluded."
+ "gaps": "Postcodes taken from the school list in the Starting School booklet 2026 (not cross-checked against GIAS). 2026 figures read from a council-site mirror (prod-sutton.digitalplace.dp.placecube.com) of the sutton.gov.uk allocation page. Tables give only the furthest distance, not which criterion it was reached under. 'N/A' for VA faith schools interpreted as no distance-based cut-off (places by faith criteria). Individual VA/academy distance-point variations not researched per school. 2024 table year inferred from 2025 booklet 'last year' label. Junior schools excluded. Cuddington Croft Primary (academy, SM2 7NA) is missing from all of Sutton's allocation tables, so it's included with no figures."
 }

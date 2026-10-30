@@ -24,7 +24,25 @@ def iso(dt): return dt.strftime('%Y-%m-%d') if dt else None
 def val(x): return None if x in ('', 'NULL', 'Not applicable', None) else x
 
 rows = [r for r in csv.DictReader(open(OFSTED, encoding='utf-8-sig', errors='replace'))
-        if r['Ofsted phase'] in ('Primary', 'All-through', 'Secondary')]
+        if r['Ofsted phase'] in ('Primary', 'All-through', 'Secondary')
+        # a secondary-only school can't be a primary, however alike the names (Pimlico Primary vs Pimlico Academy)
+        and not (r['Statutory lowest age'].isdigit() and int(r['Statutory lowest age']) >= 11)]
+BY_URN = {r['URN']: r for r in rows}
+# schools whose name has changed too much to match (renamed, or all-through schools listed by their primary phase)
+URN_FOR = {
+    'Eastbrook School (primary phase)': '101243',
+    'Goresbrook School (primary phase)': '140962',
+    'St Mary Magdalene CofE All Through School (Woolwich site)': '100171',
+    'Grange Park School (formerly Grange Park Infant and Nursery)': '102432',
+    'Whitehall Primary (formerly Whitehall Infant)': '102399',
+    'Prendergast Primary (Prendergast Ladywell School)': '150318',
+    'School 21': '138196',
+    'School 360': '148623',
+    # extra sites inspected with their main school
+    'Manor Primary - Sandringham Road site (infants)': '101193',
+    'Ripple Primary - Westbury site': '101198',
+    'Valence Primary - St Georges Road site': '101222',
+}
 
 def record(r):
     out = {'urn': r['URN'], 'name': r['School name'], 'link': f"https://reports.ofsted.gov.uk/provider/21/{r['URN']}"}
@@ -60,6 +78,10 @@ def record(r):
 data = json.load(open(os.path.join(HERE, 'schools.pre-ofsted.json')))
 log, used = [], {}
 for s in data['schools']:
+    if s['name'] in URN_FOR:
+        s['of'] = record(BY_URN[URN_FOR[s['name']]])
+        used.setdefault(s['of']['urn'], []).append((s, True))
+        continue
     cand = [r for r in rows if r['Local authority'] == LA_NAME.get(s['borough'], s['borough'].replace(' & ', ' and '))]
     target = norm(s['name'])
     scored = []

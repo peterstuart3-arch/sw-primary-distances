@@ -13,7 +13,7 @@ Live site: https://peterstuart3-arch.github.io/sw-primary-distances/
 ## What's in this repo
 
 - `index.html` – the whole tool in one file, with the data built in. This is what GitHub Pages serves.
-- `schools.csv` – the full index as a spreadsheet: 1,708 schools, last distance offered for 2024–2026 where published (2023 where a year is missing), measurement method, Ofsted outcome and the council source for each figure.
+- `schools.csv` – the full index as a spreadsheet: 1,709 schools, last distance offered for 2024–2026 where published (2023 where a year is missing), measurement method, Ofsted outcome and the council source for each figure.
 - `build/` – what's needed to rebuild `index.html` when the data changes:
   - `template.html` – the page, with a `/*__DATA__*/null` placeholder for the data
   - `schools.json` – the merged data, including Ofsted
