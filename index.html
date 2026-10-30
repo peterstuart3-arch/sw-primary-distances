@@ -586,6 +586,8 @@ function markSelected(id, scroll) {
   return el;
 }
 function selectSchool(id, fromMap) {
+  // a second click on the open card in the list closes it
+  if (!fromMap && selected === id) { selected = null; markSelected(null, false); map.closePopup(); return; }
   selected = id;
   const el = markSelected(id, fromMap);
   const s = schools[id];
