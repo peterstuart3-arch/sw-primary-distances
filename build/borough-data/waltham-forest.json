@@ -1,0 +1,1668 @@
+{
+  "borough": "Waltham Forest",
+  "default_method": "straight_line",
+  "method_notes": "Waltham Forest community and VC school criteria (Starting Primary School 2027 brochure, Section 1, pp11-13): distance is measured in a straight line from the centre of the child's permanent address, as defined by the Local Land and Property Gazetteer, to the designated main gate of the school. Measurement uses the RouteFinder GIS system, in miles. In multi-occupancy buildings the lowest door number takes priority; remaining ties go to a lottery drawn by an impartial officer. Barclay, Mission Grove and Hillyfield are split-site schools: both sites are measured and the shorter distance used. Several academies adopt the LA criteria (Barclay, Davies Lane, George Mitchell, Hillyfield, Mayville, Riverley, Roger Ascham, Selwyn, Sybourn, Thomas Gamuel, Willow Brook, Woodford Green, Yardley). Exceptions: Lime Academy Larkswood measures the walking route on AA route planner to the main gate. Buxton School measures straight line to its Woodhouse Road main gate. The United Learning Trust schools (Salisbury Manor, Longshaw, Whittingham, Walthamstow Primary Academy), Woodside (REAch2), Emmanuel (free school) and the Catholic/CofE schools have their own criteria. Where the brochure states their method it is straight line to the main gate.",
+  "method_source": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Starting Primary School 2027 brochure - 'How school places were offered for 2026 reception allocation' (pp31-32, National Offer Day 2026) and 'Cut off distances in miles for past three years' (p33)",
+      "url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "year": 2025,
+      "title": "Starting Primary School 2027 brochure - 3-year cut-off table, 2025/26 column (April 2025 offers)",
+      "url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "year": 2024,
+      "title": "Starting Primary School 2025 brochure - 'How school places were offered for 2024 reception allocation' (p31-32) and 3-year table; matches the 2024/25 column in the 2027 brochure",
+      "url": "https://walthamforest.gov.uk/sites/default/files/2024-09/Starting%20Primary%20School%202025.pdf"
+    },
+    {
+      "year": null,
+      "title": "Get Information about Schools (GIAS) all-establishments extract, 28 Oct 2026 (postcodes, types)",
+      "url": "https://get-information-schools.service.gov.uk/"
+    }
+  ],
+  "gaps": "The 2026 figures come from the detailed offer-day table, not the 3-year summary. The two disagree for three schools: Gwyn Jones (table n/a with 12 places left; summary 0.517), Parkside (table n/a with 9 left; summary 1.513, the same as its 2023 figure) and Willow Brook (table 0.515; summary 0.525). The detailed table was used. The 2025 figures come only from the 2025/26 column of the 3-year table: the Starting Primary School 2026 brochure, which holds the detailed 2025 table, was not found online. Blank cells mean 'all on-time applicants were offered this school or a higher preference' and are recorded as all_offered. Dawlish 2026 and St Joseph's Infant 2026 were full but show no cut-off, so they are also all_offered. Oakhill 2024 printed 5.772 miles (kept as printed). St Mary's CofE 2026 (0.305) was a multiple-birth case. PAN is the 2026 PAN from the offer-day table. The criteria of the ULT schools, Woodside, Emmanuel and the faith schools were not read in full, so their method is assumed straight line where not stated. Junior schools (Chapel End Junior Academy, St Joseph's Catholic Junior) are excluded.",
+  "schools": [
+    {
+      "name": "Ainslie Wood Primary School",
+      "postcode": "E4 9DD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.464,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": 0.509,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Barclay Primary School",
+      "postcode": "E10 6EJ",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Split-site school: distance measured to both sites and the shorter used. Academy following the LA community-school criteria.",
+      "pan": 180,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.02,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.552,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.796,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Barn Croft Primary School",
+      "postcode": "E17 8SB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.301,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Buxton School",
+      "postcode": "E11 3NN",
+      "type": "foundation",
+      "method": "straight_line",
+      "method_note": "All-through (3-16) foundation school, own admission authority; straight-line distance (LLPG, RouteFinder GIS) to the main gate on Woodhouse Road.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 18 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Chapel End Infant School and Early Years Centre",
+      "postcode": "E17 4LN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 1 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Chase Lane Primary School",
+      "postcode": "E4 8LA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 5 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": 0.518,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Chingford CofE Primary School",
+      "postcode": "E4 7EY",
+      "type": "VC faith",
+      "method": "straight_line",
+      "method_note": "Church of England voluntary controlled; LA criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.714,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Coppermill Primary School",
+      "postcode": "E17 6PB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.163,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.281,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.516,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Davies Lane Primary School",
+      "postcode": "E11 3DR",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.638,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.563,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Dawlish Primary School",
+      "postcode": "E10 6NN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a' although no places remained; brochure says no cut-off means all on-time applicants were offered this school or a higher preference"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Downsell Primary School",
+      "postcode": "E15 2BS",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 10 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Edinburgh Primary School",
+      "postcode": "E17 8QR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 24 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Emmanuel Community School",
+      "postcode": "E17 3BN",
+      "type": "free school",
+      "method": "straight_line",
+      "method_note": "Christian free school with its own criteria (up to 50% faith places); ties broken by proximity to the school.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 28 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "George Mitchell School",
+      "postcode": "E10 5DN",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "All-through academy following the LA community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 22 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "George Tomlinson Primary School",
+      "postcode": "E11 4QN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 11 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Greenleaf Primary School",
+      "postcode": "E17 6QW",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.461,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.244,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.413,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Gwyn Jones Primary School",
+      "postcode": "E11 1EU",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 12 places still available; the brochure's 3-year summary table instead prints 0.517 for 2026/27 (looks like an error: Parkside's 1.513 repeats its 2023 figure)"
+        },
+        {
+          "year": 2025,
+          "value": 0.367,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Handsworth Primary School",
+      "postcode": "E4 9PJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.417,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.274,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.349,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Henry Maynard Primary School",
+      "postcode": "E17 9JE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.787,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 1.589,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Hillyfield Primary Academy",
+      "postcode": "E17 6ED",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Split-site school: distance measured to both sites and the shorter used. Academy following the LA criteria.",
+      "pan": 180,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 14 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Lime Academy Larkswood",
+      "postcode": "E4 8ET",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Lime Trust is the admission authority. Brochure: distance measured from the child's permanent address to the main gate of the school using the walking route on AA route planner.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 59 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Longshaw Primary Academy",
+      "postcode": "E4 6LH",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "United Learning Trust is the admission authority (own criteria: LAC, medical, siblings, staff, distance); measurement method not stated in the brochure.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 7 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Mayville Academy",
+      "postcode": "E11 4PZ",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 17 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Mission Grove Primary School",
+      "postcode": "E17 7EJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": "Split-site school: distance measured to both sites and the shorter used.",
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 41 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Newport School",
+      "postcode": "E10 6PJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.473,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.476,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.401,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Oakhill Primary School",
+      "postcode": "IG8 9PY",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.703,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.61,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 5.772,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Our Lady and St George's Catholic Primary School",
+      "postcode": "E17 3EA",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Catholic academy with faith/parish criteria and a supplementary information form; straight-line distance assumed.",
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 23 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Parkside Primary School",
+      "postcode": "E4 6RE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 9 places still available; the brochure's 3-year summary table instead prints 1.513 for 2026/27 (looks like an error: Parkside's 1.513 repeats its 2023 figure)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": 0.901,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Riverley Primary School",
+      "postcode": "E10 7BZ",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.382,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.329,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.385,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Roger Ascham Primary School",
+      "postcode": "E17 5HU",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.486,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Salisbury Manor Primary School",
+      "postcode": "E4 8YJ",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "United Learning Trust is the admission authority (own criteria); measurement method not stated in the brochure.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 43 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Selwyn Primary School",
+      "postcode": "E4 9NE",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.618,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 1.005,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.597,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "South Grove Primary School",
+      "postcode": "E17 8PW",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.38,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.388,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.925,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "St Joseph's Catholic Infant School",
+      "postcode": "E10 7BL",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Catholic voluntary aided (St Joseph's Federation) with faith criteria; distance measured as straight line to the main gate.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a' although no places remained; brochure says no cut-off means all on-time applicants were offered this school or a higher preference"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "St Mary's Catholic Primary School",
+      "postcode": "E4 7BJ",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Catholic voluntary aided with faith criteria; straight-line distance assumed.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 1 places still available"
+        },
+        {
+          "year": 2025,
+          "value": 0.354,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.433,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "St Mary's CofE Primary School",
+      "postcode": "E17 9HJ",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Church of England academy with church-attendance criteria; straight-line distance assumed.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.305,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "2026 offer-day table prints *0.305*; footnote: last child offered was one of multiple births, all siblings admitted"
+        },
+        {
+          "year": 2025,
+          "value": 0.353,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.376,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "St Patrick's Catholic Primary School",
+      "postcode": "E17 7DP",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Catholic voluntary aided with faith criteria; straight-line distance assumed.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 36 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "St Saviour's Church of England Primary School",
+      "postcode": "E17 8ER",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Church of England academy with church-attendance criteria; straight-line distance assumed.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.545,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.524,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.417,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Stoneydown Park School",
+      "postcode": "E17 6JY",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 89,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.402,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.467,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.323,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Sybourn Primary School",
+      "postcode": "E17 8HA",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 44 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "The Jenny Hammond Primary School",
+      "postcode": "E11 3JH",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.318,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.303,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.368,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "The Winns Primary School",
+      "postcode": "E17 5ET",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.522,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.38,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.388,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "The Woodside Primary Academy",
+      "postcode": "E17 3JX",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "REAch2 academy with own criteria (LAC, siblings, staff, distance); measurement method not stated in the brochure.",
+      "pan": 180,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 62 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Thomas Gamuel Primary School",
+      "postcode": "E17 8LG",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 29 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Thorpe Hall Primary School",
+      "postcode": "E17 4DP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 15 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Walthamstow Primary Academy",
+      "postcode": "E17 5DP",
+      "type": "free school",
+      "method": "straight_line",
+      "method_note": "United Learning Trust is the admission authority (own criteria); measurement method not stated in the brochure.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 6 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Whitehall Primary School",
+      "postcode": "E4 6ES",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.746,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Whittingham Primary Academy",
+      "postcode": "E17 5QX",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "United Learning Trust is the admission authority (own criteria); measurement method not stated in the brochure.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2026 offer-day table: cut-off 'n/a', 34 places still available"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2025/26 column: all on-time applicants offered this school or a higher preference"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Willow Brook Primary School Academy",
+      "postcode": "E10 7BH",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.515,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table; the 3-year summary table prints 0.525"
+        },
+        {
+          "year": 2025,
+          "value": 0.484,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": 0.599,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2024/25 column of the 3-year table"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Woodford Green Primary School",
+      "postcode": "IG8 0ST",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.411,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 0.748,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    },
+    {
+      "name": "Yardley Primary School",
+      "postcode": "E4 7PH",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Academy following the LA community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.322,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2026 offer-day table"
+        },
+        {
+          "year": 2025,
+          "value": 1.521,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Cut-off distance in miles, 2025/26 column of the 3-year table"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "No cut-off shown in the 2024/25 column: all on-time applicants offered this school or a higher preference"
+        }
+      ],
+      "source_url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/PRIMARY%20BROCHURE%202027%20-%20V3_DIGITAL.pdf"
+    }
+  ]
+}

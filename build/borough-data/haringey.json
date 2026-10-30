@@ -1,0 +1,1737 @@
+{
+ "borough": "Haringey",
+ "default_method": "straight_line",
+ "method_notes": "Haringey Primary Admissions booklets (Sept 2026 and Sept 2027 entry), community school oversubscription criterion 5 'Distance' and Notes: distance measured in a straight line from the Ordnance Survey address point of the child's home to the Ordnance Survey address point of the school, calculated using the council's computerised mapping system; measurements by alternative systems or to other points are not taken into account. Tie-break within each criterion is home-school distance (same method); identical distances decided by random allocation supervised by an independent body. Community criteria order: LAC/previously LAC, exceptional social/medical, siblings, children of staff, distance. Some schools have a nursery criterion (e.g. Lift Trinity). Eden Primary (free school) and St James CofE (VA) use faith and distance bands; St Michael's CofE N6 uses a points-based faith criterion; Catholic/CofE VA and faith academies set their own criteria (not individually checked). The council's figure is the 'distance (in miles) from school of last child offered a place under distance criterion' on national offer day.",
+ "method_source": "https://www.haringey.gov.uk/sites/default/files/2026-08/primary_admissions_booklet.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Haringey Council web page 'Primary schools - distance from school of last child offered place on national offer day' (table 2022-2026, miles); also used for 2025/2024 cross-check",
+   "url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "year": 2025,
+   "title": "Reception Admissions 2025 - How offers were made (as at 16 April 2025; includes faith and banded schools)",
+   "url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Reception Admissions 2024 - How offers were made (as at 16 April 2024; includes faith and banded schools)",
+   "url": "https://www.haringey.gov.uk/sites/default/files/2024-04/reception_transfer_2024_-_how_offers_were_made.pdf"
+  },
+  {
+   "year": null,
+   "title": "Haringey Primary Admissions booklet, September 2027 entry (school A-Z, PANs, postcodes, criteria)",
+   "url": "https://www.haringey.gov.uk/sites/default/files/2026-08/primary_admissions_booklet.pdf"
+  },
+  {
+   "year": null,
+   "title": "Haringey Primary Admissions booklet, September 2026 entry (distance method)",
+   "url": "https://www.haringey.gov.uk/sites/default/files/2025-08/primary_admissions_booklet.pdf"
+  }
+ ],
+ "gaps": "2026: only the council web table (community/foundation/VC/non-faith academy schools) was found; the 2026 'Reception Admissions - How offers were made' PDF (which would cover faith and banded schools) was not found by search or the 2025 URL pattern, so 2026 is not_published for Eden, St James CofE, St Michael's N6, Our Lady of Muswell, St John Vianney and the other VA/faith academies (council says contact the school). Eight community/free schools (Alexandra, Brook House, Devonshire Hill, Earlsmead, Ferry Lane, Lea Valley, Lordship Lane, South Grove) are absent from the 2022-2026 cut-off table; they were all-offered in 2024 and 2025 and probably in 2026, but 2026 is recorded not_published because the council doesn't say so. Web table 2026 figures are printed to 3 dp (2022-2025 to 4 dp); 2025/2024 web values match the PDFs. Faith/banded schools: council publishes only partial figures ('contact the school for full details'); Eden and St James values are the distance-band cut-off, St Michael's N6 values are within a points criterion. Faith schools' own measuring methods were not checked; council straight-line method assumed. PAN from the Sept 2027 booklet (2025 offers table showed different 'PAN' for some, e.g. St Mary's CE 60, St Ignatius 60, St Paul's & All Hallows 60). Excluded: junior schools (Belmont Jr, Bounds Green Jr, Campsbourne Jr, Rokesly Jr, South Harringay Jr, St Francis de Sales Jr, St Mary's Priory Jr, St Paul's & All Hallows Jr) and closed schools (Tiverton, St Peter-in-Chains RC Inf; Seven Sisters became South Grove). Postcodes from the Sept 2027 booklet, checked against GIAS (all match). School types from GIAS (several Catholic/CofE schools shown as VA in the booklet are now academies).",
+ "schools": [
+  {
+   "name": "Alexandra Primary",
+   "postcode": "N22 6UH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Belmont Infant",
+   "postcode": "N22 6RA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.216,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.1808,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.2228,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Bounds Green Infant",
+   "postcode": "N11 2QG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.612,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.5317,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.6788,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Brook House Primary",
+   "postcode": "N17 8EY",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; own policy not checked, council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Bruce Grove Primary",
+   "postcode": "N17 6UH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.372,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Campsbourne Infant",
+   "postcode": "N8 7AF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.539,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.7065,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Chestnuts Primary",
+   "postcode": "N15 3AS",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.416,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.2729,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.3591,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Coldfall Primary",
+   "postcode": "N10 1HS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.593,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.8358,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.8008,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Coleridge Primary",
+   "postcode": "N8 8DN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.472,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.4913,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.6896,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Crowland Primary",
+   "postcode": "N15 6UX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Devonshire Hill Primary",
+   "postcode": "N17 8LB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Earlham Primary",
+   "postcode": "N22 5HJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": 0.7918,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Earlsmead Primary",
+   "postcode": "N15 4PW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Eden Primary",
+   "postcode": "N10 1NR",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Jewish-ethos free school with a faith band and an open (distance) band; recorded value is the last child offered in the open distance band.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": 2.2481,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Banded school: last child offered in Distance Band 2.2481 miles (8 distance-band offers); Faith Band last offer 1.043 miles"
+    },
+    {
+     "year": 2024,
+     "value": 0.9696,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Banded school: last child offered in Distance Band 0.9696 miles (4 distance-band offers); Faith Band last offer 0.5517 miles"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Ferry Lane Primary",
+   "postcode": "N17 9PP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Harris Academy Tottenham",
+   "postcode": "N17 9LN",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "All-through free school (primary phase PAN 30); on council distance table.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.295,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.3668,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.7063,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Harris Primary Academy Coleraine Park",
+   "postcode": "N17 9XT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.9939,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Harris Primary Academy Philip Lane",
+   "postcode": "N15 4AB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.237,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.3807,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.3377,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Highgate Primary",
+   "postcode": "N6 4ED",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.935,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 1.0265,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Holy Trinity CofE Primary",
+   "postcode": "N17 9EJ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "CofE academy with its own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.9717,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council 'How offers were made' 2024: distance of last child offered 0.9717 miles (22 offered under distance)"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Lancasterian Primary",
+   "postcode": "N17 8NN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.675,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.7961,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.8858,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Lea Valley Primary",
+   "postcode": "N17 0PT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Lift Noel Park",
+   "postcode": "N22 6LH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": 0.6743,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.6446,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Lift Trinity",
+   "postcode": "N22 8ES",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Lift Trinity has a nursery criterion ('children attending the nursery': 16 in 2024, 17 in 2025) before distance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.568,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.4733,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.4796,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Lordship Lane Primary",
+   "postcode": "N22 5PS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Mulberry Primary",
+   "postcode": "N17 9RB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": 0.522,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Muswell Hill Primary",
+   "postcode": "N10 3ST",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.515,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.5338,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.6578,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "North Harringay Primary",
+   "postcode": "N8 0NU",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.645,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.287,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.378,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Our Lady of Muswell Catholic Primary",
+   "postcode": "N10 1PS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA school; own faith-based admission arrangements (not checked).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": 2.4719,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council 2025 table: 19 offered under distance, last 2.4719 miles; 'For full admissions details contact the school directly'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Rhodes Avenue Primary",
+   "postcode": "N22 7UT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.459,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.3808,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.4884,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Risley Avenue Primary",
+   "postcode": "N17 7AB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.4343,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Rokesly Infant",
+   "postcode": "N8 8NH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.318,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.4557,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "South Grove Primary",
+   "postcode": "N15 5QE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Formerly Seven Sisters Primary (same site/head); 2024 figure is for Seven Sisters.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not listed in the council's 2022-2026 cut-off table (which only lists schools that reached a distance cut-off in at least one year); very likely all applicants were offered in 2026, but the council does not state it and the 2026 'How offers were made' PDF was not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024 lists Seven Sisters (now South Grove) among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "South Harringay Infant",
+   "postcode": "N4 1BA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.287,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.1884,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.2482,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "St Aidan's VC Primary",
+   "postcode": "N4 4RR",
+   "type": "VC faith",
+   "method": "straight_line",
+   "method_note": "Voluntary controlled; listed on the council's distance table.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.252,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.2178,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.7737,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "St Ann's CE Primary",
+   "postcode": "N15 5JG",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "CofE academy; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Francis de Sales Catholic Infant",
+   "postcode": "N17 8AZ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; own admission arrangements (not checked).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Ignatius Catholic Primary",
+   "postcode": "N15 6ND",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St James CofE Primary",
+   "postcode": "N10 3JA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE VA school with faith and distance bands; value recorded is the distance band.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.4127,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Banded school: Faith Band all on-time applicants offered (6 offers); last child offered in Distance Band 0.4127 miles (15 offers)"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St John Vianney Catholic Primary",
+   "postcode": "N15 3HD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA school; own faith-based admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": 0.2752,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council 2025 table: 8 offered under distance, last 0.2752 miles; 'For full admissions details contact the school directly'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Martin of Porres Catholic Primary",
+   "postcode": "N11 2AF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA school; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Mary's CofE Primary (N8)",
+   "postcode": "N8 7QN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE VA school; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Mary's Priory Catholic Infant",
+   "postcode": "N15 5RE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Michael's CofE Primary (N22)",
+   "postcode": "N22 8HE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "CofE academy; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Michael's CofE Primary (N6)",
+   "postcode": "N6 4BG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE VA school using a points-based faith criterion; council gives the distance of the last child within the last criterion reached.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": 0.8316,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council 2025 table: 'Last child offered under 7 Points criterion', distance 0.8316 miles; 'contact the school directly' for full details"
+    },
+    {
+     "year": 2024,
+     "value": 0.4026,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council 2024 table: 'Last child offered under 4 Points criterion', distance 0.4026 miles; 'contact the school directly' for full details"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Paul's and All Hallows CofE Infant",
+   "postcode": "N17 0HH",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "CofE academy; own admission arrangements (not checked).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "St Paul's Catholic Primary",
+   "postcode": "N22 7SZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA school; own admission arrangements (not checked).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council web table omits faith/banded schools ('contact the school for details'); 2026 'How offers were made' PDF not found"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/sites/default/files/2025-04/reception_transfer_2025_how_offers_were_made.pdf"
+  },
+  {
+   "name": "Stroud Green Primary",
+   "postcode": "N4 3EX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.35,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.3593,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.5029,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Tetherdown Primary",
+   "postcode": "N10 3BP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "The Willow Primary",
+   "postcode": "N17 6HW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.372,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.3234,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.1734,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Welbourne Primary",
+   "postcode": "N15 4EA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council web table shows 'N/A' (all applicants offered a place on national offer day)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2025: listed among schools where all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council 'How offers were made' 2024: listed among schools where all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "West Green Primary",
+   "postcode": "N15 3RT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.403,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.2863,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.5105,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  },
+  {
+   "name": "Weston Park Primary",
+   "postcode": "N8 9WP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.258,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2025,
+     "value": 0.2345,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    },
+    {
+     "year": 2024,
+     "value": 0.2817,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered under the distance criterion on national offer day"
+    }
+   ],
+   "source_url": "https://www.haringey.gov.uk/schools-learning/schools/school-admissions/how-school-place-offers-were-made/cutoff-distance-school-last-child-offered-place/primary-schools-distance-school-last-child-offered-place-national-offer-day"
+  }
+ ]
+}

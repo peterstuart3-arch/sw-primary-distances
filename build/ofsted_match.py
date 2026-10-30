@@ -5,8 +5,8 @@ from datetime import datetime
 
 OFSTED = sys.argv[1]
 SCHOOLS = os.path.join(HERE, 'schools.json')
-LA = {'Wandsworth': 'Wandsworth', 'Merton': 'Merton', 'Lambeth': 'Lambeth', 'Richmond': 'Richmond upon Thames',
-      'Kingston': 'Kingston upon Thames', 'Sutton': 'Sutton', 'Croydon': 'Croydon'}
+# Ofsted's local authority name for each borough in the data, where it isn't just '&' spelled out
+LA_NAME = {'Richmond': 'Richmond upon Thames', 'Kingston': 'Kingston upon Thames'}
 GRADE = {'1': 'Outstanding', '2': 'Good', '3': 'Requires improvement', '4': 'Inadequate'}
 STOP = r"\b(the|primary|school|schools|academy|and|nursery|c ?of ?e|ce|church of england|rc|catholic|voluntary aided|va|of|st|saint|&)\b"
 
@@ -24,7 +24,7 @@ def iso(dt): return dt.strftime('%Y-%m-%d') if dt else None
 def val(x): return None if x in ('', 'NULL', 'Not applicable', None) else x
 
 rows = [r for r in csv.DictReader(open(OFSTED, encoding='utf-8-sig', errors='replace'))
-        if r['Local authority'] in LA.values() and r['Ofsted phase'] in ('Primary', 'All-through', 'Secondary')]
+        if r['Ofsted phase'] in ('Primary', 'All-through', 'Secondary')]
 
 def record(r):
     out = {'urn': r['URN'], 'name': r['School name'], 'link': f"https://reports.ofsted.gov.uk/provider/21/{r['URN']}"}
@@ -60,7 +60,7 @@ def record(r):
 data = json.load(open(os.path.join(HERE, 'schools.pre-ofsted.json')))
 log, used = [], {}
 for s in data['schools']:
-    cand = [r for r in rows if r['Local authority'] == LA[s['borough']]]
+    cand = [r for r in rows if r['Local authority'] == LA_NAME.get(s['borough'], s['borough'].replace(' & ', ' and '))]
     target = norm(s['name'])
     scored = []
     for r in cand:
@@ -68,18 +68,26 @@ for s in data['schools']:
         ratio = difflib.SequenceMatcher(None, target, norm(r['School name'])).ratio()
         pc = (r['Postcode'].replace(' ', '') == (s['postcode'] or '').replace(' ', ''))
         if any((w in target) != (w in norm(r['School name'])) for w in ('infant', 'junior')): continue
-        scored.append((ratio + (0.35 if pc else 0), ratio, pc, r))
+        scored.append((ratio + (0.5 if pc else 0), ratio, pc, r))
     scored.sort(key=lambda x: -x[0])
     best = scored[0] if scored else None
     contains = best and (target in norm(best[3]['School name']) or norm(best[3]['School name']) in target) and len(target) > 3
-    ok = best and (best[1] >= 0.8 or (best[2] and (best[1] >= 0.45 or contains)))
+    ok = best and (best[1] >= 0.8 or (contains and len(target) >= 8) or (best[2] and (best[1] >= 0.45 or contains)))
     if ok:
         s['of'] = record(best[3])
-        used.setdefault(best[3]['URN'], []).append(s['name'])
+        used.setdefault(best[3]['URN'], []).append((s, best[2]))
         if best[1] < 0.95: log.append(f"~ {s['borough']}: {s['name']!r} -> {best[3]['School name']!r} ({best[1]:.2f}, pc={best[2]})")
     else:
         s['of'] = None
         log.append(f"X {s['borough']}: {s['name']!r} best {best[3]['School name']!r} ({best[1]:.2f}, pc={best[2]})" if best else f"X {s['name']}")
+
+# one Ofsted record claimed by several schools (e.g. "St Mark's" vs "St Mary's", as "St" is ignored): keep the postcode match
+for urn, claims in used.items():
+    if len(claims) > 1 and any(pc for _, pc in claims):
+        for s, pc in claims:
+            if not pc:
+                s['of'] = None
+                log.append(f"X {s['borough']}: {s['name']!r} lost URN {urn} to a postcode match")
 
 # split-site schools share one Ofsted record
 for s in data['schools']:
@@ -89,6 +97,6 @@ for s in data['schools']:
         if sib: s['of'] = sib['of']; log.append(f"= {s['name']!r} shares {sib['name']!r}")
 json.dump(data, open(SCHOOLS, 'w'), separators=(',', ':'))
 print('\n'.join(log))
-print('dupes:', {k: v for k, v in used.items() if len(v) > 1})
+print('dupes:', {k: [s['name'] for s, _ in v] for k, v in used.items() if sum(s['of'] is not None for s, _ in v) > 1})
 import collections
 print(collections.Counter((s['of'] or {}).get('kind', 'unmatched') for s in data['schools']))

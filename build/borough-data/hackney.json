@@ -1,0 +1,1651 @@
+{
+  "borough": "Hackney",
+  "default_method": "straight_line",
+  "method_notes": "Hackney Education (home school distance page and Community Schools Admission Arrangements): home-to-school distance is measured in a straight line by a computerised distance-measuring system from the home address point (NLPG easting/northing, usually within the property footprint; one point per block of flats) to the main entrance of the school; the measuring point may not be the gate currently used. Community school oversubscription order: EHCP named, looked-after/previously looked-after, child protection plan, medical/social, siblings (community schools: if the family has moved since the sibling was offered, sibling priority only within 2 miles), children of staff, distance. Council says some schools and academies measure distance using other methods. Council tables give 'Max Distance (last child offered in miles)' only for community schools; VA schools and academies table gives applications/offers only.",
+  "method_source": "https://education.hackney.gov.uk/content/home-school-distance",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Applications and offers at Hackney primary schools for Reception admissions 2026 (How Places Were Offered - Reception 2026)",
+      "url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "year": 2025,
+      "title": "Applications and offers at Hackney primary schools for Reception admissions 2025",
+      "url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202025.pdf"
+    },
+    {
+      "year": 2024,
+      "title": "Applications and offers at Hackney primary schools for Reception admissions 2024",
+      "url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202024.pdf"
+    },
+    {
+      "year": null,
+      "title": "Applications and Offers at Hackney Primary Schools 2018-26 (combined; same figures)",
+      "url": "https://education.hackney.gov.uk/sites/default/files/document/Applications%20and%20Offers%20at%20Hackney%20Primary%20Schools%202018-26.pdf"
+    },
+    {
+      "year": null,
+      "title": "Hackney Education - Common priority criteria / home school distance (measurement method)",
+      "url": "https://education.hackney.gov.uk/content/home-school-distance"
+    },
+    {
+      "year": null,
+      "title": "Hackney Community Schools Admission Arrangements 2024-25",
+      "url": "https://education.hackney.gov.uk/sites/default/files/document/Community%20Schools%20Admissions%20Arrangements%202024-25.pdf"
+    },
+    {
+      "year": null,
+      "title": "DfE Get Information about Schools (GIAS) all-establishments extract 29 Oct 2026 (postcodes, types, open/closed status)",
+      "url": "https://get-information-schools.service.gov.uk/Downloads"
+    }
+  ],
+  "gaps": "Council publishes cut-off distances only for the 32 community schools; the 18 VA schools and academies have no distance in any year, so they are 'not_published' unless the table shows non-preference offers or offers below places available (then 'all_offered'). Interpretation choices: a community school with non-preference offers, or with offers below places and no cap, is recorded as 'all_offered' (the printed max distance is kept in criterion_note) because vacancies remained after all applicants were placed; Hackney has falling rolls and many undersubscribed schools. Implausible printed distances on full schools (Hoxton Garden 2026: 350.333 miles; Parkwood 2024: 350.244 miles) recorded as not_published; other 350+/180 mile values (Millfields 2024/2025, Princess May 2025, Queensbridge 2025) fell on schools with non-preference offers and are recorded as all_offered. Capped schools (Hoxton Garden, Orchard, Princess May in 2026; Mandeville/Oldhill/Orchard/Princess May/Hoxton earlier) keep the distance even when offers < PAN. PAN = 'Total Places Available' in the 2026 table. Closed schools in earlier tables (Oldhill, Sir Thomas Abney, St Dominic's, St Mary's CofE - closed Aug 2025 per GIAS or absent from 2026 table) excluded. Postcodes and types from GIAS (Oct 2026). Per-school academy/VA measurement methods not researched (method 'unknown'). Distances are as printed in miles to 3 d.p.; criterion of the last offer is not given. The column is headed 'Max Distance (last child offered in miles)'; some full schools show large values (Gainsborough 2025 8.332, London Fields 2024 6.481, Queensbridge 2026 3.517, Shoreditch Park 2024 2.304) that may be the furthest child offered under a non-distance criterion (sibling/medical) rather than a true distance cut-off - recorded as printed, unverified.",
+  "schools": [
+    {
+      "name": "Benthal Primary School",
+      "postcode": "N16 7AU",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 0.833 miles. Offers 14 of 60 places; 59 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 3.4 miles. Offers 24 of 60 places; 64 applications; non-preference offers 4"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 1.44 miles. Offers 19 of 60 places; 61 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Berger Primary School",
+      "postcode": "E9 6HB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 9.719 miles. Offers 37 of 60 places; 67 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 3.663 miles. Offers 45 of 60 places; 93 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 5.611 miles. Offers 53 of 60 places; 110 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Betty Layward Primary School",
+      "postcode": "N16 9EX",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.245,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 250 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.229,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 270 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.305,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 238 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Daubeney Primary School",
+      "postcode": "E5 0EG",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 5.829 miles. Offers 45 of 60 places; 114 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 6.599 miles. Offers 44 of 60 places; 109 applications; non-preference offers 1"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 1.037 miles. Offers 55 of 60 places; 119 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Gainsborough Primary School",
+      "postcode": "E9 5ND",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3.31,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 68 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 8.332,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 70 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 1.576 miles. Offers 24 of 30 places; 55 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Gayhurst Community School",
+      "postcode": "E8 3EN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.344,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 247 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.314,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 226 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.402,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 208 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Grasmere Primary School",
+      "postcode": "N16 9PD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.197,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 183 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.236,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 190 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.331,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 180 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Grazebrook Primary School",
+      "postcode": "N16 0QP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.51,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 227 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.417,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 252 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.439,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 239 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Harrington Hill Primary School",
+      "postcode": "E5 9JG",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 0.321 miles. Offers 18 of 60 places; 46 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 6.438 miles. Offers 19 of 30 places; 33 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 0.48 miles. Offers 17 of 30 places; 49 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Holmleigh Primary School",
+      "postcode": "N16 5ED",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 7.416 miles. Offers 45 of 60 places; 87 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": 1.158,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 65 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 1.103,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 82 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Hoxton Garden Primary School",
+      "postcode": "N1 5JD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": "Admissions capped below PAN for September 2026 (council table footnote).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Printed max distance 350.333 miles is implausible (likely data error / out-of-country address); school full. Offers 30 of 30 places; 85 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 3.463,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 88 applications; non-preference offers 0; admissions capped below PAN this year"
+        },
+        {
+          "year": 2024,
+          "value": 0.394,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 94 applications; non-preference offers 0; admissions capped below PAN this year"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Jubilee Primary School",
+      "postcode": "N16 6NR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 1.294 miles. Offers 57 of 60 places; 136 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.338,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 168 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.886,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 154 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Kingsmead Primary School",
+      "postcode": "E9 5PP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.568,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 89 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 1.634,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 89 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 0.522 miles. Offers 23 of 30 places; 75 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Lauriston Primary School",
+      "postcode": "E9 7JS",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.463,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 180 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.776,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 177 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.75,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 162 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "London Fields Primary School",
+      "postcode": "E8 3RL",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.179 miles. Offers 58 of 60 places; 199 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": 0.647,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 254 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 6.481,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 212 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Mandeville Primary School",
+      "postcode": "E5 0BT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 1.668 miles. Offers 42 of 45 places; 122 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 2.578 miles. Offers 40 of 45 places; 119 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.847,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 24 of 30 places; 80 applications; non-preference offers 0; admissions capped below PAN this year"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Millfields Community School",
+      "postcode": "E5 0SH",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.65 miles. Offers 60 of 90 places; 180 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 352.024 miles. Offers 87 of 90 places; 193 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 180.137 miles. Offers 77 of 90 places; 192 applications; non-preference offers 2"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Morningside Primary School",
+      "postcode": "E9 6LL",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 0.835 miles. Offers 36 of 60 places; 104 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 2.539 miles. Offers 46 of 60 places; 123 applications; non-preference offers 1"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 2.662 miles. Offers 44 of 60 places; 138 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Nightingale Primary School",
+      "postcode": "E5 8NA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 0.699 miles. Offers 58 of 60 places; 147 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": 1.246,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 132 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 2.683 miles. Offers 45 of 60 places; 111 applications; non-preference offers 3"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Orchard Primary School",
+      "postcode": "E9 7BB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": "Admissions capped below PAN for September 2026 (council table footnote).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 2.443,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 43 of 60 places; 107 applications; non-preference offers 0; admissions capped below PAN this year"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.283 miles. Offers 51 of 60 places; 157 applications; non-preference offers 1"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 2.865 miles. Offers 56 of 60 places; 151 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Parkwood Primary School",
+      "postcode": "N4 2HQ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.5 miles. Offers 26 of 30 places; 69 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": 0.861,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 76 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Printed max distance 350.244 miles is implausible (likely data error / out-of-country address); school full. Offers 30 of 30 places; 74 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Princess May Primary School",
+      "postcode": "N16 8DF",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": "Admissions capped below PAN for September 2026 (council table footnote).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 5.127,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 17 of 30 places; 78 applications; non-preference offers 0; admissions capped below PAN this year"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 350.975 miles. Offers 26 of 30 places; 77 applications; non-preference offers 4"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 0.823 miles. Offers 14 of 30 places; 63 applications; non-preference offers 2"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Queensbridge Primary School",
+      "postcode": "E8 4ET",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3.517,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 182 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 350.914 miles. Offers 57 of 60 places; 187 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": 0.67,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 203 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Rushmore Primary School",
+      "postcode": "E5 0LE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.447,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 184 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.466,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 173 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 8.009 miles. Offers 59 of 60 places; 175 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Sebright School",
+      "postcode": "E2 8QH",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.434,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 174 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.546,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 191 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.216 miles. Offers 44 of 60 places; 169 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Shacklewell Primary School",
+      "postcode": "E8 2EA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.277,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 61 of 60 places; 179 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.322,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 186 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.434,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 169 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Shoreditch Park Primary School",
+      "postcode": "N1 5JN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.419,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 162 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.493,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 185 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 2.304,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 176 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Southwold Primary School",
+      "postcode": "E5 9NL",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 0.796 miles. Offers 32 of 60 places; 74 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 0.501 miles. Offers 29 of 60 places; 86 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 2.28 miles. Offers 44 of 60 places; 113 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Springfield Community Primary School",
+      "postcode": "N16 6DH",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.979,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 71 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 1.051,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 30 of 30 places; 47 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (vacancies remained), so all applicants not offered a higher preference were offered. Printed max distance 6.489 miles. Offers 16 of 30 places; 52 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Thomas Fairchild Community School",
+      "postcode": "N1 7HA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.993 miles. Offers 19 of 30 places; 44 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 0.377 miles. Offers 24 of 30 places; 56 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 1.609 miles. Offers 24 of 30 places; 55 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "William Patten Primary School",
+      "postcode": "N16 0NX",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.466,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 258 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": 0.231,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 326 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": 0.422,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Offers 60 of 60 places; 249 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Woodberry Down Community Primary School",
+      "postcode": "N4 1SY",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 2.795 miles. Offers 66 of 90 places; 109 applications; non-preference offers 3"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 2.906 miles. Offers 74 of 90 places; 105 applications; non-preference offers 12"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (per council footnote). Printed max distance 2.862 miles. Offers 76 of 90 places; 126 applications; non-preference offers 5"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Hackney New Primary School",
+      "postcode": "N1 5FR",
+      "type": "free school",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 50,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 50 of 50 places; 185 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 50 of 50 places; 184 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 50 of 50 places; 180 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Halley House School",
+      "postcode": "E8 2DJ",
+      "type": "free school",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 18 of 30 places; 48 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 8 of 30 places; 31 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 23 of 30 places; 62 applications; non-preference offers 2"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Holy Trinity Church of England Primary School",
+      "postcode": "E8 3DY",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 24 of 30 places; 51 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 22 of 30 places; 45 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 22 of 30 places; 58 applications; non-preference offers 3"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Lubavitch Boys' Primary School",
+      "postcode": "E5 9AE",
+      "type": "faith academy",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 12 of 30 places; 13 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 16 of 30 places; 16 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 12 of 30 places; 12 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Lubavitch Girls' Primary School",
+      "postcode": "N16 5RP",
+      "type": "faith academy",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 8 of 30 places; 12 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 9 of 30 places; 12 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 7 of 30 places; 8 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Mossbourne Parkside Academy",
+      "postcode": "E8 1AS",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 30 of 30 places; 74 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 30 of 30 places; 75 applications; non-preference offers 1"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 30 of 30 places; 94 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Mossbourne Riverside Academy",
+      "postcode": "E15 2GW",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 60 of 60 places; 212 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 90 of 90 places; 202 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 90 of 90 places; 195 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Northwold Primary School",
+      "postcode": "E5 8RN",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 30 of 60 places; 95 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 30 of 60 places; 86 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 27 of 60 places; 77 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Our Lady and St Joseph Catholic Primary School",
+      "postcode": "N1 4JB",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 30 of 30 places; 79 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 30 of 30 places; 79 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 30 of 30 places; 71 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "Simon Marks Jewish Primary School",
+      "postcode": "N16 6PD",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 9 of 30 places; 14 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 11 of 30 places; 18 applications; non-preference offers 2"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 13 of 30 places; 19 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St John and St James CofE Primary School",
+      "postcode": "E9 6DX",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 26 of 30 places; 68 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 28 of 30 places; 76 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 28 of 30 places; 76 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St John of Jerusalem CofE Primary School",
+      "postcode": "E9 7JF",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 8 of 30 places; 22 applications; non-preference offers 1"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 20 of 30 places; 38 applications; non-preference offers 1"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 6 of 30 places; 17 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St John the Baptist CofE Primary School",
+      "postcode": "N1 6JG",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 17 of 30 places; 28 applications; non-preference offers 4"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 20 of 30 places; 40 applications; non-preference offers 1"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 29 of 30 places; 64 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St Matthias Church of England Primary School",
+      "postcode": "N16 8DD",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 14 of 30 places; 28 applications; non-preference offers 4"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 16 of 30 places; 30 applications; non-preference offers 4"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 14 of 30 places; 23 applications; non-preference offers 1"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St Monica's Roman Catholic Primary School",
+      "postcode": "N1 6QN",
+      "type": "faith academy",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 12 of 30 places; 31 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 14 of 30 places; 29 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 20 of 30 places; 38 applications; non-preference offers 2"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St Paul's With St Michael's CofE Primary School",
+      "postcode": "E8 4PB",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 16 of 30 places; 22 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 14 of 30 places; 35 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 15 of 30 places; 35 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "St Scholastica's Catholic Primary School",
+      "postcode": "E5 8BS",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 19 of 30 places; 28 applications; non-preference offers 0"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 17 of 30 places; 29 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Undersubscribed (offers below places available); no distance published. Offers 20 of 30 places; 39 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    },
+    {
+      "name": "The Olive School",
+      "postcode": "E9 6EJ",
+      "type": "faith free school",
+      "method": "unknown",
+      "method_note": "Own admission authority: Hackney says some schools/academies measure distance differently; check the school's admission arrangements (not researched).",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Non-preference offers made, so every applicant was offered (council footnote); no distance published. Offers 88 of 90 places; 130 applications; non-preference offers 2"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 91 of 90 places; 158 applications; non-preference offers 0"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table for VA schools/academies gives no cut-off distance; contact the school. Offers 90 of 90 places; 175 applications; non-preference offers 0"
+        }
+      ],
+      "source_url": "https://education.hackney.gov.uk/sites/default/files/document/How%20Places%20Were%20Offered%20-%20Reception%202026.pdf"
+    }
+  ]
+}

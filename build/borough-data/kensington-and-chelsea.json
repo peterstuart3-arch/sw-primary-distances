@@ -1,0 +1,868 @@
+{
+ "borough": "Kensington & Chelsea",
+ "default_method": "straight_line",
+ "method_notes": "RBKC admission arrangements for community primary schools 2026-27, criterion 5: 'Children living nearest to the school calculated as a straight line... to the main entrance of the school building used by pupils. For any school that has more than one entrance... the entrance of the main school reception will be used as the measuring point', using the Council's computerised measuring system. Accessibility by car or public transport is disregarded. Applicants sharing an address point, or at exactly the same distance, are separated by random allocation. Fox Primary: places inside a designated priority area are allocated by random allocation, then by straight-line distance for applicants outside it. Exceptions from the brochure summaries: Christ Church CofE uses the shortest walking route; Holy Trinity CofE measures to a midpoint between its Cadogan Gardens and Sedding Street sites; Ark Brunel measures to the centre of the school grounds; Kensington Primary Academy to its main gate on Kensington High Street; St Francis of Assisi and St Mary's Catholic from the front door of the home. Brochure figures are 'How places were offered' (last offer distance, in miles).",
+ "method_source": "https://www.rbkc.gov.uk/sites/default/files/media/documents/Kensington-and-Chelsea-community-schools-admission-arrangements-2026-to-2027%20%281%29.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "RBKC 'Your choice for primary education' 2027 brochure - 'How places were offered' per school (2026 offer day)",
+   "url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "RBKC Primary Admissions Brochure 2026 - 'How places were offered' (2025)",
+   "url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/RBKC%20-%20Primary%20Admissions%20Brochure%202026.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "RBKC Primary School Admissions Brochure 2025 - 'How places were offered in 2024'",
+   "url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/RBKC%20Primary%20School%20Admissions%20Brochure%202025.pdf"
+  },
+  {
+   "year": null,
+   "title": "Admission arrangements for community primary schools, academic year 2026-27",
+   "url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/Kensington-and-Chelsea-community-schools-admission-arrangements-2026-to-2027%20%281%29.pdf"
+  }
+ ],
+ "gaps": "Westminster and RBKC brochures share a format but are separate; no school appears in both. Missing: Servite 2025 (brochure says 'TBC'). St Joseph's 2025 also says 'TBC' but gives a Category 6 distance, which is recorded. For mixed foundation/open VA schools (Christ Church, Holy Trinity, St Mary Abbots, St Barnabas & St Philip's) the value recorded is the open/community-place distance; the foundation distances are in criterion_note. Holy Trinity 2024 prints foundation 0.265 miles and open 1.037 miles (recorded as printed). Kensington Primary Academy 2026 says 'All were offered (up to 2.029 of a mile)', so it is recorded as all_offered. St Clement & St James is printed as 'All on-time applicants were submitted' (taken as all offered). Fox Primary has no distance cut-off (priority-area random allocation). Our Lady of Victories 2024 ended on random allocation. St Cuthbert with St Matthias CofE Primary (SW5) appears in the 2026 and 2025 brochures (all offered in 2025 and 2024) but not in the 2027 brochure, so it is presumed closed/merged and left out; I did not verify this. Most VA measuring points are unstated and assumed to be straight line. Postcodes come from the brochure school pages, not checked against GIAS. Holy Trinity uses the Sedding Street postcode.",
+ "schools": [
+  {
+   "name": "Ark Brunel Primary Academy",
+   "postcode": "W10 5AT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line (as the crow flies) from OS address point to the centre of the school grounds, measured by the Council.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Ashburnham Primary",
+   "postcode": "SW10 0DT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Avondale Park Primary",
+   "postcode": "W11 4EE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Barlby Primary",
+   "postcode": "W10 6DW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 50,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.959,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 32 offers up to 0.959 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Bevington Primary",
+   "postcode": "W10 5TW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.637,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 30 offers up to 0.637 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Bousfield Primary",
+   "postcode": "SW5 0DJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.391,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 38 offers up to 0.391 of a mile straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 0.34,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 37 offers up to 0.340 of a mile straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.274,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 37 offers up to 0.274 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Christ Church CofE Primary (Chelsea)",
+   "postcode": "SW3 4AA",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "Proximity by shortest walking route (criteria and tie-break). Values recorded are the open-place distance; foundation places go first on faith criteria.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.201,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 4 pupils up to 0.201 of a mile shortest walking route (Foundation: 8 up to Category 4a, 1.407 miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.44,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 5 pupils up to 0.440 of a mile shortest walking route (Foundation: 11 up to Category 4a, 1.407 miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.772,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 5 pupils up to 0.772 of a mile (Foundation: 14 up to Category 4a, 1.344 miles)"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Colville Primary",
+   "postcode": "W11 2DF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.477,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 34 offers up to 0.477 of a mile straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 0.29,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 33 offers up to 0.290 of a mile straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.404,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 37 offers up to 0.404 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Fox Primary",
+   "postcode": "W8 7PP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Priority area school: places in the priority area are allocated by random allocation, then straight-line distance to the main entrance for applicants outside the area.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Random allocation within the priority area: 32 (290 applications); no distance cut-off"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Random allocation within the priority area: 35 (310 applications)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Random allocation: 39 out of 76 within the priority area"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Holy Trinity CofE Primary (Sloane Square)",
+   "postcode": "SW1X 9DE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Reception distances measured to a central midpoint between the Cadogan Gardens (SW3 2RN) and Sedding Street (SW1X 9DE, used) sites. Values are open-place distances.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.62,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 6 pupils up to 0.620 miles straight-line (Foundation: 15 up to Category 4iii, 1.326 miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.386,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 5 pupils up to 0.386 miles straight-line (Foundation: 12 up to Category 4ii, 1.217 miles)"
+    },
+    {
+     "year": 2024,
+     "value": 1.037,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 6 pupils up to 1.037 miles (Foundation: 15 up to Category 4ii, 0.265 miles)"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Kensington Primary Academy",
+   "postcode": "W14 8PU",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Straight line from the child's permanent address to the main school gate on Kensington High Street; pupil-premium priority places.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'Distance: 25 All were offered (up to 2.029 of a mile straight-line)'"
+    },
+    {
+     "year": 2025,
+     "value": 0.339,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 11 offers up to 0.339 of a mile straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.22,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 14 offers up to 0.220 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Marlborough Primary",
+   "postcode": "SW3 3AP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.379,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 46 offers up to 1.379 miles straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 2.967,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 48 offers up to 2.967 miles straight-line"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Oratory Catholic Primary",
+   "postcode": "SW3 6QH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA; parish/faith categories before distance; brochure figures straight-line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.955,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "10 offers made up to category 3d (other parish), up to 0.955 of a mile straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 0.718,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 3d (Other Parish): 9 offers up to 0.718 of a mile straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.743,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 3d (Other Parish): 13 offers up to 0.743 miles"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Our Lady of Victories Catholic Primary",
+   "postcode": "SW7 5AQ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; final places by random allocation in 2024. Measuring method not stated.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Oversubscribed (102 applications): last category A11 filled by random allocation (6 places); no distance"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Oxford Gardens Primary",
+   "postcode": "W10 6NF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Park Walk Primary",
+   "postcode": "SW10 0AY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.025,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 22 offers up to 1.025 miles straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 1.127,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 20 offers up to 1.127 miles straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.955,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 23 offers up to 0.955 miles"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Servite Catholic Primary",
+   "postcode": "SW10 9NA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith criteria before distance; measuring point not stated in brochure summary - assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.41,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Up to and including Category 7 (distance 0.410 of a mile)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Brochure shows 'TBC' (113 applications)"
+    },
+    {
+     "year": 2024,
+     "value": 0.814,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 9: 3 offers up to 0.814 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Barnabas and St Philip's CofE Primary",
+   "postcode": "W8 6EJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Foundation then community places; brochure community-place distances straight-line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.933,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 5 (Community): 16 offers up to 0.933 miles straight-line (all foundation applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": 1.563,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 5 (Community): 19 offers up to 1.563 miles straight-line"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Charles Catholic Primary",
+   "postcode": "W10 6EB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith criteria before distance; measuring point not stated in brochure summary - assumed straight line.",
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Clement and St James CofE Primary",
+   "postcode": "W11 4PG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith criteria before distance; measuring point not stated in brochure summary - assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure (sic): 'All on-time applicants were submitted' - read as all offered (26 applications)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure (sic): 'All on-time applicants were submitted' - read as all offered (47 applications)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Francis of Assisi Catholic Primary",
+   "postcode": "W11 4BJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Straight line from the front door of the home (community entrance for flats) to the main entrance of the school.",
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary (Chelsea)",
+   "postcode": "SW3 2QT",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; Catholic categories before others; brochure figures straight-line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.353,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Remaining offers up to and including Category 6 (Other Baptised Catholics): 14, up to 3.353 miles straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 1.665,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Brochure shows 'TBC' then Category 6 (Other Baptised Catholics): 14 offers up to 1.665 miles straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 1.408,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 6 (Other Baptised Catholics): 14 offers up to 1.408 miles"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Mary Abbots CofE Primary",
+   "postcode": "W8 4SP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Straight-line distance; open and foundation places. Values are open-place distances.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": 0.939,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 16 offers up to 0.939 of a mile straight-line (all foundation applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.596,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: 18 offers up to 0.596 of a mile (all foundation applicants offered)"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Mary's Catholic Primary",
+   "postcode": "W10 5AW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Straight line from the front door of the home to the school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "St Thomas' CofE Primary",
+   "postcode": "W10 5EF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith criteria before distance; measuring point not stated in brochure summary - assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all on-time applicants were offered"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  },
+  {
+   "name": "Thomas Jones Primary",
+   "postcode": "W11 1RQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.257,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 18 offers up to 0.257 of a mile straight-line"
+    },
+    {
+     "year": 2025,
+     "value": 0.154,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 13 offers up to 0.154 of a mile straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.295,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 20 offers up to 0.295 of a mile"
+    }
+   ],
+   "source_url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/primary-admissions-brochure%20-2027.pdf"
+  }
+ ]
+}

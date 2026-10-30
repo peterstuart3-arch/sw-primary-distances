@@ -1,0 +1,2158 @@
+{
+  "borough": "Ealing",
+  "default_method": "straight_line",
+  "method_notes": "Ealing community school admission arrangements (summarised in the Starting Primary School 2027 prospectus, 'Community primary school admissions criteria'): children ranked nearest to furthest within each criterion; distance measured in a straight line from the home address to the centre of the school's postcode using Ordnance Survey grid references. Ties for the last place broken by random selection (twins/multiple births all offered). Own-admission-authority schools state their own measuring point in the prospectus: most also use the school postcode centre; Alec Reed Academy measures to the nearest gated student entrance; Brentside, St Anselm's, St Joseph's and St Raphael's to the school's main entrance; Khalsa and St Mary's CofE to the main gate; Christ the Saviour CofE to the middle gate of Christ the Saviour Church porch; Mount Carmel to the front door of the Parish Church of St Peter & Paul; Wood End Primary uses the shortest WALKING route to the nearest gated entrance. Offer tables give the 'straight line distance of last place offered (tie-breaker)' in miles.",
+  "method_source": "https://www.ealing.gov.uk/download/downloads/id/21311/ealing_community_school_admissions_arrangements_2026-27.pdf",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Applications and offers for each primary school on National Offer Day (16 April 2026)",
+      "url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "year": 2026,
+      "title": "Starting Primary School 2027 prospectus - primary school statistics table (criteria and distance in miles of last place offered 2026), school addresses, PANs and per-school distance definitions",
+      "url": "https://www.ealing.gov.uk/download/downloads/id/13819/primary_school_prospectus_starting_primary_school_2026.pdf"
+    },
+    {
+      "year": 2025,
+      "title": "Applications and offers for each primary school on National Offer Day (16 April 2025)",
+      "url": "https://www.ealing.gov.uk/download/downloads/id/18843/primary_school_on-time_offers_2025.pdf"
+    },
+    {
+      "year": 2025,
+      "title": "Starting Primary School 2026 prospectus (statistics table for 2025; Wayback Machine copy, Sept 2025)",
+      "url": "https://web.archive.org/web/20250926044548/https://www.ealing.gov.uk/download/downloads/id/13819/primary_school_prospectus_starting_primary_school_2026.pdf"
+    },
+    {
+      "year": 2024,
+      "title": "Applications and offers for each primary school on National Offer Day (16 April 2024) - Wayback Machine copy (council URL now serves the 2025 file)",
+      "url": "https://web.archive.org/web/20240710224301/https://www.ealing.gov.uk/download/downloads/id/18843/primary_school_on-time_offers_2024.pdf"
+    },
+    {
+      "year": null,
+      "title": "Ealing community school admissions arrangements 2026-27",
+      "url": "https://www.ealing.gov.uk/download/downloads/id/21311/ealing_community_school_admissions_arrangements_2026-27.pdf"
+    }
+  ],
+  "gaps": "Postcodes, PANs (2027 entry) and school types taken from the Starting Primary School 2027 prospectus (not cross-checked with GIAS); Mount Carmel and Little Ealing both print W5 4EA, and Coston and Edward Betham both print UB6 9JU. The 2024 offers PDF was only obtainable from the Wayback Machine because Ealing reuses the same download id each year. In the 2026 offers PDF the community-school applicant/offer/refused counts are identical to 2025 (apparently copied forward), and Allenby and Perivale show distances with 'N/A' counts; distances agree with the 2027 prospectus table, which was used as the cross-check. Mayfield, North Ealing and St Mark's 2026 show refusals but 'all applicants offered' (refusals presumably applicants placed at a higher preference); recorded as all_offered. St Vincent's 2026: offers PDF says all criterion 8 applicants offered but gives no distance, while the prospectus gives 'Criterion 8 Other Christian, 3.194' - prospectus value used. For Christ the Saviour, Mount Carmel and St Joseph's the last place went to applicants without a supplementary form; distances are measured to a church, not the school. Faith schools' 'all applicants offered' may include applicants whose faith criterion applied. Only distance clauses summarised in the prospectus were checked; full academy policies not read. Junior schools and special/independent schools excluded.",
+  "schools": [
+    {
+      "name": "Acton Gardens Primary School",
+      "postcode": "W3 8SJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Alec Reed Academy",
+      "postcode": "UB5 5LP",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Straight line to the nearest gated entrance for students (prospectus).",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Allenby Primary School",
+      "postcode": "UB1 2HX",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.466,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Ark Byron Primary Academy",
+      "postcode": "W3 7JT",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.536,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 5 (distance)"
+        },
+        {
+          "year": 2025,
+          "value": 0.406,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 5 (distance)"
+        },
+        {
+          "year": 2024,
+          "value": 0.52,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 5 (distance)"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Ark Priory Primary Academy",
+      "postcode": "W3 8NR",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.326,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 6 (distance)"
+        },
+        {
+          "year": 2025,
+          "value": 0.482,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 6 (distance)"
+        },
+        {
+          "year": 2024,
+          "value": 0.452,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 6 (distance)"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Beaconsfield Primary School",
+      "postcode": "UB1 1DR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Blair Peach Primary School",
+      "postcode": "UB1 1DD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Brentside Primary School",
+      "postcode": "W7 1JL",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Straight line to the main entrance of the school (prospectus).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Christ the Saviour CofE Primary School",
+      "postcode": "W5 2AA",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Distance measured in a straight line to the middle gate leading to the porch of Christ the Saviour Church, not the school (prospectus).",
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.019,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place: applicant without supplementary information form (lowest group); all faith criteria 1-9 applicants offered"
+        },
+        {
+          "year": 2025,
+          "value": 0.882,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place: applicant without supplementary information form (lowest group); criteria 1-9 all offered"
+        },
+        {
+          "year": 2024,
+          "value": 0.228,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place: applicant without supplementary information form (lowest group); criteria 1-8 all offered"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Clifton Primary School",
+      "postcode": "UB2 5QP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Coston Primary School",
+      "postcode": "UB6 9JU",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Dairy Meadow Primary School",
+      "postcode": "UB2 4RP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Derwentwater Primary School",
+      "postcode": "W3 6SA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.95,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Dormers Wells Primary School",
+      "postcode": "UB1 3HX",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Downe Manor Primary School",
+      "postcode": "UB5 6NW",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Drayton Green Primary School",
+      "postcode": "W13 0LA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Durdans Park Primary School",
+      "postcode": "UB1 2PQ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "East Acton Primary School",
+      "postcode": "W3 7HA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": 0.833,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Featherstone Primary and Nursery School",
+      "postcode": "UB2 5JT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Fielding Primary School",
+      "postcode": "W13 9TE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.365,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.344,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.413,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Gifford Primary School",
+      "postcode": "UB5 6BU",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.746,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.569,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.583,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Grange Primary School",
+      "postcode": "W5 4HN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Greenwood Primary School",
+      "postcode": "UB5 4QG",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Hambrough Primary School",
+      "postcode": "UB1 1SF",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Havelock Primary School",
+      "postcode": "UB2 4PA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Hobbayne Primary School",
+      "postcode": "W7 1HA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Holy Family Catholic Primary School",
+      "postcode": "W3 0DY",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.265,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 7 (other applicants)"
+        },
+        {
+          "year": 2025,
+          "value": 0.244,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 7 (other applicants)"
+        },
+        {
+          "year": 2024,
+          "value": 0.287,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 7 (other applicants)"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Horsenden Primary School",
+      "postcode": "UB6 0PB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "John Perryn Primary School",
+      "postcode": "W3 7PD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": 0.887,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Khalsa Primary School",
+      "postcode": "UB2 4LA",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Straight line to the main gate (prospectus).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Lady Margaret Primary School",
+      "postcode": "UB1 2NH",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Little Ealing Primary School",
+      "postcode": "W5 4EA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.693,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.43,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.737,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Mayfield Primary School",
+      "postcode": "W7 3RT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": 0.929,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Montpelier Primary School",
+      "postcode": "W5 2QT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.825,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.645,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.634,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Mount Carmel Catholic Primary School",
+      "postcode": "W5 4EA",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Distance measured in a straight line to the front door of the Parish Church of St Peter & Paul, not the school (prospectus).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.911,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place: applicant without supplementary information form (lowest group); criteria 1-8 all offered"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "North Ealing Primary School",
+      "postcode": "W5 1RP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": 2.171,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "North Primary School",
+      "postcode": "UB1 2JE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Oaklands Primary School",
+      "postcode": "W7 2DP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.138,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.304,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.407,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Oldfield Primary School",
+      "postcode": "UB6 8PR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Our Lady of the Visitation Catholic Primary School",
+      "postcode": "UB6 9AN",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Perivale Primary School",
+      "postcode": "UB6 7AP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.57,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": 0.661,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Petts Hill Primary School",
+      "postcode": "UB5 4HB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.281,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.236,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.187,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Ravenor Primary School",
+      "postcode": "UB6 9TT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Selborne Primary School",
+      "postcode": "UB6 8JD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": 1.165,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Southfield Primary School",
+      "postcode": "W4 1BD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.254,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.256,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.475,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Anselm's Catholic Primary School",
+      "postcode": "UB2 4DH",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line to the main entrance of the school (prospectus).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025: all criteria 1-11 applicants offered; 2 applicants without supplementary form refused. Prospectus shows 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Gregory's Catholic Primary School",
+      "postcode": "W5 1SL",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St John Fisher Catholic Primary School",
+      "postcode": "UB6 7AF",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St John's Primary School",
+      "postcode": "W13 0SE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.291,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2025,
+          "value": 0.357,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": 0.474,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Joseph's Catholic Primary School",
+      "postcode": "W7 3HU",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line to the main entrance of the school (prospectus).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": 1.268,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place: applicant without supplementary information form (lowest group); criteria 1-10 all offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Mark's Primary School",
+      "postcode": "W7 2NR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": 0.355,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Mary's CofE Primary School",
+      "postcode": "UB2 4LE",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line to the main gate of the school (prospectus).",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Raphael's Catholic Primary School",
+      "postcode": "UB5 6NL",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line to the main entrance of the school (prospectus).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "St Vincent's Catholic Primary School",
+      "postcode": "W3 9JR",
+      "type": "faith academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3.194,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 8 (Other Christians), per 2027 prospectus; offers PDF shows all 21 criterion 8 applicants offered and all criterion 9+ refused"
+        },
+        {
+          "year": 2025,
+          "value": 0.745,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 8 (Other Christians); criterion 9 and below all refused"
+        },
+        {
+          "year": 2024,
+          "value": 0.58,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 8 (Other faith); criterion 9 and below all refused"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Stanhope Primary School",
+      "postcode": "UB6 9EG",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "The Edward Betham CofE Primary School",
+      "postcode": "UB6 9JU",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Three Bridges Primary School",
+      "postcode": "UB2 4HT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Tudor Primary School",
+      "postcode": "UB1 1NX",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Vicar's Green Primary School",
+      "postcode": "HA0 1DP",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Viking Primary School",
+      "postcode": "UB5 6HW",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "West Acton Primary School",
+      "postcode": "W3 0JL",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "West Twyford Primary School",
+      "postcode": "NW10 7DN",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": 0.942,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": null
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Willow Tree Primary School",
+      "postcode": "UB5 5FE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Wolf Fields Primary School",
+      "postcode": "UB2 4JS",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'N/A - all applicants offered' / 'All offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Wood End Primary School",
+      "postcode": "UB5 4LB",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Shortest walking route from home address to the nearest gated entrance for students (prospectus) - differs from the borough's straight-line default.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": 1.375,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Criterion 7 (distance); criteria 1-6 all offered"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    },
+    {
+      "name": "Woodlands Academy",
+      "postcode": "W13 0DH",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "Straight line from home address to the centre of the school's postcode (OS grid references), per prospectus.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All applicants offered'"
+        }
+      ],
+      "source_url": "https://www.ealing.gov.uk/download/downloads/id/21522/primary_school_on-time_offers_2026.pdf"
+    }
+  ]
+}

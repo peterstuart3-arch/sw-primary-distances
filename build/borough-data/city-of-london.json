@@ -1,0 +1,68 @@
+{
+ "borough": "City of London",
+ "default_method": "walking",
+ "method_notes": "The City of London has only one state-funded primary, The Aldgate School (Sir John Cass's Foundation Primary until Sept 2020), a CofE VA school whose governing body sets its own arrangements; the City's School Admissions Team coordinates applications. Its oversubscription criteria (as printed in the City's 'Starting Primary School 2024/2025' booklets) are: 1 looked-after children; 2 siblings; 3-4 Church of England / other Christian worshippers by straight-line proximity; 5 City Child and Family Centre nursery children in the priority area; 6 children in the admissions priority area by shortest walking route; 7 staff children; 8 any other children by shortest walking route. The booklet notes also say the school uses the City of London GIS to measure straight-line distance from LLPG address point to the school's LLPG address point. The two statements conflict; the walking route is taken as the default because it governs criteria 6 and 8, where the last places went. The booklet figure is 'the furthest distance at which a Reception place was allocated' in metres.",
+ "method_source": "https://www.fis.cityoflondon.gov.uk/asset-library/2024-25-primary-school-booklet.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "City of London 'Starting Primary School 2027' admissions booklet (accessible) - The Aldgate School page",
+   "url": "https://www.fis.cityoflondon.gov.uk/asset-library/city-of-london-primary-school-admissions-booklet-2027-accessible.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "City of London 'Starting Primary School 2026' booklet (primary-school-booklet-2025.pdf) - The Aldgate School page",
+   "url": "https://www.fis.cityoflondon.gov.uk/asset-library/primary-school-booklet-2025.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "City of London 'Starting Primary School 2025' booklet (2024-25-primary-school-booklet.pdf) - The Aldgate School page and criteria",
+   "url": "https://www.fis.cityoflondon.gov.uk/asset-library/2024-25-primary-school-booklet.pdf"
+  },
+  {
+   "year": null,
+   "title": "City of London Community and Children's Services Committee, School Admissions Report (19 June 2025) - context on Aldgate School demand",
+   "url": "https://democracy.cityoflondon.gov.uk/documents/s219701/11.School%20Admissions%20Report.pdf"
+  }
+ ],
+ "gaps": "There is only one school. The furthest distance is printed for all three years, but it isn't clear which criterion the furthest place came under; 2026 and 2024 (over 3 km) are probably under criterion 8 (any other children). The 2026-27 policy changed criteria 3 and 4 (school website); the 2026-27 and 2027-28 policies weren't read because the school's website (thealdgateschool.org) serves its policy PDFs without direct links. The measuring method is uncertain (walking route in the criteria vs straight line in the notes). The 2027 booklet gives no criteria text. City of London Primary Academy Islington (COLPAI) and other City Corporation-sponsored academies are in Islington/Southwark/Hackney, not the City, so they are left out (they belong to those boroughs' data). An older 2023-data figure (463.92 m, from the 2024 booklet) is not included. The council's 2027-entry booklet is also hosted at cityoflondon.gov.uk/assets/Services-DCCS/Primary-School-Admissions-Booklet.pdf (same figures).",
+ "schools": [
+  {
+   "name": "The Aldgate School (formerly Sir John Cass's Foundation Primary)",
+   "postcode": "EC3A 5DE",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "CofE voluntary-aided; governors are the admission authority. Has an admissions priority area (criteria 5-6). The criteria text says criteria 6 (priority area) and 8 (any other children) go by 'proximity of home to school, measured by the shortest walking route', but the notes say the school uses City of London GIS straight-line distance from the LLPG address point to the school's LLPG address point (and tie-breaks/criterion 4 are straight line). Treat the method as uncertain.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3315.69,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Booklet: 'The furthest distance at which a Reception place was allocated for 2026 entry was 3315.69 metres'. Allocations by criterion: 1:0, 2:8, 3:0, 4:1, 5:7, 6:4, 7:1, 8:9"
+    },
+    {
+     "year": 2025,
+     "value": 775.21,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Booklet: 'The furthest distance a pupil was allocated a school for 2025: 775.21 metres'. Allocations: 1:1, 2:12, 3:0, 4:0, 5:7, 6:1, 7:0, 8:9"
+    },
+    {
+     "year": 2024,
+     "value": 3210.41,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Booklet: 'The furthest distance a pupil was allocated a school place: 3210.41 metres' (Sept 2024 admissions). Allocations: 1:0, 2:11, 3-4:0, 5:6, 6-7:0, 8:13"
+    }
+   ],
+   "source_url": "https://www.fis.cityoflondon.gov.uk/asset-library/city-of-london-primary-school-admissions-booklet-2027-accessible.pdf"
+  }
+ ]
+}

@@ -1,0 +1,1565 @@
+{
+ "borough": "Barking & Dagenham",
+ "default_method": "straight_line",
+ "method_notes": "LBBD community infant/primary admission criteria (Starting school full-time 2026 booklet p23, Priority 3 and note 5; same in Admission Arrangements 2026-27 for Infant and Primary Schools): children who live closest to the school, measured in kilometres in a straight line (as the crow flies) using Synergy's GIS, from the centre of the child's home to the school's main gate; some addresses with different entry points use LLPG designated coordinates. Equal distances (e.g. flats) broken by lottery (random allocation). Priorities: EHCP named, looked-after, sibling (incl. linked infant/junior pairs), distance. Academies Eastbury Primary, Greatfields, James Cambell, Goresbrook, Sydney Russell, free school Riverside and George Carey CofE use the same criteria. Catholic schools (note 12) and St Margaret's CofE also measure straight line from centre of home to main gate for tie-breaks; Thames View Infants uses its own criteria. The statistics table states distances are in km, straight line.",
+ "method_source": "https://www.lbbd.gov.uk/sites/default/files/2025-03/Admission%20Arrangements%202026-27%20for%20Infant%20and%20Primary%20Schools.docx",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Starting school full-time 2027 e-booklet, 'Statistical information' p33 (reception entry September 2026; downloaded by hand, URL assumed from the council's naming pattern)",
+   "url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Starting school full-time 2026 e-booklet, 'Statistical information' p33 (reception entry September 2025)",
+   "url": "https://www.lbbd.gov.uk/sites/default/files/2025-10/Starting%20School%20Full%20time%202026%20ebooklet.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Starting school full-time 2025 e-booklet, 'Statistical information' p33 (reception entry September 2024)",
+   "url": "https://www.lbbd.gov.uk/sites/default/files/2024-11/024375%20LBBD%20SS%202025%20ebooklet%20FINAL.pdf"
+  },
+  {
+   "year": null,
+   "title": "Admission Arrangements 2026-27 for Infant and Primary Schools (LBBD)",
+   "url": "https://www.lbbd.gov.uk/sites/default/files/2025-03/Admission%20Arrangements%202026-27%20for%20Infant%20and%20Primary%20Schools.docx"
+  }
+ ],
+ "gaps": "2026 figures come from the 'Starting school full-time 2027' e-booklet (p33), downloaded by hand; its URL is assumed, not checked. 2023 figures were not obtained, which no longer matters now 2026 is in. Roding Primary's Hewett Road site is absent from the 2026 table and the 2027 booklet, so it is treated as closed. 2026: '-' in Last place recorded as all_offered, although Sydney Russell's sibling+distance offers (76) exceed its admission number (60) and Robert Clack's exactly fill it, so these may have had an unpublished cut-off. PANs updated to the 2027 booklet directory (Roding Cannington cut from 90 to 30). Data quality: both tables are headed '2024 Criteria' although the text says Sept 2025 / Sept 2024 entry; the 'Distance' count column is identical in both years for every school, and several last-place values repeat exactly (Becontree 0.900, Dorothy Barley 1.729), so the 2025 table may be partly copied from 2024 - values transcribed as printed. '-' in Last place recorded as all_offered (interpretation; some rows have sibling+distance counts above PAN). Greatfields row blank -> not_published. Six faith schools say 'contact school direct' -> not_published. Sydney Russell 2024 printed as 1.4781. PAN taken from the 2026 booklet school list (Sept 2026 entry); the stats tables differ for some (e.g. Riverside 90, Goresbrook 60, Parsloes 60, Valence St Georges 30/60). Split sites (Manor, Ripple, Roding, Valence) listed separately as in the council table; Manor 'Sandringham Infants only' mapped to the Sandringham Road site. Roding Hewett Road site may be closing (consultation 2025). Junior schools (Dorothy Barley Jr, Manor Jr, Thames View Jr, Warren Jr, William Ford CofE Jr) excluded. Postcodes and types checked against GIAS (29 Oct 2026 extract); Rush Green corrected to GIAS RM7 0RL (booklet RM7 0TL); Robert Clack (RM8 1FL) and Sydney Russell (RM9 5QA) use the booklet primary-phase site postcodes rather than GIAS main-site postcodes; split-site second-site postcodes from booklet only. GIAS lists Goresbrook and Greatfields as free schools. Thames View Infants' own measuring method not checked.",
+ "schools": [
+  {
+   "name": "Beam Primary",
+   "postcode": "RM10 9ED",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 84,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Becontree Primary",
+   "postcode": "RM8 2QR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.658,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": 0.9,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.9,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Dorothy Barley Infant",
+   "postcode": "RM8 2LL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school (Reception to Year 2); linked to Dorothy Barley Junior for sibling priority.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.729,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1.729,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Eastbrook School (primary phase)",
+   "postcode": "RM10 7UR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "All-through school (ages 4-19).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Eastbury Community School (primary phase)",
+   "postcode": "IG11 9UW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "All-through school (ages 4-19).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.625,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": 0.776,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.866,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Eastbury Primary Academy",
+   "postcode": "IG11 9QQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Partnership Learning academy; own admission authority but uses LBBD community criteria.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Five Elms Primary",
+   "postcode": "RM9 5TB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Furze Infant",
+   "postcode": "RM6 6ES",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school; linked to Warren Junior.",
+   "pan": 140,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Gascoigne Primary",
+   "postcode": "IG11 7DR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Godwin Primary",
+   "postcode": "RM9 6JH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Grafton Primary",
+   "postcode": "RM8 3EX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 0.938,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1.962,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Greatfields Primary",
+   "postcode": "IG11 7BL",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Free school (Partnership Learning); own admission authority but uses LBBD community criteria.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.039,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Row in council table left blank apart from applications and admission number"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Row in council table left blank apart from applications and admission number"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Henry Green Primary",
+   "postcode": "RM8 1UR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.696,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Hunters Hall Primary",
+   "postcode": "RM10 8DE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "James Cambell Primary",
+   "postcode": "RM9 6TD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Partnership Learning academy; own admission authority but uses LBBD community criteria.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "John Perry Primary",
+   "postcode": "RM10 8UR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Leys Primary",
+   "postcode": "RM10 9YR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.998,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Manor Primary - Longbridge Road site",
+   "postcode": "RM8 2FL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; council lists the Longbridge Road site separately.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 3.492,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 2.802,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Manor Primary - Sandringham Road site (infants)",
+   "postcode": "IG11 9AG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; Sandringham Road site is infants only (linked to Manor Junior).",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Marsh Green Primary",
+   "postcode": "RM10 9NJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Monteagle Primary",
+   "postcode": "RM9 4RB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.786,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Northbury Primary",
+   "postcode": "IG11 8JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 2.382,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Parsloes Primary",
+   "postcode": "RM9 5RH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Richard Alibon Primary",
+   "postcode": "RM10 8DF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Ripple Primary - Suffolk Road site",
+   "postcode": "IG11 7QS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; council lists sites separately.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Ripple Primary - Westbury site",
+   "postcode": "IG11 7PT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; council lists sites separately.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Robert Clack School (primary phase)",
+   "postcode": "RM8 1FL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "All-through school; primary phase on Lymington Fields site.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Roding Primary - Cannington Road site",
+   "postcode": "RM9 4BL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; council lists sites separately.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Roding Primary - Hewett Road site",
+   "postcode": "RM8 2XS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Autumn 2025 consultation proposed closing this site at end of 2025/26 and consolidating at Cannington Road; applications for it to be transferred to Cannington Road if agreed. Outcome not verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2025-10/Starting%20School%20Full%20time%202026%20ebooklet.pdf"
+  },
+  {
+   "name": "Rose Lane Primary",
+   "postcode": "RM6 5NJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Rush Green Primary",
+   "postcode": "RM7 0RL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.607,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Southwood Primary",
+   "postcode": "RM9 5LT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Thomas Arnold Primary",
+   "postcode": "RM9 6NH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Valence Primary - Bonham Road site",
+   "postcode": "RM8 3AR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; council lists sites separately.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.302,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Valence Primary - St Georges Road site",
+   "postcode": "RM9 5AJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split-site school; council lists sites separately.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Village Infant",
+   "postcode": "RM10 9JS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school; linked to William Ford CofE Junior for sibling priority.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "William Bellamy Primary",
+   "postcode": "RM10 7HX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "George Carey CofE Primary",
+   "postcode": "IG11 0FJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Booklet describes it as voluntary-aided and its own admission authority, but it follows LBBD community criteria (straight line to main gate).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Goresbrook School (primary phase)",
+   "postcode": "RM9 6XW",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "All-through free school (United Learning); own admission authority but uses LBBD community criteria. Table shows admission number 60; map shows 30.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Riverside Primary",
+   "postcode": "IG11 0FU",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Free school (Partnership Learning); own admission authority but uses LBBD community criteria. Table shows admission number 90; map shows 60.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary (Barking)",
+   "postcode": "IG11 7AR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy (Good Shepherd Trust); faith-based criteria; ties by distance measured straight line from centre of home to main gate (booklet note 12).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary (Dagenham)",
+   "postcode": "RM9 5UL",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy (Good Shepherd Trust); faith-based criteria; ties by straight-line distance to main gate.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "St Margaret's CofE Primary",
+   "postcode": "IG11 8AS",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "CofE academy (Genesis Education Trust); points-based church attendance criteria; distance tie-break straight line to main gate.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "St Peter's Catholic Primary",
+   "postcode": "RM9 6UU",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA (Diocese of Brentwood); faith-based criteria; ties by straight-line distance to main gate.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "St Teresa Catholic Primary",
+   "postcode": "RM8 2XJ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy (Good Shepherd Trust); faith-based criteria; ties by straight-line distance to main gate.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "St Vincent's Catholic Primary",
+   "postcode": "RM8 2JN",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy (Good Shepherd Trust); faith-based criteria; ties by straight-line distance to main gate.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Criteria do not apply - Contact school direct'"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Sydney Russell School (primary phase)",
+   "postcode": "RM9 5QA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (Partnership Learning), primary phase on Fanshawe Crescent; uses LBBD community criteria.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.4781,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion (printed as 1.4781 - four decimals, possibly a typo for 1.478)"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  },
+  {
+   "name": "Thames View Infants",
+   "postcode": "IG11 0LG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy (Thames View Infants Learning MAT) with its own admission criteria; measurement method not checked, assumed straight line.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.485,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Last place under distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source 'Last place' column shows '-' (no distance cut-off reached); interpreted as all applicants offered"
+    }
+   ],
+   "source_url": "https://www.lbbd.gov.uk/sites/default/files/2026-10/Starting%20School%20Full%20Time%20in%202027%20ebooklet.pdf"
+  }
+ ]
+}

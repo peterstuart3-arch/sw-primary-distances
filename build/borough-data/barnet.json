@@ -1,0 +1,2884 @@
+{
+ "borough": "Barnet",
+ "default_method": "straight_line",
+ "method_notes": "Guide to Primary Education in Barnet 2027, 'Admission criteria for community primary schools in Barnet', Note 3: 'Distance is measured in a straight line between the address point for the child's home, supplied by Ordnance Survey, to the school's main gate (unless specified otherwise) using the Council's computerised geographical information system.' Community schools offer places first to children in the school's defined area (closest first), then to children outside it. The voluntary aided, free, foundation and academy schools set their own criteria (many faith-based, some with lotteries); their summaries in the guide also measure in a straight line. The council tables give the criterion under which the last place was offered: where that was a faith or lottery criterion, no places went on distance alone (no_distance_offers); where it was an open, community-band or 'any other applicant' criterion, the figure is recorded as a distance.",
+ "method_source": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "A Guide to Primary Education in Barnet 2027, pp.46-47 'How places were allocated ... on 16 April 2026' (community and VA/foundation/free/academy tables; downloaded by hand)",
+   "url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "A Guide to Primary Education in Barnet 2026, pp.46-47 'How places were allocated ... on 16 April 2025' (downloaded by hand)",
+   "url": "https://www.barnet.gov.uk/sites/default/files/024681_bc4927_-_guide_to_primary_2026_final_14.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How primary school places were allocated on 16 April 2024 - community schools (downloaded by hand)",
+   "url": "https://www.barnet.gov.uk/sites/default/files/how_primary_school_places_were_allocated_on_16_april_2024all_schools_12.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How primary school places were allocated on 16 April 2024 at voluntary aided schools, foundation schools, free schools & academies (downloaded by hand)",
+   "url": "https://www.barnet.gov.uk/sites/default/files/how_primary_school_places_were_allocated_on_16_april_2024_at_voluntary_aided_schools_0.pdf"
+  }
+ ],
+ "gaps": "2024, 2025 and 2026 figures were transcribed from PDFs downloaded by hand. The 2027 guide's URL is assumed from its filename (bc5313_-_guide_to_primary_2027_final_0.pdf) and was not checked. Community schools: where the in-area column shows a distance and the outside column 'None', the figure applies only to children living in the school's defined area (noted per school); the defined-area maps are not in the data. Parish/catchment cut-offs at faith schools (St Andrew's, St John's N20 2024, St Mary's East Barnet, The Hyde 2024/2026) likewise apply only inside that area. St Catherine's 2025 ('Any other applicant - Sibling') counts as a sibling criterion. Blessed Dominic 2025/2026 ('Other Faiths') is treated as a faith criterion. Holy Trinity is missing from the 2025 VA table (not_published); its 2026 places figure is blank in the table (PAN 30 from 2024). Bell Lane (2024) and Broadfields (2024) are recorded under their Saracens names. Barnet Hill Academy and Nancy Reuben are not in any year's tables. School list from GIAS; juniors, nursery, special and independent schools excluded.",
+ "schools": [
+  {
+   "name": "Akiva School",
+   "postcode": "N3 2SY",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Meets top faith priority' (furthest 0.565 miles); no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Meets top faith priority' (furthest 0.648 miles); no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Meets top faith priority' (furthest 1.635 miles); no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "All Saints' CofE Nursery and Primary School N20",
+   "postcode": "N20 9EZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.29,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Home Outside The Parish Of All Saints''; everyone living in the parish was offered (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "All Saints' CofE Primary School NW2",
+   "postcode": "NW2 2TH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Alma Primary",
+   "postcode": "N20 0LP",
+   "type": "faith free school",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Ashmole Primary School",
+   "postcode": "N14 7NP",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.496,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance' (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.535,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.514,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Barnet Hill Academy",
+   "postcode": "NW4 3ES",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Became a state-funded VA (Muslim) school on 1 Sept 2026 (previously independent); probably not in the coordinated scheme for the 2024-2026 offer days.",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2026 allocation tables"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2025 allocation tables"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2024 allocation tables (not a state school or not open then)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Barnfield Primary School",
+   "postcode": "HA8 0DA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 0.951,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.384,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Beis Yaakov Primary School",
+   "postcode": "NW9 6NQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 58,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Other Orthodox Jewish girls (lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Other Orthodox Jewish girls (lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Beit Shvidler Primary School",
+   "postcode": "HA8 8NX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Orthodox Jewish attending another synagogue' (furthest 0.428 miles); no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Orthodox Jewish attending other synagogue' (furthest 0.287 miles); no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Blessed Dominic Catholic Primary School",
+   "postcode": "NW9 5PE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Other Faiths' (furthest 0.159 miles); no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Other Faiths' (furthest 0.045 miles); no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.053,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any Other Children' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Brookland Infant and Nursery School",
+   "postcode": "NW11 6EJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 1.271,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Brunswick Park Primary and Nursery School",
+   "postcode": "N14 5DU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Chalgrove Primary School",
+   "postcode": "N3 3PL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.46,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.184,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.736,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Childs Hill Primary School",
+   "postcode": "NW2 1SL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Christ Church Primary School",
+   "postcode": "EN5 4NS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.089,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Community place' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Church Hill School",
+   "postcode": "EN4 8NN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Claremont Primary School",
+   "postcode": "NW2 1AB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Colindale Primary School",
+   "postcode": "NW9 6DT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.976,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.404,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.526,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Coppetts Wood Primary School",
+   "postcode": "N10 1JS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Courtland School",
+   "postcode": "NW7 3BG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.794,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.747,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.819,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Cromer Road Primary School",
+   "postcode": "EN5 5HT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.722,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.518,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.337,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Danegrove Primary School",
+   "postcode": "EN4 8UD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 0.889,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Deansbrook Infant School",
+   "postcode": "NW7 3ED",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Dollis Primary School",
+   "postcode": "NW7 2BU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Edgware Primary School",
+   "postcode": "HA8 9AB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Etz Chaim Jewish Primary School",
+   "postcode": "NW7 4SL",
+   "type": "faith free school",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 28,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.557,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Proximity' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Fairway Primary School and Children's Centre",
+   "postcode": "NW7 3HS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 1.008,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Foulds School",
+   "postcode": "EN5 4NR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.448,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.465,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.704,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Frith Manor Primary School",
+   "postcode": "N12 7BN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.748,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.91,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 1.208,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Garden Suburb Infant School",
+   "postcode": "NW11 6XU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Goldbeaters Primary School",
+   "postcode": "HA8 0HA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.663,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.633,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.331,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Hasmonean Primary School",
+   "postcode": "NW4 2PD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Hollickwood Primary School",
+   "postcode": "N10 2NL",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Holly Park Primary School",
+   "postcode": "N11 3HG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Holy Trinity CofE Primary School",
+   "postcode": "N2 8GA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2025 allocation tables"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Independent Jewish Day School",
+   "postcode": "NW4 2AH",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 28,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Certificate of religious practice (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Certificate of religious practice (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Certificate of religious practice (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Livingstone Primary and Nursery School",
+   "postcode": "EN4 9BU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.408,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.287,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.463,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "London Academy",
+   "postcode": "HA8 8DE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (ages 4-19).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.165,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Geographical Distance' (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.119,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Geographical Distance' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Manorside Primary School",
+   "postcode": "N3 2AB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.394,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.305,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.388,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Martin Primary School",
+   "postcode": "N2 9JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Mathilda Marks-Kennedy Jewish Primary School",
+   "postcode": "NW7 3RT",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Menorah Foundation School",
+   "postcode": "HA8 0QS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Others who do not meet the religious criteria (lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Others who do not meet the religious criteria (lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'All Others Who Meet Religious Criteria (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Menorah Primary School for Boys",
+   "postcode": "NW11 9SP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 29,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Orthodox Jewish Who Are 'First Children' (lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Other Orthodox Jewish Children (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Orthodox Jewish Who Are 'First Children' (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Menorah Primary School for Girls",
+   "postcode": "NW11 9SP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 26,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Other Orthodox Jewish Children (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Other Orthodox Jewish Children (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Orthodox Jewish Who Are 'First Children' (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Millbrook Park Primary School",
+   "postcode": "NW7 1JF",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 3.554,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Monken Hadley CofE Primary School",
+   "postcode": "EN4 0NJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 20,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Children Within 2 Miles & Worship at a Holy Trinity Church'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Children Within 4 Miles & Worship At St Mary's'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Children Within 2 Miles & Worship At Holy Trinity Church' (furthest 1.312 miles); no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Monkfrith Primary School",
+   "postcode": "N14 5NG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.019,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.609,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.824,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Moss Hall Infant School",
+   "postcode": "N12 8PE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.463,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.432,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Nancy Reuben Primary School",
+   "postcode": "NW4 1DJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Became a state-funded VA school on 15 Sept 2025 (previously independent). GIAS has no postcode for the new record; postcode from the former independent-school record.",
+   "pan": null,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2026 allocation tables"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2025 allocation tables"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the 16 April 2024 allocation tables (not a state school or not open then)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Northside Primary School",
+   "postcode": "N12 8JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.378,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.271,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.271,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Osidge Primary School",
+   "postcode": "N14 5HD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Our Lady of Lourdes RC School",
+   "postcode": "N12 0JP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Pardes House Primary School",
+   "postcode": "N3 1SA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 50,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Other Orthodox Jewish Children Within 2.5m' (furthest 1.353 miles); no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Other Orthodox Jewish Children Within 2.5m'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Any other Orthodox Jewish children' (furthest 1.814 miles); no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Parkfield Primary School",
+   "postcode": "NW4 3PJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "TEFAT academy with a defined catchment area: criterion (e) nearest within catchment, (f) nearest outside catchment (Determined Admissions Policy 2025/26); measuring method not stated there.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Queenswell Infant & Nursery School",
+   "postcode": "N20 0NQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Rimon Jewish Primary School",
+   "postcode": "NW11 8AE",
+   "type": "faith free school",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.139,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance'; faith band went to 'GG Synagogue Attendance Level 1' (0.490 miles) (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.386,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance'; faith band went to 'GG Synagogue attendance level 1' (1.372 miles) (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.408,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Straight-line distance'; faith band went to 'GG Synagogue attendance level 1' (1.868 miles) (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Rosh Pinah Primary School",
+   "postcode": "HA8 8TE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Sacks Morasha Jewish Primary School",
+   "postcode": "N12 9DX",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Priority Children Attending Orthodox Synagogue in Catchment (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Priority Children Attending Orthodox Synagogue In Catchment (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Priority Children Who Attend Orthodox Synagogue In Catchment' (furthest 2.43 miles); no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Sacred Heart Roman Catholic Primary School",
+   "postcode": "N20 9JU",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.985,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other children' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Saracens Bell Lane",
+   "postcode": "NW4 2AS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy that replaced Bell Lane Primary (closed 31 July 2024).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Saracens Broadfields",
+   "postcode": "HA8 8JP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Shalom Noam Primary School",
+   "postcode": "HA8 0AJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Other Orthodox Jewish (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Other Orthodox Jewish (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Other Orthodox Jewish (Lottery)'; no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Agnes' Catholic Primary School",
+   "postcode": "NW2 1RG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.45,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any Other Children' (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.688,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any Other Children' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.147,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any Other Children' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Andrew's CofE Voluntary Aided Primary School, Totteridge",
+   "postcode": "N20 8NX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.639,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'All Others Living in the Parish'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.577,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'All Others Living In The Parish'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Catherine's RC School",
+   "postcode": "EN5 2ED",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.321,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicant' (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith, sibling or lottery criterion: 'Any other applicant - Sibling' (furthest 0.165 miles); no places went on distance alone (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.935,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicant' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St John's CofE Junior Mixed and Infant School",
+   "postcode": "N11 3LB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.746,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other children' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.33,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other children' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St John's CofE Primary and Nursery School",
+   "postcode": "N20 0PL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.072,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Community Band: Within 2km /1.243miles'; faith band went to 'Worship At Other Christian Church' (0.456 miles) (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.115,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Within 2km /1.243miles' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.249,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Resident in the Parish of St John The Apostle'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary School",
+   "postcode": "NW4 4TY",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Mary's CofE Primary School",
+   "postcode": "N3 1BT",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.884,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicant Geographically' (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Mary's CofE Primary School, East Barnet",
+   "postcode": "EN4 8SR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.332,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Resident of the 4 Eligible Parishes'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.589,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Resident of the 4 Eligible Parishes'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.516,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Resident of the 4 Eligible Parishes'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Mary's and St John's CofE School",
+   "postcode": "NW4 4QR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "All-through CofE academy (ages 3-18).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Paul's CofE Primary School N11",
+   "postcode": "N11 1NQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Paul's CofE Primary School NW7",
+   "postcode": "NW7 1QU",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.244,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicants' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 1.138,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicants' (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Theresa's Catholic Primary School",
+   "postcode": "N3 2TD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "St Vincent's Catholic Primary School",
+   "postcode": "NW7 1EJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Summerside Primary Academy",
+   "postcode": "N12 0QU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Sunnyfields Primary School",
+   "postcode": "NW4 4JH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.472,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.365,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.33,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "The Annunciation Catholic Infant School",
+   "postcode": "HA8 0HQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "The Hyde School",
+   "postcode": "NW9 7EY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "TEFAT academy; sister school Parkfield uses a catchment area, so Hyde's policy probably does too (not checked).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.511,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Inside Catchment area'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.583,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Outside catchment area'; everyone living in the catchment area was offered (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.71,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Inside catchment area'; only applies to children living in the named parish/catchment area (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "The Orion Primary School",
+   "postcode": "NW7 2AL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.946,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.356,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.223,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Trent CofE Primary School",
+   "postcode": "EN4 9JH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with its own admission criteria (not checked); council straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.265,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicant Geographically' (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.287,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Any other applicant Geographically' (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last place went under a faith or lottery criterion: 'Member Of Christ Church' (furthest 0.382 miles); no places went on distance alone (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Tudor Primary School",
+   "postcode": "N3 2AG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Underhill School",
+   "postcode": "EN5 2LZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Watling Park School",
+   "postcode": "HA8 9YA",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Demand met (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Wessex Gardens Primary School",
+   "postcode": "NW11 9RR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Whitings Hill Primary School",
+   "postcode": "EN5 2QY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.768,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.506,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.545,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Woodcroft Primary School",
+   "postcode": "HA8 0QF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.672,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Barnet allocation table, 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Woodridge Primary School",
+   "postcode": "N12 7HE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Barnet community school: straight line from the Ordnance Survey address point of the home to the school's main gate. Children inside the school's defined area are offered before those outside it.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.515,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.426,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Only children living in the school's defined area got places; this is the furthest of them (children outside the area within this distance got nothing). See the area map at barnet.gov.uk/admissions (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.412,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Community school with a defined area: every child in the area was offered; the figure is the furthest child offered from outside it (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  },
+  {
+   "name": "Wren Academy Finchley",
+   "postcode": "N12 9HB",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "All-through CofE academy (ages 4-18).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.268,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Community Band: Straight-line distance'; faith band went to 'Other Christian denomination' (0.792 miles) (Barnet allocation table, 16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.247,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Community Band: Straight-line distance'; faith band went to 'Other Christian denomination' (0.902 miles) (Barnet allocation table, 16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.311,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last place offered under 'Community Band: Straight-line distance'; faith band went to 'Other Christian denomination' (0.780 miles) (Barnet allocation table, 16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.barnet.gov.uk/sites/default/files/bc5313_-_guide_to_primary_2027_final_0.pdf"
+  }
+ ]
+}

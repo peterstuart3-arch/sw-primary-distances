@@ -1,0 +1,1737 @@
+{
+  "borough": "Redbridge",
+  "default_method": "walking",
+  "method_notes": "LB Redbridge Admission Arrangements for Community Primary and Secondary Schools 2027-28 (paras 1.9, 3.3 and Note 3) use shortest (safe) walking distance, measured by a Geographic Information System from the child's home to the main entrance of the school along public roads and recognised footpaths. For flats in the same block the distance is measured from the block's main entrance. Recognised routes must be paved or tarmac, lit, well maintained and accessible at all times, so informal paths and paths across private land may be excluded; routes are fixed before the admissions round. Equal distances are settled by random allocation in the Synergy admissions system. Sibling priority lapses if the family has moved more than one mile from the school since the sibling's offer (offer-day sheets). Community primaries have no catchment areas, so the order is LAC, staff children, siblings, then distance. Seven Kings (all-through community school) and Loxford (all-through academy) give catchment priority. Faith and own-admission-authority schools (Al-Noor, Atam, Avanti Court, OLOL, Wanstead Church, the Catholic and Jewish schools) use faith banding or criteria; the council sheet reports their last band.",
+  "method_source": "https://www.redbridge.gov.uk/media/223ce0bg/determined-admissions-arrangements-for-2027-2028.pdf",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Admission to Reception Class/Junior Transfer 2026 - Primary offer day 16 April 2026 last allocated",
+      "url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "year": 2025,
+      "title": "Admission to Reception Class/Junior Transfer 2025 - Primary offer day 16 April 2025 last allocated (v2-3)",
+      "url": "https://www.redbridge.gov.uk/media/1mtj5jon/primary-offer-day-16-april-2025-last-allocated-v2-3.pdf"
+    },
+    {
+      "year": 2024,
+      "title": "Admission to Reception/Junior Transfer 2024 (compiled 16 April 2024); removed from redbridge.gov.uk (old /media/12180 link now 404), read from the Internet Archive copy",
+      "url": "https://web.archive.org/web/20240615073107/https://www.redbridge.gov.uk/media/12180/admission-to-reception-junior-2024.pdf"
+    },
+    {
+      "year": null,
+      "title": "Redbridge Admission Arrangements for Community Primary and Secondary Schools 2027-28 (measurement, community PANs)",
+      "url": "https://www.redbridge.gov.uk/media/223ce0bg/determined-admissions-arrangements-for-2027-2028.pdf"
+    },
+    {
+      "year": null,
+      "title": "Get Information about Schools (GIAS) all-establishments extract, 28 Oct 2026 (postcodes, types)",
+      "url": "https://get-information-schools.service.gov.uk/"
+    }
+  ],
+  "gaps": "The 2025 sheet prints an on-time 'distance offered' for nearly every school, including schools that clearly had spare places: their late applicants were also offered (e.g. Barley Lane 9.870, Redbridge Primary 5.911, Parkhill 9.145 miles). Where late applications were offered, the year is recorded as all_offered, with the printed figure in criterion_note. This is an inference. Where 2025 late applications got 'None Offered', the printed distance is kept. Some kept 2025 and 2026 distances are large (Oakdale Infants 9.408 and 5.044, Gilbert Colvin 5.290, Manford 3.694 miles) and may mean the school was barely oversubscribed; they are recorded as printed. For faith and banded schools (Al-Noor, Atam, Avanti Court, OLOL, Wanstead Church, Seven Kings, Loxford) the value recorded is the last band or criterion listed, with the other bands in criterion_note; Avanti Court 2026 offered no places to Band 4 (non-faith). Wanstead Church 2025 printed no units (assumed miles). The 2024 sheet is an image-only PDF, transcribed by eye from the Internet Archive copy. PAN is the 2027-28 determined admission number and is given only for community schools (Redbridge Primary drops from 120 to 90 in 2027). Academy, free and VA PANs are left null. The faith and academy admission policies were not read individually. The 2027-28 arrangements document does not set out primary criteria in full; walking measurement taken from its general paragraphs. Junior schools (Churchfields, Oakdale and Parkhill Juniors) are excluded.",
+  "schools": [
+    {
+      "name": "Al-Noor Primary School",
+      "postcode": "IG3 9RP",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Muslim voluntary aided school (GIAS: Al-Noor Voluntary Aided Muslim Primary School) using faith and non-faith banding. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.361,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last band offered: Non-Muslim - Distance 0.361 miles (Muslim - Distance 0.075 miles); council says to ask the school for the full banding breakdown"
+        },
+        {
+          "year": 2025,
+          "value": 0.514,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Non-Muslim 0.514 miles; Muslim 5.711 miles (as printed); ask the school for the banding breakdown"
+        },
+        {
+          "year": 2024,
+          "value": 0.381,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications, non-faith band** 0.381 miles (faith band distance 0.166 miles); ** offers include unsuccessful faith applicants further than the last faith applicant offered"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Aldborough Primary School",
+      "postcode": "IG3 8HZ",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.583 miles, but late applications were also offered (to 2.606 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Aldersbrook Primary School",
+      "postcode": "E12 5HL",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": 1.123,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.123 miles; all on-time siblings offered (furthest sibling 2.115 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.762,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.762 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Atam Academy",
+      "postcode": "RM6 4XX",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "Sikh-ethos free school using faith points (Sikh practice) before non-faith places. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3.541,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Non Sikh - Distance 3.541 miles (Sikh faith 11/13/15 points 1.35/3.352/3.625 miles; Sikh sibling 4.178; non-Sikh sibling 2.053)"
+        },
+        {
+          "year": 2025,
+          "value": 4.543,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Printed 'All on-time distance applications offered 4.543 miles' with late applications 'None Offered'; faith sibling 5.702, on-time faith 4.178, non-faith sibling 6.971"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Avanti Court Primary School",
+      "postcode": "IG6 1LZ",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Hindu (ISKCON) academy with faith banding. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 2.929,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last band offered: Band 3 - Hindu Faith - Distance 2.929 miles; Band 4 - All Other Applicants: none offered (Band 1 sibling 5.432; Band 2 Hindu ISKCON 5.355)"
+        },
+        {
+          "year": 2025,
+          "value": 0.524,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "'On Time distances offered to 0.524 miles' (Hindu 5.137 miles); ask the school for the banding breakdown"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Barley Lane Primary School",
+      "postcode": "RM6 4RJ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 9.87 miles, but late applications were also offered (to 1.069 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time applications offered (late applications offered to 0.681 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Chadwell Primary School",
+      "postcode": "RM6 4EU",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": 0.787,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.787 miles; all on-time siblings offered (furthest sibling 1.227 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 1.181,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.181 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Christchurch Primary School",
+      "postcode": "IG1 4LQ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 150,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 4.453 miles, but late applications were also offered (to 1.435 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": 0.737,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.737 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Churchfields Infants' School",
+      "postcode": "E18 2RB",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.582,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.582 miles; all on-time siblings offered (furthest sibling 0.669 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.556,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.556 miles; all on-time siblings offered (furthest sibling 4.837 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.675,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.675 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Cleveland Road Primary School",
+      "postcode": "IG1 1EW",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.617,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.617 miles; all on-time siblings offered (furthest sibling 0.763 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.513,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.513 miles; all on-time siblings offered (furthest sibling 1.005 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.538,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.538 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Clore Tikva School",
+      "postcode": "IG6 2JN",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Jewish voluntary aided school. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 7.207 miles, but late applications were also offered (to 5.385 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Coppice Primary School",
+      "postcode": "IG7 4AL",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.685 miles, but late applications were also offered (to 1.004 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Distance: all on time applications offered (late applications offered to 1.752 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Cranbrook Primary School",
+      "postcode": "IG1 3PS",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.345 miles, but late applications were also offered (to 1.802 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time applications offered (late distance offered to 0.528 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Downshall Primary School",
+      "postcode": "IG3 8UG",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Academy since 2023; still listed among community schools with PAN 60 in the 2027-28 arrangements. Assumed to use the LA walking method.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": 1.213,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.213 miles; all on-time siblings offered (furthest sibling 2.158 miles)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Fairlop Primary School",
+      "postcode": "IG6 2LH",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.236,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.236 miles; all on-time siblings offered (furthest sibling 0.872 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 1.167,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.167 miles; all on-time siblings offered (furthest sibling 3.284 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 1.008,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.008 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Farnham Green Primary School",
+      "postcode": "IG3 8UY",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 1.283 miles, but late applications were also offered (to 0.696 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Fullwood Primary School",
+      "postcode": "IG6 1ER",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.904,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.904 miles; all on-time siblings offered (furthest sibling 0.755 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.695,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.695 miles; all on-time siblings offered (furthest sibling 1.489 miles)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Gearies Primary School",
+      "postcode": "IG2 6TF",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.847,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.847 miles; all on-time siblings offered (furthest sibling 0.93 miles)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 5.164 miles, but late applications were also offered (to 1.644 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time applications offered (late distance offered to 0.184 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Gilbert Colvin Primary School",
+      "postcode": "IG5 0TL",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 5.29,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 5.29 miles; all on-time siblings offered (furthest sibling 0.75 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.422,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.422 miles; all on-time siblings offered (furthest sibling 2.7 miles)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Glade Primary School",
+      "postcode": "IG5 0PF",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 3.312 miles, but late applications were also offered (to 1.194 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Goodmayes Primary School",
+      "postcode": "IG3 9RW",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.465 miles, but late applications were also offered ('All Applicants'), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Gordon Primary School",
+      "postcode": "IG1 1SU",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.825 miles, but late applications were also offered ('All Applicants'), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Grove Primary School",
+      "postcode": "RM6 4XS",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.51,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.51 miles; all on-time siblings offered (furthest sibling 0.873 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.697,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.697 miles; all on-time siblings offered (furthest sibling 4.25 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.697,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.697 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Highlands Primary School",
+      "postcode": "IG1 3LE",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.669,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.669 miles; all on-time siblings offered (furthest sibling 0.71 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.761,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.761 miles; all on-time siblings offered (furthest sibling 4.86 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.729,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.729 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Isaac Newton Academy",
+      "postcode": "IG1 1FY",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "All-through academy (GIAS: Ark Isaac Newton Academy). Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.697,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.697 miles; all on-time siblings offered (furthest sibling 2.885 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.591,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.591 miles; all on-time siblings offered (furthest sibling 5.356 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.548,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.548 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "John Bramston Primary School",
+      "postcode": "IG6 3EE",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.799,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.799 miles; all on-time siblings offered (furthest sibling 0.888 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.932,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.932 miles; all on-time siblings offered (furthest sibling 7.659 miles)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time applications offered (late applications offered to 0.888 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Loxford School",
+      "postcode": "IG1 2UT",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "All-through academy (council sheet: 'Loxford School Trust') with catchment-area priority before distance. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.388,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Distance 1.388 miles (catchment sibling all-through 0.823; catchment 1.034; out-of-catchment sibling 1.005)"
+        },
+        {
+          "year": 2025,
+          "value": 0.829,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Distance 0.829 miles (sibling 1.212; catchment 1.420; sibling all-through 11.201)"
+        },
+        {
+          "year": 2024,
+          "value": 1.013,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "All on-time catchment and sibling applications offered; on time distance offered to 1.013 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Manford Primary School",
+      "postcode": "IG7 4BX",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3.694,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 3.694 miles; all on-time siblings offered (furthest sibling 0.949 miles)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 1.371 miles, but late applications were also offered (to 0.496 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": 0.917,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.917 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Mayespark Primary School",
+      "postcode": "IG3 9PX",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.63,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.63 miles; all on-time siblings offered (furthest sibling 0.81 miles)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.061 miles, but late applications were also offered (to 2.602 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Mossford Green Primary School",
+      "postcode": "IG6 2EW",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 5.099 miles, but late applications were also offered (to 0.471 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Newbury Park Primary School",
+      "postcode": "IG2 7LB",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 6.051 miles, but late applications were also offered (to 3.098 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Nightingale Primary School",
+      "postcode": "E18 1PL",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.821,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.821 miles; all on-time siblings offered (furthest sibling 0.961 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 1.043,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.043 miles; all on-time siblings offered (furthest sibling 1.47 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 1.074,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.074 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Oakdale Infants' School",
+      "postcode": "E18 1JU",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 9.408,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 9.408 miles; all on-time siblings offered (furthest sibling 0.934 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 5.044,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 5.044 miles; all on-time siblings offered (furthest sibling 3.153 miles)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Our Lady of Lourdes Catholic Primary School",
+      "postcode": "E11 2TA",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (GIAS: Our Lady of Lourdes RC Primary School) with parish and faith priority. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.188,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Any Other Applicant 0.188 miles (OLOL parish 1.784; St Anne parish 0.878; Catholic children 3.692; Eastern Christian 1.621; other denominations 2.124; any other sibling 1.577; staff child 2.772)"
+        },
+        {
+          "year": 2025,
+          "value": 0.17,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Any Other Applicant 0.170 miles (OLOL parish 1.098; St Anne parish 2.047; Catholic children 2.443; other denominations 1.181)"
+        },
+        {
+          "year": 2024,
+          "value": 0.981,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "All on time applications offered within OLOL parish to 0.981 miles; no lower criteria reported (late: none offered)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Parkhill Infants' School",
+      "postcode": "IG5 0DB",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 9.145 miles, but late applications were also offered (to 0.625 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Ray Lodge Primary School",
+      "postcode": "IG8 7JQ",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.793,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.793 miles; all on-time siblings offered (furthest sibling 0.815 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.797,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.797 miles; all on-time siblings offered (furthest sibling 1.555 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.708,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.708 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Redbridge Primary School",
+      "postcode": "IG4 5HW",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 5.911 miles, but late applications were also offered (to 3.168 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time applications offered (late distance applicants offered to 0.526 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Roding Primary School",
+      "postcode": "IG8 8NP",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "2025 sheet prints on-time distance offered 2.206 miles, but late applications were also offered (to 4.208 miles), so all on-time applicants were offered"
+        },
+        {
+          "year": 2024,
+          "value": 1.346,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.346 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "SS Peter and Paul's Catholic Primary School",
+      "postcode": "IG1 1SA",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Seven Kings School",
+      "postcode": "IG2 7BT",
+      "type": "community",
+      "method": "walking",
+      "method_note": "All-through community school (primary phase); catchment-area priority before distance under LA arrangements.",
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.354,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Distance 0.354 miles (staff children 2.425; catchment sibling all-through 0.787; catchment 0.804; out-of-catchment sibling 3.602)"
+        },
+        {
+          "year": 2025,
+          "value": 0.493,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Distance 0.493 miles (staff 3.003; catchment sibling 0.852; catchment 0.998; out-of-catchment sibling 1.979)"
+        },
+        {
+          "year": 2024,
+          "value": 0.416,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "All on-time catchment and sibling applications offered; on time distance offered to 0.416 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Snaresbrook Primary School",
+      "postcode": "E18 2EN",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.597,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.597 miles; all on-time siblings offered (furthest sibling 0.758 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.731,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance offered to 0.731 miles (primary staff 2.982; siblings 1.214)"
+        },
+        {
+          "year": 2024,
+          "value": 0.739,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.739 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "South Park Primary School",
+      "postcode": "IG3 9HF",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "St Aidan's Catholic Academy",
+      "postcode": "IG1 4AS",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (GIAS: St Aidan's Catholic Primary Academy). Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "St Antony's Catholic Primary School",
+      "postcode": "IG8 0TX",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Catholic voluntary aided. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "St Augustine's Catholic Primary School",
+      "postcode": "IG2 6RG",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Catholic voluntary aided. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time applications offered (late applications with school criterion offered to 0.526 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "St Bede's Catholic Primary School",
+      "postcode": "RM6 5RR",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Catholic voluntary aided. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Uphall Primary School",
+      "postcode": "IG1 2JD",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Wanstead Church School",
+      "postcode": "E11 2SS",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Church of England voluntary aided school with church-attendance priority. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.286,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Distance to school 1.286 miles (sibling 3.238; Christ Church & St Mary's, St Gabriel's 3.269; other churches Wanstead/Aldersbrook 1.130; other Anglican LBR/WF/Newham 3.516; other churches LBR/WF/Newham 0.875; other churches CTBI/EA: none offered, as printed)"
+        },
+        {
+          "year": 2025,
+          "value": 0.88,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last criterion: Distance to school 0.88 (units not printed, assumed miles); sibling 3.519; named churches 2.861; other churches Wanstead/Aldersbrook 0.955; other church categories none offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "All on time distance to school criterion offered (late distance applications offered to 0.479 miles)"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Wells Primary School",
+      "postcode": "IG8 0PP",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.714,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.714 miles; all on-time siblings offered (furthest sibling 0.963 miles)"
+        },
+        {
+          "year": 2025,
+          "value": 0.869,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.869 miles; all on-time siblings offered (furthest sibling 1.067 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 1.252,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 1.252 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "William Torbitt Primary School",
+      "postcode": "IG2 7SS",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": 0.686,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.686 miles; all on-time siblings offered (furthest sibling 1.177 miles)"
+        },
+        {
+          "year": 2024,
+          "value": 0.573,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "On time distance applications offered to 0.573 miles"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Winston Way Academy",
+      "postcode": "IG1 2WS",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Wohl Ilford Jewish Primary School",
+      "postcode": "IG6 3HB",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Jewish voluntary aided. Own admission authority; own oversubscription criteria not read in detail. Assumed to use the borough's walking-distance method.",
+      "pan": null,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    },
+    {
+      "name": "Woodlands Primary School",
+      "postcode": "IG1 2PY",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All On Time Applicants Offered'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All Applicants' for sibling, distance and late applications"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Source: 'All on time applications offered'"
+        }
+      ],
+      "source_url": "https://www.redbridge.gov.uk/media/ldbowne5/primary-offer-day-16-april-2026-last-allocated.pdf"
+    }
+  ]
+}

@@ -1,0 +1,1806 @@
+{
+ "borough": "Brent",
+ "default_method": "straight_line",
+ "method_notes": "Brent Admission Arrangements for Community Schools 2026/27 ('Tie-break' Distance Measurement, p5): distance measured in a straight line from the address point in the property to the address point in the school, as determined by Local Land and Property Gazetteer (LLPG) data, using the measuring module of The Access Group admissions software (Ordnance Survey maps + LLPG, accurate to 1 cm); the arrangements also publish grid-reference measuring points (easting/northing) for each community school (p2). Nearer applicants have priority; where children are equidistant for the last place, computerised random allocation. The Sept 2027 primary handbook repeats straight-line measurement 'from a point in the property to a point in the school'. Exceptions in school entries in the handbook: Kilburn Grange (free school) uses the shortest walking route to the school's main entrance point; East Lane and Preston Manor measure from the front door of the home to school reception; NWL Jewish Day School to the main gate (straight line); Ark Franklin gives priority to Pupil Premium children within a 0.5-mile radius. Council tables give furthest distance per criterion in metres; furthest distance is not shown for looked-after, social/medical, pupil premium, staff children or 'nearest school with a vacancy' (directed) offers.",
+ "method_source": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/determined-brent-community-school-admission-arrangements-for-2026-to-2027.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "How places were offered at Brent Schools - Reception Admissions 2026 (data as of 16/04/2026)",
+   "url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "How places were offered - Reception Admissions 2025",
+   "url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2025.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How places were offered - Reception 2024 (data as of 16/04/2024)",
+   "url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2024.pdf"
+  },
+  {
+   "year": null,
+   "title": "Admission Arrangements for Brent Community Schools 2026/2027 (incl. schemes of co-ordination), updated 13 April 2026",
+   "url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/determined-brent-community-school-admission-arrangements-for-2026-to-2027.pdf"
+  },
+  {
+   "year": null,
+   "title": "Applying for Reception and Junior School for September 2027 (Brent primary admissions handbook; school-by-school admission criteria)",
+   "url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/schools-admissions-handbook-primary.pdf"
+  },
+  {
+   "year": null,
+   "title": "Get Information About Schools (GIAS) establishment data - postcodes and school types",
+   "url": "https://get-information-schools.service.gov.uk/"
+  }
+ ],
+ "gaps": "All three years come from the council's own 'How places were offered - Reception' PDFs (2024, 2025, 2026), which give furthest distance per oversubscription criterion in metres, plus an Over/Under/Fully subscribed flag. Interpretation: schools flagged 'Undersubscribed' (and Northview 2026, 'Fully subscribed' but filled with directed 'nearest school with a vacancy' offers) are recorded as all_offered, with the furthest distance noted in criterion_note; for oversubscribed/fully subscribed schools the value is the furthest distance in the last-priority criterion with a distance. That is the furthest offer within that criterion, not necessarily the strict cut-off. The 2024 table lists criteria alphabetically within each school, not in priority order, so the general criterion (Any Other Applicant/Distance/Outside Catchment Area) was chosen; for Islamia, Princess Frederica and St Joseph's RC Infant the last faith/parish criterion was chosen by hand by matching the 2025-26 ordering. Those three 2024 values are inferences. 2024 table has no PAN or application counts; PAN is taken from the 2026 table (Harris South Kenton shows 150 as printed). Faith schools (Avigdor Hirsch, Islamia, NWLJDS, Sinai, St Joseph's RC Infant/Primary, Princess Frederica, St Robert Southwell 2025) often filled on faith criteria; their distances are flagged in criterion_note and are not general proximity cut-offs. Measuring method for academies/VA/free schools taken only from the short criteria summaries in the Sept 2027 handbook; where it says nothing, straight line (the LA method) is assumed and not verified against each school's full policy. Only Kilburn Grange is known to use a walking route. Byron Court Primary closed Aug 2024; its 2024 figures are attributed to Harris Primary Academy South Kenton (same site). Malorees Infant figures (2024-25) are attributed to Malorees Primary (renamed 2026). Leopold's two 2024 sites are merged into one entry. Barham 2026 'Any Other Applicant' furthest distance printed as 999999 (placeholder), irrelevant as the school was undersubscribed. Junior schools (Mount Stewart Jr, Roe Green Jr, St Joseph's Catholic Jr, St Mary Magdalen's Jr, Our Lady of Grace Jr, Kilburn Park Foundation) excluded. Postcodes and types from GIAS (Oct 2026 extract), not the booklet. All documents were fetched with plain curl from brent.gov.uk; no blocking encountered.",
+ "schools": [
+  {
+   "name": "Anson Primary School",
+   "postcode": "NW2 4AB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN 52; up to 56 places offered for 2026 by LA agreement (PAN rises to 56 from 2027).",
+   "pan": 52,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 168 offers (PAN 52); all applicants offered; furthest 'Any Other Applicant' offer 5179.52 m"
+    },
+    {
+     "year": 2025,
+     "value": 1017.79,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 52 offers (PAN 52); last criterion 'Any Other Applicant' (26 offers) furthest 1017.79 m"
+    },
+    {
+     "year": 2024,
+     "value": 942.86,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 52 offers; last criterion 'Any Other Applicant' (33 offers) furthest 942.86 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Ark Academy",
+   "postcode": "HA9 9JR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Ark academy: straight-line distance between home and school (handbook).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 490.03,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Distance' (24 offers) furthest 490.03 m"
+    },
+    {
+     "year": 2025,
+     "value": 666.51,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Distance' (36 offers) furthest 666.51 m"
+    },
+    {
+     "year": 2024,
+     "value": 641.65,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Distance' (33 offers) furthest 641.65 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Ark Franklin Primary Academy",
+   "postcode": "NW6 6HJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Ark academy: priority for Pupil Premium-eligible children within a 0.5-mile radius catchment (criterion 6) before general distance; distances straight line (handbook).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 671.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 90 offers (PAN 90); last criterion 'Distance' (47 offers) furthest 671.53 m"
+    },
+    {
+     "year": 2025,
+     "value": 864.16,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 90 offers (PAN 90); last criterion 'Distance' (53 offers) furthest 864.16 m"
+    },
+    {
+     "year": 2024,
+     "value": 601.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 89 offers; last criterion 'Distance' (52 offers) furthest 601.4 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Avigdor Hirsch Torah Temimah Primary School",
+   "postcode": "NW2 6RJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 25,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 13469.44,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 25 offers (PAN 25); last criterion 'Orthodox Jew' (13 offers) furthest 13469.4 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": 13540.03,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 25 offers (PAN 25); last criterion 'Orthodox Jew' (11 offers) furthest 13540 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2024,
+     "value": 5301.15,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 25 offers; last criterion 'Any Other Applicants' (1 offers) furthest 5301.15 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Barham Primary School",
+   "postcode": "HA0 4RQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 111 offers (PAN 120), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 999999 (placeholder value in source)"
+    },
+    {
+     "year": 2025,
+     "value": 1245.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 120 offers (PAN 120); last criterion 'Any Other Applicant' (72 offers) furthest 1245.12 m"
+    },
+    {
+     "year": 2024,
+     "value": 817.93,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 120 offers; last criterion 'Any Other Applicant' (88 offers) furthest 817.93 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Braintcroft E-Act Primary Academy",
+   "postcode": "NW2 7LL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 63 offers (PAN 90), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 5099.32 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 74 offers (PAN 90), incl. 9 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 4034.52 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 72 offers, incl. 6 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 5462.68 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Brentfield Primary School",
+   "postcode": "NW10 0SL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 31 offers (PAN 90); all applicants offered; furthest 'Any Other Applicant' offer 2685.89 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 41 offers (PAN 90), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 2669.45 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 23 offers, incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 1688.05 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Carlton Vale Infant School",
+   "postcode": "NW6 5RG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 8 offers (PAN 60); all applicants offered; furthest 'Any Other Applicant' offer 5084.76 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 9 offers (PAN 60), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 4326.2 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 12 offers, incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 6446.94 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Chalkhill Primary School",
+   "postcode": "HA9 9YP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 37 offers (PAN 60), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 2673.31 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 53 offers (PAN 60), incl. 7 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3650.69 m"
+    },
+    {
+     "year": 2024,
+     "value": 3670.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Any Other Applicant' (45 offers) furthest 3670.88 m; 1 directed 'nearest school with a vacancy' offers also made (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Christ Church CofE Primary School",
+   "postcode": "NW6 7TE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 9 offers (PAN 30), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 5174.59 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 13 offers (PAN 30), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 5249.21 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 19 offers, incl. 4 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 448.37 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Convent of Jesus and Mary RC Infant School",
+   "postcode": "NW2 5AN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 58 offers (PAN 90); all applicants offered; furthest 'Other Applicants' offer 2292.12 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 61 offers (PAN 90), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Other Christian, Affiliated C T E W Cath Edu, Rel Leader Supp, Sib St M M' offer 2088.27 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 63 offers, incl. 5 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Other Applicants' offer 1970.73 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Donnington Primary School",
+   "postcode": "NW10 3TL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 28 offers (PAN 30), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 8274.43 m"
+    },
+    {
+     "year": 2025,
+     "value": 1303.52,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 30 offers (PAN 30); last criterion 'Any Other Applicant' (14 offers) furthest 1303.52 m; 7 directed 'nearest school with a vacancy' offers also made"
+    },
+    {
+     "year": 2024,
+     "value": 1881.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 30 offers; last criterion 'Any Other Applicant' (26 offers) furthest 1881.12 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "East Lane Primary School",
+   "postcode": "HA0 3NT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy: straight line from front door of home address to school reception (handbook). PAN raised by 30 for 2026 (120 offered).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1294.11,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 120 offers (PAN 90); last criterion 'Distance' (85 offers) furthest 1294.11 m"
+    },
+    {
+     "year": 2025,
+     "value": 619.6,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 90 offers (PAN 90); last criterion 'Distance' (54 offers) furthest 619.6 m"
+    },
+    {
+     "year": 2024,
+     "value": 824.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 90 offers; last criterion 'Distance' (59 offers) furthest 824.12 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Elsley Primary School",
+   "postcode": "HA9 6HT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 58 offers (PAN 120), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3566.93 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 50 offers (PAN 120), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 999999 (placeholder value in source)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 75 offers, incl. 22 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 999999 (placeholder value in source) (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Fryent Primary School",
+   "postcode": "NW9 8JD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 39 offers (PAN 90); all applicants offered; furthest 'Any Other Applicant' offer 3108.38 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 71 offers (PAN 90); all applicants offered; furthest 'Any Other Applicant' offer 2462.03 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 75 offers, incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 5255.02 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Furness Primary School",
+   "postcode": "NW10 5YT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 28 offers (PAN 60), incl. 4 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Distance' offer 2443.93 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 39 offers (PAN 60); all applicants offered; furthest 'Distance' offer 1877.03 m"
+    },
+    {
+     "year": 2024,
+     "value": 3742.02,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Distance' (17 offers) furthest 3742.02 m; 28 directed 'nearest school with a vacancy' offers also made (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Gladstone Park Primary School",
+   "postcode": "NW10 1LB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 49 offers (PAN 90), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'All Other Applicants' offer 2945.63 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 51 offers (PAN 90); all applicants offered; furthest 'All Other Applicants' offer 1835.39 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 57 offers, incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'All Other Applicants' offer 1363.51 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Harlesden Primary School",
+   "postcode": "NW10 8UT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 30 offers (PAN 60), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3413.69 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 33 offers (PAN 60), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 1199.31 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 36 offers, incl. 4 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 1206 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Harris Primary Academy South Kenton",
+   "postcode": "HA0 3SF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Opened Sept 2024 on the former Byron Court Primary School site (HA0 3SF); 2024 figures are those published for Byron Court Primary School.",
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 40 offers (PAN 150); all applicants offered; furthest 'Any Other Applicants' offer 6670.38 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 31 offers (PAN 150); all applicants offered; furthest 'Any Other Applicants' offer 2309.28 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Listed as Byron Court Primary School. Council table 2024: Undersubscribed, 96 offers, incl. 6 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 5655.93 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Islamia Primary School",
+   "postcode": "NW6 6PE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2616.07,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Muslim, Religious Practice' (19 offers) furthest 2616.07 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": 2007.78,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Muslim, Religious Practice' (25 offers) furthest 2007.78 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2024,
+     "value": 2560.91,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 59 offers; last criterion 'Muslim, Religious Practice' (24 offers) furthest 2560.91 m - last place went on a faith/priority criterion, not general distance (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "John Keble CofE Primary School",
+   "postcode": "NW10 4DR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 55 offers (PAN 60), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 4051.39 m"
+    },
+    {
+     "year": 2025,
+     "value": 1188.05,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicants' (38 offers) furthest 1188.05 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 54 offers, incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 4526.16 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Kilburn Grange School",
+   "postcode": "NW6 7UJ",
+   "type": "free school",
+   "method": "walking",
+   "method_note": "Free school; own arrangements (council handbook Sept 2027): proximity measured by shortest walking distance by road/maintained footpath/public rights of way from home to the main entrance point of the school, using Brent's GIS.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 20 offers (PAN 30); all applicants offered; furthest 'Distance' offer 5552.86 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 28 offers (PAN 30); all applicants offered; furthest 'Distance' offer 8228.4 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 22 offers; all applicants offered; furthest 'Distance' offer 39872.8 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Kingsbury Green Primary School",
+   "postcode": "NW9 9ND",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 47 offers (PAN 90), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 6325.79 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 70 offers (PAN 90), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 1849.25 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 80 offers, incl. 8 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 999999 (placeholder value in source) (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Leopold Primary School",
+   "postcode": "NW10 9UR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "2024 table reported two sites separately (Gwenneth Rickus and Hawkshead Road); both undersubscribed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 47 offers (PAN 60); all applicants offered; furthest 'Any Other Applicant' offer 3716.23 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 36 offers (PAN 60); all applicants offered; furthest 'Any Other Applicant' offer 1781.13 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Two sites listed separately; both undersubscribed: Leopold Primary School - Gwenneth Rickus site: Council table 2024: Undersubscribed, 24 offers, incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 1816.94 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen) | Leopold Primary School - Hawkshead Road site: Council table 2024: Undersubscribed, 31 offers; all applicants offered; furthest 'Any Other Applicant' offer 4845.44 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Lyon Park Primary School",
+   "postcode": "HA0 4HH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 99 offers (PAN 120), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3191.49 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 97 offers (PAN 120), incl. 7 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 6495.9 m"
+    },
+    {
+     "year": 2024,
+     "value": 4949.11,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 120 offers; last criterion 'Any Other Applicant' (100 offers) furthest 4949.11 m; 3 directed 'nearest school with a vacancy' offers also made (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Malorees Primary School",
+   "postcode": "NW6 7PB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Formerly Malorees Infant School (renamed primary April 2026 after merging with Malorees Junior); 2024-25 figures are for the infant school.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1470.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (41 offers) furthest 1470.35 m"
+    },
+    {
+     "year": 2025,
+     "value": 1297.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Listed as Malorees Infant School. Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (37 offers) furthest 1297.35 m"
+    },
+    {
+     "year": 2024,
+     "value": 876.38,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Listed as Malorees Infant School. Council table 2024: Oversubscribed, 59 offers; last criterion 'Any Other Applicant' (46 offers) furthest 876.38 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Mitchell Brook Primary School",
+   "postcode": "NW10 9BX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 757.75,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (29 offers) furthest 757.75 m"
+    },
+    {
+     "year": 2025,
+     "value": 1706.41,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (30 offers) furthest 1706.41 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 69 offers, incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 999999 (placeholder value in source) (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Mora Primary School",
+   "postcode": "NW2 6TD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 51 offers (PAN 60), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 4601.65 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 55 offers (PAN 60), incl. 4 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3001.4 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 59 offers, incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 2881.26 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Mount Stewart Infant School",
+   "postcode": "HA3 0JX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 78 offers (PAN 90); all applicants offered; furthest 'Any Other Applicant' offer 4104.68 m"
+    },
+    {
+     "year": 2025,
+     "value": 1482.19,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 90 offers (PAN 90); last criterion 'Any Other Applicant' (59 offers) furthest 1482.19 m"
+    },
+    {
+     "year": 2024,
+     "value": 4308.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 89 offers; last criterion 'Any Other Applicant' (71 offers) furthest 4308 m; 5 directed 'nearest school with a vacancy' offers also made (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Newfield Primary School",
+   "postcode": "NW10 3UD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 24 offers (PAN 60); all applicants offered; furthest 'Any Other Applicant' offer 2807.87 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 20 offers (PAN 60), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 6279.51 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 16 offers, incl. 6 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 2926.59 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "North West London Jewish Day School",
+   "postcode": "NW6 7PP",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Jewish academy: faith priority for children of regular worshippers living within 3 miles; distance measured in a straight line to the school main gate (handbook).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4088.34,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 30 offers (PAN 30); last criterion 'Priority Children Of Reg Worshippers Who Live Within A 3 Mile Radius' (21 offers) furthest 4088.34 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": 2475.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 30 offers (PAN 30); last criterion 'Priority Children Of Regular Worshippers At Orthodox Synagogues' (4 offers) furthest 2475.36 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 26 offers; all applicants offered (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Northview Junior and Infant School",
+   "postcode": "NW10 1RD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Fully subscribed, 30 offers (PAN 30), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 2278.38 m"
+    },
+    {
+     "year": 2025,
+     "value": 1475.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 30 offers (PAN 30); last criterion 'Any Other Applicant' (13 offers) furthest 1475.85 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 29 offers, incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 1130.63 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Oakington Manor Primary School",
+   "postcode": "HA9 6NF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 81 offers (PAN 90); all applicants offered; furthest 'Distance' offer 3058.27 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 89 offers (PAN 90), incl. 5 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Distance' offer 15010.4 m"
+    },
+    {
+     "year": 2024,
+     "value": 1864.68,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 90 offers; last criterion 'Distance' (49 offers) furthest 1864.68 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Oliver Goldsmith Primary School",
+   "postcode": "NW9 0BD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1346.92,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (37 offers) furthest 1346.92 m"
+    },
+    {
+     "year": 2025,
+     "value": 1080.58,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (43 offers) furthest 1080.58 m"
+    },
+    {
+     "year": 2024,
+     "value": 1297.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Any Other Applicant' (43 offers) furthest 1297.7 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Our Lady of Grace RC Infant and Nursery School",
+   "postcode": "NW2 6EU",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 809.76,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicants' (5 offers) furthest 809.76 m"
+    },
+    {
+     "year": 2025,
+     "value": 88.02,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicants' (1 offers) furthest 88.02 m"
+    },
+    {
+     "year": 2024,
+     "value": 2393.97,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Any Other Applicants' (12 offers) furthest 2393.97 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Our Lady of Lourdes RC Primary School",
+   "postcode": "NW10 8PP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1951.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Fully subscribed, 30 offers (PAN 30); last criterion 'Any Other Applicants' (11 offers) furthest 1951.36 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 24 offers (PAN 30); all applicants offered; furthest 'Any Other Applicants' offer 4484.61 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 28 offers; all applicants offered; furthest 'Any Other Applicants' offer 987.9 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Park Lane Primary School",
+   "postcode": "HA9 7RY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2022.01,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (46 offers) furthest 2022.01 m"
+    },
+    {
+     "year": 2025,
+     "value": 1645.91,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (42 offers) furthest 1645.91 m"
+    },
+    {
+     "year": 2024,
+     "value": 800.63,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Any Other Applicant' (46 offers) furthest 800.63 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Preston Manor School",
+   "postcode": "HA9 8NA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (primary phase): straight line from front door of home (incl. flats) to school reception, using LA's measuring system (handbook).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 49 offers (PAN 60), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Distance' offer 6900.31 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 38 offers (PAN 60), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Distance' offer 3314.42 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 38 offers, incl. 8 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Distance' offer 999999 (placeholder value in source) (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Preston Park Primary School",
+   "postcode": "HA9 8RJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 62 offers (PAN 120); all applicants offered; furthest 'Any Other Applicant' offer 4229.28 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 61 offers (PAN 120), incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 4558.39 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 67 offers, incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3848.65 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Princess Frederica CofE Primary School",
+   "postcode": "NW10 5TP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 814.03,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Child Who Live In Parish' (27 offers) furthest 814.03 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": 860.07,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicants' (8 offers) furthest 860.07 m"
+    },
+    {
+     "year": 2024,
+     "value": 259.62,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Any Other Child Who Live In Parish' (19 offers) furthest 259.62 m - last place went on a faith/priority criterion, not general distance (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Roe Green Infant School",
+   "postcode": "NW9 9JL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2277.16,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 120 offers (PAN 120); last criterion 'Any Other Applicant' (75 offers) furthest 2277.16 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 113 offers (PAN 120), incl. 7 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3387.77 m"
+    },
+    {
+     "year": 2024,
+     "value": 3353.72,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 119 offers; last criterion 'Any Other Applicant' (85 offers) furthest 3353.72 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Salusbury Primary School",
+   "postcode": "NW6 6RG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 765.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 90 offers (PAN 90); last criterion 'Any Other Applicant' (52 offers) furthest 765 m"
+    },
+    {
+     "year": 2025,
+     "value": 974.94,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 90 offers (PAN 90); last criterion 'Any Other Applicant' (71 offers) furthest 974.94 m"
+    },
+    {
+     "year": 2024,
+     "value": 877.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 90 offers; last criterion 'Any Other Applicant' (61 offers) furthest 877.85 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Sinai Jewish Primary School",
+   "postcode": "HA3 9UD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 8987.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 90 offers (PAN 90); last criterion 'Other Children With A Completed And Valid Crp 2' (23 offers) furthest 8987.12 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 89 offers (PAN 90); all applicants offered; furthest 'All Other Applicants' offer 11860.6 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 74 offers; all applicants offered; furthest 'All Other Applicants' offer 529 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Andrew and St Francis CofE Primary School",
+   "postcode": "NW2 5PE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 48 offers (PAN 60), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Open Place - Reside In Deanery Of Brent' offer 2908.54 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 55 offers (PAN 60), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 4022.75 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 53 offers, incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Joseph's RC Infant School",
+   "postcode": "HA9 6TA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 70,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1142.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 70 offers (PAN 70); last criterion '11 Any Other Children' (5 offers) furthest 1142.64 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": 1799.5,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 70 offers (PAN 70); last criterion '5 Cath,ccp,out Of Parish' (1 offers) furthest 1799.5 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2024,
+     "value": 947.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 70 offers; last criterion '4 Cath,ccp,in Parish' (43 offers) furthest 947.36 m - last place went on a faith/priority criterion, not general distance (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Joseph's RC Primary School",
+   "postcode": "NW10 9LS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 331.93,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Other Christian Chldrn With Bapt/let Conf Member Of Parish Community' (3 offers) furthest 331.93 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2025,
+     "value": 1566.61,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicants' (7 offers) furthest 1566.61 m"
+    },
+    {
+     "year": 2024,
+     "value": 822.34,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 60 offers; last criterion 'Any Other Applicants' (7 offers) furthest 822.34 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Margaret Clitherow RC Primary School",
+   "postcode": "NW10 0BG",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 27 offers (PAN 30); all applicants offered; furthest 'Any Other Applicants' offer 4149.51 m"
+    },
+    {
+     "year": 2025,
+     "value": 2766.56,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 30 offers (PAN 30); last criterion 'Any Other Applicants' (11 offers) furthest 2766.56 m; 2 directed 'nearest school with a vacancy' offers also made"
+    },
+    {
+     "year": 2024,
+     "value": 657.39,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 30 offers; last criterion 'Any Other Applicants' (4 offers) furthest 657.39 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Mary's CofE Primary School",
+   "postcode": "NW10 9JA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 22 offers (PAN 45), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 3493.52 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 18 offers (PAN 45), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 1981.5 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 15 offers, incl. 2 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 5649.91 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Mary's RC Primary School",
+   "postcode": "NW6 5ST",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 14 offers (PAN 30); all applicants offered; furthest 'Any Other Applicants' offer 9374.75 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 14 offers (PAN 30), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 7950.46 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 19 offers, incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicants' offer 3796.12 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "St Robert Southwell RC Primary School",
+   "postcode": "NW9 8YD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority; booklet shows straight-line measurement where stated; not individually verified.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1678.52,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicants' (13 offers) furthest 1678.52 m"
+    },
+    {
+     "year": 2025,
+     "value": 4798.05,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Other Baptised Catholics' (9 offers) furthest 4798.05 m - last place went on a faith/priority criterion, not general distance"
+    },
+    {
+     "year": 2024,
+     "value": 1225.77,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 59 offers; last criterion 'Any Other Applicants' (11 offers) furthest 1225.77 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Sudbury Primary School",
+   "postcode": "HA0 3EY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy (Chrysalis MAT); 2024 table shows Catchment Area / Outside Catchment Area criteria, 2025-26 tables show Distance.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 115 offers (PAN 120), incl. 1 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Distance' offer 3284.16 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 117 offers (PAN 120), incl. 8 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Outside Catchment Area' offer 3238.19 m"
+    },
+    {
+     "year": 2024,
+     "value": 1669.37,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 119 offers; last criterion 'Outside Catchment Area' (41 offers) furthest 1669.37 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "The Stonebridge School",
+   "postcode": "NW10 8NG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 18 offers (PAN 90); all applicants offered; furthest 'Any Other Applicant' offer 3775.54 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 20 offers (PAN 90), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 3775.54 m"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2024: Undersubscribed, 20 offers, incl. 5 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 4031.32 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Uxendon Manor Primary School",
+   "postcode": "HA3 0UX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1343.03,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2026: Oversubscribed, 90 offers (PAN 90); last criterion 'Any Other Applicant' (55 offers) furthest 1343.03 m"
+    },
+    {
+     "year": 2025,
+     "value": 872.56,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 90 offers (PAN 90); last criterion 'Any Other Applicant' (52 offers) furthest 872.56 m"
+    },
+    {
+     "year": 2024,
+     "value": 728.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 89 offers; last criterion 'Any Other Applicant' (46 offers) furthest 728.35 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Wembley Primary School",
+   "postcode": "HA9 7NW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 116 offers (PAN 120), incl. 3 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 13082.4 m"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2025: Undersubscribed, 117 offers (PAN 120), incl. 4 directed 'nearest school with a vacancy' offers; all applicants offered; furthest 'Any Other Applicant' offer 4143.48 m"
+    },
+    {
+     "year": 2024,
+     "value": 2380.32,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 120 offers; last criterion 'Any Other Applicant' (90 offers) furthest 2380.32 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  },
+  {
+   "name": "Wykeham Primary School",
+   "postcode": "NW10 0EX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table 2026: Undersubscribed, 54 offers (PAN 60); all applicants offered; furthest 'Any Other Applicant' offer 3038.17 m"
+    },
+    {
+     "year": 2025,
+     "value": 705.8,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2025: Oversubscribed, 60 offers (PAN 60); last criterion 'Any Other Applicant' (33 offers) furthest 705.8 m"
+    },
+    {
+     "year": 2024,
+     "value": 528.14,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table 2024: Oversubscribed, 59 offers; last criterion 'Any Other Applicant' (43 offers) furthest 528.14 m (2024 table lists criteria alphabetically; general/last-priority criterion chosen)"
+    }
+   ],
+   "source_url": "https://www.brent.gov.uk/-/media/files/resident-documents/education-documents/how-places-were-offered-reception-2026.pdf"
+  }
+ ]
+}

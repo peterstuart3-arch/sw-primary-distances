@@ -1,0 +1,2217 @@
+{
+  "borough": "Newham",
+  "default_method": "walking",
+  "method_notes": "Newham LA Determined Admission Arrangements (Sept 2027 entry, printed in the 'Starting school in September 2027' booklet pp59-80), adopted by all Newham community, VC, academy and free schools except Harris Academy Chobham and the Catholic/CofE VA faith schools. Tie-break within each criterion is shortest home-to-school walking distance, calculated by an industry GIS in miles to 3 decimal places. Start: the address point in the Council's Local Land and Property Gazetteer (LLPG; blocks of flats use the block's point), joined by a 'dogleg' to the nearest point of the OS MasterMap Highways Network. End: the school's nominated entrance, i.e. the main gate at the official postal address unless the governing body notifies another (p79: Central Park Primary - Loxford Avenue E6; St Joachim's RC Primary - Front Main Entrance of Newham Dockside). Route uses adopted highways and approved footpaths; excludes parks (the Greenway is included), unofficial crossings of A-roads and the DLR, Royal Docks crossings other than official bridges, and commercial/residential car parks. Out-of-borough applicants: straight line from the nearest highway point to the borough boundary, then walking. Equal distances: lower floor in flats first, otherwise random draw. Booklet notes some academies that do not adopt these arrangements use straight-line distance or random allocation; Harris Academy Chobham's offer table gives its tie-break as straight-line distance. The Catholic schools and St Luke's CofE use shortest walking distance.",
+  "method_source": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Starting school in September 2027 (Newham booklet) - 'On time reception offers and alternative allocations for September 2026 entry' pp16-19, Catholic schools p92, St Luke's p97, Harris Academy Chobham p101 (National Offer Day 16 April 2026)",
+      "url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "year": 2025,
+      "title": "Starting school in Newham 2026 (Sept 2026 entry booklet) - on time reception offers for September 2025 pp16-19, Catholic/St Luke's/Harris tables (National Offer Day 16 April 2025)",
+      "url": "https://www.newham.gov.uk/downloads/file/9671/starting-school-in-newham-2026-"
+    },
+    {
+      "year": 2024,
+      "title": "Starting school in Newham 2025 (updated) - on time reception offers for September 2024 pp16-19, Catholic/St Luke's/Harris tables (National Offer Day 16 April 2024)",
+      "url": "https://www.newham.gov.uk/downloads/file/7902/starting-school-in-newham-2025-updated"
+    },
+    {
+      "year": null,
+      "title": "Get Information about Schools (GIAS) all-establishments extract, 28 Oct 2026 (postcodes, types, open/closed status)",
+      "url": "https://get-information-schools.service.gov.uk/"
+    },
+    {
+      "year": null,
+      "title": "Newham Voices: merger of two Forest Gate schools agreed (Odessa Infant / St James' CofE Junior)",
+      "url": "https://newhamvoices.co.uk/2026/02/20/merger-of-two-forest-gate-schools-agreed-by-newham-council/"
+    }
+  ],
+  "gaps": "Newham's tables print 'N/A' for both criterion and distance whenever a school did not fill on time; these are recorded as all_offered (the table shows fewer on-time offers than places). Shaftesbury 2026, Stratford Manor 2026/2025, Earlham 2024, St Antony's 2024, St Joachim's 2025 and St Francis' 2026 were full (or over) but still show N/A, with the last places going to LA alternative allocations, so they are also treated as all_offered: an inference. Ellen Wilkinson 2024 (56 of 60) and Kensington 2024 (69 of 90) print a distance although the totals show spare places; the distances are kept as printed. St Helen's 2024 and St Winefride's 2024 last offers were under faith criterion 'FPG9' (as printed). The St Luke's 2025 total was not transcribed. Excluded: Calverton Primary (closed 31 Aug 2026) and Odessa Infant (closed 31 Aug 2026 when it merged into St James' CofE), plus junior schools Godwin and Lathom. St James' CofE Primary (VC, E7 9DA) became an all-through primary from Sept 2026 by absorbing Odessa Infant, so it has no reception offer history under its own name; it is recorded as not_published. Odessa's own tables showed all applicants offered in 2026 (44 of 60), 2025 (26 of 60) and 2024 (47 of 90). PAN is the 'Actual Places' for Sept 2026 (published admission numbers can be higher). Postcodes and types come from GIAS (Oct 2026). For academies we assumed they adopt the LA's walking method, as the booklet states; individual academy policies were not read. The 2026 tables are spread over facing pages and were matched by row order, with the totals checked against places.",
+  "schools": [
+    {
+      "name": "Altmore Infant School",
+      "postcode": "E6 2BX",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 150,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 103 on-time offers against 150 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 116 on-time offers against 150 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 145 on-time offers against 150 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Avenue Primary School",
+      "postcode": "E12 6AR",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 41 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 42 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 58 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Bobby Moore Academy",
+      "postcode": "E20 2AE",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "All-through free school; adopts Newham LA arrangements (walking distance).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 30 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 19 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 22 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Brampton Primary School",
+      "postcode": "E6 3LB",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.895,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 1.005,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.964,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Britannia Village Primary School",
+      "postcode": "E16 2AW",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.894,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.753,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.672,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Carpenters Primary School",
+      "postcode": "E15 2JQ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.587,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 20 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": 2.98,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Central Park Primary School",
+      "postcode": "E6 3DW",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Distance measured to the Loxford Avenue E6 entrance, not the postal-address gate (booklet p79).",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 85 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 91 on-time offers against 120 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 90 on-time offers against 120 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Cleves Primary School",
+      "postcode": "E6 1QP",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.596,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.33,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.292,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Colegrave Primary School",
+      "postcode": "E15 1JY",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.773,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 74 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 73 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Curwen Primary School",
+      "postcode": "E13 0AG",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.903,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.896,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 87 on-time offers against 120 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Dersingham Primary School",
+      "postcode": "E12 5QJ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 63 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 55 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 74 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Drew Primary School",
+      "postcode": "E16 2DP",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 46 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 51 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 49 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Earlham Primary School",
+      "postcode": "E7 9AW",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.631,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.395,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 60 on-time offers against 60 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Ellen Wilkinson Primary School",
+      "postcode": "E6 5UP",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.734,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.778,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.89,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'; note table shows only 56 on-time offers against 60 places yet prints a final-offer distance"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Elmhurst Primary School",
+      "postcode": "E7 8JY",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.332,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.434,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.466,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Essex Primary School",
+      "postcode": "E12 6QX",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.433,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.412,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 1.666,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Gainsborough Primary School",
+      "postcode": "E15 3AF",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 25 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 16 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 25 on-time offers against 30 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Gallions Primary School",
+      "postcode": "E6 6WG",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.853,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.947,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 1.835,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Grange Primary School",
+      "postcode": "E13 0HE",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 21 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 18 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 14 on-time offers against 30 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Hallsville Primary School",
+      "postcode": "E16 1LN",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.476,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.474,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.53,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Harris Academy Chobham",
+      "postcode": "E20 1BD",
+      "type": "academy",
+      "method": "straight_line",
+      "method_note": "All-through academy (Harris Federation) with its own admission arrangements; booklet offer table gives tie-break as 'Straight Line Distance in Miles'.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.464,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 77 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": 2.937,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Hartley Primary School",
+      "postcode": "E6 1NT",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 28 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 47 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 48 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Kaizen Primary School",
+      "postcode": "E13 8LF",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.68,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 51 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 47 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Keir Hardie Primary School",
+      "postcode": "E16 1FZ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.785,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 52 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 55 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Kensington Primary School",
+      "postcode": "E12 6NN",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 69 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": 0.67,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 1.322,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'; note table shows only 69 on-time offers against 90 places yet prints a final-offer distance"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Langdon Academy",
+      "postcode": "E6 2PS",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 29 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 29 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 31 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Maryland Primary School",
+      "postcode": "E15 1SL",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 37 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 44 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 46 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Monega Primary School",
+      "postcode": "E12 6TT",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 69 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 86 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 59 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Nelson Primary School",
+      "postcode": "E6 2SE",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 65 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 58 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 45 on-time offers against 120 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "New City Primary School",
+      "postcode": "E13 9NE",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 48 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 54 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 86 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "North Beckton Primary School",
+      "postcode": "E6 5XG",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 44 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 59 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 43 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Park Primary School",
+      "postcode": "E15 4AE",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.678,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.787,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 87 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Plaistow Primary School",
+      "postcode": "E13 9DQ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 51 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 54 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 35 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Portway Primary School",
+      "postcode": "E13 0JW",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.582,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.959,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 64 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Ranelagh Primary School",
+      "postcode": "E15 3DN",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 35 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 29 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 36 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Ravenscroft Primary School",
+      "postcode": "E16 4BD",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 52 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 54 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 56 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Roman Road Primary School",
+      "postcode": "E6 3SQ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 26 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 25 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 20 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Rosetta Primary School",
+      "postcode": "E16 3PB",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 73 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 66 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 77 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Royal Wharf Primary School",
+      "postcode": "E16 2ZA",
+      "type": "free school",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.319,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.201,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.235,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Salisbury Primary School",
+      "postcode": "E12 6TH",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 55 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 60 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 56 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Sandringham Primary School",
+      "postcode": "E7 8ED",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.438,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.396,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.388,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "School 21",
+      "postcode": "E15 4RZ",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "All-through free school (GIAS name 'Oasis School 21'); adopts Newham LA arrangements.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 30 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 30 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 42 on-time offers against 75 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "School 360",
+      "postcode": "E15 2QS",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "Free school (GIAS name 'Oasis School 360'); adopts Newham LA arrangements.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.32,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 48 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 49 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Scott Wilkie Primary School",
+      "postcode": "E16 3HD",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3.335,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 50 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 30 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Selwyn Primary School",
+      "postcode": "E13 0ES",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 50 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 54 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 48 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Shaftesbury Primary School",
+      "postcode": "E7 8PF",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 90 on-time offers against 90 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 75 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 82 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Sheringham Primary School",
+      "postcode": "E12 5PB",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 71 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": 0.654,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.29,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Sir John Heron Primary School",
+      "postcode": "E12 5PY",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 49 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 47 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": 0.502,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Southern Road Primary School",
+      "postcode": "E13 9JH",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 58 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 58 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 49 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Antony's Catholic Primary School",
+      "postcode": "E7 9PN",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 50 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 54 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 60 on-time offers against 60 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Edward's Catholic Primary School",
+      "postcode": "E13 9AX",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 58 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 45 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 56 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Francis' Catholic Primary School",
+      "postcode": "E15 1HD",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 31 on-time offers against 30 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 20 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 26 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Helen's Catholic Primary School",
+      "postcode": "E13 8DW",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.124,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 56 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": 0.452,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under faith criterion 'FPG9' (as printed)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St James' CofE Primary School",
+      "postcode": "E7 9DA",
+      "type": "VC faith",
+      "method": "walking",
+      "method_note": "Voluntary controlled CofE school; Newham LA arrangements apply. Formerly St James' CofE Junior; became a 3-11 primary from 1 Sept 2026 after amalgamation with Odessa Infant School (Odessa Road, E7 9BY).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "No reception intake under this name (junior school until Sept 2026); predecessor Odessa Infant School showed 'N/A' (all on-time applicants offered) in the Newham table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "No reception intake under this name (junior school until Sept 2026); predecessor Odessa Infant School showed 'N/A' (all on-time applicants offered) in the Newham table"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "No reception intake under this name (junior school until Sept 2026); predecessor Odessa Infant School showed 'N/A' (all on-time applicants offered) in the Newham table"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Joachim's Catholic Primary School",
+      "postcode": "E16 3DT",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'. Newham's measurement section lists St Joachim's distance end point as the 'Front Main Entrance of Newham Dockside' (booklet p79).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 34 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 30 on-time offers against 30 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 27 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Luke's Primary School",
+      "postcode": "E16 1JB",
+      "type": "VA faith",
+      "method": "walking",
+      "method_note": "Church of England voluntary aided school with its own arrangements; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 25 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": 0.851,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 26 on-time offers against 30 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Michael's Catholic Primary School",
+      "postcode": "E6 6EE",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 29 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 12 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 22 on-time offers against 30 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Stephen's Primary School",
+      "postcode": "E6 1AS",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.342,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.369,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.373,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "St Winefride's RC Primary School",
+      "postcode": "E12 6HB",
+      "type": "faith academy",
+      "method": "walking",
+      "method_note": "Catholic academy (Our Lady of Grace Catholic Academy Trust) with its own faith-based oversubscription criteria; booklet gives tie-break as 'Shortest Walking Distance in Miles'.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 21 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 26 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": 0.556,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under faith criterion 'FPG9' (as printed)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Star Primary School",
+      "postcode": "E16 4NH",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 4.782,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.809,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 3.774,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Stratford Manor Primary School and Nursery",
+      "postcode": "E15 3BA",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 30 on-time offers against 30 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows criterion/distance 'N/A' with 30 on-time offers against 30 places (remaining places went to LA alternative allocations); interpreted as all on-time applicants naming the school offered"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 26 on-time offers against 30 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Tollgate Primary School",
+      "postcode": "E13 8SA",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 56 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 56 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 51 on-time offers against 60 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Upton Cross Primary School",
+      "postcode": "E13 0RJ",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "2024 table listed the main site (30 places, 28 offered) and a separate Kirton Road site (30 places, 25 offered, N/A) separately; main-site figure used.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 44 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 35 on-time offers against 60 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 28 on-time offers against 30 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Vicarage Primary School",
+      "postcode": "E6 6AD",
+      "type": "academy",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 86 on-time offers against 120 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 116 on-time offers against 120 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 97 on-time offers against 120 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "West Ham Church Primary School",
+      "postcode": "E15 3QG",
+      "type": "VC faith",
+      "method": "walking",
+      "method_note": "Church of England voluntary controlled; Newham LA is the admission authority and LA arrangements apply.",
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 31 on-time offers against 45 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 27 on-time offers against 45 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 32 on-time offers against 45 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "William Davies Primary School",
+      "postcode": "E7 8NL",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 21 on-time offers against 30 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": 0.315,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.524,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Winsor Primary School",
+      "postcode": "E6 5NA",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 78 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 71 on-time offers against 90 places (not full)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Table shows 'N/A'; 60 on-time offers against 90 places (not full)"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    },
+    {
+      "name": "Woodgrange Infant School",
+      "postcode": "E7 0NJ",
+      "type": "community",
+      "method": "walking",
+      "method_note": null,
+      "pan": 120,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.759,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2025,
+          "value": 0.719,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        },
+        {
+          "year": 2024,
+          "value": 0.961,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Last place offered under criterion 'All Other'"
+        }
+      ],
+      "source_url": "https://www.newham.gov.uk/downloads/file/11343/starting-school-in-september-2027"
+    }
+  ]
+}

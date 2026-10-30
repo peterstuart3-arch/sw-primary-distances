@@ -6,7 +6,9 @@ DATA = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'borough-data')
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, 'schools.pre-ofsted.json')
 
 TO_M = {'metres': 1.0, 'meters': 1.0, 'm': 1.0, 'km': 1000.0, 'miles': 1609.344, 'mile': 1609.344}
-CLOSED = {'goldfinch', "st anne's", 'oasis academy putney', 'christ church ce primary school', 'kings avenue'}
+# (borough, name prefix) of schools that have closed; scoped by borough as names repeat across London
+CLOSED = {('Wandsworth', 'goldfinch'), ('Wandsworth', "st anne's"), ('Wandsworth', 'oasis academy putney'),
+          ('Wandsworth', 'christ church ce primary school'), ('Lambeth', 'kings avenue')}
 
 def norm_pc(pc):
     if not pc: return None
@@ -21,6 +23,9 @@ for f in sorted(glob.glob(os.path.join(DATA, '*.json'))):
     boroughs[b] = {k: d.get(k) for k in ('default_method', 'method_notes', 'method_source', 'years_found', 'sources', 'gaps')}
     latest_year = max(d['years_found'])
     for s in d['schools']:
+        if any(b == cb and s['name'].lower().startswith(p) for cb, p in CLOSED):
+            flags.append(f"{b}: dropped '{s['name']}' (closed)")
+            continue
         years = {x['year'] for x in s['distances']}
         if latest_year not in years and min(d['years_found']) in years and max(years) < latest_year:
             # appears only in older data -> closed / renamed

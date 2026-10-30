@@ -1,0 +1,1902 @@
+{
+ "borough": "Hillingdon",
+ "default_method": "straight_line",
+ "method_notes": "LB Hillingdon Community Schools Determined Admission Arrangements 2026-27 ('Distance criterion', p.20): distance is measured in a straight line from the Ordnance Survey address point of the child's home to the agreed address point for the school, using the council's GIS (OS data). For blocks of flats with a communal entrance, the OS central point of the block is used. Ties are broken by computerised random allocation. Appendix 1 gives each community school's OS measuring point and 'distance priority radius' (1FE 500m, 2FE 750m, 3FE 1000m, 4FE 1250m). Community oversubscription criteria: 5 sibling within radius, 7 nearest within radius, 8 sibling outside radius, 9 nearest outside radius. Frithwood reserves 5 places for a nodal point. Harmondsworth and Heathrow use defined boundary areas instead of a radius. The Sept 2027 primary leaflet repeats that distance is measured in a straight line from the OS point at the home to a fixed point in the school. Every own-admission-authority summary in the Sept 2027 brochure that states a method also uses a straight line (e.g. Hillside to grid ref 510150 191063, Oak Farm to E507730 N183934, Laurel Lane main entrance to main entrance, Wood End Park to the main gate, Brookside/Hewens/Rosedale to the reception point). William Byrd gives priority to a defined area.",
+ "method_source": "https://glebe.hillingdon.sch.uk/_site/data/files/new%20folder%20(2)/8DFCFA0E1084F2E34FB0DCAC28CA6475.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "School admissions September 2027 brochure - 'September 2026 intake for primary schools' (offer statistics at allocation on 16 April 2026)",
+   "url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "year": 2026,
+   "title": "September 2026 allocation data (council sheet: furthest distance 2025 and 2026 in metres, excluding sibling criteria; criterion of last child offered)",
+   "url": "https://pre.hillingdon.gov.uk/downloads/file/2822/september-2026-allocation-data"
+  },
+  {
+   "year": 2025,
+   "title": "September 2026 allocation data (2025 column, metres, excluding sibling criteria)",
+   "url": "https://pre.hillingdon.gov.uk/downloads/file/2822/september-2026-allocation-data"
+  },
+  {
+   "year": 2024,
+   "title": "School admissions September 2025 brochure - 'September 2024 intake for primary schools' (16 April 2024), copy hosted by Ruislip High School",
+   "url": "https://ruisliphigh.com/assets/Documents/Attachments/School-Admissions-Main-brochure-2025-Online2.pdf"
+  },
+  {
+   "year": null,
+   "title": "London Borough of Hillingdon Community Schools Determined Admission Arrangements 2026-2027 (copy hosted by Glebe Primary)",
+   "url": "https://glebe.hillingdon.sch.uk/_site/data/files/new%20folder%20(2)/8DFCFA0E1084F2E34FB0DCAC28CA6475.pdf"
+  },
+  {
+   "year": null,
+   "title": "Primary school admissions leaflet, September 2027",
+   "url": "https://pre.hillingdon.gov.uk/downloads/file/3087/primary-school-admissions"
+  }
+ ],
+ "gaps": "2025 figures come only from the council's 'September 2026 allocation data' sheet (column 'Furthest distance offered 2025 - Metres (Excluding sibling criteria)'). The Sept 2026 brochure that would also print them was not found online: the council URL now serves the 2027 edition and there is no Wayback copy. 2024 figures come from a school-hosted copy of the Sept 2025 brochure, whose table prints no unit. They are assumed to be metres (same layout, similar magnitudes). The council shows 'N/A (F)' for faith schools and publishes no distance for them. These are recorded as all_offered where offers were below PAN (inferred), otherwise as not_published. 2025 'F' entries are all not_published because the sheet gives no 2025 offer counts. 'N/A (U)' is recorded as all_offered. Conflicts: for Warrender 2026, the sheet shows 6163 m with 60 offers but the brochure shows 'N/A (U)' with 50 offers, so it is recorded as not_published. Several schools' 2026 offer counts differ by 1-3 between the sheet and the brochure (brochure counts used). Status labels differ for Cowley St Laurence (2025 F, 2026 U) and Dr Triplett's (2025 U, 2026 F). Some large 2026 jumps (Hermitage 5149 m, Lady Bankes 3134 m, Yeading Infant 1583 m after U in 2025) are recorded as printed. PAN is the Sept 2026 figure. The brochure prints Ryefield's measuring co-ordinates identical to Hermitage's, probably an error. Postcodes come from the brochure's contact list (letter O corrected to zero), not checked against GIAS (unreachable). School types come from the brochure's map key. Academy/faith-school methods were taken from brochure summaries only, and straight line is assumed where they are silent (e.g. Cowley St Laurence, St Catherine, St Swithun Wells). Junior schools (Coteford Jr, Field End Jr, Hillside Jr, Minet Jr, Newnham Jr, Whiteheath Jr, Yeading Jr) are excluded. Infant schools are included.",
+ "schools": [
+  {
+   "name": "Belmore Primary Academy",
+   "postcode": "UB4 9LF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 45 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 63 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Bishop Winnington-Ingram CofE Primary",
+   "postcode": "HA4 7LW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith criteria first; distance measured in a straight line between OS address references to the school's main gate.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 17 on-time offers vs PAN 30"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 30 on-time offers vs PAN 30"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Botwell House Catholic Primary",
+   "postcode": "UB3 2AB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 90 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 90 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Bourne Primary",
+   "postcode": "HA4 6UJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: priority radius 500m; OS measuring point printed as 5113470 / 1849230 (Appendix 1, 2026/27 arrangements).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 704,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 704 m; last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": 1653.8516,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1653.8516 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 974.29,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 974.29 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Brookside Primary",
+   "postcode": "UB4 9LW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line from home to the school's reception point.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 26 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 33 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Charville Academy",
+   "postcode": "UB4 8LF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 52 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": 2449.2362,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 2449.2362 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 3425.01,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 3425.01 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Cherry Lane Primary",
+   "postcode": "UB7 9DL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 56 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 70 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Colham Manor Primary",
+   "postcode": "UB8 3PT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 71 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 51 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Coteford Infant",
+   "postcode": "HA5 2HX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 750m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 31 on-time offers vs PAN 60; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 60 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Cowley St Laurence CofE Primary",
+   "postcode": "UB8 3TH",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith criteria first; final criterion is proximity (measuring point not stated in brochure).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 31 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 57 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Cranford Park Academy",
+   "postcode": "UB3 4LQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 111 on-time offers vs PAN 120"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 112 on-time offers vs PAN 120"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Deanesfield Primary",
+   "postcode": "HA4 0LR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1505,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 1505 m; last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": 1599.998,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1599.998 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 1114.04,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 1114.04 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Dr Triplett's CofE Primary",
+   "postcode": "UB3 2JQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 60 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 52 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Field End Infant",
+   "postcode": "HA4 9PQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 59 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 79 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Frithwood Primary",
+   "postcode": "HA6 3NJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community, own arrangements: 5 places to children nearest a nodal point (criterion 2), then priority radius 750m.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 26 on-time offers vs PAN 60; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 53 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Glebe Primary",
+   "postcode": "UB10 8PH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 58 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 65 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Grange Park School (formerly Grange Park Infant and Nursery)",
+   "postcode": "UB4 8SF",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Listed as Grange Park Infant and Nursery in offer tables, now Grange Park School (3-11).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 56 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 67 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Guru Nanak Sikh Academy (primary)",
+   "postcode": "UB4 0LT",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 60 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 57 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Harefield Infant and Junior School (formerly Harefield Infant)",
+   "postcode": "UB9 6BT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Listed as Harefield Infant in offer tables, now Harefield Infant & Junior School. Community: distance priority radius 750m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 36 on-time offers vs PAN 60; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 39 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Harlyn Primary",
+   "postcode": "HA5 2DR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 750m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 41 on-time offers vs PAN 60; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 43 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Harmondsworth Primary",
+   "postcode": "UB7 0AU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community, own arrangements: priority for a defined boundary area (M4/M25/M4 spur/Bath Road) instead of a radius; council's furthest distance is for applicants offered under the distance criteria.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 25 on-time offers vs PAN 30; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 4679.25,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 4679.25 (unit not printed; metres, consistent with 2025/2026 columns); furthest applicant offered under the distance criteria (boundary-area school)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Hayes Park School",
+   "postcode": "UB4 8BE",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 70 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 72 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Heathrow Primary",
+   "postcode": "UB7 0JQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community, own arrangements: priority for a defined boundary area (listed Sipson roads) instead of a radius; council's furthest distance is for applicants offered under the distance criteria.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3321,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 3321 m; last child offered under criterion 9 (nearest, outside the distance priority radius); furthest applicant offered under the distance criteria (boundary-area school)"
+    },
+    {
+     "year": 2025,
+     "value": 3354.2762,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 3354.2762 m (excluding sibling criteria); furthest applicant offered under the distance criteria (boundary-area school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 54 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Hermitage Primary",
+   "postcode": "UB8 1RB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Brochure: straight line to E505909 N184499 (GIS, OS data).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5149,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 5149 m"
+    },
+    {
+     "year": 2025,
+     "value": 1212.3531,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1212.3531 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 48 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Hewens Primary",
+   "postcode": "UB4 8JP",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Straight line from home to the school's reception point. Brochure key lists it as a free school.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 48 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 41 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Highfield Primary",
+   "postcode": "UB10 0DB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 750m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 25 on-time offers vs PAN 60; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 33 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Hillingdon Primary",
+   "postcode": "UB10 0PH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1326,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 1326 m"
+    },
+    {
+     "year": 2025,
+     "value": 1130.6215,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1130.6215 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 1369.97,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 1369.97 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Hillside Infant",
+   "postcode": "HA6 1RX",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Straight line to OS grid reference 510150 191063 using the LA's measuring system.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 45 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 51 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Holy Trinity CofE Primary",
+   "postcode": "HA6 2RH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith criteria first; distance measured in a straight line to the school's main gate.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 28 on-time offers vs PAN 30"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 18 on-time offers vs PAN 30"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "John Locke Academy",
+   "postcode": "UB10 0FW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1376,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 1376 m"
+    },
+    {
+     "year": 2025,
+     "value": 1127.8581,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1127.8581 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 1444.21,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 1444.21 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Lady Bankes Primary",
+   "postcode": "HA4 9SF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3134,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 3134 m; last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": 992.7088,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 992.7088 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 61 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Lake Farm Park Academy",
+   "postcode": "UB3 1JA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 68 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 77 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Laurel Lane Primary",
+   "postcode": "UB7 7TX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line, main entrance of home to main entrance of school (printed as Easting 5060470, Northing 1789130).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 24 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 22 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Minet Nursery and Infant",
+   "postcode": "UB3 3NR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1250m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 77 on-time offers vs PAN 120; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 66 on-time offers vs PAN 120"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Nanaksar Primary",
+   "postcode": "UB4 0LT",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 32 on-time offers vs PAN 120"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 22 on-time offers vs PAN 120"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Newnham Infant and Nursery",
+   "postcode": "HA4 9RW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1670,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 1670 m; last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": 987.1386,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 987.1386 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 5854.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 5854.66 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Oak Farm Primary",
+   "postcode": "UB10 9PD",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Straight line to E507730 N183934 (GIS). PAN 60 per allocation sheet and 2027 contact list (2027 brochure offer table prints 90; 2024 PAN 90).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 35 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 82 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Pinkwell Primary",
+   "postcode": "UB3 1PG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 64 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 57 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Rabbsfarm Primary",
+   "postcode": "UB7 8AH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 63 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 8 (sibling outside the priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": 789.869,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 789.869 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 969.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 969.08 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Rosedale Primary",
+   "postcode": "UB3 2SE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line from home to the school's reception point.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 42 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 45 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Ruislip Gardens Primary",
+   "postcode": "HA4 6PD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 750m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 26 on-time offers vs PAN 60; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 25 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Ryefield Primary",
+   "postcode": "UB10 9DE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Brochure prints the same co-ordinates as Hermitage (E505909 N184499), probably a copy error.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 41 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 46 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Sacred Heart Catholic Primary",
+   "postcode": "HA4 6EZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 90 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 84 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Andrew's CofE Primary",
+   "postcode": "UB8 2BX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 25 on-time offers vs PAN 30"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 19 on-time offers vs PAN 30"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Bernadette Catholic Primary",
+   "postcode": "UB10 0EH",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 45 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 55 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Catherine Catholic Primary",
+   "postcode": "UB7 7NX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 30 on-time offers vs PAN 30"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 30 on-time offers vs PAN 30"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Martin's CofE Primary",
+   "postcode": "UB7 7UF",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 17 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 19 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Mary's Catholic Primary",
+   "postcode": "UB8 2UA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 30 on-time offers vs PAN 30"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 30 on-time offers vs PAN 30"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Matthew's CofE Primary",
+   "postcode": "UB7 7QJ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school, no distance published); inferred all offered since only 33 on-time offers vs PAN 60"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 46 on-time offers vs PAN 60"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "St Swithun Wells' Catholic Primary",
+   "postcode": "HA4 9HS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (F)' (faith school: no distance published; council says contact the school); 30 on-time offers vs PAN 30"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (F)' (faith school: no distance published; council says contact the school)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 27 on-time offers vs PAN 30"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "The Breakspear School",
+   "postcode": "UB10 8JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2455,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 2455 m; last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": 2117.1703,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 2117.1703 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 66 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Warrender Primary",
+   "postcode": "HA4 8QG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 750m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Sources conflict: Sept 2027 brochure shows 50 offers and 'N/A (U)', but the council's September 2026 allocation data sheet shows 60 offers, 0 places left and 6163 m (last child under criterion 9). Not recorded."
+    },
+    {
+     "year": 2025,
+     "value": 1915.8424,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1915.8424 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 1037.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 1037.85 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "West Drayton Academy",
+   "postcode": "UB7 9EA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 80 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": 1636.6004,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2025 = 1636.6004 m (excluding sibling criteria)"
+    },
+    {
+     "year": 2024,
+     "value": 977.22,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 977.22 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Whitehall Primary (formerly Whitehall Infant)",
+   "postcode": "UB8 2LX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Listed as Whitehall Infant in the offer tables (now Whitehall Primary School). PAN fell from 120 (2024) to 90. Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 76 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 84 on-time offers vs PAN 120"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Whiteheath Infant and Nursery",
+   "postcode": "HA4 7RF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1000m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 46 on-time offers vs PAN 90; allocation sheet says last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 70 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "William Byrd Primary Academy",
+   "postcode": "UB3 5EW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Priority (criterion 5) for children in the area bounded by the M4, M4 spur, River Crane and Bath Road, then distance; straight line.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 70 on-time offers vs PAN 90"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 53 on-time offers vs PAN 90"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Wood End Park Academy",
+   "postcode": "UB3 2PD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line, measured from the main gate of the school.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2027 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 85 on-time offers vs PAN 120"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Sept 2025 brochure shows 'N/A (U)' (undersubscribed: all applicants offered); 62 on-time offers vs PAN 120"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  },
+  {
+   "name": "Yeading Infant and Nursery",
+   "postcode": "UB4 0NR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Community: distance priority radius 1250m; straight line to the school's OS measurement point (Appendix 1).",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1583,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered 2026 = 1583 m; last child offered under criterion 9 (nearest, outside the distance priority radius)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council Sept 2026 allocation sheet shows 'N/A (U)' (undersubscribed: all applicants offered)"
+    },
+    {
+     "year": 2024,
+     "value": 6538.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Sept 2025 brochure: furthest distance offered 2024 = 6538.85 (unit not printed; metres, consistent with 2025/2026 columns)"
+    }
+   ],
+   "source_url": "https://pre.hillingdon.gov.uk/downloads/file/2581/school-admissions-brochure"
+  }
+ ]
+}

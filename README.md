@@ -1,6 +1,6 @@
-# SW London primary school distances
+# London primary school distances
 
-An interactive map that compares your home with the furthest distance each primary school offered a Reception place on national offer day. It covers Wandsworth, Merton, Lambeth, Richmond, Kingston, Sutton and Croydon.
+An interactive map that compares your home with the furthest distance each primary school offered a Reception place on national offer day. It covers all 32 London boroughs and the City of London.
 
 Enter a postcode, use your location, or click the map. For each nearby school you get:
 
@@ -13,11 +13,11 @@ Live site: https://peterstuart3-arch.github.io/sw-primary-distances/
 ## What's in this repo
 
 - `index.html` – the whole tool in one file, with the data built in. This is what GitHub Pages serves.
-- `schools.csv` – the full index as a spreadsheet: 345 schools, last distance offered for 2024–2026 (Kingston to 2025; Richmond 2023 where 2024 is unpublished), measurement method, Ofsted outcome and the council source for each figure.
+- `schools.csv` – the full index as a spreadsheet: 1,708 schools, last distance offered for 2024–2026 where published (2023 where a year is missing), measurement method, Ofsted outcome and the council source for each figure.
 - `build/` – what's needed to rebuild `index.html` when the data changes:
   - `template.html` – the page, with a `/*__DATA__*/null` placeholder for the data
   - `schools.json` – the merged data, including Ofsted
-  - `borough-data/` – the raw per-borough figures gathered from council documents
+  - `borough-data/` – the raw per-borough figures gathered from council documents; each file's `gaps` field says what's missing or uncertain
   - `merge.py` – merges the borough files into `schools.pre-ofsted.json`
   - `ofsted_match.py` – matches each school to Ofsted's "latest inspections" management information CSV and writes `schools.json`
   - `geocode.py` – adds each school's postcode coordinates to `schools.json`, so the page doesn't have to look them up
@@ -32,6 +32,15 @@ Allocation figures change after national offer day each April, and Ofsted publis
 3. Download the latest Ofsted "state-funded schools – latest inspections" CSV from https://www.gov.uk/government/statistics/monthly-management-information-ofsteds-school-inspections-outcomes and run `python3 build/ofsted_match.py path/to/that.csv`.
 4. Run `python3 build/geocode.py` to add school locations.
 5. Run `python3 build/build.py`, then commit and push.
+
+## Known gaps
+
+Some councils' websites refuse automated downloads, so these figures need fetching by hand (open the council's primary admissions page in a browser, save the PDF, then transcribe into the borough file):
+
+- **Camden**: 2026 figures missing (2024–2025 are in). The council hasn't published a 2027 guide; its link still points to the 2026 one.
+- **Greenwich**: 2025 figures not found (2026, 2024 and 2023 are in).
+
+Many boroughs publish distances only for community schools, so academies and faith schools often show "no data" (notably Bromley, Southwark and Lewisham). Bromley's table prints "N/A" both for undersubscribed schools and for oversubscribed academies that sent no figures, so every Bromley "N/A" is treated as not published rather than as everyone offered.
 
 ## Caveats
 

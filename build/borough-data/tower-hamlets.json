@@ -1,0 +1,2153 @@
+{
+  "borough": "Tower Hamlets",
+  "default_method": "walking",
+  "method_notes": "Tower Hamlets oversubscription criteria for community schools (Starting Primary School in Tower Hamlets 2027 prospectus, 'Oversubscription criteria and tie-break', p16): EHCP first; then 1 looked-after/previously looked-after, 2 medical/social, 3 in-catchment siblings, 4 children of staff, 5 in-catchment children for whom it is their nearest community school in the catchment, 6 other in-catchment, 7 out-of-catchment siblings, 8 others. Tie-break within criteria 3-8: shortest walking distance, measured with a digital Ordnance Survey map from the centre point of the address to the centre point of the school's designated main entrance along the centre line of the shortest approved route (local footpaths and public walkways, with regard to safety; ignores crossing points); equal distances by random allocation. Six catchment areas (Stepney, Bow, Poplar, Isle of Dogs, Wapping, Bethnal Green). The council's 'tie-break cut off distance' is the walking distance of the last child offered, within whichever criterion places ran out, so it is not a simple radius: in-catchment applicants beat closer out-of-catchment ones. Academies that delegate admissions to the LA and use these criteria: Culloden, Old Ford, Solebay (Paradigm), Bygrove, Mulberry Canon Barnett, Mulberry Wood Wharf, Stebon, St Paul's Way Trust, The Clara Grant (prospectus p15). VA/faith schools, Canary Wharf College and Sir William Burrough have their own arrangements.",
+  "method_source": "https://www.towerhamlets.gov.uk/Documents/Education-and-skills/Admissions-and-exclusions/Admissions/2027-2028/Primary-School-prospectus-2027.pdf",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Tower Hamlets Council - Primary school admissions page: 'How Reception places were offered for Tower Hamlets Schools in 2026' (oversubscribed schools) and 'Schools with places remaining'",
+      "url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "year": 2026,
+      "title": "Starting Primary School in Tower Hamlets 2027 (prospectus) - 'Summary of last year's application and offers' 2026/27, school list, PANs, criteria",
+      "url": "https://www.towerhamlets.gov.uk/Documents/Education-and-skills/Admissions-and-exclusions/Admissions/2027-2028/Primary-School-prospectus-2027.pdf"
+    },
+    {
+      "year": 2025,
+      "title": "Primary school admissions page, 'How Reception places were offered ... in 2025' (Wayback Machine snapshot 7 Aug 2025)",
+      "url": "https://web.archive.org/web/20250807034705/https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "year": 2024,
+      "title": "Primary school admissions page, 'How Reception places were offered ... in 2024' (Wayback Machine snapshot 10 Sep 2024)",
+      "url": "https://web.archive.org/web/20240910073437/https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "year": null,
+      "title": "DfE Get Information about Schools (GIAS) all-establishments extract 29 Oct 2026 (postcodes, types)",
+      "url": "https://get-information-schools.service.gov.uk/Downloads"
+    }
+  ],
+  "gaps": "Council publishes cut-offs only for oversubscribed schools using the LA criteria (11 in 2026, 14 in 2025, 15 in 2024). Other LA-criteria schools are recorded as all_offered, on the council's statement that an unlisted school offered every applicant a place (or they got a higher preference). Own-admission-authority schools (13 VA/faith schools, 2 Catholic academies, Canary Wharf College x2, Sir William Burrough) have no published figures: not_published, with a note when the council listed them as having places remaining. 2026 sources conflict: the council web page and the 2027 prospectus summary differ for Bigland Green (537 vs 351 m) and Mulberry Wood Wharf (2531 vs 518 m) - web values used, both noted; the prospectus omits Bangabandhu, Bonner (both sites) and Seven Mills, and adds Malmesbury (2473 m, total offered 90 on PAN 60) which the web page lists as having places remaining - Malmesbury recorded from the prospectus with a warning. Prospectus also prints Thomas Buxton total offered 30 (web: 60). Oddities kept as printed: Virginia 2025 cut-off 30 m; Marion Richardson 2025 total offered 90 on PAN 60. 2025 and 2024 figures came from Wayback Machine snapshots of the council page (the live page now shows 2026 only). Columbia, Cyril Jackson, Hermitage and Virginia are academies with catchments and appear in council tables but are not in the prospectus's delegated list; assumed to use the LA method. Cut-offs are within the last criterion reached (catchment-based), so they are not comparable with simple distance radii. PAN = Sept 2027 admission number from the prospectus (some marked as varying; earlier years' PANs differ, e.g. Bonner sites 30 each in 2026). Junior schools (Blue Gate Fields Junior, Lawdale Junior) excluded. Postcodes from GIAS except Bonner Mile End site (E3 4QE, from the prospectus).",
+  "schools": [
+    {
+      "name": "Arnhem Wharf Primary School",
+      "postcode": "E14 3RP",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 4 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Bangabandhu Primary School",
+      "postcode": "E2 0LB",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 898,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 63 applications, PAN 30, total offered 30; nearest-in-catchment 12, other catchment 12, outside catchment 0; last offers within other in-catchment applicants (criterion 6). NB this school is absent from the 2027 prospectus summary table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Ben Jonson Primary School",
+      "postcode": "E1 4PZ",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Bigland Green Primary School",
+      "postcode": "E1 2ND",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 5 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 537,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 177 applications, PAN 60, total offered 60; nearest-in-catchment 21, other catchment 0, outside catchment 1; last offers reached outside-catchment applicants (criteria 7-8). NB the 2027 prospectus summary table prints 351 m for this school - conflicting sources; council web page value used"
+        },
+        {
+          "year": 2025,
+          "value": 471,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 178 applications, PAN 60, total offered 60; nearest-in-catchment 31, other catchment 6, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": 491,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 195 applications, PAN 60, total offered 60; nearest-in-catchment 20, other catchment 10, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Blue Gate Fields Infants' School",
+      "postcode": "E1 0EH",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 5 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 586,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 146 applications, PAN 90, total offered 90; nearest-in-catchment 31, other catchment 9, outside catchment 3; last offers reached outside-catchment applicants (criteria 7-8)"
+        },
+        {
+          "year": 2025,
+          "value": 759,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 149 applications, PAN 90, total offered 90; nearest-in-catchment 26, other catchment 3, outside catchment 9; last offers reached outside-catchment applicants (criteria 7-8)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Bonner Primary School (Bethnal Green site)",
+      "postcode": "E2 0NF",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Bonner Primary is one school (GIAS URN 100891) with two sites admitting separately; postcode is the site postcode.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 487,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 70 applications, PAN 30, total offered 30; nearest-in-catchment 11, other catchment 0, outside catchment 0; last offers within in-catchment applicants for whom it is the nearest school (criterion 5); out-of-nearest in-catchment applicants not reached. NB this school is absent from the 2027 prospectus summary table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": 678,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 86 applications, PAN 30, total offered 30; nearest-in-catchment 16, other catchment 3, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Bonner Primary School (Mile End site)",
+      "postcode": "E3 4QE",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Bonner Primary is one school (GIAS URN 100891) with two sites admitting separately; postcode is the site postcode.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 551,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 57 applications, PAN 30, total offered 30; nearest-in-catchment 11, other catchment 2, outside catchment 0; last offers within other in-catchment applicants (criterion 6). NB this school is absent from the 2027 prospectus summary table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Bygrove Primary School",
+      "postcode": "E14 6DN",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 572,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 131 applications, PAN 30, total offered 30; nearest-in-catchment 4, other catchment 15, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2025,
+          "value": 566,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 140 applications, PAN 30, total offered 30; nearest-in-catchment 4, other catchment 10, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": 523,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 155 applications, PAN 30, total offered 30; nearest-in-catchment 3, other catchment 12, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Canary Wharf College, East Ferry",
+      "postcode": "E14 3BA",
+      "type": "free school",
+      "method": "unknown",
+      "method_note": "Own admission authority; criteria and measuring method not checked.",
+      "pan": 44,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Canary Wharf College, Glenworth",
+      "postcode": "E14 3EB",
+      "type": "free school",
+      "method": "unknown",
+      "method_note": "Own admission authority; criteria and measuring method not checked.",
+      "pan": 44,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Cayley Primary School",
+      "postcode": "E14 7NG",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": 685,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 144 applications, PAN 60, total offered 60; nearest-in-catchment 17, other catchment 9, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Chisenhale Primary School",
+      "postcode": "E3 5QY",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": 716,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 147 applications, PAN 50, total offered 50; nearest-in-catchment 3, other catchment 28, outside catchment 1; last offers reached outside-catchment applicants (criteria 7-8)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Christ Church CofE School",
+      "postcode": "E1 6PU",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Columbia Primary School",
+      "postcode": "E2 7RG",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Academy with a catchment area in the 2027 prospectus and shown in the council offer tables; not in the prospectus list of academies that delegate admissions to the LA - assumed to use the LA criteria/measure.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": 2040,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 127 applications, PAN 60, total offered 60; nearest-in-catchment 10, other catchment 26, outside catchment 4; last offers reached outside-catchment applicants (criteria 7-8)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Cubitt Town Primary School",
+      "postcode": "E14 3NE",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 4 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": 1318,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 177 applications, PAN 90, total offered 90; nearest-in-catchment 34, other catchment 9, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Culloden Primary - A Paradigm Academy",
+      "postcode": "E14 0PT",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Cyril Jackson Primary School",
+      "postcode": "E14 8AQ",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Academy with a catchment area in the 2027 prospectus and shown in the council offer tables; not in the prospectus list of academies that delegate admissions to the LA - assumed to use the LA criteria/measure. Two sites: Three Colt Street E14 8HH (North) and Limehouse Causeway E14 8BN (South); GIAS postcode used.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": 518,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 130 applications, PAN 60, total offered 60; nearest-in-catchment 29, other catchment 1, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Elizabeth Selby Infants' School",
+      "postcode": "E2 6PP",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "English Martyrs RC Primary School",
+      "postcode": "E1 8DJ",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Globe Primary School",
+      "postcode": "E2 0JH",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": 884,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 151 applications, PAN 45, total offered 45; nearest-in-catchment 6, other catchment 14, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": 753,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 120 applications, PAN 45, total offered 45; nearest-in-catchment 14, other catchment 14, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Hague Primary School",
+      "postcode": "E2 0BP",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Halley Primary School",
+      "postcode": "E14 7SS",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Harbinger Primary School",
+      "postcode": "E14 3QP",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 4 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Harry Gosling Primary School",
+      "postcode": "E1 1NT",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 5 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Hermitage Primary School",
+      "postcode": "E1W 2PT",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 5 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Academy with a catchment area in the 2027 prospectus and shown in the council offer tables; not in the prospectus list of academies that delegate admissions to the LA - assumed to use the LA criteria/measure.",
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "John Scurr Primary School",
+      "postcode": "E1 4AX",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1980,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 91 applications, PAN 60, total offered 60; nearest-in-catchment 17, other catchment 11, outside catchment 6; last offers reached outside-catchment applicants (criteria 7-8)"
+        },
+        {
+          "year": 2025,
+          "value": 617,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 97 applications, PAN 60, total offered 60; nearest-in-catchment 21, other catchment 9, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Kobi Nazrul Primary School",
+      "postcode": "E1 1JP",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": 800,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 54 applications, PAN 30, total offered 30; nearest-in-catchment 5, other catchment 2, outside catchment 2; last offers reached outside-catchment applicants (criteria 7-8)"
+        },
+        {
+          "year": 2024,
+          "value": 325,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 68 applications, PAN 30, total offered 30; nearest-in-catchment 16, other catchment 0, outside catchment 0; last offers within in-catchment applicants for whom it is the nearest school (criterion 5); out-of-nearest in-catchment applicants not reached"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Lansbury Lawrence Primary School",
+      "postcode": "E14 6DZ",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": 1606,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 134 applications, PAN 60, total offered 60; nearest-in-catchment 9, other catchment 21, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Malmesbury Primary School",
+      "postcode": "E3 2AB",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 2473,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Only in the 2027 prospectus 'Summary of last year's application and offers' (2026/27): 118 applications, PAN 60, total offered 90 (as printed), 7 outside catchment, tie-break cut-off 2473 m. Not in the council web page's 2026 oversubscribed list, which lists Malmesbury as having places remaining - conflicting sources."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Manorfield Primary School",
+      "postcode": "E14 6QD",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Marion Richardson Primary School",
+      "postcode": "E1 0QF",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2025,
+          "value": 617,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 120 applications, PAN 60, total offered 90; nearest-in-catchment 29, other catchment 3, outside catchment 0; last offers within other in-catchment applicants (criterion 6). Total offered (90) exceeds PAN (60) as printed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Marner Primary School",
+      "postcode": "E3 3LL",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": 881,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 167 applications, PAN 90, total offered 90; nearest-in-catchment 28, other catchment 9, outside catchment 16; last offers reached outside-catchment applicants (criteria 7-8)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Mayflower Primary School",
+      "postcode": "E14 6DU",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 52,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 515,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 170 applications, PAN 52, total offered 52; nearest-in-catchment 26, other catchment 0, outside catchment 0; last offers within in-catchment applicants for whom it is the nearest school (criterion 5); out-of-nearest in-catchment applicants not reached"
+        },
+        {
+          "year": 2025,
+          "value": 703,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 215 applications, PAN 52, total offered 52; nearest-in-catchment 19, other catchment 12, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": 612,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 277 applications, PAN 52, total offered 52; nearest-in-catchment 15, other catchment 11, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Mowlem Primary School",
+      "postcode": "E2 9HE",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": 479,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 50 applications, PAN 30, total offered 30; nearest-in-catchment 20, other catchment 0, outside catchment 0; last offers within in-catchment applicants for whom it is the nearest school (criterion 5); out-of-nearest in-catchment applicants not reached"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Mulberry Canon Barnett Primary Academy",
+      "postcode": "E1 7RQ",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 5 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Mulberry Wood Wharf Primary School",
+      "postcode": "E14 9ZR",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 4 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 2531,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 178 applications, PAN 60, total offered 60; nearest-in-catchment 15, other catchment 37, outside catchment 0; last offers within other in-catchment applicants (criterion 6). NB the 2027 prospectus summary table prints 518 m for this school - conflicting sources; council web page value used"
+        },
+        {
+          "year": 2025,
+          "value": 1016,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 178 applications, PAN 60, total offered 60; nearest-in-catchment 9, other catchment 36, outside catchment 6; last offers reached outside-catchment applicants (criteria 7-8)"
+        },
+        {
+          "year": 2024,
+          "value": 2115,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 155 applications, PAN 60, total offered 60; nearest-in-catchment 19, other catchment 17, outside catchment 17; last offers reached outside-catchment applicants (criteria 7-8)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Old Ford Primary - A Paradigm Academy",
+      "postcode": "E3 5LD",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Old Palace Primary School",
+      "postcode": "E3 3BT",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Olga Primary School",
+      "postcode": "E3 5DN",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": 974,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 191 applications, PAN 60, total offered 60; nearest-in-catchment 12, other catchment 27, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2024,
+          "value": 801,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 189 applications, PAN 60, total offered 60; nearest-in-catchment 11, other catchment 14, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Osmani Primary School",
+      "postcode": "E1 5AD",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Our Lady and St Joseph Catholic Primary School",
+      "postcode": "E14 0DE",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Seven Mills Primary School",
+      "postcode": "E14 8LY",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 4 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 3070,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 68 applications, PAN 30, total offered 30; nearest-in-catchment 20, other catchment 0, outside catchment 1; last offers reached outside-catchment applicants (criteria 7-8). NB this school is absent from the 2027 prospectus summary table"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": 624,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 71 applications, PAN 30, total offered 30; nearest-in-catchment 18, other catchment 0, outside catchment 0; last offers within in-catchment applicants for whom it is the nearest school (criterion 5); out-of-nearest in-catchment applicants not reached"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Sir William Burrough Primary School",
+      "postcode": "E14 7PQ",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority; criteria and measuring method not checked.",
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Solebay Primary - A Paradigm Academy",
+      "postcode": "E1 4PW",
+      "type": "free school",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 50,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Agnes RC Primary School",
+      "postcode": "E3 3ER",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Anne's and Guardian Angels Catholic Primary School",
+      "postcode": "E1 5AW",
+      "type": "faith academy",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Edmund's Catholic School",
+      "postcode": "E14 3RS",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Elizabeth Catholic Primary School",
+      "postcode": "E2 9JY",
+      "type": "faith academy",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St John's CofE Primary School",
+      "postcode": "E2 9LR",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Luke's CofE Primary School",
+      "postcode": "E14 3EB",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Mary and St Michael Primary School",
+      "postcode": "E1 0BD",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Paul with St Luke CofE Primary School",
+      "postcode": "E3 4LA",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Paul's Way Trust School (primary)",
+      "postcode": "E3 4FT",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Paul's Whitechapel CofE Primary School",
+      "postcode": "E1 8HY",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Peter's London Docks CofE Primary School",
+      "postcode": "E1W 3QT",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "St Saviour's CofE Primary School",
+      "postcode": "E14 6BB",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Stebon Primary School",
+      "postcode": "E14 7AD",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Stepney Greencoat CofE Primary School",
+      "postcode": "E14 7TF",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority (faith school, supplementary form required); own oversubscription criteria and measuring method not checked.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2026 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council; council page listed it among schools with places remaining after the 2025 offers, suggesting it was undersubscribed"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Own admission authority (not covered by the council offer tables); figure not published by the council"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Stepney Park Primary School",
+      "postcode": "E1 3BW",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 1 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Stewart Headlam Primary School",
+      "postcode": "E1 5RE",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "The Clara Grant Primary School",
+      "postcode": "E3 4BU",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Admissions delegated to the LA: uses the community-school criteria.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": 405,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 109 applications, PAN 60, total offered 60; nearest-in-catchment 31, other catchment 3, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Thomas Buxton Primary School",
+      "postcode": "E1 5AR",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1107,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 88 applications, PAN 60, total offered 60; nearest-in-catchment 8, other catchment 22, outside catchment 0; last offers within other in-catchment applicants (criterion 6)"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Virginia Primary School",
+      "postcode": "E2 7NQ",
+      "type": "academy",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached. Academy with a catchment area in the 2027 prospectus and shown in the council offer tables; not in the prospectus list of academies that delegate admissions to the LA - assumed to use the LA criteria/measure.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        },
+        {
+          "year": 2025,
+          "value": 30,
+          "unit": "metres",
+          "status": "distance",
+          "criterion_note": "Tie-break cut-off distance (shortest walking distance); 62 applications, PAN 30, total offered 30; nearest-in-catchment 12, other catchment 2, outside catchment 0; last offers within other in-catchment applicants (criterion 6). 30 m cut-off as printed - looks implausibly small, unverified"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Wellington Primary School",
+      "postcode": "E3 4NE",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 2 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "William Davis Primary School",
+      "postcode": "E2 6ET",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 6 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 15,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    },
+    {
+      "name": "Woolmore Primary School",
+      "postcode": "E14 0EW",
+      "type": "community",
+      "method": "walking",
+      "method_note": "Tower Hamlets catchment area 3 (equal-chance catchments): priority to in-catchment applicants, then nearest-school-in-catchment, then others; cut-off applies only within the criterion reached.",
+      "pan": 90,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2026; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2025; council: a school not listed was able to offer a place to every applicant (or they got a higher preference); also on the council list of schools with places remaining"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Not in the council's list of oversubscribed schools using the LA admissions criteria for 2024; council: a school not listed was able to offer a place to every applicant (or they got a higher preference)"
+        }
+      ],
+      "source_url": "https://www.towerhamlets.gov.uk/lgnl/education_and_learning/schools/school_admissions/primary_school_admissions.aspx"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-<title>SW London Primary Distances</title>
+<title>London Primary Distances</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7' fill='%230d6b5b'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
@@ -117,8 +117,8 @@ footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
 <body>
 <main id="panel">
   <header>
-    <h1>SW London primary school distances</h1>
-    <p class="sub">Reception places in Wandsworth, Merton, Lambeth, Richmond, Kingston, Sutton and Croydon, compared with the furthest distance each school offered on national offer day.</p>
+    <h1>London primary school distances</h1>
+    <p class="sub">Reception places across London, compared with the furthest distance each school offered on national offer day.</p>
     <form id="pcForm">
       <label for="pc" class="sr">Postcode</label>
       <input id="pc" type="text" placeholder="Your postcode, e.g. SW18 2PU" autocomplete="postal-code">
@@ -142,7 +142,7 @@ footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
       <p>By default each school is judged across every year published. <b>Safe</b> means you’d have been inside the last distance (or everyone got in) in every year. <b>Mixed</b> means inside in some years but not others. <b>Just inside</b> means inside every year but by under 100 m in at least one, which is within the tool’s margin of error. <b>Unlikely</b> means outside in every year; if every miss was by under 100 m it’s marked “Just outside” instead. <b>Open</b> means everyone who applied got a place, or the last place went over 3 km away, so the school wasn’t full on distance for families nearby. A year marked “no distance places” means every place went to children in higher priority groups (often faith places), so it counts as outside. One good year on its own is a weak signal, so the card flags schools with only one year of data. Pick a single year from the menu to see that year alone.</p>
       <p>Straight-line distances are measured here from your postcode centre (or the exact point, if you use Locate me or drop a pin) to the school’s postcode centre. Where a council doesn’t publish how it measures, straight line is assumed. Councils measure from your exact address point to a gate, entrance or site centre, so expect differences of up to about 100 m. So a school where you’re within 100 m of the cut-off is marked “Just inside” or “Just outside”: too close to call either way.</p>
       <p>Walking distances use OpenStreetMap footpaths, which won’t match a council’s own road and footpath network exactly. If the walking-route service can’t be reached, those schools are marked “Check”, as the straight line is shorter than any walk. On the map, walking-route schools show a dashed circle: the true walking area always sits inside it.</p>
-      <p>Ofsted no longer gives one overall grade. Schools inspected before September 2024 keep their old grade (Outstanding to Inadequate). Those inspected from September 2024 to November 2025 have area grades only. Since November 2025 schools get a report card rating six or seven areas (seven where there’s early years provision) from Exceptional to Urgent improvement. Short “ungraded” inspections only confirm whether a school is still at its previous grade. Ofsted data is as at 31 August 2026.</p>
+      <p>Ofsted no longer gives one overall grade. Schools inspected before September 2024 keep their old grade (Outstanding to Inadequate). Those inspected from September 2024 to November 2025 have area grades only. Since November 2025 schools get a report card rating six or seven areas (seven where there’s early years provision) from Exceptional to Urgent improvement. Short “ungraded” inspections only confirm whether a school is still at its previous grade. Ofsted data is as at 30 September 2026.</p>
       <p>Data: council allocation tables, offer-day figures, gathered October 2026. Always check the school’s current admissions policy and the council’s own figures before applying.</p>
     </details>
   </footer>
@@ -160,7 +160,9 @@ const ROUTER = 'https://routing.openstreetmap.de/routed-foot/table/v1/foot/';
 const $ = s => document.querySelector(s);
 const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const fmt = m => m == null ? '–' : (m < 1000 ? Math.round(m) + ' m' : (m / 1000).toFixed(2) + ' km');
-const COVERED = ['Wandsworth', 'Merton', 'Lambeth', 'Richmond upon Thames', 'Kingston upon Thames', 'Sutton', 'Croydon'];
+// postcodes.io district names for the boroughs in the data
+const DISTRICT = {'Richmond': 'Richmond upon Thames', 'Kingston': 'Kingston upon Thames'};
+const COVERED = Object.keys(DATA.boroughs).map(b => DISTRICT[b] || b.replace(' & ', ' and '));
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const miles = m => (m / 1609.344).toFixed(2) + ' mi';
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -172,7 +174,7 @@ function haversine(a, b) {
 }
 
 // ---------- map ----------
-const map = L.map('map', {zoomControl: false, zoomAnimation: !reduceMotion, fadeAnimation: !reduceMotion}).setView([51.43, -0.17], 11);
+const map = L.map('map', {zoomControl: false, zoomAnimation: !reduceMotion, fadeAnimation: !reduceMotion}).setView([51.49, -0.12], 10);
 L.control.zoom({position: 'topright'}).addTo(map);
 // Basemap: Esri's static basemap tiles, using an ArcGIS Location Platform API key (2M tiles a month free).
 // The key is public in the page, so it's restricted to this site's address in the Esri dashboard.
@@ -397,7 +399,7 @@ function render(list) {
                           : {in: 'inside', edge: 'close', all: 'open', out: 'outside', na: 'no data or check'};
   $('#summary').innerHTML = Object.keys(order).filter(k => counts[k]).map(k => `<span class="chip c-${k}">${counts[k]} ${names[k]}</span>`).join('');
   $('#list').innerHTML = list.length ? list.map(card).join('') :
-    `<div class="empty"><strong>No schools in range.</strong><br>Try a larger radius. This tool covers Wandsworth, Merton, Lambeth, Richmond, Kingston, Sutton and Croydon.</div>`;
+    `<div class="empty"><strong>No schools in range.</strong><br>Try a larger radius. This tool covers London’s state primary schools.</div>`;
   $('#list').querySelectorAll('.school').forEach(el => {
     el.addEventListener('click', e => { if (!e.target.closest('a')) selectSchool(+el.dataset.id, false); });
     el.addEventListener('keydown', e => {
@@ -538,7 +540,7 @@ async function lookupPostcode(pc) {
 }
 function recentre() {
   if (searchCircle) map.fitBounds(searchCircle.getBounds(), {padding: [20, 20]});
-  else map.setView([51.43, -0.17], 11);
+  else map.setView([51.49, -0.12], 10);
 }
 $('#pcForm').addEventListener('submit', e => { e.preventDefault(); lookupPostcode($('#pc').value); });
 

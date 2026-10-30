@@ -1,0 +1,1641 @@
+{
+ "borough": "Havering",
+ "default_method": "straight_line",
+ "method_notes": "Havering community infant and primary admission criteria 2027/28 (pp13-17, 'Distance of the home address from the school'): distance is measured in a straight line, not by walking or bus route, between a predetermined point for the school and the address point of the child's home; address points are at the centre of the home or the centre of a block of flats. Priorities: EHCP, looked-after/previously looked-after, exceptional medical/social, sibling (incl. partner infant/junior schools), staff children, then distance; distance also breaks ties within criteria 1-4; equal distances (same block of flats) decided by random draw by an officer not involved in admissions. The council's statistics tables label the furthest distance as 'Straight line distance' in km rounded to 3 decimal places, at initial allocation (16 April). Academies, free schools, the foundation school (Mawney) and faith schools set their own arrangements; not individually checked. The Drapers' academies have priority-area places (2024 table column).",
+ "method_source": "https://www.havering.gov.uk/downloads/file/7487/infant-junior-and-primary-school-admissions-arrangements-and-community-criteria-2027-2028",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Infant and Primary School Statistics 2026 - 'Primary Admissions Details for September 2026' (initial allocations as of 16 April 2026)",
+   "url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "year": 2025,
+   "title": "Infant and Primary School Statistics 2025 - 'Primary Admissions Details for September 2025' (initial allocations as of 16 April 2025)",
+   "url": "https://www.havering.gov.uk/downloads/file/7022/infant-and-primary-school-statistics-2025"
+  },
+  {
+   "year": 2024,
+   "title": "Infant and Primary School Statistics 2024 - 'Primary Admissions Details for September 2024' (initial allocations as of 16 April 2024)",
+   "url": "https://www.havering.gov.uk/downloads/file/6583/infant-and-primary-school-statistics-2024"
+  },
+  {
+   "year": null,
+   "title": "Infant, Junior and Primary School Admissions Arrangements and Community Criteria 2027-2028",
+   "url": "https://www.havering.gov.uk/downloads/file/7487/infant-junior-and-primary-school-admissions-arrangements-and-community-criteria-2027-2028"
+  },
+  {
+   "year": null,
+   "title": "Get Information about Schools (GIAS) establishment data extract, 29 Oct 2026 (postcodes, school types)",
+   "url": "https://get-information-schools.service.gov.uk/Downloads"
+  }
+ ],
+ "gaps": "'N/A' in the furthest-distance column is not defined by the council. Where the school had spare places or LA-allocated (non-preference) children it is recorded as all_offered (inferred). Where a faith school was exactly full with no allocated places and N/A (La Salette, St Alban's, St Edward's, St Ursula's 2026; La Salette, St Alban's, St Joseph's, St Mary's, St Ursula's 2025; La Salette, St Mary's, St Ursula's 2024) it is not_published: the last place probably went on a faith criterion. Figures are initial-allocation (offer day) only. Own-admission-authority schools' measuring points (academies, Drapers' priority areas, faith schools, Mawney foundation) were not checked; straight line assumed. The community 'predetermined point' for each school is not specified (gate vs building). Squirrels Heath was an infant school in 2024-25 and is a primary from 2026 entry. Park Primary Academy opened Sept 2025, so 2024 is not_published. PAN is the 2026 'places available' figure (Hacton 88). Junior schools excluded. Postcodes and types from GIAS; Catholic schools are VA per GIAS. Dame Tipping has only 15 places.",
+ "schools": [
+  {
+   "name": "Ardleigh Green Infant School",
+   "postcode": "RM11 2SP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.746,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 0.874,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 1.032,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Benhurst Primary School",
+   "postcode": "RM12 4QS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 45 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 58 offered for 60 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 60 offered for 60 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Brady Primary School",
+   "postcode": "RM13 9XA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5.803,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 1.528,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 2.174,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Branfil Primary School",
+   "postcode": "RM14 2LW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.898,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 4.785,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 6.128,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Broadford Primary School",
+   "postcode": "RM3 8JS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 71 offered for 90 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 73 offered for 90 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 85 offered for 90 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Clockhouse Primary School",
+   "postcode": "RM5 3QR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.755,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 0.748,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 0.689,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council footnote: last child offered under distance was a twin, so the other twin was also offered a place"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Concordia Academy",
+   "postcode": "RM7 0HG",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.115,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 90 offered for 90 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.693,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Crowlands Primary School",
+   "postcode": "RM7 9EJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 80 offered for 90 places with 6 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 70 offered for 90 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 6.101,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Crownfield Infant School",
+   "postcode": "RM7 8JB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 74 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 82 offered for 90 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 2.179,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Dame Tipping Church of England Primary School",
+   "postcode": "RM4 1PS",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 15 offered for 15 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 14 offered for 15 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 11 offered for 15 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Drapers' Brookside Infant School",
+   "postcode": "RM3 9DJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Drapers' academy; 2024 council table has a 'Priority Area Places' column, with places offered under a priority area at Brookside (4) - own arrangements not checked; distance assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.202,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 56 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 54 offered for 60 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Drapers' Maylands Primary School",
+   "postcode": "RM3 9XR",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Drapers' free school; own arrangements (2024 table shows a Priority Area column) not checked; distance assumed straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 49 offered for 60 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 44 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 48 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Drapers' Pyrgo Priory School",
+   "postcode": "RM3 9RT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Drapers' academy; 2024 table shows priority-area places (4); own arrangements not checked; distance assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 16 offered for 30 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 17 offered for 30 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 27 offered for 30 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Elm Park Primary School",
+   "postcode": "RM12 5UA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 52 offered for 60 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.221,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 1.568,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Engayne Primary School",
+   "postcode": "RM14 1SW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 64 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 71 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 75 offered for 90 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Gidea Park Primary School",
+   "postcode": "RM2 5AJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.525,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 0.646,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 0.672,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Hacton Primary School",
+   "postcode": "RM12 6AU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 88,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.348,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 1.238,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 4.304,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council footnote: a child had the school named in an EHCP after all offers had been made"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Harold Court Primary School",
+   "postcode": "RM3 0SH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 42 offered for 60 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 56 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 51 offered for 60 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Harold Wood Primary School",
+   "postcode": "RM3 0TH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 90 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 89 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.378,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Harrow Lodge Primary School",
+   "postcode": "RM12 4BP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.363,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 1.394,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 0.651,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Hilldene Primary School",
+   "postcode": "RM3 7DU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 64 offered for 90 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 79 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 81 offered for 90 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Hylands Primary School",
+   "postcode": "RM1 2RU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.29,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 2.915,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 1.7,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "La Salette Catholic Primary School",
+   "postcode": "RM13 8SP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (30/30) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (30/30) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (30/30) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Langtons Infant School",
+   "postcode": "RM11 3SD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 48 offered for 60 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 51 offered for 60 places with 7 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 47 offered for 60 places with 5 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Mead Primary School",
+   "postcode": "RM3 9JD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 88 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 82 offered for 90 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 90 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Nelmes Primary School",
+   "postcode": "RM11 3BX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.081,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 0.505,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 1.298,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Newtons Primary School",
+   "postcode": "RM13 8QR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 57 offered for 60 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 60 offered for 60 places with 10 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 60 offered for 60 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Oasis Academy Pinewood",
+   "postcode": "RM5 2TX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 30 offered for 30 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 34 offered for 60 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 56 offered for 60 places with 11 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Park Primary Academy",
+   "postcode": "RM13 8TD",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Free school opened September 2025 (GIAS); not in the 2024 table.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.556,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 24 offered for 30 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "School not in the council table for this year (opened September 2025)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Parklands Primary School",
+   "postcode": "RM1 4QX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 105 offered for 120 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 84 offered for 120 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 120 offered for 120 places with 7 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Parsonage Farm Primary School",
+   "postcode": "RM13 9JU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 68 offered for 90 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 71 offered for 90 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 6.304,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Rainham Village Primary School",
+   "postcode": "RM13 9AA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.939,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 0.715,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 1.995,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Rise Park Infant School",
+   "postcode": "RM1 4UD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 66 offered for 90 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 70 offered for 90 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 88 offered for 90 places with 6 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Scargill Infant School",
+   "postcode": "RM13 7PL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.351,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 1.075,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 55 offered for 60 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Scotts Primary School",
+   "postcode": "RM12 6TH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.989,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 0.709,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 0.804,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Squirrels Heath Primary School",
+   "postcode": "RM2 5TP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Listed as 'Squirrels Heath Infants' in the 2024 and 2025 tables and 'Squirrels Heath Primary' from 2026 (now a primary per GIAS/2027-28 PAN list).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.288,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 87 offered for 90 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 90 offered for 90 places with 17 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Alban's Catholic Primary School",
+   "postcode": "RM12 5LN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (30/30) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (30/30) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 19 offered for 30 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Edward's Church of England Voluntary Aided Primary School",
+   "postcode": "RM1 4BT",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (90/90) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 86 offered for 90 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 2.391,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council footnote: last child offered under distance was a twin, so the other twin was also offered a place"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Joseph's Catholic Primary School",
+   "postcode": "RM14 2QB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 60 offered for 60 places with 5 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (60/60) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 47 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Mary's Catholic Primary School",
+   "postcode": "RM12 4TL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 60 offered for 60 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (60/60) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (60/60) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Patrick's Catholic Primary School",
+   "postcode": "RM5 2AP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 30 offered for 30 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 39 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 56 offered for 60 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Peter's Catholic Primary School",
+   "postcode": "RM1 4JA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 58 offered for 60 places with 3 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 32 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 46 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "St Ursula's Catholic Primary School",
+   "postcode": "RM3 7JS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Own admission authority with faith-based oversubscription criteria; policy not checked, distance assumed straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (60/60) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (60/60) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council shows 'N/A' although the school was full (60/60) with no LA-allocated places; for this faith school the last place probably went on a faith criterion, but this is not stated"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Suttons Primary School",
+   "postcode": "RM12 6RP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 50 offered for 60 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": 2.008,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 57 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "The James Oglethorpe Primary School",
+   "postcode": "RM14 3NB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.408,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 57 offered for 60 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 3.847,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "The Mawney Foundation School",
+   "postcode": "RM7 7HR",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": "Own admission authority; arrangements not checked; distance assumed straight line (all distances in the council table are labelled straight line).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 70 offered for 90 places with 7 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 90 offered for 90 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.404,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "R J Mitchell Primary School",
+   "postcode": "RM12 5PP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 16 offered for 30 places with 2 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 30 offered for 30 places with 1 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 23 offered for 30 places with 0 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Towers Infant School",
+   "postcode": "RM11 1HP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.122,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 1.234,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 0.8,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Upminster Infant School",
+   "postcode": "RM14 3BS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; own arrangements not checked; distance assumed straight line.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.911,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2025,
+     "value": 1.22,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": 1.017,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Council footnote: last child offered under distance was a twin, so the other twin was also offered a place"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  },
+  {
+   "name": "Whybridge Infant School",
+   "postcode": "RM13 7AR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 72 offered for 90 places with 4 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.328,
+     "unit": "km",
+     "status": "distance",
+     "criterion_note": "Furthest distance taken at initial allocation (straight line, km, 3 d.p.)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council shows 'N/A'; 82 offered for 90 places with 6 LA-allocated (non-preference) places, so all applicants appear to have been offered"
+    }
+   ],
+   "source_url": "https://www.havering.gov.uk/downloads/file/7395/infant-and-primary-school-statistics-2026"
+  }
+ ]
+}

@@ -1,0 +1,1331 @@
+{
+  "borough": "Islington",
+  "default_method": "straight_line",
+  "method_notes": "Islington Community School Determined Admission Arrangements 2026-27 (Admission Criteria to Islington Community Primary Schools, criterion 4 Distance): nearness is determined by a computerised mapping system using a straight-line distance measurement from the home address (as defined by the Land & Property Gazetteer) to the midpoint of the school grounds (as determined by Islington LA). Distance is the tiebreaker within criteria 1-3 (looked-after, sibling, exceptional social/medical/SEN); equal distances for a last place are settled by computerised random allocation. City of London Primary Academy Islington uses the same LA measure (centroid of block for flats with a communal entrance). St Mary's Islington CE measures in a straight line to its main gates in Fowler Road. The council's cut-off page says that for VA faith schools the cut-off applies only to applicants considered on home-to-school distance alone, after faith/church criteria.",
+  "method_source": "https://www.islington.gov.uk/~/media/sharepoint-lists/public-records/educationandskills/information/adviceandinformation/20262027/islington-community-school-determined-admission-arrangements-202627.pdf",
+  "years_found": [
+    2026,
+    2025,
+    2024
+  ],
+  "sources": [
+    {
+      "year": 2026,
+      "title": "Islington Council - Cut off distances for schools in Islington: 'Distance (miles) in 2026-27' (last child admitted, offer day April 2026)",
+      "url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "year": 2025,
+      "title": "Islington Council - Cut off distances page: 'Distance (miles) in 2025-26'",
+      "url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "year": 2024,
+      "title": "Islington Council - Cut off distances page: 'Distance (miles) in 2024-25'",
+      "url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "year": null,
+      "title": "Islington Community School Determined Admission Arrangements 2026-27 (criteria, measurement, PANs)",
+      "url": "https://www.islington.gov.uk/~/media/sharepoint-lists/public-records/educationandskills/information/adviceandinformation/20262027/islington-community-school-determined-admission-arrangements-202627.pdf"
+    },
+    {
+      "year": null,
+      "title": "St Mary's Islington determined admission arrangements 2026-27",
+      "url": "https://www.islington.gov.uk/~/media/sharepoint-lists/public-records/educationandskills/information/adviceandinformation/20262027/st-marys-islington-determined-admission-arrangements-202627.pdf"
+    },
+    {
+      "year": null,
+      "title": "City of London Primary Academy Islington determined admission arrangements 2026-27",
+      "url": "https://www.islington.gov.uk/~/media/sharepoint-lists/public-records/educationandskills/information/adviceandinformation/20262027/city-of-london-primary-academy-islington-determined-admission-arrangements-202627.pdf"
+    },
+    {
+      "year": null,
+      "title": "DfE Get Information about Schools (GIAS) all-establishments extract 29 Oct 2026 (postcodes, open/closed status)",
+      "url": "https://get-information-schools.service.gov.uk/Downloads"
+    }
+  ],
+  "gaps": "Figures come only from the council's three-year cut-off page (no booklet: the 2025-26 primary booklet PDF now returns 'page not found'). Year labels are school years of entry ('2026-27' = April 2026 offer day), assumed to be national-offer-day positions; the page does not say whether they are offer-day or end-of-process figures. 'Not applicable' is not defined on the page: for community schools it is recorded as all_offered (cut-offs are said to apply only to oversubscribed schools); for VA faith schools, academies and free schools it is recorded as not_published because it could mean undersubscribed, no distance-based offers, or figures not supplied (e.g. Whitehall Park free school shows 'Not applicable' in all three years). Many Islington schools are undersubscribed (falling rolls), which fits the many 'Not applicable' entries. The page gives no criterion for the last offer and no applications/offers counts. Figures for VA faith schools are cut-offs for distance-only applicants and do not apply to faith-criteria applicants. Measuring methods of the other VA, academy and free schools (Hungerford, Pooles Park, William Tyndale, St Mary Magdalene, Whitehall Park, Catholic and CE VA schools) not checked: method 'unknown'. PANs from the 2026-27 determined arrangements list. Postcodes from GIAS (Oct 2026). Closed schools (Highbury Quadrant, St Jude and St Paul's - closed Aug 2025; The New North Academy - closed Aug 2026) are not on the cut-off page and are excluded. 'Hugh Myddlelton' typo on the council page corrected to Myddelton.",
+  "schools": [
+    {
+      "name": "Ambler Primary School",
+      "postcode": "N4 2DR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.338,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.271,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.29,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Ashmount Primary School",
+      "postcode": "N8 9EG",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": 1.284,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.856,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Canonbury Primary School",
+      "postcode": "N1 2UT",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.403,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.56,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.655,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Christ the King Primary School",
+      "postcode": "N4 3QW",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "City of London Primary Academy Islington",
+      "postcode": "EC1Y 0AE",
+      "type": "free school",
+      "method": "straight_line",
+      "method_note": "Own policy 2026-27: straight line from home (LLPG point; block centroid for flats with a communal entrance) to the midpoint of the school grounds as determined by LB Islington - same as community schools. Free school (GIAS).",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.608,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2024,
+          "value": 3.025,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Drayton Park Primary School",
+      "postcode": "N5 1PJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.361,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.345,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Duncombe Primary School",
+      "postcode": "N19 4JA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Gillespie Primary School",
+      "postcode": "N5 1LH",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.19,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.142,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.148,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Grafton Primary School",
+      "postcode": "N7 6AR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": 0.522,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.912,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Hanover Primary School",
+      "postcode": "N1 8BD",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.423,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Hargrave Park Primary School",
+      "postcode": "N19 5BS",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.416,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Hugh Myddelton Primary School",
+      "postcode": "EC1R 1YJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.331,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.329,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.382,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Hungerford Primary School",
+      "postcode": "N7 9LF",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Laycock Primary School",
+      "postcode": "N1 1SW",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 50,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Moreland Primary School",
+      "postcode": "EC1V 8BB",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Newington Green Primary School",
+      "postcode": "N1 4ND",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.324,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.311,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.431,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Pakeman Primary School",
+      "postcode": "N7 6DU",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 45,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Pooles Park Primary School",
+      "postcode": "N4 3NW",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Prior Weston Primary School",
+      "postcode": "EC1Y 8JA",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Robert Blair Primary School",
+      "postcode": "N7 9QJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Rotherfield Primary School",
+      "postcode": "N1 3EE",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.408,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Sacred Heart Catholic Primary School",
+      "postcode": "N7 8JN",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Andrew's Barnsbury CE Primary School",
+      "postcode": "N1 0LB",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Joan of Arc Catholic Primary School",
+      "postcode": "N5 2UX",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.422,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2025,
+          "value": 0.121,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2024,
+          "value": 0.55,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St John Evangelist Primary School",
+      "postcode": "N1 8BL",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St John's Highbury Vale Primary School",
+      "postcode": "N5 1DL",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.094,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2025,
+          "value": 0.309,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2024,
+          "value": 0.351,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St John's Upper Holloway CE Primary School",
+      "postcode": "N19 5RR",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Joseph's Catholic Primary School",
+      "postcode": "N19 5NE",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.322,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2025,
+          "value": 2.736,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Luke's CE Primary School",
+      "postcode": "EC1V 3SJ",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Mark's CE Primary School",
+      "postcode": "N19 4JF",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.448,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2025,
+          "value": 0.383,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2024,
+          "value": 1.107,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Mary Magdalene Academy",
+      "postcode": "N7 8PG",
+      "type": "faith academy",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.184,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.316,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.528,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Mary's Islington CE Primary School",
+      "postcode": "N1 2EP",
+      "type": "VA faith",
+      "method": "straight_line",
+      "method_note": "Own policy 2026-27: straight line from the parents'/guardians' principal residence to the school's main gates in Fowler Road, N1 2EP.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 1.483,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "St Peter and St Paul Catholic Primary School",
+      "postcode": "EC1V 0EU",
+      "type": "VA faith",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        },
+        {
+          "year": 2025,
+          "value": 0.151,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance; for VA faith schools this covers only applicants considered on home-to-school distance alone, after faith/church criteria"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; for VA faith schools the cut-off only covers applicants admitted on distance alone, so this may mean the school was not oversubscribed or that no places went on distance - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Thornhill Primary School",
+      "postcode": "N1 1HX",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.378,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.364,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.337,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Tufnell Park Primary School",
+      "postcode": "N7 0HJ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.845,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.522,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Vittoria Primary School",
+      "postcode": "N1 0WF",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "all_offered",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; cut-off distances apply only when a school is oversubscribed, so interpreted as no cut-off (all applicants offered). Interpretation, not stated explicitly."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Whitehall Park",
+      "postcode": "N6 5EP",
+      "type": "free school",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2026-27; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2025,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2025-26; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        },
+        {
+          "year": 2024,
+          "value": null,
+          "unit": null,
+          "status": "not_published",
+          "criterion_note": "Council table shows 'Not applicable' for 2024-25; own-admission-authority academy/free school, so this may mean undersubscribed or that the figure was not supplied - not stated."
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "William Tyndale Primary School",
+      "postcode": "N1 2GG",
+      "type": "academy",
+      "method": "unknown",
+      "method_note": "Own admission authority; measuring method not checked - council default is straight line to the midpoint of the school grounds.",
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.244,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.291,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.368,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Winton Primary School",
+      "postcode": "N1 9AZ",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 30,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.89,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.329,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 1.552,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    },
+    {
+      "name": "Yerbury Primary School",
+      "postcode": "N19 4RR",
+      "type": "community",
+      "method": "straight_line",
+      "method_note": null,
+      "pan": 60,
+      "distances": [
+        {
+          "year": 2026,
+          "value": 0.312,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2026-27' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2025,
+          "value": 0.277,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2025-26' - home-to-school distance of last child admitted on distance"
+        },
+        {
+          "year": 2024,
+          "value": 0.412,
+          "unit": "miles",
+          "status": "distance",
+          "criterion_note": "Council 'Distance (miles) in 2024-25' - home-to-school distance of last child admitted on distance"
+        }
+      ],
+      "source_url": "https://www.islington.gov.uk/children-and-families/schools/apply-for-a-school-place/school-admissions-information/cut-off-distance-maps"
+    }
+  ]
+}

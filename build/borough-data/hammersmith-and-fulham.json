@@ -1,0 +1,1230 @@
+{
+ "borough": "Hammersmith & Fulham",
+ "default_method": "straight_line",
+ "method_notes": "H&F Starting School 2026 brochure (common definitions / community schools policy, p.28-30) and community schools determined arrangements 2026/27: unless a school's own criteria say otherwise, distance is a straight line ('as the crow flies') from the child's home 'address point' (Ordnance Survey data) to the main entrance gate for pupils (community policy: nearest entrance for pupils), measured by H&F Council's computerised measuring system; nearest child gets highest priority. Shared address points (flats) are separated by random allocation/draw. The council's hints-and-tips leaflet states 'Distance is determined in straight line for all applications'. Community oversubscription order: looked after, exceptional need, siblings, children of staff, distance. Faith and free schools use foundation/open, nursery, Pupil Premium or multi-site categories (see school notes). Figures are in miles ('x of a mile').",
+ "method_source": "https://www.lbhf.gov.uk/sites/default/files/2025-03/community-schools-determined-arrangements-2026-27.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Starting school 2027 brochure (H&F Council) - per-school 'How places were offered in 2026' (copy hosted on St Peter's C of E Primary's website)",
+   "url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Starting primary school 2026 brochure - per-school 'How places were offered in 2025' (Wayback Machine copy, Nov 2025)",
+   "url": "https://web.archive.org/web/20251107181535/https://www.lbhf.gov.uk/sites/default/files/2025-09/primary-starting-school-2026-brochure-final.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Starting primary school brochure 2025 (rev1) - per-school 'How places were offered in 2024' (Wayback Machine copy, Apr 2025)",
+   "url": "https://web.archive.org/web/20250416140305/https://www.lbhf.gov.uk/sites/default/files/2025-02/starting-primary-school-brochure-2025-rev1.pdf"
+  },
+  {
+   "year": null,
+   "title": "H&F primary hints and tips 2026 (straight-line statement; Wayback copy)",
+   "url": "https://web.archive.org/web/20251006141726/https://www.lbhf.gov.uk/sites/default/files/2025-08/hf-primary-hints-tips-2026.pdf"
+  },
+  {
+   "year": null,
+   "title": "Community schools determined arrangements 2026-27",
+   "url": "https://www.lbhf.gov.uk/sites/default/files/2025-03/community-schools-determined-arrangements-2026-27.pdf"
+  },
+  {
+   "year": null,
+   "title": "OSA determination VAR2643/VAR2644 Brackenbury Primary School (PAN 30 for 2026/27)",
+   "url": "https://assets.publishing.service.gov.uk/media/68f89acf24fc2bb7eed11ace/VAR2643_VAR2644_Brackenbury_Primary_School_Determination_22_October_2025.pdf"
+  }
+ ],
+ "gaps": "2026 figures come from the council's Starting school 2027 brochure, via a copy on St Peter's C of E Primary's website (lbhf.gov.uk itself refuses automated requests). Faith schools whose last place went under a faith-only criterion are recorded as no_distance_offers (Good Shepherd, Holy Cross, Larmenier & Sacred Heart, and 2025/2024 rows for these that were earlier recorded as distances); St John's Walham Green 2026 open places all went to siblings. Good Shepherd's '2d' does not exist in its 2027 criteria (2a-2c are sub-priorities of criterion 2, baptised Catholics); treated as criterion 2. Holy Cross 2024 'criterion 10' is not in the summarised 2027 criteria and is left as a distance. New King's Road School (formerly Thomas's Academy) prints exactly the same 2026 figures as its 2025 ones (0.400 miles, nursery 0.959), possibly copied forward. 2025 and 2024 figures come from Wayback Machine copies of the council brochures (2026-entry and 2025-entry), read from per-school 'How places were offered' boxes in a two-column layout. Postcodes, types and PANs from the 2026-entry brochure (not GIAS-checked); Miles Coverdale 'W12 8J J' and Fulham Bilingual 'SW6 3A A' normalised; Earl's Court Free School Primary and West London Free School Primary both print W6 0LB. For schools with separate foundation/open or two-site cut-offs (St Peter's, St John's Walham Green, All Saints, Earl's Court, Nishkam-style splits) one value is recorded and the others are in criterion_note. Individual academy/faith measuring points not checked beyond the brochure; straight line assumed. The London Oratory School Junior House (in the 2025 brochure only, PAN 20, no breakdown) excluded as it admits at age 7, not Reception.",
+ "schools": [
+  {
+   "name": "Addison Primary School",
+   "postcode": "W14 0DT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.243,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (13 offers)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Avonmore Primary School",
+   "postcode": "W14 9LY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "2025 brochure gives W14 8SH; 2026 brochure W14 9LY (used).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.978,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (17 offers)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": 0.468,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Brackenbury Primary School",
+   "postcode": "W6 0BA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN reduced from 60 to 30 for 2026/27 (OSA variation determination VAR2643, Oct 2025); 2026-entry brochure still shows 60.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Flora Gardens Primary School",
+   "postcode": "W6 7PZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Temporarily located at the former Lena Gardens Primary site, Lena Gardens W6 7PZ (postcode is the temporary site).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Kenmont Primary School",
+   "postcode": "NW10 6AL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.536,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (19 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.51,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.312,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Melcombe Primary School",
+   "postcode": "W6 9ER",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Miles Coverdale Primary School",
+   "postcode": "W12 8JJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Normand Croft Community School",
+   "postcode": "W14 9PA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Old Oak Primary School",
+   "postcode": "W12 0AS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Sir John Lillie Primary School",
+   "postcode": "SW6 7LN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Wendell Park Primary School",
+   "postcode": "W12 9LB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Wormholt Park Primary School",
+   "postcode": "W12 0SR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "All Saints C of E Primary School",
+   "postcode": "SW6 6ED",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Church (foundation) and open places.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.747,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 4 open places (7 offers); all foundation applicants offered"
+    },
+    {
+     "year": 2025,
+     "value": 0.232,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 4 open places; all foundation applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all foundation and all open applications were offered"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Ark Bentworth Primary Academy",
+   "postcode": "W12 7AJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Ark Conway Primary Academy",
+   "postcode": "W12 0QT",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.448,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (14 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.669,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.412,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Ark White City Primary Academy",
+   "postcode": "W12 7PT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1.318,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Earl's Court Free School Primary",
+   "postcode": "W6 0LB",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Two sites with separate cut-offs; postcode is the Hammersmith site and the value recorded is the Hammersmith-site figure.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.575,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Hammersmith site (9 offers); Earls Court site last distance 0.969 miles (9 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.66,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Hammersmith site (12 offers); Earls Court site last distance 1.050 miles (12 offers)"
+    },
+    {
+     "year": 2024,
+     "value": 2.965,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Hammersmith site (5 offers); Earls Court site last distance 1.168 miles (6 offers)"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "The Fulham Bilingual",
+   "postcode": "SW6 3AA",
+   "type": "VA (bilingual)",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 28,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.471,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (16 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.419,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.421,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Fulham Primary School",
+   "postcode": "SW6 1JU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.471,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (22 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.419,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Good Shepherd Catholic Primary School",
+   "postcode": "W12 9BY",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion '2d' (baptised Catholic children with a Certificate of Catholic Practice) at 0.661 miles; no places went on distance alone"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 2d (baptised Catholic children) at 0.286 miles; no places went on distance alone"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 2d (baptised Catholic children) at 0.370 miles; no places went on distance alone"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Greenside Primary School",
+   "postcode": "W12 9PT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.323,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (20 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.39,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.408,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Holy Cross Catholic Primary",
+   "postcode": "SW6 4BL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 7 (children of catechumens and members of an Eastern Christian Church) at 7.850 miles; no places went on distance alone"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 8 (non-Catholic children with a sibling at the school) at 0.482 miles; no places went on distance alone"
+    },
+    {
+     "year": 2024,
+     "value": 0.744,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 10"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "John Betts Primary",
+   "postcode": "W6 0UA",
+   "type": "VA",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.062,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (2 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.13,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 0.305,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Langford Primary School",
+   "postcode": "SW6 2LG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.562,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (42 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.656,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Larmenier & Sacred Heart Catholic Primary",
+   "postcode": "W6 7BL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 4 (other Catholic children) at 0.529 miles; no places went on distance alone"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 3c (Catholic children with a Certificate of Catholic Practice in other parishes) at 1.532 miles; no places went on distance alone"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Last offer under criterion 4c (other Catholic children) at 0.327 miles; no places went on distance alone"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Queen's Manor Primary School",
+   "postcode": "SW6 6ND",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St Augustine's Catholic Primary",
+   "postcode": "W6 8QE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": 0.709,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 10"
+    },
+    {
+     "year": 2024,
+     "value": 1.442,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 10"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St John XXIII Primary School",
+   "postcode": "W12 7QT",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "PAN 60 in 2025-entry brochure, 30 in 2026-entry brochure.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.03,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Last offer under criterion 8 ('any other children')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St John's Walham Green C of E Primary School",
+   "postcode": "SW6 6AS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Foundation and open places.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Foundation places: last offer under criterion 3 at 0.116 miles; the 17 open places all went to siblings (last at 0.399 miles); no places went on distance alone"
+    },
+    {
+     "year": 2025,
+     "value": 0.136,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places; all foundation applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.614,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places; all foundation applicants offered"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St Mary's Catholic Primary School",
+   "postcode": "W14 0LT",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St Paul's C of E Primary School",
+   "postcode": "W6 9BP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St Peter's C of E Primary School",
+   "postcode": "W6 9BA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Foundation and open places with separate cut-offs; open-place value recorded.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.233,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places (10 offers); foundation places last offered under criterion 3 at 0.537 miles"
+    },
+    {
+     "year": 2025,
+     "value": 0.166,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places; foundation places last offered under criterion 3 at 0.586 miles"
+    },
+    {
+     "year": 2024,
+     "value": 0.247,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places, last offer to a sibling; foundation last offered under criterion 3 at 0.526 miles"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St Stephen's C of E Primary School",
+   "postcode": "W12 8LH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Foundation and open places.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.219,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places (10 offers); foundation places last offered under criterion 2 at 0.556 miles"
+    },
+    {
+     "year": 2025,
+     "value": 0.288,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places"
+    },
+    {
+     "year": 2024,
+     "value": 0.08,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open criterion 2 (siblings)"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "St Thomas of Canterbury Catholic Primary",
+   "postcode": "SW6 7HB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "Sulivan Primary School",
+   "postcode": "SW6 3BN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: 'All on-time applicants were offered'"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "New King's Road School (formerly Thomas's Academy)",
+   "postcode": "SW6 4LY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Priority for nursery children, then distance.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.4,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion; nursery-priority places went up to 0.959 miles"
+    },
+    {
+     "year": 2025,
+     "value": 0.4,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion; nursery-priority places went up to 0.959 miles"
+    },
+    {
+     "year": 2024,
+     "value": 1.518,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion (3 offers); nursery-priority places went up to 3.170 miles"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  },
+  {
+   "name": "West London Free School Primary",
+   "postcode": "W6 0LB",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.465,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places (35 offers)"
+    },
+    {
+     "year": 2025,
+     "value": 0.509,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places"
+    },
+    {
+     "year": 2024,
+     "value": 0.728,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places"
+    }
+   ],
+   "source_url": "https://www.stpetersce.lbhf.sch.uk/docs/Admissions/starting-school-2027-brochure.pdf"
+  }
+ ]
+}

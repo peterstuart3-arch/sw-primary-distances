@@ -1,0 +1,2175 @@
+{
+ "borough": "Enfield",
+ "default_method": "straight_line",
+ "method_notes": "Enfield 'Applying for a Primary School' booklet (Sept 2026 entry), 'Admission arrangements in Enfield', criterion f: children living nearest to the school 'measured as the crow flies, that is, in a straight line from the child's home to the main entrance of the school', calculated by the admissions IT system using AddressBase Premium (0.1 m grid reference within the addressed building). Flats sharing one address point: lowest door number numerically/alphabetically first. Within any criterion, ties broken by distance as in (f). Criteria: EHCP, LAC/previously LAC, exceptional medical, siblings, children of staff (2+ years), priority zone residents (Brettenham, Chase Side, Fleecefield, Lavender, Raynham), then distance. These criteria apply to community schools and to academies in the Connect Education, EdAct, Ivy Learning, Attigo and Children First trusts; VA schools, Northstar free schools, Ark, Oasis, One Degree, De Bohun, Wolfson Hillel and Meridian Angel set their own criteria (not individually checked). The figure used is the council's 'Furthest Distance (Miles)' column.",
+ "method_source": "https://www.carterhatchjunelt.org/_site/data/files/users/template/files/admissions/19B480A5CB7A9A4914D65E816F0AD86D.pdf",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Enfield Council 'Admission to Reception - September 2026: Allocations at Community Schools, Academies and Free Schools as of 16 April 2026' (downloaded by hand)",
+   "url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Applying for a Primary School in Enfield, Sept 2026 entry: 'September 2025 Allocations at Community Schools, Academies and Free Schools as at 16 April 2025' (copy hosted on Carterhatch Junior school website)",
+   "url": "https://www.carterhatchjunelt.org/_site/data/files/users/template/files/admissions/19B480A5CB7A9A4914D65E816F0AD86D.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Same booklet: 'September 2024 Allocations ... as at 16 April 2024' (identical table also in the Sept 2025 booklet)",
+   "url": "https://www.carterhatchjunelt.org/_site/data/files/users/template/files/admissions/19B480A5CB7A9A4914D65E816F0AD86D.pdf"
+  }
+ ],
+ "gaps": "2026 figures come from the council's 16 April 2026 breakdown PDF, downloaded by hand (enfield.gov.uk blocks automated access); 2023 has been dropped now that 2026 is in. The council table covers community schools, academies and free schools; VA faith schools appear only in the 'demand met' lists, so oversubscribed VA schools (Forty Hill, Freezywater St George's, St Monica's 2025/2024; St Michael's 2025; St Paul's 2025/2024; St Andrew's Enfield 2024) are not_published. Academies outside the LA-criteria trusts and VA schools may measure differently; not checked, straight line assumed. 2024 table rows were checked against the identical table in two booklets. PAN from the Sept 2026 booklet directory (Delta 15 and St John's CE 17 as printed). Postcodes from the booklet, checked against GIAS (all match). Types from GIAS (Hadley Wood is now an academy converter; the booklet says Community). Excluded junior schools: Carterhatch Junior, Hazelwood Junior, Raglan Junior, St Michael at Bowes CE Junior. 2026: Forty Hill, Freezywater St George's, Our Lady of Lourdes, St Michael's and St Paul's are in neither the table nor the demand-met list (not_published).",
+ "schools": [
+  {
+   "name": "Alma Primary",
+   "postcode": "EN3 4UQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.66,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Ark John Keats Academy",
+   "postcode": "EN3 5PA",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "All-through free school (Ark); own admission arrangements (not checked), Enfield straight-line method assumed.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.639,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Bowes Primary",
+   "postcode": "N11 2HL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.539,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.421,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Brettenham Primary",
+   "postcode": "N18 2ET",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance. Has a priority zone (criterion e).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Brimsdown Primary",
+   "postcode": "EN3 7NA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Bush Hill Park Primary",
+   "postcode": "EN1 1DS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.648,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Capel Manor Primary",
+   "postcode": "EN1 4RL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Carterhatch Infant",
+   "postcode": "EN1 4JY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Chase Side Primary",
+   "postcode": "EN2 6NS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Has a priority zone (criterion e) before distance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Chesterfield Primary",
+   "postcode": "EN3 6BG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Churchfield Primary",
+   "postcode": "N9 9PL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.634,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "De Bohun Primary",
+   "postcode": "N14 4AD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; own policy not checked, Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Delta Primary",
+   "postcode": "N9 8PT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Eastfield Primary",
+   "postcode": "EN3 5UX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Edmonton County Primary",
+   "postcode": "N9 9JZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance. All-through school (EdAct Trust), Bury Campus.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Eldon Primary",
+   "postcode": "N9 8LG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Enfield Heights Academy",
+   "postcode": "EN3 5BY",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; own policy not checked, Enfield straight-line method assumed. (Northstar Academy Trust)",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 0.399,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 1.879,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Eversley Primary",
+   "postcode": "N21 1PD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.931,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.633,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Firs Farm Primary",
+   "postcode": "N13 5QP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Fleecefield Primary",
+   "postcode": "N18 2ES",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance. Has a priority zone (criterion e).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Forty Hill CofE Primary",
+   "postcode": "EN2 9EY",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "VA faith school: in neither the council table nor its demand-met list for 16 April 2026; contact the school"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Freezywater St George's CofE VA Primary",
+   "postcode": "EN3 6NR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "VA faith school: in neither the council table nor its demand-met list for 16 April 2026; contact the school"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Galliard Primary",
+   "postcode": "N9 7PE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 1.362,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Garfield Primary",
+   "postcode": "N11 1BH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "George Spicer Primary",
+   "postcode": "EN1 1YF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Grange Park Primary",
+   "postcode": "N21 1PP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Hadley Wood Primary",
+   "postcode": "EN4 0HT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy converter per GIAS (booklet lists it as Community); in council table.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.446,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 1.757,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 1.694,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Hazelbury Primary",
+   "postcode": "N9 9TT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Hazelwood Infant",
+   "postcode": "N13 5HE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.48,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 0.627,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 0.374,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Highfield Primary",
+   "postcode": "N21 3HE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.043,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 0.677,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 0.609,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Honilands Primary",
+   "postcode": "EN1 4RE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Houndsfield Primary",
+   "postcode": "N9 7RE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Keys Meadow Primary",
+   "postcode": "EN3 6FB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Kingfisher Hall Primary Academy",
+   "postcode": "EN3 7GB",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; own policy not checked, Enfield straight-line method assumed. (Northstar Academy Trust)",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 0.721,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Latymer All Saints CofE Primary",
+   "postcode": "N9 9RS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Lavender Primary",
+   "postcode": "EN2 0SX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance. Has a priority zone (criterion e) covering outlying roads (e.g. Clay Hill, Cattlegate Road); 1 priority-zone offer in 2024 and 2 in 2023.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": 1.428,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Meridian Angel Primary",
+   "postcode": "N18 2DX",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "CofE free school; own admission arrangements (not checked), Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Merryhills Primary",
+   "postcode": "EN2 7RE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": 1.254,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 0.96,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Oakthorpe Primary",
+   "postcode": "N13 6BY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Oasis Academy Hadley",
+   "postcode": "EN3 4PX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (Oasis); own admission arrangements (not checked), Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "One Degree Academy",
+   "postcode": "EN2 8GH",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; own policy not checked, Enfield straight-line method assumed.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.336,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026; the council gives no breakdown by criterion for this school"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Our Lady of Lourdes Catholic Primary",
+   "postcode": "N11 1RD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "VA faith school: in neither the council table nor its demand-met list for 16 April 2026; contact the school"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Prince of Wales Primary",
+   "postcode": "EN3 6HG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Raglan Infant",
+   "postcode": "EN1 2NS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.627,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 0.754,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 0.555,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Raynham Primary",
+   "postcode": "N18 2JQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance. Has a priority zone (criterion e).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Andrew's CofE Primary (Enfield)",
+   "postcode": "EN1 3UL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Andrew's Southgate Primary (CE)",
+   "postcode": "N14 6JA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Edmund's Catholic Primary",
+   "postcode": "N9 7HJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St George's Catholic Primary",
+   "postcode": "EN2 0QA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St James' CofE Primary",
+   "postcode": "EN3 7HH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St John and St James CofE Primary",
+   "postcode": "N18 2TL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St John's CofE Primary",
+   "postcode": "EN2 9BD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 17,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Mary's Catholic Primary",
+   "postcode": "EN3 7DE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Matthew's CofE Primary",
+   "postcode": "EN3 4LA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Michael's CofE Primary",
+   "postcode": "EN2 0NB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "VA faith school: in neither the council table nor its demand-met list for 16 April 2026; contact the school"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Monica's Catholic Primary",
+   "postcode": "N14 7HE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "St Paul's CofE Primary",
+   "postcode": "N21 2RA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "VA faith school with own faith-based criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "VA faith school: in neither the council table nor its demand-met list for 16 April 2026; contact the school"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Not in the council table or the all-offered list; council table covers community schools, academies and free schools only, so this own-admission-authority school was probably oversubscribed: contact the school"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Southbury Primary",
+   "postcode": "EN3 4JG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Starks Field Primary",
+   "postcode": "N9 9SJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Suffolks Primary",
+   "postcode": "EN1 3PU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Tottenhall Infant",
+   "postcode": "N13 6HX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Feeder infant for St Michael-at-Bowes CE Junior (VA).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Walker Primary",
+   "postcode": "N14 7EG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.959,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest Distance (Miles)' as of 16 April 2026"
+    },
+    {
+     "year": 2025,
+     "value": 0.89,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2025"
+    },
+    {
+     "year": 2024,
+     "value": 0.601,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table 'Furthest distance (miles)' as at 16 April 2024"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "West Grove Primary",
+   "postcode": "N14 4LR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Wilbury Primary",
+   "postcode": "N18 1DE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Wolfson Hillel Primary",
+   "postcode": "N14 4LG",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Jewish academy with faith criteria (not checked); Enfield straight-line method assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Woodpecker Hall Primary Academy",
+   "postcode": "N9 8DR",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; own policy not checked, Enfield straight-line method assumed. (Northstar Academy Trust)",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  },
+  {
+   "name": "Worcesters Primary",
+   "postcode": "EN1 4UF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Uses the Enfield LA criteria (community schools and Connect, EdAct, Ivy, Attigo and Children First trusts): straight line to the main entrance.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council list: 'possible to meet the demand for places from on time applicants' (16 April 2026)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2025)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council booklet: 'possible to meet the demand for places from on time applicants' (16 April 2024)"
+    }
+   ],
+   "source_url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/129494/Admission-to-infant-and-reception-classes-2026-Education.pdf"
+  }
+ ]
+}

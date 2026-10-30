@@ -1,0 +1,1870 @@
+{
+ "borough": "Bexley",
+ "default_method": "straight_line",
+ "method_notes": "LB Bexley 'Before applying for a primary school place' (Admission to Primary Schools 2027-28), section 'Home-to-school distance': distance is measured in a straight line (as the crow flies) by the Council's GIS, from the NLPG easting/northing co-ordinates of the home address to the nearest school entrance approved by the Governors as an official entrance; measured in miles to three decimal places. Until 2015 most Bexley primaries used the shortest safe walking route; community, VC and most academies switched to straight line in 2015 and from 2016 all Bexley primary schools measure by straight line. Community/VC oversubscription criteria (Priority 5): nearest school entrance, straight line; equal distances for the last place decided by drawing lots; twins/multiple births treated as siblings. Home = address where the child lives with the main carer (Child Benefit). Academies, free schools and VA schools set their own criteria, but the council states the straight-line method applies to all primary schools.",
+ "method_source": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Admission to Primary Schools 2027-28: Before applying for a primary school place - 'Home-to-school distances and appeals' table (distances reached on offer day 2026, 2025, 2024, 2023, 2022)",
+   "url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "year": 2025,
+   "title": "Admission to Primary Schools 2027-28: Before applying for a primary school place - 'Home-to-school distances and appeals' table (distances reached on offer day 2026, 2025, 2024, 2023, 2022)",
+   "url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "year": 2024,
+   "title": "Admission to Primary Schools 2027-28: Before applying for a primary school place - 'Home-to-school distances and appeals' table (distances reached on offer day 2026, 2025, 2024, 2023, 2022)",
+   "url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "year": null,
+   "title": "Admission to Primary Schools 2027-28: Primary schools in Bexley (school list, addresses, admission numbers)",
+   "url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/primary-schools-bexley"
+  },
+  {
+   "year": null,
+   "title": "Admission to Primary Schools 2027-28: Community and voluntary controlled schools (oversubscription criteria)",
+   "url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/community-and-voluntary-controlled-schools"
+  },
+  {
+   "year": null,
+   "title": "Get Information about Schools (GIAS) establishment data extract, 29 Oct 2026 (types, postcodes)",
+   "url": "https://get-information-schools.service.gov.uk/Downloads"
+  }
+ ],
+ "gaps": "Bexley publishes the figures as an HTML table on one council page (2026-2022); 2026 values are printed with 'miles', earlier years without units but the table is labelled 'distances in miles'. 2023 and 2022 are also available on that page but not included. The table excludes faith schools where faith criteria dominate (Bishop Ridley CE, Christ Church (Erith) CE, Our Lady of the Rosary, St Augustine of Canterbury CE, St Fidelis, St John Fisher, St Joseph's, St Michael's East Wickham CE, St Paulinus CE, St Peter Chanel, St Stephen's, St Thomas More) - all not_published. Holy Trinity CE, Old Bexley CE, St Paul's (Slade Green) CE and Hope Community School are in the table. 'All on time offered' recorded as all_offered (all on-time applicants offered; late applicants may not have been). Danson 2026 3.354 miles looks unusually high but is as printed. The table row 'East Wickham Infant' is mapped to East Wickham Primary Academy; 'Leigh Stationers Primary Academy Primary' to Leigh Stationers' Primary Academy (formerly Eastcote). PAN from the 2027-28 school list (Sept 2027 admission number), not necessarily the PAN in the offer year. Types and postcodes from GIAS (booklet still calls some converted schools VA, e.g. Bishop Ridley, St Thomas More). Junior schools (Barnehurst, Bedonwell, Belvedere, Burnt Oak) excluded. Own-admission-authority entrances/measuring points not checked individually.",
+ "schools": [
+  {
+   "name": "Barnehurst Infant School",
+   "postcode": "DA8 3NL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.634,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.442,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.517,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Barrington Primary School",
+   "postcode": "DA7 4UN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1.957,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Bedonwell Infant School",
+   "postcode": "DA17 5PF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Belmont Academy",
+   "postcode": "DA8 1LE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": 0.927,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Belvedere Infant and Nursery School",
+   "postcode": "DA17 6AA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Birkbeck Primary School",
+   "postcode": "DA14 4ED",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.484,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 1.267,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.814,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Bishop Ridley CE Primary School",
+   "postcode": "DA16 2QE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Brampton Primary Academy",
+   "postcode": "DA7 4SL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Bursted Wood Primary School",
+   "postcode": "DA7 5BS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": 1.577,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 1.131,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Castilion Primary School",
+   "postcode": "SE28 8QA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Chatsworth Infant School",
+   "postcode": "DA15 9DD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.686,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.842,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.643,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Christ Church (Erith) CE Primary School",
+   "postcode": "DA8 3DG",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Crook Log Primary School",
+   "postcode": "DA6 8EQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Danson Primary School",
+   "postcode": "DA16 2BH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "2026 figure of 3.354 miles recorded as printed (much larger than other years).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3.354,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Days Lane Primary School",
+   "postcode": "DA15 8JU",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.172,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.571,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.644,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Dulverton Primary School",
+   "postcode": "SE9 3RH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.376,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.454,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.441,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "East Wickham Primary Academy",
+   "postcode": "DA16 3BP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Council table row is headed 'East Wickham Infant'; the school is now East Wickham Primary Academy (GIAS).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.575,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Fairford Academy Barnehurst",
+   "postcode": "DA7 6QP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Foster's Primary School",
+   "postcode": "DA16 1PN",
+   "type": "voluntary controlled",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.321,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 1.041,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Gravel Hill Primary School",
+   "postcode": "DA6 7QJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": 2.149,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 2.424,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Haberdashers' Crayford Primary",
+   "postcode": "DA1 4RS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.661,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Haberdashers' Slade Green Primary",
+   "postcode": "DA8 2EL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Harris Garrard Academy",
+   "postcode": "DA18 4DW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (formerly The Business Academy Bexley); primary phase.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Hillsgrove Primary School",
+   "postcode": "DA16 1DR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Holy Trinity CE Primary School",
+   "postcode": "DA15 9DB",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Church school listed in the council's distance table (distance-based allocation shown).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Hook Lane Primary School",
+   "postcode": "DA16 2ET",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.272,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Hope Community School",
+   "postcode": "DA14 5BU",
+   "type": "free school (faith)",
+   "method": "straight_line",
+   "method_note": "Church school listed in the council's distance table (distance-based allocation shown).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Hurst Primary School",
+   "postcode": "DA5 3AJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.503,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 1.719,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.887,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Jubilee Primary School",
+   "postcode": "SE28 8JB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Leigh Stationers' Primary Academy",
+   "postcode": "DA16 2ST",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.717,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.552,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.357,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Lessness Heath Primary School",
+   "postcode": "DA17 6HB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.046,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 1.645,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.672,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Lime Wood Primary School",
+   "postcode": "DA8 1FJ",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Free school opened September 2023.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": 1.309,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Longlands Primary School",
+   "postcode": "DA15 7JG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.512,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": 0.542,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Mayplace Primary School",
+   "postcode": "DA7 6EQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1.242,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Northumberland Heath Primary School",
+   "postcode": "DA8 1JE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Northwood Primary School",
+   "postcode": "DA18 4HN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Old Bexley CE Primary School",
+   "postcode": "DA5 3JR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Church school listed in the council's distance table (distance-based allocation shown).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Orchard Primary School",
+   "postcode": "DA14 6LW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": 0.675,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Our Lady of the Rosary RC Primary School",
+   "postcode": "DA15 8QW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Parkway Primary School",
+   "postcode": "DA18 4DP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Peareswood Primary School",
+   "postcode": "DA8 3PR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": 0.619,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Pelham Primary School",
+   "postcode": "DA7 4HL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Royal Park Primary Academy",
+   "postcode": "DA14 4PX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Augustine of Canterbury CE Primary School",
+   "postcode": "DA17 5HP",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Fidelis RC Primary School",
+   "postcode": "DA8 3HQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St John Fisher RC Primary School",
+   "postcode": "DA18 4BA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Joseph's RC Primary School",
+   "postcode": "DA1 4DZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Michael's East Wickham CE Primary School",
+   "postcode": "DA16 1LS",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Paulinus CE Primary School",
+   "postcode": "DA1 4RW",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Paul's (Slade Green) C of E Primary School",
+   "postcode": "DA8 2HX",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Church school listed in the council's distance table (distance-based allocation shown).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Peter Chanel RC Primary School",
+   "postcode": "DA14 5ED",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Stephen's RC Primary School",
+   "postcode": "DA16 3QG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "St Thomas More RC Primary School",
+   "postcode": "DA7 4PH",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own faith-based oversubscription criteria; not checked. Council says all Bexley primary schools measure distance in a straight line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Faith school not included in council table: 'home-to-school distance is much less important than meeting the schools' faith criteria'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Sherwood Park Primary School",
+   "postcode": "DA15 9JQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Upland Primary School",
+   "postcode": "DA7 4DG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.526,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.478,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Upton Primary School",
+   "postcode": "DA5 1HH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.583,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2025,
+     "value": 0.444,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    },
+    {
+     "year": 2024,
+     "value": 0.407,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Maximum distance reached on offer day (straight line, miles)"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  },
+  {
+   "name": "Willow Bank Primary School",
+   "postcode": "SE2 9XB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source shows 'All on time offered'"
+    }
+   ],
+   "source_url": "https://www.bexley.gov.uk/services/schools-and-education/primary-schools/admission-primary-schools-27-28/before-applying-primary-school-place"
+  }
+ ]
+}

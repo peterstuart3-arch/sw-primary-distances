@@ -1,0 +1,2313 @@
+{
+ "borough": "Bromley",
+ "default_method": "straight_line",
+ "method_notes": "Bromley has no catchment areas and no community schools (all primaries are academies apart from two foundation schools, Edgebury and Poverest), so each school is its own admission authority. Primary Education in Bromley 2027-2028 booklet, 'Proximity, distance and all other children' (p.46): unless a school's arrangements say otherwise, distance is calculated in a straight line (as the crow flies) from the home address to the school using the Council's geographical information system (GIS), which uses the Council's gazetteer and Ordnance Survey address point data. The booklet does not specify the point at the school (gate/entrance/centroid) for the default; individual schools may define it (e.g. Southborough Primary: straight line to the main school gate). Some schools use random allocation within a criterion (booklet p.46). Coordinated scheme 2026/27 para 39: distance is from the child's permanent home address at the time of application. Distances in the booklet are in miles, as at the relevant national offer day.",
+ "method_source": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Primary Education in Bromley 2027-2028 booklet - 'Distances and appeals: information relating to previous years admissions rounds' (pp.47-50; columns 2026, 2025, 2024) and school directory (postcodes, PAN 2027, status)",
+   "url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "year": 2025,
+   "title": "Same table, 2025 column (Primary Education in Bromley 2027-2028)",
+   "url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "year": 2024,
+   "title": "Same table, 2024 column (Primary Education in Bromley 2027-2028)",
+   "url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "year": null,
+   "title": "Coordinated scheme for primary admissions 2026/27",
+   "url": "https://www.bromley.gov.uk/downloads/file/3433/coordinated-scheme-for-primary-admissions-2026-27"
+  },
+  {
+   "year": null,
+   "title": "Southborough Primary School new entries page (school-specific measuring point)",
+   "url": "https://southborough.bromley.sch.uk/new-entries"
+  }
+ ],
+ "gaps": "All three years come from a single table in the 2027-28 booklet; not cross-checked against the 2026-27 booklet (its download URL now serves the newer booklet). 'N/A' is defined in the booklet as 'school undersubscribed, LA allocations made' and is recorded as all_offered. 'Church Criteria' recorded as no_distance_offers (last place went on a faith criterion; no distance printed). Orion Scotts Park appears in the directory (PAN 60) but not in the distances table, so it is marked not_published. Postcodes, PAN (2027 figures, not historical) and status come from the booklet directory, not cross-checked against GIAS. The booklet labels every non-foundation school 'Academy' and does not separate free schools (e.g. La Fontaine Academy and Langley Park Primary may be free schools); faith type inferred from school names. La Fontaine and Bickley Primary share the postcode BR1 2SQ (Nightingale Lane) in the booklet. Oddities as printed: Orion Mead Road (infant) 4.071 miles in 2026 vs about 1 mile before; Biggin Hill 3.440 (2024); Unicorn 3.932 and Pickhurst Infants 3.009 (2025); Langley Park shows N/A every year despite 236 applications for 30 places in 2026. The table gives only the furthest distance, not the criterion it was reached under. Academy/faith school measuring points not researched one by one; straight line assumed for all except where noted (Southborough, main gate). Junior schools (Alexandra, Crofton, Darrick Wood, Highfield Junior, Pickhurst Academy) excluded. Post-check: every 'N/A' was changed from all_offered to not_published. The booklet's footnote says N/A means undersubscribed, but it appears for oversubscribed schools too (e.g. Langley Park: 236 applications for 30 places; Tubbenden: 313 for 90), usually next to 'Information not available' in the appeals column.",
+ "schools": [
+  {
+   "name": "Alexandra Infant School",
+   "postcode": "BR3 1JG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.329,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.339,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.409,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Balgowan Primary School",
+   "postcode": "BR3 4HJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.466,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.69,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.334,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Bickley Primary School",
+   "postcode": "BR1 2SQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 2.011,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.359,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Biggin Hill Primary School",
+   "postcode": "TN16 3LY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.288,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 3.44,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Burnt Ash Primary School",
+   "postcode": "BR1 4QX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.574,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.56,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.413,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Chelsfield Primary School",
+   "postcode": "BR6 6EP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Churchfields Primary School",
+   "postcode": "BR3 4QY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.72,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.62,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.382,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Clare House Primary School",
+   "postcode": "BR3 6PY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.505,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.334,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.401,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Crofton Infant School",
+   "postcode": "BR5 1EL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 180,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.885,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.896,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.927,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Cudham Church of England Primary School",
+   "postcode": "TN16 3AX",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Darrick Wood Infant and Nursery School",
+   "postcode": "BR6 8ER",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.849,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Downe Primary School",
+   "postcode": "BR6 7JN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 15,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Edgebury Primary School",
+   "postcode": "BR7 6BL",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Elmstead Wood Primary School",
+   "postcode": "SE9 4AT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.543,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Farnborough Primary School",
+   "postcode": "BR6 7EQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.804,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Gray's Farm Primary Academy",
+   "postcode": "BR5 3AD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.283,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Green Street Green Primary School",
+   "postcode": "BR6 6DT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.934,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Harris Primary Academy Beckenham",
+   "postcode": "BR3 3SJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.06,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.159,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.98,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Harris Primary Academy Beckenham Green",
+   "postcode": "BR3 5JG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.329,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.417,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.378,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Harris Primary Academy Crystal Palace",
+   "postcode": "SE20 8RH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Harris Primary Academy Kent House",
+   "postcode": "SE20 7QR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 0.533,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.841,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Harris Primary Academy Orpington",
+   "postcode": "BR5 4LZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Harris Primary Academy Shortlands",
+   "postcode": "BR2 0HG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Hawes Down Primary School",
+   "postcode": "BR4 0BA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 0.686,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.588,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Hayes Primary School",
+   "postcode": "BR2 7LQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Highfield Infants' School",
+   "postcode": "BR2 0RX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.945,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Holy Innocents Catholic Primary School",
+   "postcode": "BR6 9JT",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "James Dixon Primary School",
+   "postcode": "SE20 8BW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.671,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.45,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.403,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Keston CE Primary School",
+   "postcode": "BR2 6BN",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "La Fontaine Academy",
+   "postcode": "BR1 2SQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.03,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Langley Park Primary School",
+   "postcode": "BR3 3FG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Leesons Primary School",
+   "postcode": "BR5 2GA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Manor Oak Primary School and Nursery",
+   "postcode": "BR5 3PE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Marian Vian Primary School",
+   "postcode": "BR3 4AZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.357,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Midfield Primary School",
+   "postcode": "BR5 3EG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.751,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.788,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 1.376,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Oaklands Primary Academy",
+   "postcode": "TN16 3DN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Oak Lodge Primary School",
+   "postcode": "BR4 0LJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.001,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Orion Blenheim",
+   "postcode": "BR6 9BH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Orion Mead Road",
+   "postcode": "BR7 6AD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4.071,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.114,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.917,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Orion Ravensworth",
+   "postcode": "SE9 4LW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Orion Scotts Park",
+   "postcode": "BR1 2PR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Not in the booklet's distances table (possibly a recent change of name/status); figures not available.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "School listed in booklet directory but missing from the distances table"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "School listed in booklet directory but missing from the distances table"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "School listed in booklet directory but missing from the distances table"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Parish CofE Primary School",
+   "postcode": "BR1 4HF",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Perry Hall Primary School",
+   "postcode": "BR6 0EF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.373,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.427,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.426,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Pickhurst Infant Academy",
+   "postcode": "BR4 0HL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 3.009,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Poverest Primary School",
+   "postcode": "BR5 2JD",
+   "type": "foundation",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.706,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.683,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.649,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Pratts Bottom Primary School",
+   "postcode": "BR6 7NX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 14,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Raglan Primary School",
+   "postcode": "BR2 9NL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 0.846,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.41,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Red Hill Primary School",
+   "postcode": "BR7 6DA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.076,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Anthony's Catholic Primary School",
+   "postcode": "SE20 8ES",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St George's CE Primary School",
+   "postcode": "BR1 2RL",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.995,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St James' RC Primary School",
+   "postcode": "BR5 1BL",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St John's CE Primary School",
+   "postcode": "SE20 8HU",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Joseph's Catholic Primary School",
+   "postcode": "BR1 3JQ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Mark's CE Primary School",
+   "postcode": "BR2 0QR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 1.78,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Mary Cray Primary Academy",
+   "postcode": "BR5 4AR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Mary's Catholic Primary School",
+   "postcode": "BR3 5DE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2025,
+     "value": 0.334,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Nicholas CE Primary School",
+   "postcode": "BR7 5PQ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2025,
+     "value": 0.56,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.812,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Paul's Cray CE Primary School",
+   "postcode": "BR5 3WD",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Peter and St Paul Catholic Primary Academy",
+   "postcode": "BR5 2SR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2025,
+     "value": 0.838,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Philomena's Catholic Primary School",
+   "postcode": "BR5 4DR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Source shows 'Church Criteria' (last place offered under a church/faith criterion; no distance given)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "St Vincent's Catholic Primary School",
+   "postcode": "SE9 4JR",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Southborough Primary School",
+   "postcode": "BR2 8AA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; school policy measures distance (criterion 5) in a straight line from the home address to the main school gate.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Stewart Fleming Primary School",
+   "postcode": "SE20 7YB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.889,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.424,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.496,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "The Highway Primary School",
+   "postcode": "BR6 9DJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.788,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.193,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Trinity Church of England Primary School",
+   "postcode": "BR2 8LD",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith academy with its own admission arrangements (faith-based criteria); distance method assumed to follow the Bromley default (straight line, council GIS) - not checked per school.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Tubbenden Primary School",
+   "postcode": "BR6 9SD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Unicorn Primary School",
+   "postcode": "BR3 3AL",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": 3.932,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Valley Primary School",
+   "postcode": "BR2 0DA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.426,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.457,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.459,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Warren Road Primary School",
+   "postcode": "BR6 6JF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.591,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.789,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.655,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Wickham Common Primary School",
+   "postcode": "BR4 9DG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": 1.499,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  },
+  {
+   "name": "Worsley Bridge Primary School",
+   "postcode": "BR3 1RF",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table shows 'N/A' (its footnote: 'school undersubscribed'), but N/A also appears for heavily oversubscribed academies that didn't supply figures, so it isn't treated as everyone offered"
+    }
+   ],
+   "source_url": "https://www.bromley.gov.uk/downloads/file/3970/primary-education-in-bromley-2027-2028"
+  }
+ ]
+}

@@ -1,0 +1,1124 @@
+{
+ "borough": "Westminster",
+ "default_method": "straight_line",
+ "method_notes": "Westminster community schools (summarised criteria in the 'Your choice for primary education 2027' brochure, matching the determined admission arrangements 2027/28): final criterion 'Children living nearest to the school calculated as a straight line measurement from the child's home \"address point\" determined by Ordnance Survey data to the main entrance of the school building used by pupils', using the Council's geographical measuring system. Brochure figures are 'of a mile'/'miles' and are the distance reached for the last offer on that criterion. Exceptions found: Millbank Gardens, Pimlico Primary (Future Academies), St Peter's Chippenham Mews and St Matthew's use shortest walking route; St Augustine's tie-break is by walking route; Soho Parish measures to the centre of the school grounds; Gateway Academy to its nearest pupil entrance; Ark King Solomon to the midpoint between its two sites' entrances; St John's Wood Primary to the Bridgeman Street main entrance; St Saviour's to its Shirland Road entrance. Many VA schools fill most places on faith criteria first.",
+ "method_source": "https://www.westminster.gov.uk/children-and-families/education/school-admissions/determined-admission-arrangements-202728",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Your choice for primary education 2027 (Westminster primary admissions brochure) - 'How places were offered in 2026' per school",
+   "url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "Your choice for primary education 2026 - 'How places were offered in 2025'",
+   "url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Primary%20Admissions%20Brochure%202026.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Your choice for primary education 2025 - 'How places were offered in 2024'",
+   "url": "https://www.westminster.gov.uk/sites/default/files/media/documents/WCC%20-%20Primary%20Admissions%20Brochure%202025.pdf"
+  },
+  {
+   "year": null,
+   "title": "Westminster determined admission arrangements 2027/28 (web page; method quoted in the brochure)",
+   "url": "https://www.westminster.gov.uk/children-and-families/education/school-admissions/determined-admission-arrangements-202728"
+  }
+ ],
+ "gaps": "Most Westminster schools were undersubscribed ('all applicants offered'). Missing values: Wilberforce 2026 (no outcome in the 2027 brochure); St Peter's Chippenham Mews 2026 (the brochure text is garbled and has no figure) and 2024 (oversubscribed but no distance printed); St John's Wood Primary 2024 (school opened Sept 2025). Its predecessors Robinsfield Infant (all offered in 2024), George Eliot Primary (all offered in 2024) and Barrow Hill Junior (junior school), plus Our Lady of Dolours Catholic Primary (absent from the 2026 and 2027 brochures, so presumed closed), are left out. St Clement Danes 2026 has no distance: it was oversubscribed but filled on church categories. Faith-school figures are often the distance reached inside a faith category; see criterion_note. Units are as printed: 'of a mile' is recorded as miles. Brochure pages were parsed by text extraction, and the 2024 two-up spreads were checked against rendered images. The measuring method of VA schools whose summaries don't state one is assumed to be the council's straight-line default. PANs come from the 2027 brochure (Edward Wilson's was 56 in earlier years). Postcodes come from the brochure school pages, not checked against GIAS.",
+ "schools": [
+  {
+   "name": "All Souls CofE Primary",
+   "postcode": "W1W 7JJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Ark Atwood Primary Academy",
+   "postcode": "W9 2JY",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy (own admission authority); measuring point not stated in brochure summary.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.709,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion: 32 offers up to 0.709 of a mile"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.463,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance: 23 offered up to 0.463 of a mile"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Ark King Solomon Academy (primary phase)",
+   "postcode": "W2 1ND",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy; straight line to the midpoint between the entrances of the Younger Years site (Crompton Street W2 1ND) and Older Years site (Penfold Street NW1 6RX), easting 5268073 northing 1819638 as printed.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Burdett-Coutts and Townshend Foundation CofE Primary",
+   "postcode": "SW1P 2QQ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "50% foundation / 50% open places; open places by proximity. Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Christ Church Bentinck CofE Primary",
+   "postcode": "NW1 5NS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "50% foundation / 50% open places; brochure states open-place distances as straight-line.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.529,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places: remaining places offered up to 0.529 miles straight-line (foundation: all places offered)"
+    },
+    {
+     "year": 2025,
+     "value": 1.87,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: remaining places offered up to 1.870 miles straight-line"
+    },
+    {
+     "year": 2024,
+     "value": 0.489,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open: remaining places offered up to 0.489 of a mile straight-line"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Edward Wilson Primary",
+   "postcode": "W2 5TL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Essendine Primary",
+   "postcode": "W9 2LR",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Gateway Academy",
+   "postcode": "NW8 8LN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Straight line from OS address point to the nearest pupil entrance of the academy, using Westminster's measuring software.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Hallfield Primary",
+   "postcode": "W2 6JJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.509,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance from home to school: offered up to 0.509 miles (8 sibling offers)"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Hampden Gurney CofE Primary",
+   "postcode": "W1H 5HA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.757,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Remaining offers made up to and including category 4, up to 1.757 of a mile (faith-related category)"
+    },
+    {
+     "year": 2025,
+     "value": 0.044,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 6: 2 offers up to 0.044 of a mile"
+    },
+    {
+     "year": 2024,
+     "value": 0.535,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 5: 4 offers up to 0.535 of a mile"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Millbank Gardens",
+   "postcode": "SW1P 4HR",
+   "type": "academy",
+   "method": "walking",
+   "method_note": "Academy: distance by shortest walking route (criterion 4).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Pimlico Primary",
+   "postcode": "SW1V 3AT",
+   "type": "academy",
+   "method": "walking",
+   "method_note": "Academy: distance by shortest walking route (criterion 4).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Queen's Park Primary",
+   "postcode": "W10 4DQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Soho Parish CofE Primary",
+   "postcode": "W1D 7LF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Straight line from OS address point to the centre of the school grounds.",
+   "pan": 26,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Augustine's CofE Primary",
+   "postcode": "NW6 5XA",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Tie-break by shortest walking route; main distance basis not stated in summary.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Barnabas' CofE Primary",
+   "postcode": "SW1W 8PF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 23,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Clement Danes CofE Primary",
+   "postcode": "WC2B 5SU",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "Brochure: siblings 10; church categories - all places offered (65 applications); no distance given"
+    },
+    {
+     "year": 2025,
+     "value": 1.062,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 7: 11 offers up to 1.062 miles"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Edward's Catholic Primary",
+   "postcode": "NW1 6LH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default. Key map gives NW1 6LD; school page gives NW1 6LH (used).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Gabriel's CofE Primary",
+   "postcode": "SW1V 3AG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St George's Hanover Square CofE Primary",
+   "postcode": "W1K 2XH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St James and St John CofE Primary",
+   "postcode": "W2 3QD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 25,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": 0.143,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 7: 6 offers up to 0.143 of a mile straight-line"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St John's Wood Primary",
+   "postcode": "NW8 7AL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "New school (from Sept 2025, replacing Robinsfield Infant/Barrow Hill Junior). Distance is measured in a straight line to the main entrance at Bridgeman Street (NW8 7AL), so that postcode is used here; Nursery to Year 3 are taught at the Marlborough Hill site (NW8 0NH).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all 92 applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "School did not exist for 2024 entry; predecessor Robinsfield Infant (NW8 6PX) offered all 87 on-time applicants"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary (Maida Vale)",
+   "postcode": "W9 1DF",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; faith categories before distance. Brochure states 2024 figure as straight-line.",
+   "pan": 42,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.202,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Remaining offers up to and including Category 7, reaching 0.202 of a mile"
+    },
+    {
+     "year": 2025,
+     "value": 0.758,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 6: 3 offers up to 0.758 of a mile"
+    },
+    {
+     "year": 2024,
+     "value": 0.505,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 3 (non-sibling): remaining places up to 0.505 of a mile straight-line"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Luke's CofE Primary",
+   "postcode": "W9 3EJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Mary Magdalene and St Stephen's CofE Primary",
+   "postcode": "W2 5TF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Mary of the Angels Catholic Primary",
+   "postcode": "W2 5PR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Mary's Bryanston Square CofE School",
+   "postcode": "W1H 1DL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.398,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places: remaining places offered up to 0.398 of a mile (all church applicants offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Matthew's CofE School",
+   "postcode": "SW1P 2DG",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "Distance (tie-break and final criterion) by shortest walking distance.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Peter's CofE School (Chippenham Mews)",
+   "postcode": "W9 2AN",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "Priority within categories by walking distance from home to school; 60% foundation / 40% open places.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Brochure text garbled: 'Open please offered up to on distance' - figure missing (85 applications, siblings 8, all church places offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.747,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open C: 11 offers up to 0.747 of a mile"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Oversubscribed (107 applications); offers by criterion listed (2c: 17) but no distance printed"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Peter's Eaton Square CofE Primary",
+   "postcode": "SW1W 0NL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Saviour's CofE Primary",
+   "postcode": "W9 2JD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Straight line to the Shirland Road entrance, measured in miles by the local authority.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.222,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Remaining offers up to Category 8 (distance) reaching 0.222 of a mile"
+    },
+    {
+     "year": 2025,
+     "value": 0.202,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 8: 2 offers up to 0.202 of a mile"
+    },
+    {
+     "year": 2024,
+     "value": 0.252,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Offers up to and including Category 8, 0.252 of a mile straight-line"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Vincent de Paul Catholic Primary",
+   "postcode": "SW1P 1EP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "St Vincent's Catholic Primary",
+   "postcode": "W1U 4DF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Voluntary-aided faith school; faith/foundation criteria before distance. Measuring method not stated in brochure summary - assumed council default.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.792,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Remaining offers reached Category 4 (faith category), distance 0.792 of a mile"
+    },
+    {
+     "year": 2025,
+     "value": 1.83,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Criterion 7: 4 offers up to 1.830 miles"
+    },
+    {
+     "year": 2024,
+     "value": 0.891,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Category 4: last offer by distance tie-break at 0.891 of a mile"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  },
+  {
+   "name": "Wilberforce Primary",
+   "postcode": "W10 4LB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy; criteria/outcome page missing from 2027 brochure.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2027 brochure has only the school information page, with no 2026 outcome"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Brochure: all (on-time) applicants were offered"
+    }
+   ],
+   "source_url": "https://www.westminster.gov.uk/sites/default/files/media/documents/primary-school-admissions-brochure-for-2027.pdf"
+  }
+ ]
+}

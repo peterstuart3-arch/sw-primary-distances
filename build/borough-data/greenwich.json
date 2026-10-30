@@ -1,0 +1,2620 @@
+{
+ "borough": "Greenwich",
+ "default_method": "straight_line",
+ "method_notes": "Royal Borough of Greenwich admission arrangements (as summarised in 'Primary Schools in Royal Greenwich 2025/26', 'Admission terms - Distance', p47, and on the council's 'Primary school offers map' page): schools that use home-to-school distance measure a straight line from the centre of the home address to the centre of the school site. Exception: James Wolfe measures from the home to the former Greenwich Town Hall, Meridian House, Royal Hill SE10. Tie-break: where applicants are equidistant, or in a multi-occupancy building, the place is decided by random allocation. Common criteria for community schools and the listed academies: EHCP; looked after/previously looked after; medical/social need; siblings; children of staff; distance. Split-site rules (booklet p49): Bannockburn measured to the High Street site; Heronsgate to the Thamesmead site; Invicta, Plumcroft and Windrush to the site nearest the home; St Thomas a Becket to the Mottisfont Road site; St Mary Magdalene by site applied for. Faith schools (VA/Catholic academies) have their own arrangements; CE schools publish 'Open band' distances only.",
+ "method_source": "https://www.royalgreenwich.gov.uk/info/200286/apply_for_a_school_place/1361/primary_school_offers_map",
+ "years_found": [
+  2026,
+  2024,
+  2023
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "Primary school offers map - data file coords-radii-primary.json ('year': '2026', 'Last distance offered (m)')",
+   "url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "year": 2026,
+   "title": "Primary Schools in Royal Greenwich 2027/28 booklet (PageSuite e-reader; prints the same figures headed 'for entry 2027')",
+   "url": "https://edition.pagesuite-professional.co.uk/html5/reader/production/default.aspx?pubname=&pubid=35d3d72f-a72e-4e55-ab70-a95e264740e0"
+  },
+  {
+   "year": 2024,
+   "title": "Primary Schools in Royal Greenwich 2025/26 booklet (image-only PDF; 'Applications ... for entry 2024'; read visually page by page)",
+   "url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "Primary school offers map data file as archived 25 Aug 2025 ('year': '2024'), used to cross-check the booklet",
+   "url": "http://web.archive.org/web/20250825220056/https://www.royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.js?d=1756159256268"
+  },
+  {
+   "year": 2023,
+   "title": "Primary Schools in Royal Greenwich 2024/25 booklet ('Applications ... for entry 2023')",
+   "url": "https://www.royalgreenwich.gov.uk/media/2545/download?inline=1"
+  },
+  {
+   "year": null,
+   "title": "Primary school offers map page (method: straight line, centre of home to centre of school; James Wolfe exception)",
+   "url": "https://www.royalgreenwich.gov.uk/info/200286/apply_for_a_school_place/1361/primary_school_offers_map"
+  }
+ ],
+ "gaps": "2025 figures not obtained: they would be in the 2026/27 booklet, which was not found online (the council now hosts the booklet only in a PageSuite reader showing the current 2027/28 edition, and the archived offers-map file from Aug 2025 still held 2024 data), so 2023 figures were added and every school's 2025 entry is not_published. Greenwich publishes a 'distance of last offer' for every school, including undersubscribed ones (e.g. Horn Park 2024: 65 applications for 60 places, 5723 m), and never 'all offered', so large values (e.g. Horn Park 13590.95 m, Cherry Orchard 12490.13 m in 2026) probably reflect the furthest offer made, not a real cut-off; recorded as printed. The 2027/28 booklet labels the 2026 figures 'for entry 2027'; they match the offers-map file labelled 2026. The archived 2024 map file disagreed with the booklet for Heronsgate (53781.35 vs 6907), Bishop John Robinson (21437.68 vs 2955) and Christ Church SE10 (1084.6 vs 4728), so booklet values were used; this suggests the 2026 map file (no independent source) could have similar errors. 2024 values are rounded to whole metres in the booklet. 2023 values come from a text PDF where some numbers ran into page numbers (e.g. Discovery '175816 17' read as 1758) - checked against page images for a sample only. 12 RC/CE faith schools have no published distance (not_published) and their own policies were not checked. Gallions Mount (on the 2026 map with no figure) and Holy Family RC are excluded as no longer open per GIAS. PAN = 'Reception places' in the 2025/26 booklet (Discovery and Montbelle PANs reduced from Sept 2026). Postcodes from the booklet/GIAS; split-site schools have one entry per site that admits Reception separately.",
+ "schools": [
+  {
+   "name": "Alderwood Primary",
+   "postcode": "SE9 2JH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2877.39,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2826,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 459,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Alexander McLeod Primary",
+   "postcode": "SE2 0QS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Split over two sites (both SE2).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2092.97,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 8968,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4978,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Bannockburn Primary",
+   "postcode": "SE18 1HE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Two sites; Reception-Y2 at High Street site (SE18 1HE), which is used for distance; Manorway site SE2 0HY.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 8155.46,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 6556,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 5082,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Bishop John Robinson CofE Primary",
+   "postcode": "SE28 8LW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own arrangements; council map figure is for its 'Open band' places.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 10238.31,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027'); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2955,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published (offers-map file gave a different 2024 figure; booklet value used)"
+    },
+    {
+     "year": 2023,
+     "value": 1139,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Boxgrove Primary",
+   "postcode": "SE2 9JP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5510.93,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 4415,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 8892,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Brooklands Primary",
+   "postcode": "SE3 9AB",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1022.9,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1384,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4178,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Cardwell Primary",
+   "postcode": "SE18 5LP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2115.2,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5467,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 2927,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Charlton Manor Primary",
+   "postcode": "SE7 7EF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 7183.16,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 3093,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 5358,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Cherry Orchard Primary",
+   "postcode": "SE7 7DG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 12490.13,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1085,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4035,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Christ Church CofE Primary (SE10)",
+   "postcode": "SE10 0DZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school (federated with St Mary Magdalene); council map lists it as 'Christ Church Blackwall CE (Open band)'.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 907.81,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027'); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 4728,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published (offers-map file gave a different 2024 figure; booklet value used)"
+    },
+    {
+     "year": 2023,
+     "value": 7237,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Christ Church CofE Primary, Shooters Hill",
+   "postcode": "SE18 3RS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school; council map figure is for its 'Open band' places.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 724.47,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027'); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 581,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2023,
+     "value": 946,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Conway Primary",
+   "postcode": "SE18 1QY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5640.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2527,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 7136,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "De Lucy Primary",
+   "postcode": "SE2 9PD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5622.54,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 3092,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 2083,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Deansfield Primary",
+   "postcode": "SE9 1XP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1200.28,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1203,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 974,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Discovery Primary",
+   "postcode": "SE28 0JN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN reduced from September 2026 (cabinet decision on 2026/27 arrangements).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 827.78,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 4416,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1758,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Ealdham Primary",
+   "postcode": "SE9 6BP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4610.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 4745,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 6129,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Eglinton Primary",
+   "postcode": "SE18 3PY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1724.71,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 3186,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 7152,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Eltham CofE Primary",
+   "postcode": "SE9 1TR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "Fossdene Primary",
+   "postcode": "SE7 7NQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3689.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2484,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1767,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Foxfield Primary",
+   "postcode": "SE18 7EX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 681.84,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 633,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 659,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Gordon Primary",
+   "postcode": "SE9 1QG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 6662.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1994,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 669,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Greenacres Primary",
+   "postcode": "SE9 3JN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 834.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 6761,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 924,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Greenslade Primary",
+   "postcode": "SE18 2QQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1710.22,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 288,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 460,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Haimo Primary",
+   "postcode": "SE9 6DY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3886.08,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5299,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 8294,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Halstow Primary",
+   "postcode": "SE10 0LD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 601.52,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 568,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 491,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Hawksmoor School",
+   "postcode": "SE28 8AS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1498.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 6985,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 12804,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Henwick Primary",
+   "postcode": "SE9 6NZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2426.04,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5109,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 3852,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Heronsgate Primary",
+   "postcode": "SE28 0EA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two sites (Royal Arsenal SE18 7LJ, 30 places; Thamesmead SE28 0EA, 60 places); distance measured using the Thamesmead site and the school decides which site a child attends.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4431.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 6907,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m) (offers-map file for 2024 printed 53781.35 m, an evident error; booklet value used)"
+    },
+    {
+     "year": 2023,
+     "value": 5006,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Horn Park Primary",
+   "postcode": "SE12 9BT",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 13590.95,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5723,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 3120,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Invicta Primary (Blackheath site)",
+   "postcode": "SE3 7HE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two sites, 60 places each; distance measured to the site nearest the home; if equidistant decided by random allocation; applicants are not considered under distance for the site further from home.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2941.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2215,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1513,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Invicta Primary (Deptford site)",
+   "postcode": "SE8 3HL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two sites, 60 places each; distance measured to the site nearest the home (see Blackheath site).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1918.43,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1006,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1763,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "James Wolfe Primary",
+   "postcode": "SE10 9LA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Distance measured from home to the former Greenwich Town Hall, Meridian House, Royal Hill SE10 (not the school). Reception-Y3 at Randall Place site SE10 9LA; Y4-6 Royal Hill SE10 8RZ.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3052.67,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1760,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 8484,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Kidbrooke Park Primary",
+   "postcode": "SE3 8JG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4337.22,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 776,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4256,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Linton Mead Primary",
+   "postcode": "SE28 8DT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1011.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2697,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1376,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Meridian Primary",
+   "postcode": "SE10 9NY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 523.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 293,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 592,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Middle Park Primary",
+   "postcode": "SE9 5RX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 7455.83,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 4468,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 3945,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Millennium Primary",
+   "postcode": "SE10 0BG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2438.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5042,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 490,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Montbelle Primary",
+   "postcode": "SE9 3EY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "PAN reduced from September 2026 (cabinet decision on 2026/27 arrangements).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 3959.93,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 2412,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 2761,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Morden Mount Primary",
+   "postcode": "SE13 7QP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2894.3,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 4297,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4143,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Mulgrave Primary",
+   "postcode": "SE18 5DL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2169.46,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 6123,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 2443,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Nightingale Primary",
+   "postcode": "SE18 7JJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5349.06,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 1047,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 7387,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Notre Dame RC Primary",
+   "postcode": "SE18 3SJ",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "Our Lady of Grace RC Primary",
+   "postcode": "SE7 7HR",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "Plumcroft Primary (Plum Lane site)",
+   "postcode": "SE18 3HW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two sites (Plum Lane 90 places, Vincent Road 60); distance measured to the site nearest the home; not considered under distance for the further site.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 4965.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 8288,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4558,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Plumcroft Primary (Vincent Road site)",
+   "postcode": "SE18 6RG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Two sites; distance measured to the site nearest the home (see Plum Lane site).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1381.34,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 830,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1647,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Rockliffe Manor Primary",
+   "postcode": "SE18 2NP",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 786.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 924,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1519,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Sherington Primary",
+   "postcode": "SE7 7JP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 558.94,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 565,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 698,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "South Rise Primary",
+   "postcode": "SE18 7PX",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1193.74,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 3657,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 4340,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "St Alfege with St Peter's CofE Primary",
+   "postcode": "SE10 9RB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Joseph's RC Primary",
+   "postcode": "SE10 9AN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Margaret Clitherow RC Primary",
+   "postcode": "SE28 8GB",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Margaret's CofE Primary",
+   "postcode": "SE18 7RL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Mary Magdalene CofE All Through School (Peninsula site)",
+   "postcode": "SE10 0NF",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "All-through VA school; 60 places per site, applicants state a site on the supplementary form (if none, the site nearest home). Map figure is for 'Open band' places.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 5362.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027'); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5665,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2023,
+     "value": 2171.81,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "St Mary Magdalene CofE All Through School (Woolwich site)",
+   "postcode": "SE18 5PW",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "All-through VA school; 60 places per site (see Peninsula site). Map figure is for 'Open band' places.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 909.06,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027'); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 5072,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    },
+    {
+     "year": 2023,
+     "value": 2139.72,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m); faith school - figure is the furthest 'open'/non-faith-band offer as published"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "St Mary's RC Primary",
+   "postcode": "SE9 1UF",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Patrick's RC Primary",
+   "postcode": "SE18 7QG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 45,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Peter's RC Primary",
+   "postcode": "SE18 7BN",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Thomas More RC Primary",
+   "postcode": "SE9 6NS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school with own arrangements; not on council offers map. Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "St Thomas a Becket RC Primary",
+   "postcode": "SE2 9AL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic school; Reception at Eynsham Drive site (SE2 9AL); booklet says distance decisions use the Mottisfont Road site (SE2 9LY). Own admission arrangements not checked; council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    },
+    {
+     "year": 2023,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council booklet gives places/applications but no distance of last offer for this faith school; not on the offers map"
+    }
+   ],
+   "source_url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-08/Primary%20Booklet%20Final%20Version.pdf"
+  },
+  {
+   "name": "Thorntree Primary",
+   "postcode": "SE7 8AE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 437.15,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 714,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 9889,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Timbercroft Primary",
+   "postcode": "SE18 2SG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1556.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 3027,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 3364,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Windrush Charlton Primary",
+   "postcode": "SE7 8LN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Formerly one school (Windrush) on two sites; distance measured to the site nearest the home. GIAS postcode SE7 8FE.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2980.27,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 11580,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 9776,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Windrush Thamesmead Primary",
+   "postcode": "SE28 8AR",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1152.12,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 790,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 707,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Wingfield Primary",
+   "postcode": "SE3 9GJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 659.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 925,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1411,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Woodhill Primary",
+   "postcode": "SE18 5JE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2319.42,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 6713,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 3776,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  },
+  {
+   "name": "Wyborne Primary",
+   "postcode": "SE9 2EH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1704.99,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Council 'Primary school offers map' data file (year 2026, 'Last distance offered (m)'); identical figures printed in the 'Primary Schools in Royal Greenwich 2027/28' booklet (headed 'for entry 2027')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2025 offer-day figures (in the 2026/27 booklet) could not be obtained"
+    },
+    {
+     "year": 2024,
+     "value": 3241,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2025/26' booklet, 'Applications ... for entry 2024', distance of last offer (m)"
+    },
+    {
+     "year": 2023,
+     "value": 1896,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "'Primary Schools in Royal Greenwich 2024/25' booklet, 'Applications ... for entry 2023', distance of last offer (m)"
+    }
+   ],
+   "source_url": "https://royalgreenwich.gov.uk/site/custom_scripts/data/GIS/school-catchment-radius/coords-radii-primary.json"
+  }
+ ]
+}

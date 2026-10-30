@@ -1,0 +1,2185 @@
+{
+ "borough": "Lewisham",
+ "default_method": "straight_line",
+ "method_notes": "Lewisham community primary admission arrangements (criterion 5 'Distance to school', as printed in 'Applying to start primary school in September 2027' booklet p11-12 and the council's community admissions policy page): distance measured in a straight line using the Local Authority's computerised distance measuring system, from the address point of the child's permanent home (NLPG eastings/northings, usually within the property footprint) to a designated point within the school. Booklet p23 says 2026 distances were measured electronically in metres to a 'central point within the school premises' / 'a point in the school premises as determined by the Ordnance Survey'; the 2024 grid says 'a nodal point within the school premises'. Criteria order: looked-after children, exceptional medical/social need, siblings, children of staff, distance. Ties: same block of flats -> lowest door number; otherwise drawing lots (witnessed). Twins etc. admitted as excepted pupils. Stillness Infant: sibling criterion includes Stillness Junior. The council grid covers community schools only; academies, free schools and VA faith schools are their own admission authorities.",
+ "method_source": "https://lewisham.gov.uk/myservices/education/schools/school-admission/applying-to-start-primary-school/admissions-policy-for-community-primary-schools",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "2026 application and appeal rates for Lewisham community schools (grid for reception 2026; allocations on 16 April 2026)",
+   "url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "year": 2026,
+   "title": "Applying to start primary school in September 2027 (booklet; reproduces the 2026 grid, school directory with PANs, community admissions criteria)",
+   "url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "year": 2025,
+   "title": "2025 application and appeal rates for Lewisham community schools (grid for reception 2025; 16 April 2025) - no longer on council site, Wayback Machine copy 6 Dec 2025",
+   "url": "http://web.archive.org/web/20251206005403/https://lewisham.gov.uk/-/media/services/education/schools/grid-for-reception-2025.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "2024 application and appeal rates for Lewisham community schools (grid for reception 2024; 16 April 2024) - no longer on council site, Wayback Machine copy 15 Oct 2024",
+   "url": "http://web.archive.org/web/20241015000337/https://lewisham.gov.uk/-/media/0-education/schools/grid-for-reception-2024.pdf"
+  },
+  {
+   "year": null,
+   "title": "Admissions policy for community primary schools (Lewisham Council web page)",
+   "url": "https://lewisham.gov.uk/myservices/education/schools/school-admission/applying-to-start-primary-school/admissions-policy-for-community-primary-schools"
+  }
+ ],
+ "gaps": "Council figures cover only the 39 community schools; all 28 own-admission-authority schools (VA faith, academies, free school) are recorded not_published (council says contact the school) and their distance methods were not checked (straight line assumed). 2025 and 2024 grids are no longer on lewisham.gov.uk (404) and were taken from Wayback Machine copies of the original council URLs. The 2024 grid gives a distance for every school, even those that were evidently not oversubscribed (e.g. Kender 14818.25 m, Marvels Lane 6778.74 m, Dalmain 6103.4 m), while 2025/2026 grids say 'All applicants/places offered' for such schools; several very large 2025 figures (Kender 13505.31 m, Myatt Garden 5455.98 m, Marvels Lane 6238.29 m, Launcelot 6066.85 m, Kelvin Grove 4200.65 m) are recorded as printed but probably reflect lower-preference allocations rather than a real cut-off. Kelvin Grove 2024 printed as '20.000' - recorded not_published. Oak Gardens = Lucas Vale renamed (2024/2025 rows under 'Lucas Vale'). PAN = 2026 grid PAN for community schools (Athelney, Deptford Park, Elfrida, Forster Park, Rangefield, Oak Gardens show lower PANs than in 2024/2025; Launcelot 60 in grid but 30 in booklet directory) and booklet directory PAN for others. Postcodes from GIAS (Oak Gardens GIAS SE8 4QB; booklet gives St Nicholas Street SE8 4QF). Stillness Junior excluded (Year 3 intake).",
+ "schools": [
+  {
+   "name": "Adamsrill Primary",
+   "postcode": "SE26 4AQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1814.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "All Saints' CofE Primary, Blackheath",
+   "postcode": "SE3 0TX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Ashmead Primary",
+   "postcode": "SE8 4DX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 660.79,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 820.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 1049.27,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Athelney Primary",
+   "postcode": "SE6 3LD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 4128.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Baring Primary",
+   "postcode": "SE12 0NB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 1735.69,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 968.59,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Beecroft Garden Primary",
+   "postcode": "SE4 2BS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 914.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 1265.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 1280.43,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Brindishe Green Primary",
+   "postcode": "SE13 6EH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1573.15,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 996.6,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 795.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Brindishe Lee Primary",
+   "postcode": "SE12 8NA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 795.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 531.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 367.87,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Brindishe Manor Primary",
+   "postcode": "SE13 5LS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 691.51,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 511.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 491.61,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Childeric Primary",
+   "postcode": "SE14 6DG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Academy converter (booklet still marks it '(C)' but lists it as its own admission authority and it is absent from the community grid).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Coopers Lane Primary",
+   "postcode": "SE12 0LF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1417.99,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Dalmain Primary",
+   "postcode": "SE23 1AS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 793.03,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 6103.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Deptford Park Primary",
+   "postcode": "SE8 5RJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1517.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Downderry Primary",
+   "postcode": "BR1 5QL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 603.78,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 938.32,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 738.81,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Edmund Waller Primary",
+   "postcode": "SE14 5LY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 771.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 605.52,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 672.89,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Elfrida Primary",
+   "postcode": "SE6 3EN",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 4317.7,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Eliot Bank Primary",
+   "postcode": "SE26 4BU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1640.11,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 1344.77,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 2527.71,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Fairlawn Primary",
+   "postcode": "SE23 3SB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1980.73,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 4614.64,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Forster Park Primary",
+   "postcode": "SE6 1PQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1870.88,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Good Shepherd RC Primary",
+   "postcode": "BR1 5EP",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Gordonbrock Primary",
+   "postcode": "SE4 1HQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 778.28,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 720.11,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 1007.86,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Grinling Gibbons Primary",
+   "postcode": "SE8 5LW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1576.55,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Haberdashers' Hatcham Free School",
+   "postcode": "SE14 5SF",
+   "type": "free school",
+   "method": "straight_line",
+   "method_note": "Own admission authority; distance method not checked, council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Haberdashers' Hatcham Primary",
+   "postcode": "SE14 5RD",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; distance method not checked, council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Haberdashers' Knights Primary",
+   "postcode": "BR1 5LW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; distance method not checked, council default (straight line) assumed.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Haseltine Primary",
+   "postcode": "SE26 5AD",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 2238.19,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 2831.97,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Holbeach Primary",
+   "postcode": "SE6 4TP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 2171.35,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Holy Cross Catholic Primary",
+   "postcode": "SE6 2LD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Holy Trinity CofE Primary",
+   "postcode": "SE23 3HZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Horniman Primary",
+   "postcode": "SE23 3BP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 472.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 525.09,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 703.42,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "John Ball Primary",
+   "postcode": "SE3 0TP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1015.01,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 1065.71,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 1229.47,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "John Stainer Primary",
+   "postcode": "SE4 2DY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 3888.49,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Kelvin Grove Primary",
+   "postcode": "SE26 6BB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 4200.65,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "2024 grid prints '20.000' for the distance of last child offered; implausible/ambiguous (20 m or 20 km?), so not recorded"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Kender Primary",
+   "postcode": "SE14 5JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 13505.31,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    },
+    {
+     "year": 2024,
+     "value": 14818.25,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Kilmorie Primary",
+   "postcode": "SE23 2SP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 2096.36,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 534.8,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Launcelot Primary",
+   "postcode": "BR1 5EA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 724.4,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 6066.85,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    },
+    {
+     "year": 2024,
+     "value": 2676.14,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Marvels Lane Primary",
+   "postcode": "SE12 9RA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 6238.29,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    },
+    {
+     "year": 2024,
+     "value": 6778.74,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Myatt Garden Primary",
+   "postcode": "SE4 1DF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1120.66,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 5455.98,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    },
+    {
+     "year": 2024,
+     "value": 4208.52,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Oak Gardens Primary",
+   "postcode": "SE8 4QB",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Renamed from Lucas Vale Primary (same URN 100695) in September 2025; 2025 and 2024 grids list it as 'Lucas Vale' (PAN 30).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 2356.21,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 2814.23,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Our Lady and St Philip Neri Catholic Primary",
+   "postcode": "SE26 5SE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Perrymount Primary",
+   "postcode": "SE23 2PX",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 1235.11,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 1024.0,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Prendergast Primary (Prendergast Ladywell School)",
+   "postcode": "SE4 1SA",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (4-16).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Prendergast Vale School",
+   "postcode": "SE13 7BN",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "All-through academy (3-16).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Rangefield Primary",
+   "postcode": "BR1 4RP",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1072.93,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 2850.79,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Rathfern Primary",
+   "postcode": "SE6 4NL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1256.72,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 1054.44,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 675.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Rushey Green Primary",
+   "postcode": "SE6 2LA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 3287.34,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres); unusually large figure: school probably not oversubscribed with first preferences and the furthest offer may reflect lower-preference/late allocations - recorded as printed"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Sandhurst Primary",
+   "postcode": "SE6 1NW",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 644.53,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2025,
+     "value": 503.02,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 569.06,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "St Augustine's Catholic Primary",
+   "postcode": "SE6 3RD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Bartholomew's CofE Primary",
+   "postcode": "SE26 4LJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St George's CofE Primary",
+   "postcode": "SE23 2NE",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St James's Hatcham CofE Primary",
+   "postcode": "SE14 6AD",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St John Baptist Southend CofE Primary",
+   "postcode": "BR1 5RL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Joseph's Catholic Primary, Deptford",
+   "postcode": "SE8 3PH",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Margaret's Lee CofE Primary",
+   "postcode": "SE13 5SG",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Mary's Lewisham CofE Primary",
+   "postcode": "SE13 6NX",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Matthew Academy",
+   "postcode": "SE3 0XX",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic all-through academy (3-16); supplementary form required. Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Michael's CofE Primary",
+   "postcode": "SE26 4HH",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Saviour's Catholic Primary",
+   "postcode": "SE13 6AL",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Stephen's CofE Primary",
+   "postcode": "SE8 4ED",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St William of York Catholic Primary",
+   "postcode": "SE23 1PS",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "St Winifred's Catholic Primary",
+   "postcode": "SE12 0SJ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Stillness Infant",
+   "postcode": "SE23 1NH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school (Reception to Year 2); sibling criterion also counts siblings at Stillness Junior.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 554.91,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Tidemill Academy",
+   "postcode": "SE8 4RJ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; distance method not checked, council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Torridon Primary",
+   "postcode": "SE6 1TG",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": 1060.33,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    },
+    {
+     "year": 2024,
+     "value": 1356.22,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  },
+  {
+   "name": "Trinity CofE School, Lewisham (primary phase)",
+   "postcode": "SE13 5HZ",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "All-through VA school (4-16); booklet gives primary site at Leahurst Road SE13 5HZ (GIAS main address SE12 8PD). Faith school with own admissions policy (supplementary/certificate of practice form); distance method not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Turnham Academy",
+   "postcode": "SE4 2HH",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; distance method not checked, council default (straight line) assumed.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Own admission authority: not included in the council's community-school allocation grid ('contact the school directly')"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/primary-school/applying-to-start-primary-school-in-september.pdf"
+  },
+  {
+   "name": "Twin Oaks Primary",
+   "postcode": "SE8 5AE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Formerly Sir Francis Drake Primary (booklet).",
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All places offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council grid shows 'All applicants offered'"
+    },
+    {
+     "year": 2024,
+     "value": 727.8,
+     "unit": "metres",
+     "status": "distance",
+     "criterion_note": "Distance of last child offered for published admissions number (straight line, metres)"
+    }
+   ],
+   "source_url": "https://lewisham.gov.uk/-/media/services/education/schools/admissions/grid-for-reception-2026.pdf"
+  }
+ ]
+}

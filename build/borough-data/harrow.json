@@ -1,0 +1,1326 @@
+{
+ "borough": "Harrow",
+ "default_method": "straight_line",
+ "method_notes": "Harrow community school admission arrangements 2027/28, Part C (Definitions - Distance): distance measured in a straight line from home to school using a computerised mapping system based on Ordnance Survey data, from the unique address point of the home address to the centre point of the school site (council publishes maps of each school's centre point). Part A(ii) oversubscription criteria end with distance; tie-breaker within any criterion is straight-line distance, and equidistant applicants are separated by random computer selection. Primary Schools Guide 2025/26 states Harrow schools have no catchment areas and 'all schools in Harrow measure distances from home to school in a straight line from the home address to the school', usually to the centre point of the school (but it can be different in some cases). Council tables give furthest distance in miles where the distance criterion was applied as a tie-breaker; 'N/A' means distance was not needed. Faith VA schools, Catholic/CofE academies, Hujjat and St Jérôme (free schools) are reported only as 'contact the school'. Avanti House and Krishna Avanti (Hindu faith academies) are reported in full, with faith quotas before distance.",
+ "method_source": "https://www.harrow.gov.uk/downloads/file/33418/community-school-admission-arrangements-academic-year-2027-2028-and-co-ordination-schemes",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "How places were allocated at Harrow Primary Schools for September 2026 on 16th April 2026 (Primary school allocations 2026-27)",
+   "url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "year": 2025,
+   "title": "How places were allocated at Harrow Primary Schools for September 2025 on 16th April 2025",
+   "url": "https://www.harrow.gov.uk/downloads/file/33045/Reception_2025___How_places_were_allocated_at_Harrow_Schools.pdf"
+  },
+  {
+   "year": 2024,
+   "title": "How places were allocated at Harrow Primary Schools for September 2024 on 16th April 2024 (R5 table 24/25)",
+   "url": "https://www.harrow.gov.uk/downloads/file/32427/R5___How_places_were_allocated_table_24_25_Landscape__002_.pdf"
+  },
+  {
+   "year": null,
+   "title": "Primary Schools Guide 2025/26 (school list, addresses/postcodes, school types, distance statement)",
+   "url": "https://www.harrow.gov.uk/downloads/file/33318/Primary_Schools_Guide_2025_26_29_Aug.pdf"
+  },
+  {
+   "year": null,
+   "title": "Determined admission arrangements for Harrow community schools 2027/2028 and co-ordination schemes",
+   "url": "https://www.harrow.gov.uk/downloads/file/33418/community-school-admission-arrangements-academic-year-2027-2028-and-co-ordination-schemes"
+  },
+  {
+   "year": null,
+   "title": "Harrow - Primary school allocations page (links to yearly tables)",
+   "url": "https://www.harrow.gov.uk/schools-learning/apply-primary-school-place/4"
+  }
+ ],
+ "gaps": "Council tables do not give a distance for the nine faith/free schools (Hujjat, St Anselm's, St Bernadette's, St George's, St Jérôme, St John Fisher, St John's CofE, St Joseph's, St Teresa's): marked not_published where all places were filled, and all_offered (inferred, not stated) where fewer offers than places were made or extra children were placed there as nearest school with a vacancy. School policies for these were not read. Own-admission-authority schools (academies, VA, free schools) are assumed straight line per the guide's blanket statement; exact measuring points not verified. The Avanti House and Krishna Avanti policy PDFs on avanti.org.uk returned an HTML page to plain curl and were not read. 'all_offered' for community/academy schools is inferred from 'N/A' in the furthest-distance column (distance not used as tie-breaker); totals sometimes include children placed as 'nearest school with a vacancy'. Grange 2024 table shows 90 places with only 60 offered yet a 1.285-mile cut-off, recorded as printed. Longfield PAN is 90 in all three tables but 60 in the 2025/26 guide; PAN taken from the 2026 table. Postcodes and types come from the 2025/26 council guide (not GIAS-verified); a newer guide was not used. Moriah Jewish Day School (Pinner) is not in the council guide or allocation tables and was not included. Kenmore Park Junior (Year 3 intake) excluded.",
+ "schools": [
+  {
+   "name": "Avanti House Primary",
+   "postcode": "HA7 3JB",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Hindu faith academy (Avanti Schools Trust): faith quotas (ISKCON / non-ISKCON Hindu, up to 15 each) then other children by distance. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked. (Avanti policy PDF could not be fetched with plain curl.)",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.313,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered); distance criterion applies to children after Hindu faith quotas"
+    },
+    {
+     "year": 2025,
+     "value": 1.803,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered); distance criterion applies to children after Hindu faith quotas"
+    },
+    {
+     "year": 2024,
+     "value": 1.559,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered); distance criterion applies to children after Hindu faith quotas"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Aylward Primary",
+   "postcode": "HA7 4RE",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 75 offered against 90 places"
+    },
+    {
+     "year": 2025,
+     "value": 2.737,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 77 offered against 90 places"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Belmont School",
+   "postcode": "HA3 7JT",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 86 offered against 90 places; 2 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 70 offered against 90 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 90 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Camrose Primary School and Nursery",
+   "postcode": "HA8 6JH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 42 offered against 60 places"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 56 offered against 60 places; 2 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 56 offered against 60 places; 2 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Cannon Lane Primary",
+   "postcode": "HA5 1TS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.851,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 1.071,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 1.125,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Cedars Manor School",
+   "postcode": "HA3 6LS",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 25 offered against 60 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 25 offered against 60 places"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 29 offered against 60 places; 4 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Earlsmead Primary",
+   "postcode": "HA2 8PW",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 26 offered against 60 places"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 33 offered against 60 places; 2 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 36 offered against 60 places; 8 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Elmgrove Primary and Nursery",
+   "postcode": "HA3 8LU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 95 offered against 120 places; 7 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 110 offered against 120 places; 10 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 91 offered against 120 places; 6 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Glebe Primary",
+   "postcode": "HA3 9LF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 54 offered against 90 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 51 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 87 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Grange Primary",
+   "postcode": "HA2 0RY",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 54 offered against 60 places; 3 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 57 offered against 60 places; 10 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": 1.285,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/90 offered); table shows 90 places available but only 60 offered alongside a distance cut-off, as printed (PAN appears to have been reduced to 60)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Grimsdyke School",
+   "postcode": "HA5 4QE",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.498,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 1.311,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 1.056,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Heathland School",
+   "postcode": "HA2 9AG",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 76 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 84 offered against 90 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": 0.673,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered); tied distance, random allocation used for the final place"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Hujjat Primary",
+   "postcode": "HA3 6RR",
+   "type": "faith free school",
+   "method": "straight_line",
+   "method_note": "Muslim-faith free school; own admission arrangements. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Kenmore Park Infant and Nursery School",
+   "postcode": "HA3 9JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": "Infant school (ages 4-7).",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 76 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 71 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 62 offered against 90 places; 1 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Krishna Avanti Primary",
+   "postcode": "HA8 6ES",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Hindu faith academy (Avanti Schools Trust): faith quotas (ISKCON / non-ISKCON Hindu, up to 15 each) then other children by distance. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked. (Avanti policy PDF could not be fetched with plain curl.)",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.683,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered); distance criterion applies to children after Hindu faith quotas"
+    },
+    {
+     "year": 2025,
+     "value": 0.316,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered); distance criterion applies to children after Hindu faith quotas"
+    },
+    {
+     "year": 2024,
+     "value": 0.4,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered); distance criterion applies to children after Hindu faith quotas"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Longfield Primary",
+   "postcode": "HA2 7NZ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 50 offered against 90 places; 2 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 57 offered against 90 places; 43 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 80 offered against 90 places; 14 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Marlborough Primary",
+   "postcode": "HA1 1UJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.761,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 2.203,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.666,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Newton Farm Nursery, Infant and Junior School",
+   "postcode": "HA2 9JU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.359,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.525,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.279,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Norbury School",
+   "postcode": "HA1 1QQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 90 offered against 90 places; 10 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": 0.436,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.491,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Pinner Park Primary",
+   "postcode": "HA5 5TL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 119 offered against 120 places; 5 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": 0.858,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (121/120 offered); total includes extra place because last pupils offered were multiple births"
+    },
+    {
+     "year": 2024,
+     "value": 1.431,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (120/120 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Pinner Wood School",
+   "postcode": "HA5 3RA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.778,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.724,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.867,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Priestmead Primary School and Nursery",
+   "postcode": "HA3 8SZ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.823,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (120/120 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.615,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (120/120 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 1.239,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (120/120 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Roxbourne Primary",
+   "postcode": "HA2 9QF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 60 offered against 60 places; 2 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 50 offered against 60 places"
+    },
+    {
+     "year": 2024,
+     "value": 0.981,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Roxeth Primary",
+   "postcode": "HA2 0JA",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.797,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.868,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.585,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (60/60 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St Anselm's Catholic Primary",
+   "postcode": "HA1 3BE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA school; places mainly by faith criteria. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St Bernadette's Catholic Nursery and Primary",
+   "postcode": "HA3 9NS",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; places mainly by faith criteria. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St George's Catholic Primary",
+   "postcode": "HA1 3SB",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic voluntary academy; places mainly by faith criteria. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St Jérôme Church of England Bilingual School",
+   "postcode": "HA1 2DJ",
+   "type": "faith free school",
+   "method": "straight_line",
+   "method_note": "CofE bilingual free school; own admission arrangements. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St John Fisher Catholic Primary",
+   "postcode": "HA5 5RA",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; places mainly by faith criteria. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 90/90 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 90/90 places offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 89 offered against 90 places; 3 further place(s) allocated as nearest school with a vacancy, so inferred all applicants offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St John's CofE School",
+   "postcode": "HA7 3FD",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "CofE VA school; own admission arrangements. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 30 offered against 60 places, so inferred all applicants offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 30 offered against 60 places, so inferred all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 31 offered against 60 places, so inferred all applicants offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St Joseph's Catholic Primary",
+   "postcode": "HA3 7LP",
+   "type": "faith academy",
+   "method": "straight_line",
+   "method_note": "Catholic academy; places mainly by faith criteria. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 59 offered against 60 places, so inferred all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "St Teresa's Catholic Primary and Nursery",
+   "postcode": "HA3 6LE",
+   "type": "VA faith",
+   "method": "straight_line",
+   "method_note": "Catholic VA school; places mainly by faith criteria. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 54 offered against 60 places, so inferred all applicants offered"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: 'contact the school' for breakdown; 47 offered against 60 places; 1 further place(s) allocated as nearest school with a vacancy, so inferred all applicants offered"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council table: 'Please contact the schools directly for the breakdown'; 60/60 places offered"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Stag Lane Primary School and Nursery",
+   "postcode": "HA8 5RU",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 92 offered against 120 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 100 offered against 120 places; 5 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 114 offered against 120 places; 2 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Stanburn Primary",
+   "postcode": "HA7 2PJ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.253,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 1.243,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 81 offered against 90 places; 1 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "The Welldon Park Academy",
+   "postcode": "HA2 8LS",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Guide key shows 'C' but the school is an academy and listed among schools with their own admission arrangements. Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 47 offered against 60 places; 4 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 53 offered against 60 places; 2 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 60 offered against 60 places; 9 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Vaughan Primary",
+   "postcode": "HA1 4EL",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.396,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.342,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.341,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Weald Rise Primary",
+   "postcode": "HA3 7DH",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 24 offered against 60 places"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 33 offered against 60 places"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 33 offered against 60 places; 1 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "West Lodge Primary",
+   "postcode": "HA5 1AF",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.663,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": 0.755,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2024,
+     "value": 0.642,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered); tied distance, random allocation used for the final place"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Whitchurch Primary",
+   "postcode": "HA7 2EQ",
+   "type": "community",
+   "method": "straight_line",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 89 offered against 120 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 106 offered against 120 places; 1 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 113 offered against 120 places; 1 further place(s) allocated as nearest school with a vacancy"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  },
+  {
+   "name": "Whitefriars School",
+   "postcode": "HA3 5RQ",
+   "type": "academy",
+   "method": "straight_line",
+   "method_note": "Own admission authority; council guide states all Harrow schools measure in a straight line from home to school, but the exact measuring point in this school's policy was not checked.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.303,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Council table: furthest distance 'N/A' (tie-breaker not needed); 90 offered against 90 places; 7 further place(s) allocated as nearest school with a vacancy"
+    },
+    {
+     "year": 2024,
+     "value": 2.365,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Council table: furthest distance offered where distance criterion applied as tie-breaker (90/90 offered)"
+    }
+   ],
+   "source_url": "https://www.harrow.gov.uk/downloads/file/33701/primary-school-allocations-2026-27"
+  }
+ ]
+}
