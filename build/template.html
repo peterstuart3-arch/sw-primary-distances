@@ -144,12 +144,15 @@ footer details summary{cursor:pointer;font-weight:700;color:var(--ink)}
       <p>Walking distances use OpenStreetMap footpaths, which won’t match a council’s own road and footpath network exactly. If the walking-route service can’t be reached, those schools are marked “Check”, as the straight line is shorter than any walk. On the map, walking-route schools show a dashed circle: the true walking area always sits inside it.</p>
       <p>Ofsted no longer gives one overall grade. Schools inspected before September 2024 keep their old grade (Outstanding to Inadequate). Those inspected from September 2024 to November 2025 have area grades only. Since November 2025 schools get a report card rating six or seven areas (seven where there’s early years provision) from Exceptional to Urgent improvement. Short “ungraded” inspections only confirm whether a school is still at its previous grade. Ofsted data is as at 30 September 2026.</p>
       <p>Data: council allocation tables, offer-day figures, gathered October 2026. Always check the school’s current admissions policy and the council’s own figures before applying.</p>
+      <p>Privacy: visits are counted with <a href="https://www.goatcounter.com" target="_blank" rel="noopener">GoatCounter</a>, which sets no cookies. Besides page views it records how you searched (postcode, location or map) and which borough the search fell in. Your postcode and location are never sent.</p>
     </details>
   </footer>
 </main>
 <div id="map" role="region" aria-label="Map of schools"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script data-goatcounter="https://londonprimary.goatcounter.com/count" async src="https://gc.zgo.at/count.v5.js"
+        crossorigin="anonymous" integrity="sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ"></script>
 <script>
 if (!window.L) document.getElementById('status').textContent = 'The map couldn’t load. Check your connection and reload the page.';
 const DATA = /*__DATA__*/null;
@@ -166,6 +169,9 @@ const COVERED = Object.keys(DATA.boroughs).map(b => DISTRICT[b] || b.replace(' &
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const miles = m => (m / 1609.344).toFixed(2) + ' mi';
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+// Count an action in GoatCounter. Only coarse labels are sent (search method, borough), never a postcode or location.
+// Actions before the async script has loaded, or when it's blocked, simply go uncounted.
+const track = name => { try { window.goatcounter?.count?.({path: name, title: name, event: true}); } catch (e) {} };
 function haversine(a, b) {
   const R = 6371008.8, r = x => x * Math.PI / 180;
   const dLat = r(b[0] - a[0]), dLng = r(b[1] - a[1]);
@@ -347,7 +353,8 @@ const walkCache = new Map();   // the public routing server is rate-limited, so 
 // ---------- main flow ----------
 // Each search gets a number; replies from an older search are dropped so they can't overwrite a newer one.
 let searchSeq = 0;
-async function setHome(ll, label, district) {
+// `how` is set for a new search (not a radius change), and is what gets counted.
+async function setHome(ll, label, district, how) {
   const seq = ++searchSeq;
   home = ll; homeLabel = label; homeDistrict = district;
   if (homeMarker) homeMarker.remove();
@@ -363,6 +370,12 @@ async function setHome(ll, label, district) {
   const outside = district && !COVERED.includes(district)
     ? ` ${label} is in ${district}, which this tool doesn’t cover, so schools there aren’t shown.` : '';
   const found = `${near.length} schools within ${R / 1000} km of ${label}.` + outside;
+  if (how) {
+    // a located or dropped pin has no district, so use the nearest school's borough
+    const nearest = near.reduce((a, b) => (!a || b.sl < a.sl ? b : a), null);
+    track('search: ' + how);
+    track('area: ' + (district || nearest?.s.borough || 'no schools in range'));
+  }
   setStatus(found + (walkers.length ? ' Working out walking routes…' : ''), !!outside);
   selected = null;
   render(near.map(x => x.s));
@@ -535,7 +548,7 @@ async function lookupPostcode(pc) {
     const j = await r.json();
     if (!j.result) return setStatus('That postcode wasn’t recognised. Check it and try again.', true);
     $('#pc').value = $('#mapPc').value = j.result.postcode;
-    setHome([j.result.latitude, j.result.longitude], j.result.postcode, j.result.admin_district);
+    setHome([j.result.latitude, j.result.longitude], j.result.postcode, j.result.admin_district, 'postcode');
   } catch (err) { if (seq === searchSeq) setStatus('Couldn’t reach the postcode service. Check your connection.', true); }
 }
 function recentre() {
@@ -566,13 +579,18 @@ $('#locBtn').addEventListener('click', () => {
   setStatus('Finding your location…');
   const seq = ++searchSeq;
   navigator.geolocation.getCurrentPosition(
-    p => { if (seq === searchSeq) { clearInputs(); setHome([p.coords.latitude, p.coords.longitude], 'your location'); } },
+    p => { if (seq === searchSeq) { clearInputs(); setHome([p.coords.latitude, p.coords.longitude], 'your location', null, 'location'); } },
     () => { if (seq === searchSeq) setStatus('Location was blocked or unavailable. Enter a postcode instead.', true); },
     {enableHighAccuracy: true, timeout: 15000});
 });
 map.on('zoomend', drawAllSchools);
 const clearInputs = () => { $('#pc').value = ''; $('#mapPc').value = ''; };
-map.on('click', e => { clearInputs(); setHome([e.latlng.lat, e.latlng.lng], 'the dropped pin'); });
+map.on('click', e => { clearInputs(); setHome([e.latlng.lat, e.latlng.lng], 'the dropped pin', null, 'map click'); });
+// Which outbound links get used. The list is re-rendered, so listen on the container.
+$('#list').addEventListener('click', e => {
+  const a = e.target.closest('a');
+  if (a) track(a.href.includes('ofsted.gov.uk') ? 'link: Ofsted reports' : 'link: council source');
+});
 $('#radius').addEventListener('change', () => home && setHome(home, homeLabel, homeDistrict));
 $('#yr').addEventListener('change', () => { if (home) render(schools.filter(s => s.result)); else drawAllSchools(); });
 

@@ -51,6 +51,7 @@ Many boroughs publish distances only for community schools, so academies and fai
 - Map tiles: Esri static basemap tiles, using the ArcGIS Location Platform API key in `ESRI_KEY` in the template (restricted in the Esri dashboard to this site's address; 2 million tiles a month free). On any other address, or if the key is rejected (e.g. expired), Esri's keyless World Street Map is used instead.
 - Postcode lookup: postcodes.io
 - Walking routes: FOSSGIS OSRM foot routing (OpenStreetMap data)
+- Visit counts: GoatCounter (londonprimary.goatcounter.com), with no cookies. Besides page views it counts each search's method (postcode, location or map click), the borough it fell in (from postcodes.io, or the nearest school's borough for a location or pin) and clicks on Ofsted and council-source links. Postcodes and coordinates are never sent.
 
 ## Licence
 
