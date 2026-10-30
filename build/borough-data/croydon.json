@@ -304,17 +304,17 @@
     },
     {
      "year": 2025,
-     "value": 4.603,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "59 on-time applications for 60 places, so every applicant could be offered; the table's furthest distance (4.603 miles) is not a cut-off"
     },
     {
      "year": 2024,
-     "value": 4.617,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "56 on-time applications for 60 places, so every applicant could be offered; the table's furthest distance (4.617 miles) is not a cut-off"
     }
    ],
    "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
@@ -1065,24 +1065,24 @@
    "distances": [
     {
      "year": 2026,
-     "value": 1.374,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "88 on-time applications for 120 places, so every applicant could be offered; the table's furthest distance (1.374 miles) is not a cut-off"
     },
     {
      "year": 2025,
-     "value": 0.64,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "95 on-time applications for 120 places, so every applicant could be offered; the table's furthest distance (0.64 miles) is not a cut-off"
     },
     {
      "year": 2024,
-     "value": 1.07,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "106 on-time applications for 120 places, so every applicant could be offered; the table's furthest distance (1.07 miles) is not a cut-off"
     }
    ],
    "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
@@ -1801,10 +1801,10 @@
    "distances": [
     {
      "year": 2026,
-     "value": 1.125,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "58 on-time applications for 60 places, so every applicant could be offered; the table's furthest distance (1.125 miles) is not a cut-off"
     },
     {
      "year": 2025,
@@ -1815,10 +1815,10 @@
     },
     {
      "year": 2024,
-     "value": 1.625,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "56 on-time applications for 60 places, so every applicant could be offered; the table's furthest distance (1.625 miles) is not a cut-off"
     }
    ],
    "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
@@ -1833,10 +1833,10 @@
    "distances": [
     {
      "year": 2026,
-     "value": 2.224,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "73 on-time applications for 90 places, so every applicant could be offered; the table's furthest distance (2.224 miles) is not a cut-off"
     },
     {
      "year": 2025,
@@ -1847,10 +1847,10 @@
     },
     {
      "year": 2024,
-     "value": 2.575,
-     "unit": "miles",
-     "status": "distance",
-     "criterion_note": null
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "86 on-time applications for 90 places, so every applicant could be offered; the table's furthest distance (2.575 miles) is not a cut-off"
     }
    ],
    "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
@@ -2528,5 +2528,5 @@
    "source_url": "https://www.croydon.gov.uk/sites/default/files/2026-08/Croydon-Primary-School-Admissions-prospectus-2027.pdf"
   }
  ],
- "gaps": "PDF table text was column-scrambled in extraction; values were assigned to schools by row order within each year column, with alignment validated by consistent N/A positions (faith schools) across all three year columns and by year identification via cross-checking numbers present in the 2025-26 and 2026-27 prospectuses. A visual spot-check of pp.23-25 is advisable. 'N/A' (14 faith schools: VA and Catholic/CofE/Greek Orthodox academies) is not defined in the booklet; recorded as not_published. Large distances (e.g. Broadmead 18.189, Harris Kenley 20.066, Ridgeway 15.547, Howard 15.434) likely reflect undersubscription but the table does not mark 'all offered', so recorded as distances. Harris Purley Way 2025 shows 'abroad' (overseas last offer). PANs are the 2026 admission numbers parsed from concatenated text (e.g. '309060120...'); treat as indicative. Allocation-breakdown xlsx (criterion-level detail) could not be read. Junior schools excluded (no reception intake). Individual academy/faith policies not checked for nodal/feeder areas; the council booklet mentions none. Postcodes from the prospectus school directory; GIAS not reachable."
+ "gaps": "PDF table text was column-scrambled in extraction; values were assigned to schools by row order within each year column, with alignment validated by consistent N/A positions (faith schools) across all three year columns and by year identification via cross-checking numbers present in the 2025-26 and 2026-27 prospectuses. A visual spot-check of pp.23-25 is advisable. 'N/A' (14 faith schools: VA and Catholic/CofE/Greek Orthodox academies) is not defined in the booklet; recorded as not_published. Large distances (e.g. Broadmead 18.189, Harris Kenley 20.066, Ridgeway 15.547, Howard 15.434) likely reflect undersubscription but the table does not mark 'all offered', so recorded as distances. Harris Purley Way 2025 shows 'abroad' (overseas last offer). PANs are the 2026 admission numbers parsed from concatenated text (e.g. '309060120...'); treat as indicative. Allocation-breakdown xlsx (criterion-level detail) could not be read. Junior schools excluded (no reception intake). Individual academy/faith policies not checked for nodal/feeder areas; the council booklet mentions none. Postcodes from the prospectus school directory; GIAS not reachable. Where a school's on-time applications were below its admission number (Heavers Farm 2024-26, Selsdon 2024 and 2026, Rowdown 2024 and 2026, Castle Hill 2024-25) the year is recorded as all_offered: the council prints a furthest distance for every school, full or not. Admission numbers are the 2026 ones, assumed unchanged in earlier years."
 }

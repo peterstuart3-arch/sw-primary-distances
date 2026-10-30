@@ -187,7 +187,8 @@ L.control.zoom({position: 'topright'}).addTo(map);
 // Anywhere else (a local copy), or if the key is rejected (e.g. expired), Esri's keyless street map is used instead.
 const ESRI_KEY = 'AAPTaakGKcTPnLj78s6zqgJohhw..slQ0oo3hAdZZPCxsMElf0EynSkPUTpV5IVMttE--95EEjfrsE9Yp9ekZx3-c_2Os_bcMzpCc3AheMByfYE6xx1CeizTlFgO_XSkETAeWdMht-Y_9kY7VSBJO8E3kzXYYl6laUk_AYxJu-WLzhw4VKvvYS1Hz4DVcrVkc6ioJWOJ2S7umLqkJXUWNxRr8C8waizYonMoL4oUcidrF-HXrchBj8-N1Sr3DAvCjCWWd7HjBaeYDokEczDWRrE8.AT1_w3lEzAQ3';
 const ESRI_SITE = 'peterstuart3-arch.github.io';
-const credits = ' · walking routes: FOSSGIS OSRM · postcodes: postcodes.io';
+// FOSSGIS's usage policy asks for a link to fix the map alongside its attribution
+const credits = ' · walking routes: FOSSGIS OSRM (<a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener">fix the map</a>) · postcodes: postcodes.io';
 function keylessTiles() {
   return L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
     maxZoom: 19, attribution: 'Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors' + credits
@@ -340,7 +341,18 @@ async function walkingDistances(from, list) {
   const coords = [from, ...list.map(s => s.ll)].map(p => p[1].toFixed(6) + ',' + p[0].toFixed(6)).join(';');
   const key = coords;
   if (walkCache.has(key)) return walkCache.get(key);
-  const r = await fetch(ROUTER + coords + '?sources=0&annotations=distance&generate_hints=false', {signal: AbortSignal.timeout(12000)});
+  // The public server slows to 10 s or so under load and allows one request a second, so allow 20 s,
+  // retry a refusal once after a pause, and let a new search cancel this one.
+  const ctl = walkCtl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), 20000);
+  let r;
+  try {
+    for (let attempt = 0; ; attempt++) {
+      r = await fetch(ROUTER + coords + '?sources=0&annotations=distance&generate_hints=false', {signal: ctl.signal});
+      if (r.status !== 429 || attempt) break;
+      await new Promise(res => setTimeout(res, 1500));
+    }
+  } finally { clearTimeout(timer); }
   if (!r.ok) throw new Error(r.status === 429 ? 'busy' : 'router ' + r.status);
   const j = await r.json();
   const out = {};
@@ -349,6 +361,7 @@ async function walkingDistances(from, list) {
   return out;
 }
 const walkCache = new Map();   // the public routing server is rate-limited, so don't ask twice for the same search
+let walkCtl = null;            // the walking request in flight, cancelled when a new search starts
 
 // ---------- main flow ----------
 // Each search gets a number; replies from an older search are dropped so they can't overwrite a newer one.
@@ -356,6 +369,7 @@ let searchSeq = 0;
 // `how` is set for a new search (not a radius change), and is what gets counted.
 async function setHome(ll, label, district, how) {
   const seq = ++searchSeq;
+  walkCtl?.abort();
   home = ll; homeLabel = label; homeDistrict = district;
   if (homeMarker) homeMarker.remove();
   homeMarker = L.marker(ll, {title: 'Your location'}).addTo(map).bindPopup(esc(label));
@@ -546,10 +560,23 @@ async function lookupPostcode(pc) {
     if (seq !== searchSeq) return;
     if (r.status !== 404 && !r.ok) return setStatus('The postcode service is busy. Try again in a moment.', true);
     const j = await r.json();
-    if (!j.result) return setStatus('That postcode wasn’t recognised. Check it and try again.', true);
+    if (!j.result) { clearSearch(); return setStatus('That postcode wasn’t recognised. Check it and try again.', true); }
     $('#pc').value = $('#mapPc').value = j.result.postcode;
     setHome([j.result.latitude, j.result.longitude], j.result.postcode, j.result.admin_district, 'postcode');
   } catch (err) { if (seq === searchSeq) setStatus('Couldn’t reach the postcode service. Check your connection.', true); }
+}
+// Drop the previous search's results, so they can't be mistaken for results for a postcode that wasn't found.
+function clearSearch() {
+  walkCtl?.abort();
+  home = null; selected = null;
+  if (homeMarker) homeMarker.remove();
+  if (searchCircle) searchCircle.remove();
+  homeMarker = searchCircle = null;
+  schools.forEach(s => s.result = null);
+  ringLayer.clearLayers();
+  $('#summary').innerHTML = '';
+  $('#list').innerHTML = '<div class="empty"><strong>Enter a postcode or tap “Locate me”.</strong></div>';
+  drawAllSchools();
 }
 function recentre() {
   if (searchCircle) map.fitBounds(searchCircle.getBounds(), {padding: [20, 20]});

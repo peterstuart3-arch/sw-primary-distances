@@ -1,1614 +1,1614 @@
 {
-  "borough": "Hounslow",
-  "default_method": "walking",
-  "method_notes": "Starting School in Hounslow (Sept 2027 brochure, 'Distance' definition, p.34): for community schools and any own-admission-authority school whose policy uses the LA measuring system, distance is the WALKING route measured by GIS (Synergy/School Admissions Management, Access UK) along OS MasterMap Highways Network road centrelines, from the LLPG/NLPG 'seed point' in the home address footprint, via the nearest network node, to the nearest school gate used by pupils. Equal distances are randomly ordered by the LA database. Community school oversubscription order: looked after, exceptional medical/social need, siblings, children of staff, distance. Academies, free schools and VA faith schools set their own criteria (faith, priority admission areas, Pupil Premium, nearest-school); the brochure refers them to the common definition, so walking is assumed unless stated. Figures are in miles.",
-  "method_source": "https://www.hounslow.gov.uk/downloads/file/14354/transferring-to-junior-school-in-hounslow-2027",
-  "years_found": [
-    2026,
-    2025,
-    2024
-  ],
-  "sources": [
+ "borough": "Hounslow",
+ "default_method": "walking",
+ "method_notes": "Starting School in Hounslow (Sept 2027 brochure, 'Distance' definition, p.34): for community schools and any own-admission-authority school whose policy uses the LA measuring system, distance is the WALKING route measured by GIS (Synergy/School Admissions Management, Access UK) along OS MasterMap Highways Network road centrelines, from the LLPG/NLPG 'seed point' in the home address footprint, via the nearest network node, to the nearest school gate used by pupils. Equal distances are randomly ordered by the LA database. Community school oversubscription order: looked after, exceptional medical/social need, siblings, children of staff, distance. Academies, free schools and VA faith schools set their own criteria (faith, priority admission areas, Pupil Premium, nearest-school); the brochure refers them to the common definition, so walking is assumed unless stated. Figures are in miles.",
+ "method_source": "https://www.hounslow.gov.uk/downloads/file/14354/transferring-to-junior-school-in-hounslow-2027",
+ "years_found": [
+  2026,
+  2025,
+  2024
+ ],
+ "sources": [
+  {
+   "year": 2026,
+   "title": "How primary places were offered in September 2026 (Allocation of primary school reception places - September 2026)",
+   "url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "year": 2026,
+   "title": "Reception class September 2026 - How school places were allocated and last distance offered (summary table)",
+   "url": "https://www.hounslow.gov.uk/downloads/file/13618/reception-places-september-2026"
+  },
+  {
+   "year": 2025,
+   "title": "How primary places were offered in September 2025",
+   "url": "https://www.hounslow.gov.uk/downloads/file/11494/how-primary-places-were-offered-in-september-2025"
+  },
+  {
+   "year": 2025,
+   "title": "Reception class September 2025 - How school places were allocated and last distance offered (summary table)",
+   "url": "https://www.hounslow.gov.uk/downloads/file/10509/school-places-allocation-for-2025"
+  },
+  {
+   "year": 2024,
+   "title": "Starting School in Hounslow in September 2025 brochure - 'Allocations by Hounslow Schools and last distance offered - September 2024' and per-school 'How places were offered in 2024' tables",
+   "url": "https://www.hounslow.gov.uk/downloads/file/10508/starting-school-in-hounslow-in-september-2025"
+  },
+  {
+   "year": null,
+   "title": "Starting School in Hounslow in September 2027 brochure (addresses, PANs, distance definition)",
+   "url": "https://www.hounslow.gov.uk/downloads/file/14354/transferring-to-junior-school-in-hounslow-2027"
+  }
+ ],
+ "gaps": "Postcodes, types and PANs from the Sept 2027 brochure (not GIAS-checked); Reach Academy Hanworth Park shares Reach Academy Feltham's High Street postcode, as it sits on the adjacent site (DfE register and a 2026 job advert). Faith/academy tables give allocations per criterion but usually no distance: where the last places went on a criterion with no distance the figure is not_published; where total allocations were below the places available (Blue School 2024-25, Rosary 2024, St Mary's Chiswick 2024, St Mary's Isleworth 2026, Reach Hanworth Park 2025) all_offered is INFERRED, not stated. St Lawrence 2024 recorded no_distance_offers (all places on Catholic CCP criteria). Nishkam has separate faith and open-place cut-offs; open value used. Lionel 2026 (2.647 miles) is printed in both 2026 tables but looks anomalous. 2024 values for St Michael & St Martin and St Paul's read from a rendered brochure page because the text layer overlapped. Individual academy/faith measuring methods not checked; walking assumed. Oak Hill Academy (TW13 4QP, PAN 120 in the 2027 brochure) appears in no allocation table and is excluded; junior schools (Norwood Green Junior, Strand-on-the-Green Junior) excluded.",
+ "schools": [
+  {
+   "name": "Alexandra Primary School",
+   "postcode": "TW3 4DU",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
     {
-      "year": 2026,
-      "title": "How primary places were offered in September 2026 (Allocation of primary school reception places - September 2026)",
-      "url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
     },
     {
-      "year": 2026,
-      "title": "Reception class September 2026 - How school places were allocated and last distance offered (summary table)",
-      "url": "https://www.hounslow.gov.uk/downloads/file/13618/reception-places-september-2026"
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
     },
     {
-      "year": 2025,
-      "title": "How primary places were offered in September 2025",
-      "url": "https://www.hounslow.gov.uk/downloads/file/11494/how-primary-places-were-offered-in-september-2025"
-    },
-    {
-      "year": 2025,
-      "title": "Reception class September 2025 - How school places were allocated and last distance offered (summary table)",
-      "url": "https://www.hounslow.gov.uk/downloads/file/10509/school-places-allocation-for-2025"
-    },
-    {
-      "year": 2024,
-      "title": "Starting School in Hounslow in September 2025 brochure - 'Allocations by Hounslow Schools and last distance offered - September 2024' and per-school 'How places were offered in 2024' tables",
-      "url": "https://www.hounslow.gov.uk/downloads/file/10508/starting-school-in-hounslow-in-september-2025"
-    },
-    {
-      "year": null,
-      "title": "Starting School in Hounslow in September 2027 brochure (addresses, PANs, distance definition)",
-      "url": "https://www.hounslow.gov.uk/downloads/file/14354/transferring-to-junior-school-in-hounslow-2027"
+     "year": 2024,
+     "value": 0.545,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
     }
-  ],
-  "gaps": "Postcodes, types and PANs from the Sept 2027 brochure (not GIAS-checked); Reach Academy Hanworth Park uses the trust's High Street, Feltham postcode. Faith/academy tables give allocations per criterion but usually no distance: where the last places went on a criterion with no distance the figure is not_published; where total allocations were below the places available (Blue School 2024-25, Rosary 2024, St Mary's Chiswick 2024, St Mary's Isleworth 2026, Reach Hanworth Park 2025) all_offered is INFERRED, not stated. St Lawrence 2024 recorded no_distance_offers (all places on Catholic CCP criteria). Nishkam has separate faith and open-place cut-offs; open value used. Lionel 2026 (2.647 miles) is printed in both 2026 tables but looks anomalous. 2024 values for St Michael & St Martin and St Paul's read from a rendered brochure page because the text layer overlapped. Individual academy/faith measuring methods not checked; walking assumed. Oak Hill Academy (TW13 4QP, PAN 120 in the 2027 brochure) appears in no allocation table and is excluded; junior schools (Norwood Green Junior, Strand-on-the-Green Junior) excluded.",
-  "schools": [
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Beavers Community Primary School",
+   "postcode": "TW4 6HR",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
     {
-      "name": "Alexandra Primary School",
-      "postcode": "TW3 4DU",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": 0.545,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
     },
     {
-      "name": "Beavers Community Primary School",
-      "postcode": "TW4 6HR",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": 1.088,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+     "year": 2025,
+     "value": 1.088,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
     },
     {
-      "name": "Bedfont Primary School",
-      "postcode": "TW14 9QZ",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.779,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.817,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Belmont Primary School",
-      "postcode": "W4 5UL",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.496,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.376,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": 0.409,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Berkeley Academy",
-      "postcode": "TW5 9HQ",
-      "type": "academy",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": 0.702,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Distance criterion"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "The Blue School CE Primary",
-      "postcode": "TW7 6RQ",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "All 60 places used (last 26 under 'Any other children'); no distance given. Council summary: 'Contact school for information'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Inferred: only 44 allocations for 60 places"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Inferred: only 56 allocations for 60 places"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Cardinal Primary School",
-      "postcode": "TW13 5AL",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": 0.835,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Cavendish Primary School",
-      "postcode": "W4 2RG",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Chatsworth Primary School",
-      "postcode": "TW3 2NW",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Crane Park Primary School",
-      "postcode": "TW13 5LN",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Cranford Primary School",
-      "postcode": "TW4 6LB",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Edison Primary School",
-      "postcode": "TW5 0AQ",
-      "type": "free school",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Edward Pauling Primary School",
-      "postcode": "TW13 4TQ",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Fairholme Primary School",
-      "postcode": "TW14 8ET",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Feltham Hill Infant and Nursery School",
-      "postcode": "TW13 4LZ",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 120,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Green Dragon Primary School",
-      "postcode": "TW8 0BJ",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Grove Park Primary School",
-      "postcode": "W4 3JN",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.975,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.326,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": 0.985,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Grove Road Primary School",
-      "postcode": "TW3 3QQ",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.487,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.454,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": 0.631,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Heston Primary School",
-      "postcode": "TW5 0QR",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Hounslow Heath School",
-      "postcode": "TW4 7HE",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 150,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Hounslow Town Primary School",
-      "postcode": "TW3 1QZ",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 150,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Isleworth Town Primary School",
-      "postcode": "TW7 6AB",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Ivybridge Primary School",
-      "postcode": "TW7 7QB",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Lionel Primary School",
-      "postcode": "TW8 9QT",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 2.647,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Printed as '36 - 2.647 miles' in both 2026 tables; much larger than 2025 (0.804) - recorded as printed, unverified"
-        },
-        {
-          "year": 2025,
-          "value": 0.804,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Marlborough Primary School",
-      "postcode": "TW7 5XA",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Nishkam School West London",
-      "postcode": "TW7 5PN",
-      "type": "free school (Sikh faith)",
-      "method": "walking",
-      "method_note": "Two categories: faith places and open places, each ranked by distance. Value recorded is the OPEN-place last distance; faith (Keshadhari) figure in criterion_note.",
-      "pan": 108,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 1.414,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Open places, distance criterion; faith places last offered under Keshadhari criterion at 2.672 miles"
-        },
-        {
-          "year": 2025,
-          "value": 1.494,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Open places, distance criterion; faith places last offered under Keshadhari criterion at 4.414 miles"
-        },
-        {
-          "year": 2024,
-          "value": 0.723,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Open places, distance criterion; faith places last offered under Keshadhari criterion at 1.40 miles"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Norwood Green Infant and Nursery School",
-      "postcode": "UB2 5RN",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "The Orchard Primary School",
-      "postcode": "TW4 5JW",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.572,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Oriel Academy West London",
-      "postcode": "TW13 6QQ",
-      "type": "academy",
-      "method": "walking",
-      "method_note": "Brochure criterion 4: children for whom this is the nearest school, 'measured by the shortest distance from the home address' (measure not verified).",
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Our Lady and St John's RC Primary School",
-      "postcode": "TW8 9JF",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (3); no distance given"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (9); no distance given"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (4); no distance given"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Reach Academy Feltham",
-      "postcode": "TW13 4AB",
-      "type": "free school",
-      "method": "walking",
-      "method_note": "Priority admission area (TW13/TW14 postcodes in 2024; 'In Priority Admission Area' 2025-26) plus Pupil Premium criteria; no distances published.",
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Council: 'Contact school for information'; detailed table shows last places went to 'In Priority Admission Area' (29), no distance given"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places went to 'In Priority Admission Area' (22); no distance given"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places went to TW13/TW14 postcode priority (29); no distance given"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Reach Academy Hanworth Park",
-      "postcode": "TW13 4AB",
-      "type": "free school",
-      "method": "walking",
-      "method_note": "All-through free school opened Sept 2024; postcode is the trust/GIAS address (53-55 High Street, Feltham), not necessarily the Hanworth Park site. Priority to Pupil Premium children and children within 5 miles.",
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Council: 'Contact school for information'; detailed table shows 67 offers 'Within 5 miles', no distance given"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Inferred: 63 allocations for 90 places (2 siblings, 61 in priority area); no applicant refused"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "New school (2024); 9 Pupil Premium and 51 'in 5 mile catchment' offers; no distance given"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "The Rosary Catholic Primary School",
-      "postcode": "TW5 0RL",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": "PAN 60 in 2027 brochure and 2024 table; 30 places in the 2025 and 2026 tables.",
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (9); no distance given"
-        },
-        {
-          "year": 2025,
-          "value": 0.196,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Any other children (last criterion)"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Inferred: only 41 allocations for PAN 60"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "The Smallberry Green Primary School",
-      "postcode": "TW7 5BF",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 1.189,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 1.105,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Southville Primary School",
-      "postcode": "TW14 9NP",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.775,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.902,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Sparrow Farm Primary School",
-      "postcode": "TW14 0DG",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Spring Grove Primary School",
-      "postcode": "TW7 4HB",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.384,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.316,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": 0.355,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Springwell School",
-      "postcode": "TW5 9EF",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "St Lawrence RC Primary School",
-      "postcode": "TW13 4FF",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "All places filled by baptised Catholics with CCP (last: CCP not in parish); no distance given"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (2); no distance given"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "no_distance_offers",
-          "criterion_note": "All 60 places went to baptised Catholics with CCP (sibling 25, in parish 35); no distance given"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "St Mary's Catholic Primary School, Chiswick",
-      "postcode": "W4 2DF",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (16); no distance given"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Last places under 'Any other children' (2); no distance given"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Inferred: only 26 allocations for 30 places"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "St Mary's Catholic Primary School, Isleworth",
-      "postcode": "TW7 7EE",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Inferred: only 35 allocations for 60 places"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "All 60 places used (last 11 under 'Any other children'); no distance given"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "not_published",
-          "criterion_note": "Allocation figures in brochure sum to 70 for PAN 60; no distance given"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "St Michael and St Martin RC Primary School",
-      "postcode": "TW4 7AG",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": null,
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 1.118,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Baptised Catholics with CCP in parish"
-        },
-        {
-          "year": 2025,
-          "value": 0.893,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Baptised Catholics with CCP in parish"
-        },
-        {
-          "year": 2024,
-          "value": 0.689,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Baptised Catholics with CCP in parish"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "St Paul's CofE Primary School",
-      "postcode": "TW8 0PN",
-      "type": "VA faith",
-      "method": "walking",
-      "method_note": "PAN listed as 60 in the 2027 brochure but 30 places in the 2024-2026 allocation tables.",
-      "pan": 60,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 0.432,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Distance criterion"
-        },
-        {
-          "year": 2025,
-          "value": 0.504,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Distance criterion"
-        },
-        {
-          "year": 2024,
-          "value": 1.042,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "Distance criterion"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "St Richard's CE Primary School",
-      "postcode": "TW13 6UN",
-      "type": "faith academy",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Strand-on-the-Green Infant and Nursery School",
-      "postcode": "W4 3NX",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 1.191,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.708,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": "2025 PDF layout puts 'miles' on the Wellington row; value belongs to Strand on the Green"
-        },
-        {
-          "year": 2024,
-          "value": 1.351,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Wellington Primary School",
-      "postcode": "TW3 4LB",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": 1.228,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Westbrook Primary School",
-      "postcode": "TW5 0NB",
-      "type": "academy",
-      "method": "walking",
-      "method_note": null,
-      "pan": 90,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "The William Hogarth Primary School",
-      "postcode": "W4 2JR",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2025,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        },
-        {
-          "year": 2024,
-          "value": null,
-          "unit": null,
-          "status": "all_offered",
-          "criterion_note": "Source: 'All offered'"
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
-    },
-    {
-      "name": "Worple Primary School",
-      "postcode": "TW7 7DB",
-      "type": "community",
-      "method": "walking",
-      "method_note": null,
-      "pan": 30,
-      "distances": [
-        {
-          "year": 2026,
-          "value": 1.269,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2025,
-          "value": 0.57,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        },
-        {
-          "year": 2024,
-          "value": 0.952,
-          "unit": "miles",
-          "status": "distance",
-          "criterion_note": null
-        }
-      ],
-      "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
     }
-  ]
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Bedfont Primary School",
+   "postcode": "TW14 9QZ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.779,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.817,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Belmont Primary School",
+   "postcode": "W4 5UL",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.496,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.376,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.409,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Berkeley Academy",
+   "postcode": "TW5 9HQ",
+   "type": "academy",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": 0.702,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "The Blue School CE Primary",
+   "postcode": "TW7 6RQ",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "All 60 places used (last 26 under 'Any other children'); no distance given. Council summary: 'Contact school for information'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Inferred: only 44 allocations for 60 places"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Inferred: only 56 allocations for 60 places"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Cardinal Primary School",
+   "postcode": "TW13 5AL",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": 0.835,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Cavendish Primary School",
+   "postcode": "W4 2RG",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Chatsworth Primary School",
+   "postcode": "TW3 2NW",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Crane Park Primary School",
+   "postcode": "TW13 5LN",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Cranford Primary School",
+   "postcode": "TW4 6LB",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Edison Primary School",
+   "postcode": "TW5 0AQ",
+   "type": "free school",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Edward Pauling Primary School",
+   "postcode": "TW13 4TQ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Fairholme Primary School",
+   "postcode": "TW14 8ET",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Feltham Hill Infant and Nursery School",
+   "postcode": "TW13 4LZ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 120,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Green Dragon Primary School",
+   "postcode": "TW8 0BJ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Grove Park Primary School",
+   "postcode": "W4 3JN",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.975,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.326,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.985,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Grove Road Primary School",
+   "postcode": "TW3 3QQ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.487,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.454,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.631,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Heston Primary School",
+   "postcode": "TW5 0QR",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Hounslow Heath School",
+   "postcode": "TW4 7HE",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Hounslow Town Primary School",
+   "postcode": "TW3 1QZ",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 150,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Isleworth Town Primary School",
+   "postcode": "TW7 6AB",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Ivybridge Primary School",
+   "postcode": "TW7 7QB",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Lionel Primary School",
+   "postcode": "TW8 9QT",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 2.647,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Printed as '36 - 2.647 miles' in both 2026 tables; much larger than 2025 (0.804) - recorded as printed, unverified"
+    },
+    {
+     "year": 2025,
+     "value": 0.804,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Marlborough Primary School",
+   "postcode": "TW7 5XA",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Nishkam School West London",
+   "postcode": "TW7 5PN",
+   "type": "free school (Sikh faith)",
+   "method": "walking",
+   "method_note": "Two categories: faith places and open places, each ranked by distance. Value recorded is the OPEN-place last distance; faith (Keshadhari) figure in criterion_note.",
+   "pan": 108,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.414,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places, distance criterion; faith places last offered under Keshadhari criterion at 2.672 miles"
+    },
+    {
+     "year": 2025,
+     "value": 1.494,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places, distance criterion; faith places last offered under Keshadhari criterion at 4.414 miles"
+    },
+    {
+     "year": 2024,
+     "value": 0.723,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Open places, distance criterion; faith places last offered under Keshadhari criterion at 1.40 miles"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Norwood Green Infant and Nursery School",
+   "postcode": "UB2 5RN",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "The Orchard Primary School",
+   "postcode": "TW4 5JW",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.572,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Oriel Academy West London",
+   "postcode": "TW13 6QQ",
+   "type": "academy",
+   "method": "walking",
+   "method_note": "Brochure criterion 4: children for whom this is the nearest school, 'measured by the shortest distance from the home address' (measure not verified).",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Our Lady and St John's RC Primary School",
+   "postcode": "TW8 9JF",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (3); no distance given"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (9); no distance given"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (4); no distance given"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Reach Academy Feltham",
+   "postcode": "TW13 4AB",
+   "type": "free school",
+   "method": "walking",
+   "method_note": "Priority admission area (TW13/TW14 postcodes in 2024; 'In Priority Admission Area' 2025-26) plus Pupil Premium criteria; no distances published.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council: 'Contact school for information'; detailed table shows last places went to 'In Priority Admission Area' (29), no distance given"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places went to 'In Priority Admission Area' (22); no distance given"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places went to TW13/TW14 postcode priority (29); no distance given"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Reach Academy Hanworth Park",
+   "postcode": "TW13 4AB",
+   "type": "free school",
+   "method": "walking",
+   "method_note": "All-through free school opened Sept 2024; postcode is the trust/GIAS address (53-55 High Street, Feltham), not necessarily the Hanworth Park site. Priority to Pupil Premium children and children within 5 miles.",
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Council: 'Contact school for information'; detailed table shows 67 offers 'Within 5 miles', no distance given"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Inferred: 63 allocations for 90 places (2 siblings, 61 in priority area); no applicant refused"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "New school (2024); 9 Pupil Premium and 51 'in 5 mile catchment' offers; no distance given"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "The Rosary Catholic Primary School",
+   "postcode": "TW5 0RL",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "PAN 60 in 2027 brochure and 2024 table; 30 places in the 2025 and 2026 tables.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (9); no distance given"
+    },
+    {
+     "year": 2025,
+     "value": 0.196,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Any other children (last criterion)"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Inferred: only 41 allocations for PAN 60"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "The Smallberry Green Primary School",
+   "postcode": "TW7 5BF",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.189,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 1.105,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Southville Primary School",
+   "postcode": "TW14 9NP",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.775,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.902,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Sparrow Farm Primary School",
+   "postcode": "TW14 0DG",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Spring Grove Primary School",
+   "postcode": "TW7 4HB",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.384,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.316,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.355,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Springwell School",
+   "postcode": "TW5 9EF",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "St Lawrence RC Primary School",
+   "postcode": "TW13 4FF",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "All places filled by baptised Catholics with CCP (last: CCP not in parish); no distance given"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (2); no distance given"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "no_distance_offers",
+     "criterion_note": "All 60 places went to baptised Catholics with CCP (sibling 25, in parish 35); no distance given"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "St Mary's Catholic Primary School, Chiswick",
+   "postcode": "W4 2DF",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (16); no distance given"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Last places under 'Any other children' (2); no distance given"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Inferred: only 26 allocations for 30 places"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "St Mary's Catholic Primary School, Isleworth",
+   "postcode": "TW7 7EE",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Inferred: only 35 allocations for 60 places"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "All 60 places used (last 11 under 'Any other children'); no distance given"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "not_published",
+     "criterion_note": "Allocation figures in brochure sum to 70 for PAN 60; no distance given"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "St Michael and St Martin RC Primary School",
+   "postcode": "TW4 7AG",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": null,
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.118,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Baptised Catholics with CCP in parish"
+    },
+    {
+     "year": 2025,
+     "value": 0.893,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Baptised Catholics with CCP in parish"
+    },
+    {
+     "year": 2024,
+     "value": 0.689,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Baptised Catholics with CCP in parish"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "St Paul's CofE Primary School",
+   "postcode": "TW8 0PN",
+   "type": "VA faith",
+   "method": "walking",
+   "method_note": "PAN listed as 60 in the 2027 brochure but 30 places in the 2024-2026 allocation tables.",
+   "pan": 60,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 0.432,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2025,
+     "value": 0.504,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    },
+    {
+     "year": 2024,
+     "value": 1.042,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "Distance criterion"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "St Richard's CE Primary School",
+   "postcode": "TW13 6UN",
+   "type": "faith academy",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Strand-on-the-Green Infant and Nursery School",
+   "postcode": "W4 3NX",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.191,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.708,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": "2025 PDF layout puts 'miles' on the Wellington row; value belongs to Strand on the Green"
+    },
+    {
+     "year": 2024,
+     "value": 1.351,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Wellington Primary School",
+   "postcode": "TW3 4LB",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": 1.228,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Westbrook Primary School",
+   "postcode": "TW5 0NB",
+   "type": "academy",
+   "method": "walking",
+   "method_note": null,
+   "pan": 90,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "The William Hogarth Primary School",
+   "postcode": "W4 2JR",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2025,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    },
+    {
+     "year": 2024,
+     "value": null,
+     "unit": null,
+     "status": "all_offered",
+     "criterion_note": "Source: 'All offered'"
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  },
+  {
+   "name": "Worple Primary School",
+   "postcode": "TW7 7DB",
+   "type": "community",
+   "method": "walking",
+   "method_note": null,
+   "pan": 30,
+   "distances": [
+    {
+     "year": 2026,
+     "value": 1.269,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2025,
+     "value": 0.57,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    },
+    {
+     "year": 2024,
+     "value": 0.952,
+     "unit": "miles",
+     "status": "distance",
+     "criterion_note": null
+    }
+   ],
+   "source_url": "https://www.hounslow.gov.uk/downloads/file/14355/allocation-of-primary-school-reception-places-september-2026"
+  }
+ ]
 }
